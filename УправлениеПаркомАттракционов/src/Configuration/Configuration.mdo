@@ -16,7 +16,7 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>Фирма 1С</vendor>
-  <version>1.0.0.2</version>
+  <version>1.0.0.5</version>
   <usedMobileApplicationFunctionalities>
     <functionality>
       <use>true</use>
