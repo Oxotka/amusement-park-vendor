@@ -12,6 +12,9 @@
   <type>
     <types>DocumentRef.ПосещениеАттракциона</types>
     <types>DocumentRef.ПродажаБилета</types>
+    <types>DocumentRef.Отсутствие</types>
+    <types>DocumentRef.ПланированиеОтсутствия</types>
   </type>
   <content>Document.ПосещениеАттракциона.Attribute.Основание</content>
+  <content>Document.Отсутствие.Attribute.Основание</content>
 </mdclass:FilterCriterion>

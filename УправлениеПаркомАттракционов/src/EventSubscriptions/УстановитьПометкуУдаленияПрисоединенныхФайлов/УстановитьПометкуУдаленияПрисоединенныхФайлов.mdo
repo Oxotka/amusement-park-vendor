@@ -8,6 +8,6 @@
   <source>
     <types>DefinedType.ВладелецПрисоединенныхФайловОбъект</types>
   </source>
-  <event>BeforeDelete</event>
+  <event>BeforeWrite</event>
   <handler>CommonModule.РаботаСФайлами.УстановитьПометкуУдаленияПрисоединенныхФайлов</handler>
 </mdclass:EventSubscription>

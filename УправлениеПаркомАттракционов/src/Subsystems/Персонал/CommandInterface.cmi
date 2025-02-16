@@ -1,2 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi"/>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>Catalog.УдалитьПользователи.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>Catalog.УдалитьПользователи.StandardCommand.OpenList</commands>
+      <commands>Document.ПланированиеОтсутствия.StandardCommand.OpenList</commands>
+      <commands>Document.Отсутствие.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.ПлановыеОтсутствия.StandardCommand.OpenList</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

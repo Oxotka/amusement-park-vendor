@@ -12,4 +12,5 @@
   <content>Document.ПланированиеОтсутствия.Attribute.Ответственный</content>
   <content>Document.ПосещениеАттракциона.Attribute.Ответственный</content>
   <content>Document.УстановкаЦенНоменклатуры.Attribute.Ответственный</content>
+  <content>Document.Отсутствие.Attribute.Ответственный</content>
 </mdclass:FunctionalOption>

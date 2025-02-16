@@ -6,6 +6,7 @@
     <value>Установить пометку удаления присоединенных файлов документов</value>
   </synonym>
   <source>
+    <types>DocumentObject.Отсутствие</types>
     <types>DocumentObject.ПродажаБилета</types>
   </source>
   <event>BeforeWrite</event>

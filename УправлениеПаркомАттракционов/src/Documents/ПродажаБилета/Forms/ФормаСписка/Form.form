@@ -152,7 +152,7 @@
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
       <extInfo xsi:type="form:LabelFieldExtInfo">
-        <width>5</width>
+        <width>3</width>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <horizontalStretch>false</horizontalStretch>
@@ -200,7 +200,7 @@
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
       <extInfo xsi:type="form:LabelFieldExtInfo">
-        <width>10</width>
+        <width>9</width>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <horizontalStretch>false</horizontalStretch>
@@ -267,6 +267,7 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Список.БаллыКСписанию</segments>
       </dataPath>
+      <titleLocation>Right</titleLocation>
       <extendedTooltip>
         <name>БаллыКСписаниюРасширеннаяПодсказка</name>
         <id>27</id>
@@ -313,6 +314,7 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Список.СуммаДокумента</segments>
       </dataPath>
+      <titleLocation>Right</titleLocation>
       <extendedTooltip>
         <name>СуммаДокументаРасширеннаяПодсказка</name>
         <id>30</id>
