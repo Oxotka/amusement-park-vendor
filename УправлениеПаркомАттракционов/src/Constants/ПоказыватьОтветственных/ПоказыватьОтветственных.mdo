@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8c22488a-f8e7-4072-a52d-116837696c4f">
+  <producedTypes>
+    <managerType typeId="90ae40a8-d717-4170-b819-67115ff4838d" valueTypeId="1864e5c5-5db2-4d89-bb34-ef2288420b70"/>
+    <valueManagerType typeId="5c630137-6732-4f50-b8a6-f7d25fa1820e" valueTypeId="e86a72e6-b858-4c95-a4e7-7138b35388eb"/>
+    <valueKeyType typeId="1f73d3c2-02fc-406a-adc1-51bc8989599c" valueTypeId="d5f82d1c-4be5-4aff-85c2-4f49821dc3f5"/>
+  </producedTypes>
+  <name>ПоказыватьОтветственных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Показывать ответственных</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

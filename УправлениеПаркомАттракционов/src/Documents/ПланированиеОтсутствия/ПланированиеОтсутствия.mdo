@@ -27,6 +27,8 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ПланированиеОтсутствия.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.ПланированиеОтсутствия.Form.ФормаСписка</defaultListForm>
   <registerRecords>InformationRegister.ПлановыеОтсутствия</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
@@ -75,7 +77,7 @@
       <value>Сотрудник</value>
     </synonym>
     <type>
-      <types>CatalogRef.Пользователи</types>
+      <types>CatalogRef.УдалитьПользователи</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -108,7 +110,7 @@
       <value>Ответственный</value>
     </synonym>
     <type>
-      <types>CatalogRef.Пользователи</types>
+      <types>CatalogRef.УдалитьПользователи</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -116,4 +118,22 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="30d9eee7-97fe-4477-8fca-236641981827">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="67b1b11d-caac-4c9d-9f04-9de627ac4e77">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Document>

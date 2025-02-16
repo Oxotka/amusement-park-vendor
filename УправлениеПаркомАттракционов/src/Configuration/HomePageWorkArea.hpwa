@@ -11,7 +11,7 @@
           <role>Role.ОператорАттракциона</role>
         </for>
         <for>
-          <role>Role.ПолныеПрава</role>
+          <role>Role.УдалитьПолныеПрава</role>
         </for>
       </visibility>
     </items>

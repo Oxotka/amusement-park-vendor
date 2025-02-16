@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bde41d9c-58e2-445a-abe4-291ebdb1a901">
+  <name>ПоказыватьОтветственных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Показывать ответственных</value>
+  </synonym>
+  <location>Constant.ПоказыватьОтветственных</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Document.ПродажаБилета.Attribute.Ответственный</content>
+  <content>Document.ШкалаБонуснойПрограммы.Attribute.Ответственный</content>
+  <content>Document.ПланированиеОтсутствия.Attribute.Ответственный</content>
+  <content>Document.ПосещениеАттракциона.Attribute.Ответственный</content>
+  <content>Document.УстановкаЦенНоменклатуры.Attribute.Ответственный</content>
+</mdclass:FunctionalOption>

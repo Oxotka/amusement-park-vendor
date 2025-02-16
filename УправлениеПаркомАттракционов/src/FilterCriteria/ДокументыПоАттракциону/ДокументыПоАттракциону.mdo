@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FilterCriterion xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="efd0bbfb-0a48-4a01-963c-a49e75c531bb">
+  <producedTypes>
+    <listType typeId="5deaeca4-9c70-45d9-b715-745263191e9b" valueTypeId="32ea56cc-89c2-4fdf-95fd-e5610152a226"/>
+    <managerType typeId="c1d80e83-37b8-43ad-b20c-75d76ff68d3d" valueTypeId="0e785700-43d8-4391-ae97-974123b58c40"/>
+  </producedTypes>
+  <name>ДокументыПоАттракциону</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документы по аттракциону</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Аттракционы</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <content>Document.ПосещениеАттракциона.Attribute.Аттракцион</content>
+  <defaultForm>FilterCriterion.ДокументыПоАттракциону.Form.ФормаСписка</defaultForm>
+  <forms uuid="8b9c4679-bfec-4f4a-a548-430c2269d516">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:FilterCriterion>

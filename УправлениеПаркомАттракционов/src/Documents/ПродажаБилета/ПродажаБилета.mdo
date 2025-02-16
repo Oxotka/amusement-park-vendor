@@ -29,9 +29,9 @@
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.ПродажаБилета.Form.ФормаДокумента</defaultObjectForm>
   <defaultListForm>Document.ПродажаБилета.Form.ФормаСписка</defaultListForm>
+  <registerRecords>AccumulationRegister.БонусныеБаллыКлиентов</registerRecords>
   <registerRecords>AccumulationRegister.АктивныеПосещения</registerRecords>
   <registerRecords>AccumulationRegister.Продажи</registerRecords>
-  <registerRecords>AccumulationRegister.БонусныеБаллыКлиентов</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="82a50969-40bf-4f8a-9d25-05be5936870c">
@@ -66,6 +66,7 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
@@ -155,7 +156,7 @@
       <value>Ответственный</value>
     </synonym>
     <type>
-      <types>CatalogRef.Пользователи</types>
+      <types>CatalogRef.УдалитьПользователи</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -273,19 +274,11 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
-  <templates uuid="e505992e-e07e-4a1b-8d5d-965da73e5864">
-    <name>Билет</name>
+  <templates uuid="ad2f6b12-a7e2-4006-91bd-cfabadcc954f">
+    <name>ПФ_MXL_Билет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Билет</value>
+    </synonym>
   </templates>
-  <commands uuid="31c1aae3-e960-4257-b4dd-a64557b0ad53">
-    <name>Билет</name>
-    <group>FormCommandBarImportant</group>
-    <commandParameterType>
-      <types>DocumentRef.ПродажаБилета</types>
-    </commandParameterType>
-    <parameterUseMode>Multiple</parameterUseMode>
-    <representation>Auto</representation>
-    <picture xsi:type="core:PictureRef">
-      <picture>StdPicture.Print</picture>
-    </picture>
-  </commands>
 </mdclass:Document>

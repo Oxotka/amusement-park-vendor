@@ -251,7 +251,6 @@
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
-  <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -311,10 +310,21 @@
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <commandInterface>
-    <navigationPanel/>
+    <navigationPanel>
+      <cmiFragmentRecord>
+        <command>FilterCriterion.ДокументыПоАттракциону.StandardCommand.OpenByValue</command>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+      </cmiFragmentRecord>
+    </navigationPanel>
     <commandBar/>
   </commandInterface>
   <extInfo xsi:type="form:CatalogFormExtInfo">
+    <handlers>
+      <event>AfterWriteAtServer</event>
+      <name>ПослеЗаписиНаСервере</name>
+    </handlers>
     <handlers>
       <event>OnReadAtServer</event>
       <name>ПриЧтенииНаСервере</name>
@@ -322,10 +332,6 @@
     <handlers>
       <event>BeforeWriteAtServer</event>
       <name>ПередЗаписьюНаСервере</name>
-    </handlers>
-    <handlers>
-      <event>AfterWriteAtServer</event>
-      <name>ПослеЗаписиНаСервере</name>
     </handlers>
   </extInfo>
 </form:Form>

@@ -28,6 +28,7 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.УстановкаЦенНоменклатуры.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.УстановкаЦенНоменклатуры.Form.ФормаСписка</defaultListForm>
   <realTimePosting>Deny</realTimePosting>
   <registerRecords>InformationRegister.ЦеныНоменклатуры</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
@@ -56,7 +57,7 @@
       <value>Ответственный</value>
     </synonym>
     <type>
-      <types>CatalogRef.Пользователи</types>
+      <types>CatalogRef.УдалитьПользователи</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -78,6 +79,15 @@
     <synonym>
       <key>ru</key>
       <value>Загрузка цен из файла</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c94e29ec-be97-4384-9871-f409416c28eb">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

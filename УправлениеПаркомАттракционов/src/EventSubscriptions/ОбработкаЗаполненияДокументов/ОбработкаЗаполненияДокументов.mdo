@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d8e33f06-92ec-415a-8c5e-cf1ddf8aa5ac">
+  <name>ОбработкаЗаполненияДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработка заполнения документов</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.ПосещениеАттракциона</types>
+    <types>DocumentObject.ПланированиеОтсутствия</types>
+    <types>DocumentObject.ШкалаБонуснойПрограммы</types>
+    <types>DocumentObject.ПродажаБилета</types>
+    <types>DocumentObject.УстановкаЦенНоменклатуры</types>
+  </source>
+  <event>Filling</event>
+  <handler>CommonModule.ЗаполнениеДокументовУПА.ОбработкаЗаполнения</handler>
+</mdclass:EventSubscription>

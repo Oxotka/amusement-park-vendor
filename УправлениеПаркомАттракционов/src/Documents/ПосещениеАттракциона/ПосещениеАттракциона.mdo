@@ -27,9 +27,11 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ПосещениеАттракциона.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.ПосещениеАттракциона.Form.ФормаСписка</defaultListForm>
   <realTimePosting>Deny</realTimePosting>
-  <registerRecords>AccumulationRegister.АктивныеПосещения</registerRecords>
   <registerRecords>AccumulationRegister.ПосещенияАттракционов</registerRecords>
+  <registerRecords>AccumulationRegister.АктивныеПосещения</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="ba06a95d-26b5-47fb-815f-738772f9e346">
@@ -88,7 +90,7 @@
       <value>Ответственный</value>
     </synonym>
     <type>
-      <types>CatalogRef.Пользователи</types>
+      <types>CatalogRef.УдалитьПользователи</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -96,4 +98,22 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="6171eec2-865c-4957-a9b6-f0fc452a9870">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="38d9e75e-d615-4996-8d23-53dfa1e1759b">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Document>
