@@ -272,6 +272,10 @@
       <items xsi:type="form:Button">
         <name>ПродолжитьБезОчистки</name>
         <id>104</id>
+        <title>
+          <key>ru</key>
+          <value>Продолжить без очистки</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -302,6 +306,10 @@
       <items xsi:type="form:Button">
         <name>ОтменитьОбновлениеКонфигурации</name>
         <id>106</id>
+        <title>
+          <key>ru</key>
+          <value>Отменить обновление конфигурации</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -361,6 +369,10 @@
     <items xsi:type="form:FormField">
       <name>ОбрабатыватьОбластиДанных</name>
       <id>80</id>
+      <title>
+        <key>ru</key>
+        <value>Обрабатывать области данных</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -417,6 +429,10 @@
       <items xsi:type="form:Button">
         <name>ФормаОчистить</name>
         <id>22</id>
+        <title>
+          <key>ru</key>
+          <value>Очистить</value>
+        </title>
         <visible>true</visible>
         <userVisible>
           <common>true</common>
@@ -449,6 +465,10 @@
       <items xsi:type="form:Button">
         <name>ФормаОбновить</name>
         <id>24</id>
+        <title>
+          <key>ru</key>
+          <value>Обновить</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -480,6 +500,10 @@
       <items xsi:type="form:FormField">
         <name>ВывестиКоличество</name>
         <id>26</id>
+        <title>
+          <key>ru</key>
+          <value>Вывести количество</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -536,6 +560,10 @@
       <items xsi:type="form:FormField">
         <name>ЧиститьУдаляемые</name>
         <id>47</id>
+        <title>
+          <key>ru</key>
+          <value>Чистить удаляемые</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -556,7 +584,7 @@
           <title>
             <key>ru</key>
             <value>Очищать все устаревшие данные, а не только те, которые могут вызывать ошибку реструктуризации.
-Полезно для сокращения размера базы данных до перехода на версию программы,
+Полезно для сокращения размера базы данных до перехода на новую версию приложения,
 в который устаревшие таблицы будут полностью удалены вместе с оставшимися в них данными.</value>
           </title>
           <visible>true</visible>
@@ -594,6 +622,10 @@
         <items xsi:type="form:Button">
           <name>ФормаПланОчистки</name>
           <id>86</id>
+          <title>
+            <key>ru</key>
+            <value>План очистки</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -757,6 +789,10 @@
       <items xsi:type="form:Table">
         <name>УстаревшиеДанные</name>
         <id>1</id>
+        <title>
+          <key>ru</key>
+          <value>Устаревшие данные</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -777,6 +813,10 @@
         <items xsi:type="form:FormField">
           <name>УстаревшиеДанныеОбластьДанных</name>
           <id>83</id>
+          <title>
+            <key>ru</key>
+            <value>Область данных</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -882,6 +922,10 @@
         <items xsi:type="form:FormField">
           <name>УстаревшиеДанныеПолноеИмяТаблицы</name>
           <id>14</id>
+          <title>
+            <key>ru</key>
+            <value>Полное имя таблицы</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible/>
@@ -1348,140 +1392,6 @@
         <showTitle>true</showTitle>
       </extInfo>
     </items>
-    <items xsi:type="form:FormGroup">
-      <name>СтраницаОшибка</name>
-      <id>55</id>
-      <items xsi:type="form:Decoration">
-        <name>ДекорацияОшибка</name>
-        <id>57</id>
-        <title>
-          <key>ru</key>
-          <value>Декорация ошибка</value>
-        </title>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <extendedTooltip>
-          <name>ДекорацияОшибкаРасширеннаяПодсказка</name>
-          <id>59</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <extInfo xsi:type="form:LabelDecorationExtInfo">
-            <horizontalAlign>Left</horizontalAlign>
-          </extInfo>
-        </extendedTooltip>
-        <contextMenu>
-          <name>ДекорацияОшибкаКонтекстноеМеню</name>
-          <id>58</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <autoFill>true</autoFill>
-        </contextMenu>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:PictureDecorationExtInfo">
-          <picture xsi:type="core:PictureRef">
-            <picture>CommonPicture.Ошибка32</picture>
-          </picture>
-          <fileDragMode>AsFileRef</fileDragMode>
-        </extInfo>
-      </items>
-      <items xsi:type="form:FormField">
-        <name>ТекстОшибки</name>
-        <id>60</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>ТекстОшибки</segments>
-        </dataPath>
-        <titleLocation>None</titleLocation>
-        <extendedTooltip>
-          <name>ТекстОшибкиРасширеннаяПодсказка</name>
-          <id>62</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <extInfo xsi:type="form:LabelDecorationExtInfo">
-            <horizontalAlign>Left</horizontalAlign>
-          </extInfo>
-        </extendedTooltip>
-        <contextMenu>
-          <name>ТекстОшибкиКонтекстноеМеню</name>
-          <id>61</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <autoFill>true</autoFill>
-        </contextMenu>
-        <type>InputField</type>
-        <editMode>Enter</editMode>
-        <showInHeader>true</showInHeader>
-        <headerHorizontalAlign>Left</headerHorizontalAlign>
-        <showInFooter>true</showInFooter>
-        <extInfo xsi:type="form:InputFieldExtInfo">
-          <autoMaxHeight>true</autoMaxHeight>
-          <wrap>true</wrap>
-          <multiLine>true</multiLine>
-          <extendedEdit>true</extendedEdit>
-          <chooseType>true</chooseType>
-          <typeDomainEnabled>true</typeDomainEnabled>
-          <textEdit>true</textEdit>
-          <borderColor xsi:type="core:ColorRef">
-            <color>Style.FormBackColor</color>
-          </borderColor>
-        </extInfo>
-      </items>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <title>
-        <key>ru</key>
-        <value>Страница ошибка</value>
-      </title>
-      <extendedTooltip>
-        <name>СтраницаОшибкаРасширеннаяПодсказка</name>
-        <id>56</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <type>Page</type>
-      <extInfo xsi:type="form:PageGroupExtInfo">
-        <group>HorizontalIfPossible</group>
-        <showTitle>true</showTitle>
-      </extInfo>
-    </items>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -1689,10 +1599,6 @@
   </attributes>
   <attributes>
     <name>ТекстОшибки</name>
-    <title>
-      <key>ru</key>
-      <value>Текст ошибки</value>
-    </title>
     <id>5</id>
     <valueType>
       <types>String</types>
@@ -1818,6 +1724,17 @@
       <types>String</types>
       <stringQualifiers/>
     </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ИнформацияОбОшибке</name>
+    <id>15</id>
+    <valueType/>
     <view>
       <common>true</common>
     </view>

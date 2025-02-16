@@ -363,7 +363,7 @@
       <value>Расширение картинка</value>
     </title>
     <extendedTooltip>
-      <name>РасширениеКартинкаExtendedTooltip</name>
+      <name>РасширениеКартинкаРасширеннаяПодсказка</name>
       <id>64</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -621,7 +621,7 @@
       <value>Дата и номер</value>
     </title>
     <extendedTooltip>
-      <name>ДатаИНомерExtendedTooltip</name>
+      <name>ДатаИНомерРасширеннаяПодсказка</name>
       <id>70</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -706,6 +706,10 @@
   <items xsi:type="form:FormField">
     <name>Кодировка</name>
     <id>55</id>
+    <title>
+      <key>ru</key>
+      <value>Кодировка</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -715,7 +719,7 @@
       <segments>Кодировка</segments>
     </dataPath>
     <extendedTooltip>
-      <name>КодировкаExtendedTooltip</name>
+      <name>КодировкаРасширеннаяПодсказка</name>
       <id>74</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -860,6 +864,10 @@
       <items xsi:type="form:FormField">
         <name>ТомПолныйПуть</name>
         <id>53</id>
+        <title>
+          <key>ru</key>
+          <value>Полный путь тома</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -869,7 +877,7 @@
           <segments>ТомПолныйПуть</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ТомПолныйПутьExtendedTooltip</name>
+          <name>ТомПолныйПутьРасширеннаяПодсказка</name>
           <id>79</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -918,7 +926,7 @@
         <value>Том</value>
       </title>
       <extendedTooltip>
-        <name>ГруппаТомExtendedTooltip</name>
+        <name>ГруппаТомРасширеннаяПодсказка</name>
         <id>77</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1000,7 +1008,7 @@
       <value>Хранение</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаХранениеExtendedTooltip</name>
+      <name>ГруппаХранениеРасширеннаяПодсказка</name>
       <id>75</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -1031,6 +1039,10 @@
     <items xsi:type="form:Button">
       <name>СтандартнаяЗаписатьИЗакрыть</name>
       <id>89</id>
+      <title>
+        <key>ru</key>
+        <value>Записать и закрыть</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1061,6 +1073,10 @@
     <items xsi:type="form:Button">
       <name>СтандартнаяЗаписать</name>
       <id>87</id>
+      <title>
+        <key>ru</key>
+        <value>Записать</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1090,6 +1106,10 @@
     <items xsi:type="form:Button">
       <name>СтандартнаяПеречитать</name>
       <id>91</id>
+      <title>
+        <key>ru</key>
+        <value>Перечитать</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1121,6 +1141,10 @@
     <items xsi:type="form:Button">
       <name>Открыть</name>
       <id>26</id>
+      <title>
+        <key>ru</key>
+        <value>Просмотреть</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1128,7 +1152,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>ОткрытьExtendedTooltip</name>
+        <name>ОткрытьРасширеннаяПодсказка</name>
         <id>57</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1161,13 +1185,17 @@
     <items xsi:type="form:Button">
       <name>ФормаСохранитьКак</name>
       <id>50</id>
+      <title>
+        <key>ru</key>
+        <value>Сохранить как...</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаСохранитьКакExtendedTooltip</name>
+        <name>ФормаСохранитьКакРасширеннаяПодсказка</name>
         <id>58</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1191,6 +1219,10 @@
     <items xsi:type="form:Button">
       <name>ФормаУдалить</name>
       <id>95</id>
+      <title>
+        <key>ru</key>
+        <value>Удалить</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1578,7 +1610,7 @@
     <id>2</id>
     <toolTip>
       <key>ru</key>
-      <value>Сохранить версию файла на диск или другое устройство</value>
+      <value>Сохранить версию файла на устройство</value>
     </toolTip>
     <use>
       <common>true</common>
@@ -1698,12 +1730,7 @@
     <keyParameter>true</keyParameter>
   </parameters>
   <commandInterface>
-    <navigationPanel>
-      <cmiFragmentRecord>
-        <command>0</command>
-        <userVisible/>
-      </cmiFragmentRecord>
-    </navigationPanel>
+    <navigationPanel/>
     <commandBar/>
   </commandInterface>
 </form:Form>

@@ -251,6 +251,9 @@
     <mdObject>InformationRegister.ПричиныИзмененияАдресныхСведений</mdObject>
   </content>
   <content>
+    <mdObject>InformationRegister.ХранилищеФайлов</mdObject>
+  </content>
+  <content>
     <mdObject>Constant.СписокРасширенийТекстовыхФайлов</mdObject>
   </content>
   <content>
@@ -611,7 +614,7 @@
     <mdObject>Catalog.ВерсииФайлов</mdObject>
   </content>
   <content>
-    <mdObject>InformationRegister.ДвоичныеДанныеФайлов</mdObject>
+    <mdObject>InformationRegister.УдалитьДвоичныеДанныеФайлов</mdObject>
   </content>
   <content>
     <mdObject>InformationRegister.ОбработчикиОбновленияОбщихДанных</mdObject>

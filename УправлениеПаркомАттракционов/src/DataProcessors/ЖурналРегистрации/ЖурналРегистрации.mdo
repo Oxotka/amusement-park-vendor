@@ -77,4 +77,14 @@
     <commandParameterType/>
     <representation>Auto</representation>
   </commands>
+  <commands uuid="88f34f9f-121b-43e2-9280-ec2b414681ad">
+    <name>ЖурналДоступаКДанным</name>
+    <synonym>
+      <key>ru</key>
+      <value>Журнал доступа к данным</value>
+    </synonym>
+    <group>NavigationPanelSeeAlso</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
 </mdclass:DataProcessor>

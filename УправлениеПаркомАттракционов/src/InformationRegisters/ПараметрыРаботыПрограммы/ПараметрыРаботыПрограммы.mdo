@@ -12,7 +12,7 @@
   <name>ПараметрыРаботыПрограммы</name>
   <synonym>
     <key>ru</key>
-    <value>Параметры работы программы</value>
+    <value>Параметры работы приложения</value>
   </synonym>
   <editType>InDialog</editType>
   <defaultRecordForm>InformationRegister.ПараметрыРаботыПрограммы.Form.ФормаЗаписи</defaultRecordForm>

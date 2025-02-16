@@ -12,7 +12,7 @@
       <id>25</id>
       <title>
         <key>ru</key>
-        <value>В программе есть &lt;link ОткрытыеОкна>открытые окна&lt;/>, настройки которых копируются другому пользователю, 
+        <value>В приложении есть &lt;link ОткрытыеОкна>открытые окна&lt;/>, настройки которых копируются другому пользователю, 
 если в них были внесены изменения, то новые настройки могут быть не скопированы.
 Рекомендуется закрыть перечисленные окна и повторить копирование.
 </value>
@@ -98,7 +98,7 @@
       <id>1</id>
       <title>
         <key>ru</key>
-        <value>Пользователи, которым копируются настройки внешнего вида программы,
+        <value>Пользователи, которым копируются настройки внешнего вида приложения,
 должны завершить свои сеансы работы.
 В противном случае настройки могут не примениться.</value>
       </title>
@@ -108,7 +108,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>СообщениеExtendedTooltip</name>
+        <name>СообщениеРасширеннаяПодсказка</name>
         <id>20</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -150,7 +150,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>СписокАктивныхПользователейExtendedTooltip</name>
+        <name>СписокАктивныхПользователейРасширеннаяПодсказка</name>
         <id>22</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -195,7 +195,7 @@
       <value>Активные пользователи</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаАктивныеПользователиExtendedTooltip</name>
+      <name>ГруппаАктивныеПользователиРасширеннаяПодсказка</name>
       <id>21</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -226,13 +226,17 @@
     <items xsi:type="form:Button">
       <name>Скопировать</name>
       <id>15</id>
+      <title>
+        <key>ru</key>
+        <value>Скопировать</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>СкопироватьExtendedTooltip</name>
+        <name>СкопироватьРасширеннаяПодсказка</name>
         <id>18</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -263,7 +267,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ОтменаExtendedTooltip</name>
+        <name>ОтменаРасширеннаяПодсказка</name>
         <id>19</id>
         <visible>true</visible>
         <enabled>true</enabled>

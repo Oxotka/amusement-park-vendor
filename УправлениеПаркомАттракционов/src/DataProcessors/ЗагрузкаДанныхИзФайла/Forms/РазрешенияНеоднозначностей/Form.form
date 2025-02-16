@@ -53,7 +53,7 @@
     <id>29</id>
     <title>
       <key>ru</key>
-      <value>При сопоставление по колонке &quot;%1&quot; в программе было найдено несколько вариантов. 
+      <value>При сопоставление по колонке &quot;%1&quot; в приложении было найдено несколько вариантов. 
 Выберите правильный элемент в соответствие с данными из файла </value>
     </title>
     <enabled>true</enabled>
@@ -96,7 +96,7 @@
     <id>32</id>
     <title>
       <key>ru</key>
-      <value>При сопоставлении элементов в программе с загружаемыми данными было найдено несколько совпадающих вариантов.
+      <value>При сопоставлении элементов в приложении с загружаемыми данными было найдено несколько совпадающих вариантов.
 Выберите элемент в соответствие с данными из файла.</value>
     </title>
     <visible>true</visible>
@@ -138,6 +138,10 @@
   <items xsi:type="form:FormField">
     <name>ВариантРазрешенияНеоднозначности</name>
     <id>26</id>
+    <title>
+      <key>ru</key>
+      <value>Вариант разрешения неоднозначности</value>
+    </title>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
@@ -228,6 +232,10 @@
     <items xsi:type="form:FormField">
       <name>ВариантыВыбораПредставление</name>
       <id>44</id>
+      <title>
+        <key>ru</key>
+        <value>Представление</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -279,6 +287,10 @@
     <items xsi:type="form:FormField">
       <name>ВариантыВыбораСсылка</name>
       <id>50</id>
+      <title>
+        <key>ru</key>
+        <value>Ссылка</value>
+      </title>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
@@ -328,6 +340,10 @@
     <items xsi:type="form:FormField">
       <name>ВариантыВыбораЗначение</name>
       <id>53</id>
+      <title>
+        <key>ru</key>
+        <value>Значение</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -381,6 +397,10 @@
       <items xsi:type="form:Button">
         <name>ВариантыВыбораВыбрать</name>
         <id>56</id>
+        <title>
+          <key>ru</key>
+          <value>Выбрать</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -412,6 +432,10 @@
       <items xsi:type="form:Button">
         <name>ВариантыВыбораНовыйЭлемент</name>
         <id>58</id>
+        <title>
+          <key>ru</key>
+          <value>Создать новый элемент</value>
+        </title>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
@@ -441,6 +465,10 @@
       <items xsi:type="form:Button">
         <name>ВариантыВыбораОткрыть</name>
         <id>60</id>
+        <title>
+          <key>ru</key>
+          <value>Открыть</value>
+        </title>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
@@ -668,6 +696,10 @@
     <items xsi:type="form:FormField">
       <name>ЭлементыСправочникаПредставление</name>
       <id>37</id>
+      <title>
+        <key>ru</key>
+        <value>Представление</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -721,6 +753,10 @@
       <items xsi:type="form:Button">
         <name>Выбрать</name>
         <id>20</id>
+        <title>
+          <key>ru</key>
+          <value>Выбрать</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>

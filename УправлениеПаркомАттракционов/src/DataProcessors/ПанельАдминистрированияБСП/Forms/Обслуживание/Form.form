@@ -8,7 +8,7 @@
       <id>1575</id>
       <title>
         <key>ru</key>
-        <value>Контроль за состоянием программы, резервное копирование и восстановление, оптимизация быстродействия.</value>
+        <value>Контроль за состоянием приложения, резервное копирование и восстановление, оптимизация быстродействия.</value>
       </title>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -59,7 +59,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>СправкаExtendedTooltip</name>
+          <name>СправкаРасширеннаяПодсказка</name>
           <id>1636</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -90,7 +90,7 @@
         <value>Справка</value>
       </title>
       <extendedTooltip>
-        <name>ГруппаСправкаExtendedTooltip</name>
+        <name>ГруппаСправкаРасширеннаяПодсказка</name>
         <id>1635</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -119,7 +119,7 @@
       <value>Заголовок</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаЗаголовокExtendedTooltip</name>
+      <name>ГруппаЗаголовокРасширеннаяПодсказка</name>
       <id>1632</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -154,7 +154,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ОбработкаЖурналРегистрацииОткрытьExtendedTooltip</name>
+        <name>ОбработкаЖурналРегистрацииОткрытьРасширеннаяПодсказка</name>
         <id>1638</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -185,7 +185,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ОбработкаАктивныеПользователиОткрытьExtendedTooltip</name>
+        <name>ОбработкаАктивныеПользователиОткрытьРасширеннаяПодсказка</name>
         <id>1639</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -216,7 +216,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ОбработкаБлокировкаСоединенийСИнформационнойБазойОткрытьExtendedTooltip</name>
+        <name>ОбработкаБлокировкаСоединенийСИнформационнойБазойОткрытьРасширеннаяПодсказка</name>
         <id>1640</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -247,7 +247,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ОбработкаУдалениеПомеченныхОбъектовОткрытьExtendedTooltip</name>
+        <name>ОбработкаУдалениеПомеченныхОбъектовОткрытьРасширеннаяПодсказка</name>
         <id>1641</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -279,7 +279,7 @@
       <value>Частотный сервис</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаЧастотныйСервисExtendedTooltip</name>
+      <name>ГруппаЧастотныйСервисРасширеннаяПодсказка</name>
       <id>1637</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -401,7 +401,7 @@
             <id>1819</id>
             <title>
               <key>ru</key>
-              <value>Команды дополнительных отчетов, подключенных к программе.</value>
+              <value>Команды дополнительных отчетов, подключенных к приложению.</value>
             </title>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -479,7 +479,7 @@
             <id>1821</id>
             <title>
               <key>ru</key>
-              <value>Команды дополнительных обработок, подключенных к программе.</value>
+              <value>Команды дополнительных обработок, подключенных к приложению.</value>
             </title>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -625,7 +625,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>ОбработкаРегламентныеИФоновыеЗаданияExtendedTooltip</name>
+            <name>ОбработкаРегламентныеИФоновыеЗаданияРасширеннаяПодсказка</name>
             <id>1645</id>
             <title>
               <key>ru</key>
@@ -664,7 +664,7 @@
         <width>43</width>
         <horizontalStretch>false</horizontalStretch>
         <extendedTooltip>
-          <name>ГруппаОбработкаРегламентныеИФоновыеЗаданияExtendedTooltip</name>
+          <name>ГруппаОбработкаРегламентныеИФоновыеЗаданияРасширеннаяПодсказка</name>
           <id>1644</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -693,6 +693,10 @@
         <items xsi:type="form:Button">
           <name>РазблокироватьРаботуСВнешнимиРесурсами</name>
           <id>2025</id>
+          <title>
+            <key>ru</key>
+            <value>Разблокировать работу с внешними ресурсами</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -805,7 +809,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ОбработкаУправлениеИтогамиИАгрегатамиОткрытьExtendedTooltip</name>
+          <name>ОбработкаУправлениеИтогамиИАгрегатамиОткрытьРасширеннаяПодсказка</name>
           <id>1652</id>
           <title>
             <key>ru</key>
@@ -845,7 +849,7 @@
       <width>43</width>
       <horizontalStretch>false</horizontalStretch>
       <extendedTooltip>
-        <name>ГруппаОбработкаУправлениеИтогамиИАгрегатамиОткрытьExtendedTooltip</name>
+        <name>ГруппаОбработкаУправлениеИтогамиИАгрегатамиОткрытьРасширеннаяПодсказка</name>
         <id>1651</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -878,7 +882,7 @@
       <value>Регламентные операции</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаРегламентныеОперацииExtendedTooltip</name>
+      <name>ГруппаРегламентныеОперацииРасширеннаяПодсказка</name>
       <id>1642</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -916,6 +920,10 @@
       <items xsi:type="form:FormField">
         <name>ХранениеРезервныхКопий</name>
         <id>2247</id>
+        <title>
+          <key>ru</key>
+          <value>Хранение резервных копий</value>
+        </title>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
@@ -1180,7 +1188,7 @@
             <width>43</width>
             <horizontalStretch>false</horizontalStretch>
             <extendedTooltip>
-              <name>ГруппаНастройкаРезервногоКопированияExtendedTooltip</name>
+              <name>ГруппаНастройкаРезервногоКопированияРасширеннаяПодсказка</name>
               <id>1666</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1473,7 +1481,7 @@
                 </userVisible>
                 <title>
                   <key>ru</key>
-                  <value>Группа резервное копирование программы</value>
+                  <value>Группа резервное копирование приложения</value>
                 </title>
                 <width>43</width>
                 <horizontalStretch>false</horizontalStretch>
@@ -1631,6 +1639,10 @@
               <items xsi:type="form:Button">
                 <name>ОблачныйАрхивНастройкаРезервногоКопирования</name>
                 <id>2291</id>
+                <title>
+                  <key>ru</key>
+                  <value>Настройка резервного копирования</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -1977,7 +1989,7 @@
       <value>Резервное копирование и восстановление</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаРезервноеКопированиеИВосстановлениеExtendedTooltip</name>
+      <name>ГруппаРезервноеКопированиеИВосстановлениеРасширеннаяПодсказка</name>
       <id>1657</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -2259,7 +2271,7 @@
             <id>2104</id>
             <title>
               <key>ru</key>
-              <value>Обновление программы из файла на компьютере, в сетевом каталоге или установка исправлений (патчей).</value>
+              <value>Обновление приложения из файла на компьютере, в сетевом каталоге или установка исправлений (патчей).</value>
             </title>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -2336,7 +2348,7 @@
             <id>2226</id>
             <title>
               <key>ru</key>
-              <value>Список установленных в программе исправлений.</value>
+              <value>Список исправлений, установленных в приложении.</value>
             </title>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -2434,6 +2446,10 @@
         <items xsi:type="form:Button">
           <name>РезультатыОбновленияИДополнительнаяОбработкаДанных</name>
           <id>2054</id>
+          <title>
+            <key>ru</key>
+            <value>Результаты обновления и дополнительная обработка данных</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -2444,7 +2460,7 @@
             <id>2055</id>
             <title>
               <key>ru</key>
-              <value>Сведения о ходе обновления версии программы, отложенное выполнение дополнительных процедур обработки данных.</value>
+              <value>Сведения о ходе обновления версии приложения, отложенное выполнение дополнительных процедур обработки данных.</value>
             </title>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -2513,11 +2529,11 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>ОткрытьОписаниеИзмененийСистемыExtendedTooltip</name>
+            <name>ОткрытьОписаниеИзмененийСистемыРасширеннаяПодсказка</name>
             <id>2048</id>
             <title>
               <key>ru</key>
-              <value>История изменений по версиям программы.</value>
+              <value>История изменений по версиям приложения.</value>
             </title>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -2552,7 +2568,7 @@
         <width>43</width>
         <horizontalStretch>false</horizontalStretch>
         <extendedTooltip>
-          <name>ГруппаОткрытьОписаниеИзмененийСистемыExtendedTooltip</name>
+          <name>ГруппаОткрытьОписаниеИзмененийСистемыРасширеннаяПодсказка</name>
           <id>2046</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -2617,6 +2633,10 @@
         <items xsi:type="form:FormField">
           <name>ПриоритетРаботаПользователей</name>
           <id>2242</id>
+          <title>
+            <key>ru</key>
+            <value>Приоритет обработки данных</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -2678,6 +2698,10 @@
           <items xsi:type="form:FormField">
             <name>ПриоритетОбработкаДанных</name>
             <id>2239</id>
+            <title>
+              <key>ru</key>
+              <value>Приоритет обработки данных</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -2843,7 +2867,7 @@
           <id>2230</id>
           <title>
             <key>ru</key>
-            <value>Приоритет за обработкой данных значительно ускоряет обновление, но увеличивает нагрузку на сервер, что может привести к замедлению работы программы.</value>
+            <value>Приоритет за обработкой данных значительно ускоряет обновление, но увеличивает нагрузку на сервер, что может привести к замедлению работы приложения.</value>
           </title>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -2892,7 +2916,7 @@
             <name>ДетализироватьОбновлениеИБВЖурналеРегистрацииПриИзменении</name>
           </handlers>
           <extendedTooltip>
-            <name>ДетализироватьОбновлениеИБВЖурналеРегистрацииExtendedTooltip</name>
+            <name>ДетализироватьОбновлениеИБВЖурналеРегистрацииРасширеннаяПодсказка</name>
             <id>2065</id>
             <title>
               <key>ru</key>
@@ -2929,6 +2953,10 @@
         <items xsi:type="form:Button">
           <name>ОчисткаУстаревшихДанных</name>
           <id>2297</id>
+          <title>
+            <key>ru</key>
+            <value>Очистка устаревших данных</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -2973,7 +3001,7 @@
         <width>43</width>
         <horizontalStretch>false</horizontalStretch>
         <extendedTooltip>
-          <name>ГруппаДетализироватьОбновлениеИБВЖурналеРегистрацииExtendedTooltip</name>
+          <name>ГруппаДетализироватьОбновлениеИБВЖурналеРегистрацииРасширеннаяПодсказка</name>
           <id>2062</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -3003,7 +3031,7 @@
       </userVisible>
       <title>
         <key>ru</key>
-        <value>Результаты обновления программы третья строка</value>
+        <value>Результаты обновления приложения третья строка</value>
       </title>
       <extendedTooltip>
         <name>ГруппаРезультатыОбновленияПрограммыТретьяСтрокаРасширеннаяПодсказка</name>
@@ -3036,7 +3064,7 @@
     </userVisible>
     <title>
       <key>ru</key>
-      <value>Обновление программы</value>
+      <value>Обновление приложения</value>
     </title>
     <extendedTooltip>
       <name>ГруппаРезультатыОбновленияПрограммыРасширеннаяПодсказка</name>
@@ -3096,11 +3124,11 @@
           <name>ВыполнятьЗамерыПроизводительностиПриИзменении</name>
         </handlers>
         <extendedTooltip>
-          <name>ВыполнятьЗамерыПроизводительностиExtendedTooltip</name>
+          <name>ВыполнятьЗамерыПроизводительностиРасширеннаяПодсказка</name>
           <id>1674</id>
           <title>
             <key>ru</key>
-            <value>Оценка интегральной производительности программы по методике APDEX.</value>
+            <value>Оценка интегральной производительности приложения по методике APDEX.</value>
           </title>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -3178,7 +3206,7 @@
       <width>43</width>
       <horizontalStretch>false</horizontalStretch>
       <extendedTooltip>
-        <name>ГруппаВыполнятьЗамерыПроизводительностиExtendedTooltip</name>
+        <name>ГруппаВыполнятьЗамерыПроизводительностиРасширеннаяПодсказка</name>
         <id>1673</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -3336,7 +3364,7 @@
       <width>43</width>
       <horizontalStretch>false</horizontalStretch>
       <extendedTooltip>
-        <name>ГруппаОбработкаОценкаПроизводительностиExtendedTooltip</name>
+        <name>ГруппаОбработкаОценкаПроизводительностиРасширеннаяПодсказка</name>
         <id>1676</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -3369,7 +3397,7 @@
       <value>Оценка производительности</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаОценкаПроизводительностиExtendedTooltip</name>
+      <name>ГруппаОценкаПроизводительностиРасширеннаяПодсказка</name>
       <id>1672</id>
       <visible>true</visible>
       <enabled>true</enabled>

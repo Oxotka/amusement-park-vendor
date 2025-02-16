@@ -46,7 +46,7 @@
       </contextMenu>
       <extInfo xsi:type="form:PictureDecorationExtInfo">
         <picture xsi:type="core:PictureRef">
-          <picture>CommonPicture.Предупреждение32</picture>
+          <picture>StdPicture.DialogExclamation</picture>
         </picture>
       </extInfo>
     </items>
@@ -57,7 +57,7 @@
         <key>ru</key>
         <value>Дополнительные процедуры обработки данных на предыдущую версию не завершены.
 Рекомендуется выполнить восстановление из резервной копии и дождаться их выполнения,
-в противном случае это может привести к ошибкам при обновлении или неработоспособности программы.</value>
+в противном случае это может привести к ошибкам при обновлении или неработоспособности приложения.</value>
       </title>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -185,6 +185,10 @@
       <items xsi:type="form:Button">
         <name>ФормаЗавершить</name>
         <id>11</id>
+        <title>
+          <key>ru</key>
+          <value>Завершить работу</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -214,6 +218,10 @@
       <items xsi:type="form:Button">
         <name>ФормаПродолжить</name>
         <id>9</id>
+        <title>
+          <key>ru</key>
+          <value>Продолжить</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>

@@ -26,7 +26,7 @@
           <segments>НадписьФайлы</segments>
         </dataPath>
         <extendedTooltip>
-          <name>НадписьФайлыExtendedTooltip</name>
+          <name>НадписьФайлыРасширеннаяПодсказка</name>
           <id>40</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -73,7 +73,7 @@
         </userVisible>
         <skipOnInput>false</skipOnInput>
         <extendedTooltip>
-          <name>ВыбратьФайлыExtendedTooltip</name>
+          <name>ВыбратьФайлыРасширеннаяПодсказка</name>
           <id>41</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -116,7 +116,7 @@
         <value>Заголовок</value>
       </title>
       <extendedTooltip>
-        <name>ЗаголовокExtendedTooltip</name>
+        <name>ЗаголовокРасширеннаяПодсказка</name>
         <id>39</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -171,6 +171,10 @@
         <items xsi:type="form:FormField">
           <name>ВыбранныеФайлыИндексКартинки</name>
           <id>30</id>
+          <title>
+            <key>ru</key>
+            <value>Индекс картинки</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -180,7 +184,7 @@
             <segments>ВыбранныеФайлы.ИндексКартинки</segments>
           </dataPath>
           <extendedTooltip>
-            <name>ВыбранныеФайлыИндексКартинкиExtendedTooltip</name>
+            <name>ВыбранныеФайлыИндексКартинкиРасширеннаяПодсказка</name>
             <id>44</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -217,11 +221,19 @@
             <valuesPicture xsi:type="core:PictureRef">
               <picture>CommonPicture.КоллекцияПиктограммФайлов</picture>
             </valuesPicture>
+            <border xsi:type="core:BorderDef">
+              <style>Single</style>
+              <width>1</width>
+            </border>
           </extInfo>
         </items>
         <items xsi:type="form:FormField">
           <name>ВыбранныеФайлыПуть</name>
           <id>32</id>
+          <title>
+            <key>ru</key>
+            <value>Путь</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -231,7 +243,7 @@
             <segments>ВыбранныеФайлы.Путь</segments>
           </dataPath>
           <extendedTooltip>
-            <name>ВыбранныеФайлыПутьExtendedTooltip</name>
+            <name>ВыбранныеФайлыПутьРасширеннаяПодсказка</name>
             <id>45</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -279,7 +291,7 @@
           <value>Картинка и наименование</value>
         </title>
         <extendedTooltip>
-          <name>КартинкаИНаименованиеExtendedTooltip</name>
+          <name>КартинкаИНаименованиеРасширеннаяПодсказка</name>
           <id>43</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -432,7 +444,7 @@
         </extInfo>
       </searchControlAddition>
       <extendedTooltip>
-        <name>ВыбранныеФайлыExtendedTooltip</name>
+        <name>ВыбранныеФайлыРасширеннаяПодсказка</name>
         <id>42</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -534,7 +546,7 @@
       <segments>ПапкаДляДобавленияСтрокой</segments>
     </dataPath>
     <extendedTooltip>
-      <name>ПапкаДляДобавленияExtendedTooltip</name>
+      <name>ПапкаДляДобавленияРасширеннаяПодсказка</name>
       <id>46</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -572,6 +584,10 @@
   <items xsi:type="form:FormField">
     <name>УдалятьПослеДобавления</name>
     <id>3</id>
+    <title>
+      <key>ru</key>
+      <value>Удалять файлы после добавления</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -582,7 +598,7 @@
     </dataPath>
     <titleLocation>Right</titleLocation>
     <extendedTooltip>
-      <name>УдалятьПослеДобавленияExtendedTooltip</name>
+      <name>УдалятьПослеДобавленияРасширеннаяПодсказка</name>
       <id>47</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -630,7 +646,7 @@
       <segments>Комментарий</segments>
     </dataPath>
     <extendedTooltip>
-      <name>ОписаниеExtendedTooltip</name>
+      <name>ОписаниеРасширеннаяПодсказка</name>
       <id>48</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -676,6 +692,10 @@
   <items xsi:type="form:FormField">
     <name>ХранитьВерсии</name>
     <id>21</id>
+    <title>
+      <key>ru</key>
+      <value>Хранить версии</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -686,7 +706,7 @@
     </dataPath>
     <titleLocation>Right</titleLocation>
     <extendedTooltip>
-      <name>ХранитьВерсииExtendedTooltip</name>
+      <name>ХранитьВерсииРасширеннаяПодсказка</name>
       <id>49</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -734,7 +754,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ДекорацияКодировкаExtendedTooltip</name>
+        <name>ДекорацияКодировкаРасширеннаяПодсказка</name>
         <id>51</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -767,13 +787,17 @@
     <items xsi:type="form:Button">
       <name>ВыбратьКодировку</name>
       <id>37</id>
+      <title>
+        <key>ru</key>
+        <value>Выбрать кодировку</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ВыбратьКодировкуExtendedTooltip</name>
+        <name>ВыбратьКодировкуРасширеннаяПодсказка</name>
         <id>52</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -805,7 +829,7 @@
       <value>Кодировка</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаКодировкаExtendedTooltip</name>
+      <name>ГруппаКодировкаРасширеннаяПодсказка</name>
       <id>50</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -834,6 +858,10 @@
     <items xsi:type="form:Button">
       <name>ЗагрузитьФайлы</name>
       <id>4</id>
+      <title>
+        <key>ru</key>
+        <value>Загрузить файлы</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -882,7 +910,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>ОтменаExtendedTooltip</name>
+        <name>ОтменаРасширеннаяПодсказка</name>
         <id>55</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -922,7 +950,7 @@
       <value>Основная командная панель</value>
     </title>
     <extendedTooltip>
-      <name>ОсновнаяКоманднаяПанельExtendedTooltip</name>
+      <name>ОсновнаяКоманднаяПанельРасширеннаяПодсказка</name>
       <id>53</id>
       <visible>true</visible>
       <enabled>true</enabled>

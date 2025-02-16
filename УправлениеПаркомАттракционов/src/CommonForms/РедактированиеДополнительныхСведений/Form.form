@@ -28,6 +28,10 @@
       <items xsi:type="form:FormField">
         <name>ТаблицаЗначенийСвойствНомерКартинки</name>
         <id>6</id>
+        <title>
+          <key>ru</key>
+          <value>Номер картинки</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -38,7 +42,7 @@
         </dataPath>
         <titleLocation>None</titleLocation>
         <extendedTooltip>
-          <name>ТаблицаЗначенийСвойствНомерКартинкиExtendedTooltip</name>
+          <name>ТаблицаЗначенийСвойствНомерКартинкиРасширеннаяПодсказка</name>
           <id>27</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -86,6 +90,10 @@
       <items xsi:type="form:FormField">
         <name>ТаблицаЗначенийСвойствНаименование</name>
         <id>16</id>
+        <title>
+          <key>ru</key>
+          <value>Наименование</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -95,7 +103,7 @@
           <segments>ТаблицаЗначенийСвойств.Наименование</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ТаблицаЗначенийСвойствНаименованиеExtendedTooltip</name>
+          <name>ТаблицаЗначенийСвойствНаименованиеРасширеннаяПодсказка</name>
           <id>28</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -144,7 +152,7 @@
       <readOnly>true</readOnly>
       <horizontalStretch>false</horizontalStretch>
       <extendedTooltip>
-        <name>ТаблицаЗначенийСвойствКартинкаИСвойствоExtendedTooltip</name>
+        <name>ТаблицаЗначенийСвойствКартинкаИСвойствоРасширеннаяПодсказка</name>
         <id>26</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -180,7 +188,7 @@
         <segments>ТаблицаЗначенийСвойств.Значение</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ТаблицаЗначенийСвойствЗначениеExtendedTooltip</name>
+        <name>ТаблицаЗначенийСвойствЗначениеРасширеннаяПодсказка</name>
         <id>29</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -432,7 +440,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>ТаблицаЗначенийСвойствExtendedTooltip</name>
+      <name>ТаблицаЗначенийСвойствРасширеннаяПодсказка</name>
       <id>25</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -480,13 +488,17 @@
     <items xsi:type="form:Button">
       <name>ФормаЗаписатьИЗакрыть</name>
       <id>21</id>
+      <title>
+        <key>ru</key>
+        <value>Записать и закрыть</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаЗаписатьИЗакрытьExtendedTooltip</name>
+        <name>ФормаЗаписатьИЗакрытьРасширеннаяПодсказка</name>
         <id>22</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -511,13 +523,17 @@
     <items xsi:type="form:Button">
       <name>ФормаЗаписать</name>
       <id>20</id>
+      <title>
+        <key>ru</key>
+        <value>Записать</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаЗаписатьExtendedTooltip</name>
+        <name>ФормаЗаписатьРасширеннаяПодсказка</name>
         <id>23</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -541,6 +557,10 @@
     <items xsi:type="form:Button">
       <name>ИзменитьСоставДополнительныхСведений</name>
       <id>2</id>
+      <title>
+        <key>ru</key>
+        <value>Изменить состав дополнительных сведений</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -548,7 +568,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>ИзменитьСоставДополнительныхСведенийExtendedTooltip</name>
+        <name>ИзменитьСоставДополнительныхСведенийРасширеннаяПодсказка</name>
         <id>24</id>
         <visible>true</visible>
         <enabled>true</enabled>

@@ -9,6 +9,10 @@
       <items xsi:type="form:Button">
         <name>ФормаПервыйВариант</name>
         <id>10</id>
+        <title>
+          <key>ru</key>
+          <value>Первый вариант</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -39,6 +43,10 @@
       <items xsi:type="form:Button">
         <name>ФормаВторойВариант</name>
         <id>12</id>
+        <title>
+          <key>ru</key>
+          <value>Второй вариант</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -165,6 +173,10 @@
   <items xsi:type="form:FormField">
     <name>Результат</name>
     <id>5</id>
+    <title>
+      <key>ru</key>
+      <value>Результат</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>

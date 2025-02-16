@@ -7,6 +7,10 @@
   <items xsi:type="form:FormField">
     <name>Период</name>
     <id>1</id>
+    <title>
+      <key>ru</key>
+      <value>Период</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -58,6 +62,10 @@
   <items xsi:type="form:FormField">
     <name>КлючеваяОперация</name>
     <id>4</id>
+    <title>
+      <key>ru</key>
+      <value>Ключевая операция</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -109,6 +117,10 @@
   <items xsi:type="form:FormField">
     <name>ТекущийApdex</name>
     <id>7</id>
+    <title>
+      <key>ru</key>
+      <value>Текущий APDEX</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -164,6 +176,10 @@
   <items xsi:type="form:FormField">
     <name>КоличествоЗамеров</name>
     <id>20</id>
+    <title>
+      <key>ru</key>
+      <value>Количество замеров</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -211,6 +227,10 @@
   <items xsi:type="form:FormField">
     <name>ЦелевоеВремя</name>
     <id>14</id>
+    <title>
+      <key>ru</key>
+      <value>Целевое время</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -267,6 +287,10 @@
   <items xsi:type="form:FormField">
     <name>РасчетныйAPDEX</name>
     <id>17</id>
+    <title>
+      <key>ru</key>
+      <value>Расчетный APDEX</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -371,6 +395,10 @@
     <items xsi:type="form:Button">
       <name>ФормаПодобратьЦелевоеВремя</name>
       <id>10</id>
+      <title>
+        <key>ru</key>
+        <value>Подобрать целевое время</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>

@@ -430,6 +430,10 @@
       <items xsi:type="form:FormField">
         <name>ВариантЗагрузки</name>
         <id>652</id>
+        <title>
+          <key>ru</key>
+          <value>Вариант загрузки</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -673,6 +677,10 @@
           <items xsi:type="form:Button">
             <name>ИзменитьБланкЗаполнениеТаблицы</name>
             <id>657</id>
+            <title>
+              <key>ru</key>
+              <value>Изменить бланк</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -740,7 +748,7 @@
             <id>609</id>
             <title>
               <key>ru</key>
-              <value>Для загрузки данных необходимо, сохранить бланк в файл для заполнения в другой программе. 
+              <value>Для загрузки данных необходимо, сохранить бланк в файл для заполнения в другом приложении. 
 Затем загрузить заполненную таблицу в одном из форматов:
 • Книги Microsoft Excel 97 (.xls) и Excel 2007 (.xlsx)
 • Электронные таблицы LibreOffice Calc (.ods)
@@ -788,6 +796,10 @@
           <items xsi:type="form:Button">
             <name>ЗагрузитьТаблицуИзФайла</name>
             <id>127</id>
+            <title>
+              <key>ru</key>
+              <value>Загрузить таблицу из файла...</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -821,6 +833,10 @@
           <items xsi:type="form:Button">
             <name>СохранитьБланкДляЗаполнения</name>
             <id>125</id>
+            <title>
+              <key>ru</key>
+              <value>Сохранить бланк для заполнения...</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -854,6 +870,10 @@
           <items xsi:type="form:Button">
             <name>ИзменитьБланк</name>
             <id>581</id>
+            <title>
+              <key>ru</key>
+              <value>Изменить бланк</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -961,6 +981,10 @@
           <items xsi:type="form:FormField">
             <name>ШаблонСДаннымиОднаКолонка</name>
             <id>489</id>
+            <title>
+              <key>ru</key>
+              <value>Шаблон с данными одна колонка</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1145,7 +1169,7 @@
           <autoMaxHeight>true</autoMaxHeight>
           <extInfo xsi:type="form:PictureDecorationExtInfo">
             <picture xsi:type="core:PictureRef">
-              <picture>CommonPicture.Информация32</picture>
+              <picture>StdPicture.DialogInformation</picture>
             </picture>
           </extInfo>
         </items>
@@ -1154,7 +1178,7 @@
           <id>545</id>
           <title>
             <key>ru</key>
-            <value>Не удалось вставить введенные данные в список, т.к. в программе нет соответствующих данных. </value>
+            <value>Не удалось вставить введенные данные в список, т.к. в приложении нет соответствующих данных. </value>
           </title>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1311,7 +1335,7 @@
           <title>
             <key>ru</key>
             <value>Будут пропущены:
-- Нет данных в программе: 8
+- Нет данных в приложении: 8
 - Несколько вариантов для вставки: 2
 Для просмотра пропущенных строк и подбора данных для вставки нажмите &quot;Далее&quot;.</value>
           </title>
@@ -1426,7 +1450,7 @@
           <id>501</id>
           <title>
             <key>ru</key>
-            <value>Для некоторых введенных строк не найдено данных в программе, либо имеется несколько вариантов.
+            <value>Для некоторых введенных строк не найдено данных в приложении, либо имеется несколько вариантов.
 Для вставки таких строк следует выбрать соответствующие объекты, щелкнув левой кнопкой мыши в колонке &quot;Объект&quot;.</value>
           </title>
           <visible>true</visible>
@@ -1471,7 +1495,7 @@
           <id>406</id>
           <title>
             <key>ru</key>
-            <value>Для некоторых загруженных данных в программе не найдено однозначного соответствия.  Для несопоставленных данных будут созданы
+            <value>Для некоторых загруженных данных в приложении не найдено однозначного соответствия.  Для несопоставленных данных будут созданы
 новые записи, либо они будут пропущены (в зависимости от настройки). При необходимости возможно сопоставить данные вручную, 
 заполнив колонку &quot;%1&quot;.</value>
           </title>
@@ -1516,9 +1540,9 @@
           <id>464</id>
           <title>
             <key>ru</key>
-            <value>Для некоторых значений в колонках таблицы не найдены однозначные соответствия в данных программы (выделены &lt;colorstyle -16>красным цветом&lt;/>).
-Необходимо сопоставить эти значения с данными в программе вручную. 
-В случае если в программе отсутствуют необходимые данные, то ввести их.</value>
+            <value>Для некоторых значений в колонках таблицы не найдены однозначные соответствия в данных приложении (выделены &lt;colorstyle -16>красным цветом&lt;/>).
+Необходимо сопоставить эти значения с данными в приложении вручную. 
+В случае если в приложении отсутствуют необходимые данные, то ввести их.</value>
           </title>
           <enabled>true</enabled>
           <userVisible>
@@ -1607,7 +1631,7 @@
         </dataPath>
         <toolTip>
           <key>ru</key>
-          <value>Выберите одну или несколько колонок, по которым будут сопоставлены загруженные данные с данными из программы</value>
+          <value>Выберите одну или несколько колонок, по которым будут сопоставлены загруженные данные с данными из приложения</value>
         </toolTip>
         <toolTipRepresentation>Button</toolTipRepresentation>
         <extendedTooltip>
@@ -1751,6 +1775,10 @@
         <items xsi:type="form:Button">
           <name>УстранитьНеоднозначность</name>
           <id>459</id>
+          <title>
+            <key>ru</key>
+            <value>Устранить неоднозначность...</value>
+          </title>
           <visible>true</visible>
           <userVisible>
             <common>true</common>
@@ -1844,6 +1872,10 @@
           <items xsi:type="form:Button">
             <name>ТаблицаСопоставленияДанныхОтменитьСопоставление</name>
             <id>659</id>
+            <title>
+              <key>ru</key>
+              <value>Отменить сопоставление</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -2149,6 +2181,10 @@
             <items xsi:type="form:Button">
               <name>ТаблицаСопоставленияДанныхКонтекстноеМенюРазрешитьНеоднозначность</name>
               <id>487</id>
+              <title>
+                <key>ru</key>
+                <value>Устранить неоднозначность...</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -2568,6 +2604,10 @@
             <items xsi:type="form:FormField">
               <name>ИтогоОтчетСоздано</name>
               <id>475</id>
+              <title>
+                <key>ru</key>
+                <value>Создано новых элементов</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -2618,6 +2658,10 @@
             <items xsi:type="form:FormField">
               <name>ИтогоОтчетПропущено</name>
               <id>481</id>
+              <title>
+                <key>ru</key>
+                <value>Пропущено</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -2704,6 +2748,10 @@
             <items xsi:type="form:FormField">
               <name>ИтогоОтчетОбновлено</name>
               <id>478</id>
+              <title>
+                <key>ru</key>
+                <value>Обновлено существующих</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -2754,6 +2802,10 @@
             <items xsi:type="form:FormField">
               <name>ИтогоОтчетНекорректных</name>
               <id>484</id>
+              <title>
+                <key>ru</key>
+                <value>в т.ч. из-за некорректных данных</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -3130,6 +3182,10 @@
           <items xsi:type="form:Button">
             <name>ИзменитьРеквизиты</name>
             <id>378</id>
+            <title>
+              <key>ru</key>
+              <value>Изменить реквизиты...</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -3369,6 +3425,10 @@
         <items xsi:type="form:FormField">
           <name>ФоновоеЗаданиеПроцент</name>
           <id>566</id>
+          <title>
+            <key>ru</key>
+            <value>Фоновое задание процент</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -3633,6 +3693,10 @@
       <items xsi:type="form:Button">
         <name>ВставитьВСписок</name>
         <id>541</id>
+        <title>
+          <key>ru</key>
+          <value>Вставить в список</value>
+        </title>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
@@ -3662,6 +3726,10 @@
       <items xsi:type="form:Button">
         <name>Далее</name>
         <id>43</id>
+        <title>
+          <key>ru</key>
+          <value>Далее ></value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -4721,6 +4789,13 @@
     <name>ОписаниеТипов</name>
     <valueType>
       <types>TypeDescription</types>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>ПредставлениеПоля</name>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
     </valueType>
   </parameters>
   <parameters>

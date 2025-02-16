@@ -490,6 +490,10 @@
     <items xsi:type="form:Button">
       <name>ФормаВключитьВозможностьРедактирования</name>
       <id>22</id>
+      <title>
+        <key>ru</key>
+        <value>Включить возможность редактирования</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>

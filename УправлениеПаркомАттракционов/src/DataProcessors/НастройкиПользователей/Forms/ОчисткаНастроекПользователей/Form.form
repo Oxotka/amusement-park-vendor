@@ -28,7 +28,7 @@
         <name>ПереключательКомуОчищатьНастройкиПриИзменении</name>
       </handlers>
       <extendedTooltip>
-        <name>ПереключательКомуОчищатьНастройкиExtendedTooltip</name>
+        <name>ПереключательКомуОчищатьНастройкиРасширеннаяПодсказка</name>
         <id>70</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -92,7 +92,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ВыбратьПользователейExtendedTooltip</name>
+        <name>ВыбратьПользователейРасширеннаяПодсказка</name>
         <id>72</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -139,7 +139,7 @@
       <value>Очистить настройки:</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаОчиститьУПользователейExtendedTooltip</name>
+      <name>ГруппаОчиститьУПользователейРасширеннаяПодсказка</name>
       <id>69</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -170,6 +170,10 @@
     <items xsi:type="form:FormField">
       <name>ПереключательОчищаемыеНастройки</name>
       <id>62</id>
+      <title>
+        <key>ru</key>
+        <value>Переключатель очищаемые настройки</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -184,7 +188,7 @@
         <name>ПереключательОчищаемыеНастройкиПриИзменении</name>
       </handlers>
       <extendedTooltip>
-        <name>ПереключательОчищаемыеНастройкиExtendedTooltip</name>
+        <name>ПереключательОчищаемыеНастройкиРасширеннаяПодсказка</name>
         <id>74</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -256,7 +260,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ВыбратьНастройкиExtendedTooltip</name>
+        <name>ВыбратьНастройкиРасширеннаяПодсказка</name>
         <id>77</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -305,7 +309,7 @@
       <value>Что очистить:</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаОчищаемыеНастройкиExtendedTooltip</name>
+      <name>ГруппаОчищаемыеНастройкиРасширеннаяПодсказка</name>
       <id>73</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -337,13 +341,17 @@
     <items xsi:type="form:Button">
       <name>ФормаОчиститьИЗакрыть</name>
       <id>57</id>
+      <title>
+        <key>ru</key>
+        <value>Очистить и закрыть</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаОчиститьИЗакрытьExtendedTooltip</name>
+        <name>ФормаОчиститьИЗакрытьРасширеннаяПодсказка</name>
         <id>66</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -368,13 +376,17 @@
     <items xsi:type="form:Button">
       <name>Очистить</name>
       <id>10</id>
+      <title>
+        <key>ru</key>
+        <value>Очистить</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ОчиститьExtendedTooltip</name>
+        <name>ОчиститьРасширеннаяПодсказка</name>
         <id>67</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -404,7 +416,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаЗакрытьExtendedTooltip</name>
+        <name>ФормаЗакрытьРасширеннаяПодсказка</name>
         <id>68</id>
         <visible>true</visible>
         <enabled>true</enabled>

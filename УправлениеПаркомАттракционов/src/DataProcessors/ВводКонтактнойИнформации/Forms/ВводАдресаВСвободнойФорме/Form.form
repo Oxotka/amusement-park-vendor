@@ -19,6 +19,10 @@
           <items xsi:type="form:Button">
             <name>ДобавитьКомментарий</name>
             <id>386</id>
+            <title>
+              <key>ru</key>
+              <value>Комментарий</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -143,6 +147,10 @@
         <items xsi:type="form:Button">
           <name>ИсторияИзменений</name>
           <id>326</id>
+          <title>
+            <key>ru</key>
+            <value>История изменений...</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -206,13 +214,17 @@
           <items xsi:type="form:Button">
             <name>ФормаОчиститьАдрес</name>
             <id>90</id>
+            <title>
+              <key>ru</key>
+              <value>Очистить адрес</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ФормаОчиститьАдресExtendedTooltip</name>
+              <name>ФормаОчиститьАдресРасширеннаяПодсказка</name>
               <id>143</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -326,7 +338,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>СправкаExtendedTooltip</name>
+          <name>СправкаРасширеннаяПодсказка</name>
           <id>148</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -358,7 +370,7 @@
         <value>Панель команд формы</value>
       </title>
       <extendedTooltip>
-        <name>ПанельКомандФормыExtendedTooltip</name>
+        <name>ПанельКомандФормыРасширеннаяПодсказка</name>
         <id>139</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -387,7 +399,7 @@
       <value>Панель команд</value>
     </title>
     <extendedTooltip>
-      <name>ПанельКомандExtendedTooltip</name>
+      <name>ПанельКомандРасширеннаяПодсказка</name>
       <id>136</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -459,6 +471,10 @@
     <items xsi:type="form:FormField">
       <name>АдресНаДату</name>
       <id>363</id>
+      <title>
+        <key>ru</key>
+        <value>Адрес на дату</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -821,6 +837,10 @@
           <items xsi:type="form:FormField">
             <name>ПредставлениеИностранногоАдреса</name>
             <id>21</id>
+            <title>
+              <key>ru</key>
+              <value>Представление адреса</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -835,7 +855,7 @@
               <name>ПредставлениеИностранногоАдресаПриИзменении</name>
             </handlers>
             <extendedTooltip>
-              <name>ПредставлениеИностранногоАдресаExtendedTooltip</name>
+              <name>ПредставлениеИностранногоАдресаРасширеннаяПодсказка</name>
               <id>132</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -967,6 +987,10 @@
       <items xsi:type="form:FormField">
         <name>Комментарий</name>
         <id>373</id>
+        <title>
+          <key>ru</key>
+          <value>Комментарий</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1087,6 +1111,10 @@
     <items xsi:type="form:FormField">
       <name>ТипАдреса</name>
       <id>496</id>
+      <title>
+        <key>ru</key>
+        <value>Формат адреса</value>
+      </title>
       <titleTextColor xsi:type="core:ColorRef">
         <color>Style.ПоясняющийТекст</color>
       </titleTextColor>
@@ -1152,13 +1180,17 @@
       <items xsi:type="form:Button">
         <name>ФормаКомандаОК</name>
         <id>56</id>
+        <title>
+          <key>ru</key>
+          <value>ОК</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ФормаКомандаОКExtendedTooltip</name>
+          <name>ФормаКомандаОКРасширеннаяПодсказка</name>
           <id>140</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1183,13 +1215,17 @@
       <items xsi:type="form:Button">
         <name>ФормаОтмена</name>
         <id>57</id>
+        <title>
+          <key>ru</key>
+          <value>Отмена</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ФормаОтменаExtendedTooltip</name>
+          <name>ФормаОтменаРасширеннаяПодсказка</name>
           <id>141</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -2321,7 +2357,10 @@
   </parameters>
   <parameters>
     <name>ЗначенияПолей</name>
-    <valueType/>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
     <keyParameter>true</keyParameter>
   </parameters>
   <parameters>
@@ -2363,6 +2402,37 @@
     <valueType>
       <types>Boolean</types>
     </valueType>
+  </parameters>
+  <parameters>
+    <name>Индекс</name>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>КонтактнаяИнформацияОписаниеДополнительныхРеквизитов</name>
+    <valueType/>
+  </parameters>
+  <parameters>
+    <name>ВводНовогоАдреса</name>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>Значение</name>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>ИзФормыИстории</name>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <keyParameter>true</keyParameter>
   </parameters>
   <commandInterface>
     <navigationPanel/>

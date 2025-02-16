@@ -38,6 +38,10 @@
     <items xsi:type="form:FormField">
       <name>ИмяТаблицы</name>
       <id>17</id>
+      <title>
+        <key>ru</key>
+        <value>Имя таблицы</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -205,6 +209,10 @@
   <items xsi:type="form:Table">
     <name>Список</name>
     <id>1</id>
+    <title>
+      <key>ru</key>
+      <value>Список</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>

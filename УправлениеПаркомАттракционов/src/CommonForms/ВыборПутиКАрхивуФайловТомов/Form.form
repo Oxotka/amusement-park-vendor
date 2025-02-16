@@ -24,7 +24,7 @@
       </dataPath>
       <titleLocation>Top</titleLocation>
       <extendedTooltip>
-        <name>ПутьКАрхивуWindowsExtendedTooltip</name>
+        <name>ПутьКАрхивуWindowsРасширеннаяПодсказка</name>
         <id>9</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -84,7 +84,7 @@
       </dataPath>
       <titleLocation>Top</titleLocation>
       <extendedTooltip>
-        <name>ПутьКАрхивуLinuxExtendedTooltip</name>
+        <name>ПутьКАрхивуLinuxРасширеннаяПодсказка</name>
         <id>10</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -132,7 +132,7 @@
       <value>Путь к архиву с файлами начального образа</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаПутьФайловойБазыExtendedTooltip</name>
+      <name>ГруппаПутьФайловойБазыРасширеннаяПодсказка</name>
       <id>8</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -164,6 +164,10 @@
     <items xsi:type="form:Button">
       <name>Разместить</name>
       <id>6</id>
+      <title>
+        <key>ru</key>
+        <value>Разместить</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -171,7 +175,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>РазместитьExtendedTooltip</name>
+        <name>РазместитьРасширеннаяПодсказка</name>
         <id>7</id>
         <visible>true</visible>
         <enabled>true</enabled>

@@ -220,6 +220,10 @@
         <items xsi:type="form:FormField">
           <name>Логин</name>
           <id>31</id>
+          <title>
+            <key>ru</key>
+            <value>Логин</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -271,6 +275,10 @@
         <items xsi:type="form:FormField">
           <name>Пароль</name>
           <id>34</id>
+          <title>
+            <key>ru</key>
+            <value>Пароль</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -685,6 +693,10 @@
     <items xsi:type="form:Button">
       <name>ФормаПроверитьНастройки</name>
       <id>63</id>
+      <title>
+        <key>ru</key>
+        <value>Проверить настройки</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>

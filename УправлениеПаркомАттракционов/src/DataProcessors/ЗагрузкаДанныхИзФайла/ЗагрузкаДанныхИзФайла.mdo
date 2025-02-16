@@ -18,7 +18,7 @@
   </help>
   <explanation>
     <key>ru</key>
-    <value>Загрузка справочной информации из табличных документов (файлы Microsoft Office Excel, Microsoft Office Word, OpenOffice Calc и др.) в справочники программы.</value>
+    <value>Загрузка справочной информации из табличных документов (файлы Microsoft Office Excel, Microsoft Office Word, OpenOffice Calc и др.) в справочники приложения.</value>
   </explanation>
   <forms uuid="ac4fa2a4-93a1-4aa6-986a-5f576457fc8a">
     <name>ЗагрузкаДанныхИзФайла</name>

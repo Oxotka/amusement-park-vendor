@@ -118,7 +118,7 @@
         <segments>Список.Ссылка</segments>
       </dataPath>
       <extendedTooltip>
-        <name>СсылкаExtendedTooltip</name>
+        <name>СсылкаРасширеннаяПодсказка</name>
         <id>36</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -292,7 +292,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>СписокExtendedTooltip</name>
+      <name>СписокРасширеннаяПодсказка</name>
       <id>34</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -312,6 +312,10 @@
       <items xsi:type="form:Button">
         <name>СписокКонтекстноеМенюПерейтиКСписку</name>
         <id>57</id>
+        <title>
+          <key>ru</key>
+          <value>Перейти к списку...</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -390,6 +394,10 @@
     <items xsi:type="form:Button">
       <name>ФормаПерейтиКСписку</name>
       <id>55</id>
+      <title>
+        <key>ru</key>
+        <value>Перейти к списку...</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>

@@ -156,6 +156,10 @@
   <items xsi:type="form:FormField">
     <name>Тело</name>
     <id>10</id>
+    <title>
+      <key>ru</key>
+      <value>Тело</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>

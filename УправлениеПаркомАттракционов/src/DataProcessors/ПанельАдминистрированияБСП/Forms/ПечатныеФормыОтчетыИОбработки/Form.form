@@ -59,7 +59,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>СправкаExtendedTooltip</name>
+          <name>СправкаРасширеннаяПодсказка</name>
           <id>1604</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -90,7 +90,7 @@
         <value>Справка</value>
       </title>
       <extendedTooltip>
-        <name>ГруппаСправкаExtendedTooltip</name>
+        <name>ГруппаСправкаРасширеннаяПодсказка</name>
         <id>1603</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -119,7 +119,7 @@
       <value>Заголовок</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаЗаголовокExtendedTooltip</name>
+      <name>ГруппаЗаголовокРасширеннаяПодсказка</name>
       <id>1600</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -160,7 +160,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>ОткрытьМакетыПечатныхФормExtendedTooltip</name>
+            <name>ОткрытьМакетыПечатныхФормРасширеннаяПодсказка</name>
             <id>1606</id>
             <title>
               <key>ru</key>
@@ -527,7 +527,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ОткрытьВариантыОтчетовExtendedTooltip</name>
+              <name>ОткрытьВариантыОтчетовРасширеннаяПодсказка</name>
               <id>1610</id>
               <title>
                 <key>ru</key>
@@ -824,7 +824,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>ОткрытьРассылкиОтчетовExtendedTooltip</name>
+            <name>ОткрытьРассылкиОтчетовРасширеннаяПодсказка</name>
             <id>1613</id>
             <title>
               <key>ru</key>
@@ -965,6 +965,10 @@
           <items xsi:type="form:Button">
             <name>ОчиститьИсториюРассылкиОтчетов</name>
             <id>1738</id>
+            <title>
+              <key>ru</key>
+              <value>Очистить</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1000,7 +1004,7 @@
           </userVisible>
           <title>
             <key>ru</key>
-            <value>Группа настройки истории рассылки отчетов</value>
+            <value>Настройки истории рассылки отчетов</value>
           </title>
           <toolTipRepresentation>ShowBottom</toolTipRepresentation>
           <extendedTooltip>
@@ -1121,7 +1125,7 @@
             <id>1685</id>
             <title>
               <key>ru</key>
-              <value>Установка расширений: разделов, отчетов и обработок в дополнение к предусмотренным в программе.</value>
+              <value>Установка расширений: разделов, отчетов и обработок в дополнение к предусмотренным в приложении.</value>
             </title>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1195,7 +1199,7 @@
             <id>1689</id>
             <title>
               <key>ru</key>
-              <value>Подключение внешних компонент сторонних поставщиков к программе.</value>
+              <value>Подключение внешних компонент сторонних поставщиков к приложению.</value>
             </title>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1309,7 +1313,7 @@
           <titleLocation>Right</titleLocation>
           <toolTip>
             <key>ru</key>
-            <value>Использование внешних печатных форм, отчетов и обработок в дополнение к предусмотренным в программе.</value>
+            <value>Использование внешних печатных форм, отчетов и обработок в дополнение к предусмотренным в приложении.</value>
           </toolTip>
           <toolTipRepresentation>ShowBottom</toolTipRepresentation>
           <handlers>
@@ -1317,7 +1321,7 @@
             <name>ИспользоватьДополнительныеОтчетыИОбработкиПриИзменении</name>
           </handlers>
           <extendedTooltip>
-            <name>ИспользоватьДополнительныеОтчетыИОбработкиExtendedTooltip</name>
+            <name>ИспользоватьДополнительныеОтчетыИОбработкиРасширеннаяПодсказка</name>
             <id>1617</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1389,6 +1393,10 @@
         <items xsi:type="form:Button">
           <name>ОткрытьДополнительныеОтчетыИОбработки</name>
           <id>1680</id>
+          <title>
+            <key>ru</key>
+            <value>Дополнительные отчеты и обработки</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1399,7 +1407,7 @@
             <id>1681</id>
             <title>
               <key>ru</key>
-              <value>Подключение внешних печатных форм, отчетов и обработок в дополнение к предусмотренным в программе.</value>
+              <value>Подключение внешних печатных форм, отчетов и обработок в дополнение к предусмотренным в приложении.</value>
             </title>
             <visible>true</visible>
             <enabled>true</enabled>

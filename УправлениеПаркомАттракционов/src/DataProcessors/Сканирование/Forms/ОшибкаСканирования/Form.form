@@ -48,7 +48,7 @@
       <autoMaxHeight>true</autoMaxHeight>
       <extInfo xsi:type="form:PictureDecorationExtInfo">
         <picture xsi:type="core:PictureRef">
-          <picture>CommonPicture.Предупреждение32</picture>
+          <picture>StdPicture.DialogExclamation</picture>
         </picture>
         <fileDragMode>AsFileRef</fileDragMode>
       </extInfo>
@@ -147,6 +147,10 @@
     <items xsi:type="form:Button">
       <name>ПовторитьСканирование</name>
       <id>20</id>
+      <title>
+        <key>ru</key>
+        <value>Повторить сканирование</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>

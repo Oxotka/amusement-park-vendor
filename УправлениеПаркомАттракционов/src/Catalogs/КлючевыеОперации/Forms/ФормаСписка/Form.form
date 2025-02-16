@@ -99,7 +99,7 @@
       </dataPath>
       <defaultItem>true</defaultItem>
       <extendedTooltip>
-        <name>НаименованиеExtendedTooltip</name>
+        <name>НаименованиеРасширеннаяПодсказка</name>
         <id>13</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -145,7 +145,7 @@
         <segments>Список.Приоритет</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ПриоритетExtendedTooltip</name>
+        <name>ПриоритетРасширеннаяПодсказка</name>
         <id>14</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -191,7 +191,7 @@
         <segments>Список.ЦелевоеВремя</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ЦелевоеВремяExtendedTooltip</name>
+        <name>ЦелевоеВремяРасширеннаяПодсказка</name>
         <id>15</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -237,7 +237,7 @@
         <segments>Список.МинимальноДопустимыйУровень</segments>
       </dataPath>
       <extendedTooltip>
-        <name>МинимальноДопустимыйУровеньExtendedTooltip</name>
+        <name>МинимальноДопустимыйУровеньРасширеннаяПодсказка</name>
         <id>16</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -443,7 +443,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>СписокExtendedTooltip</name>
+      <name>СписокРасширеннаяПодсказка</name>
       <id>12</id>
       <visible>true</visible>
       <enabled>true</enabled>

@@ -208,6 +208,10 @@
       <items xsi:type="form:Button">
         <name>ФормаВыбрать</name>
         <id>5</id>
+        <title>
+          <key>ru</key>
+          <value>ОК</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -455,6 +459,33 @@
     </action>
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
+  <parameters>
+    <name>ИдентификаторОсновнойФормы</name>
+    <valueType>
+      <types>UUID</types>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>АдресСхемыКомпоновки</name>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>АдресНастроекКомпоновщикаОтбора</name>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>ПредставлениеОбластиОтбора</name>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+  </parameters>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>

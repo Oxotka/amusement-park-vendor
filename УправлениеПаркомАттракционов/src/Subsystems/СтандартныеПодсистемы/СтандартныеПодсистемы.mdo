@@ -7,7 +7,7 @@
   </synonym>
   <subsystems>АдресныйКлассификатор</subsystems>
   <subsystems>БазоваяФункциональность</subsystems>
-  <subsystems>АнализЖурналаРегистрации</subsystems>
+  <subsystems>КонтрольРаботыПользователей</subsystems>
   <subsystems>ВариантыОтчетов</subsystems>
   <subsystems>ГенерацияШтрихкода</subsystems>
   <subsystems>ГрафикиРаботы</subsystems>

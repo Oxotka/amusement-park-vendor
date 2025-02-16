@@ -238,6 +238,17 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.ИерархияГруппПользователей</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.ПредопределенныеВариантыОтчетовВерсийРасширений</name>
 		<right>
 			<name>Read</name>
@@ -824,6 +835,17 @@
 		</right>
 		<right>
 			<name>Set</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Constant.ИспользоватьКомандуНапоминаний</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -1458,6 +1480,17 @@
 		</right>
 	</object>
 	<object>
+		<name>Constant.РегистрироватьИзмененияПравДоступа</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>CommonForm.ВводЗначенийСпискомСФлажками</name>
 		<right>
 			<name>View</name>
@@ -1618,6 +1651,17 @@
 	</object>
 	<object>
 		<name>Constant.ИсточникДанныхАдресногоКлассификатора</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Constant.СвойстваИсправленийПередОбновлениемИБ</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>

@@ -12,6 +12,10 @@
         <items xsi:type="form:FormField">
           <name>ИспользоватьОтборПарольУстановлен</name>
           <id>74</id>
+          <title>
+            <key>ru</key>
+            <value>Использовать отбор пароль установлен</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -60,6 +64,10 @@
         <items xsi:type="form:FormField">
           <name>ОтборПарольУстановлен</name>
           <id>80</id>
+          <title>
+            <key>ru</key>
+            <value>Пароль установлен</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -149,6 +157,10 @@
         <items xsi:type="form:FormField">
           <name>ИспользоватьОтборПарольИзменен</name>
           <id>90</id>
+          <title>
+            <key>ru</key>
+            <value>Использовать отбор пароль изменен</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -197,6 +209,10 @@
         <items xsi:type="form:FormField">
           <name>ОтборПарольИзменен</name>
           <id>87</id>
+          <title>
+            <key>ru</key>
+            <value>Пароль изменен</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -321,6 +337,10 @@
         <items xsi:type="form:FormField">
           <name>ИспользоватьОтборСертификатУказан</name>
           <id>71</id>
+          <title>
+            <key>ru</key>
+            <value>Использовать отбор сертификат указан</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -369,6 +389,10 @@
         <items xsi:type="form:FormField">
           <name>ОтборСертификатУказан</name>
           <id>77</id>
+          <title>
+            <key>ru</key>
+            <value>Сертификат указан</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -458,6 +482,10 @@
         <items xsi:type="form:FormField">
           <name>ИспользоватьОтборСертификатИзменен</name>
           <id>93</id>
+          <title>
+            <key>ru</key>
+            <value>Использовать отбор сертификат изменен</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -506,6 +534,10 @@
         <items xsi:type="form:FormField">
           <name>ОтборСертификатИзменен</name>
           <id>96</id>
+          <title>
+            <key>ru</key>
+            <value>Сертификат изменен</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -660,6 +692,10 @@
     <items xsi:type="form:Button">
       <name>ЗаполнитьСертификаты</name>
       <id>52</id>
+      <title>
+        <key>ru</key>
+        <value>Заполнить сертификаты</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -690,6 +726,10 @@
     <items xsi:type="form:Button">
       <name>УстановитьПароли</name>
       <id>54</id>
+      <title>
+        <key>ru</key>
+        <value>Установить пароли</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -720,6 +760,10 @@
     <items xsi:type="form:Button">
       <name>ПечатьСпискаПаролей</name>
       <id>58</id>
+      <title>
+        <key>ru</key>
+        <value>Список паролей</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -750,6 +794,10 @@
     <items xsi:type="form:Button">
       <name>ОтправитьПаролиПоSMS</name>
       <id>60</id>
+      <title>
+        <key>ru</key>
+        <value>Отправить пароли</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -780,6 +828,10 @@
     <items xsi:type="form:Button">
       <name>СкрытьПоказатьПароли</name>
       <id>56</id>
+      <title>
+        <key>ru</key>
+        <value>Скрыть/показать пароли</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1146,6 +1198,10 @@
     <items xsi:type="form:FormField">
       <name>ПолучателиПолучатель</name>
       <id>14</id>
+      <title>
+        <key>ru</key>
+        <value>Получатель</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1198,6 +1254,10 @@
     <items xsi:type="form:FormField">
       <name>ПолучателиАдресЭлектроннойПочты</name>
       <id>17</id>
+      <title>
+        <key>ru</key>
+        <value>Адрес электронной почты</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1250,6 +1310,10 @@
     <items xsi:type="form:FormField">
       <name>ПолучателиПарольАрхива</name>
       <id>23</id>
+      <title>
+        <key>ru</key>
+        <value>Пароль архива</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1312,6 +1376,10 @@
     <items xsi:type="form:FormField">
       <name>ПолучателиПарольАрхива2</name>
       <id>103</id>
+      <title>
+        <key>ru</key>
+        <value>Пароль архива</value>
+      </title>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
@@ -1561,6 +1629,10 @@
     <items xsi:type="form:Button">
       <name>ЗаписатьИЗакрыть</name>
       <id>114</id>
+      <title>
+        <key>ru</key>
+        <value>Записать и закрыть</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>

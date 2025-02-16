@@ -7,6 +7,10 @@
   <items xsi:type="form:FormField">
     <name>ТипФайла</name>
     <id>1</id>
+    <title>
+      <key>ru</key>
+      <value>Тип сохраняемого файла</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -98,6 +102,10 @@
   <items xsi:type="form:Button">
     <name>УстановитьРасширениеРаботыСФайлами</name>
     <id>6</id>
+    <title>
+      <key>ru</key>
+      <value>Установить дополнение для работы с файлами</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -132,6 +140,10 @@
     <items xsi:type="form:Button">
       <name>ФормаВыбрать</name>
       <id>4</id>
+      <title>
+        <key>ru</key>
+        <value>Выбрать</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>

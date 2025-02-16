@@ -46,7 +46,7 @@
           <segments>ВыбранныеФорматыСохранения.Check</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ВыбранныеФорматыСохраненияПометкаExtendedTooltip</name>
+          <name>ВыбранныеФорматыСохраненияПометкаРасширеннаяПодсказка</name>
           <id>46</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -93,7 +93,7 @@
           <segments>ВыбранныеФорматыСохранения.Value</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ВыбранныеФорматыСохраненияЗначениеExtendedTooltip</name>
+          <name>ВыбранныеФорматыСохраненияЗначениеРасширеннаяПодсказка</name>
           <id>47</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -259,7 +259,7 @@
         </extInfo>
       </searchControlAddition>
       <extendedTooltip>
-        <name>ВыбранныеФорматыExtendedTooltip</name>
+        <name>ВыбранныеФорматыРасширеннаяПодсказка</name>
         <id>45</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -312,7 +312,7 @@
       <value>Выбор форматов</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаВыборФорматовExtendedTooltip</name>
+      <name>ГруппаВыборФорматовРасширеннаяПодсказка</name>
       <id>44</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -356,7 +356,7 @@
       </dataPath>
       <titleLocation>Right</titleLocation>
       <extendedTooltip>
-        <name>УпаковатьВАрхивExtendedTooltip</name>
+        <name>УпаковатьВАрхивРасширеннаяПодсказка</name>
         <id>49</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -390,6 +390,10 @@
     <items xsi:type="form:FormField">
       <name>ПереводитьИменаФайловВТранслит</name>
       <id>59</id>
+      <title>
+        <key>ru</key>
+        <value>Транслитерировать имена файлов</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -439,6 +443,10 @@
     <items xsi:type="form:FormField">
       <name>Подписать</name>
       <id>62</id>
+      <title>
+        <key>ru</key>
+        <value>Подписать</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -490,7 +498,7 @@
       <value>Дополнительные параметры</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаДополнительныеПараметрыExtendedTooltip</name>
+      <name>ГруппаДополнительныеПараметрыРасширеннаяПодсказка</name>
       <id>48</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -521,6 +529,10 @@
     <items xsi:type="form:Button">
       <name>КнопкаПрикрепить</name>
       <id>29</id>
+      <title>
+        <key>ru</key>
+        <value>Выбрать</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -528,7 +540,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>КнопкаПрикрепитьExtendedTooltip</name>
+        <name>КнопкаПрикрепитьРасширеннаяПодсказка</name>
         <id>42</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -559,7 +571,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>КнопкаОтменаExtendedTooltip</name>
+        <name>КнопкаОтменаРасширеннаяПодсказка</name>
         <id>43</id>
         <visible>true</visible>
         <enabled>true</enabled>

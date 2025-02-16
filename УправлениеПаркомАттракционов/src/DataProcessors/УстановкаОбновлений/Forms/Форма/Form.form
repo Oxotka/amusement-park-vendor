@@ -45,7 +45,7 @@
       <skipOnInput>false</skipOnInput>
       <extInfo xsi:type="form:PictureDecorationExtInfo">
         <picture xsi:type="core:PictureRef">
-          <picture>CommonPicture.Предупреждение32</picture>
+          <picture>StdPicture.DialogExclamation</picture>
         </picture>
       </extInfo>
     </items>
@@ -116,7 +116,7 @@
         <id>1175</id>
         <title>
           <key>ru</key>
-          <value>В программе выявлены проблемы ведения учета, которые рекомендуется устранить до обновления.
+          <value>В приложении выявлены проблемы ведения учета, которые рекомендуется устранить до обновления.
 &lt;link Перейти к отчету по проблемам>Перейти к отчету по проблемам&lt;/></value>
         </title>
         <visible>true</visible>
@@ -130,7 +130,7 @@
           <id>1177</id>
           <title>
             <key>ru</key>
-            <value>Одна из частых причин различных блокирующих ошибок при обновлении на новую версию программы - это проблемы ведения учета, такие как, битые ссылки на несуществующие объекты, незаполненные обязательные реквизиты документов и другие. В таком случае рекомендуется устранять их перед началом обновления, для этого перейти к отчету и следовать приведенным в нем рекомендациям.</value>
+            <value>Одна из частых причин различных блокирующих ошибок при обновлении на новую версию приложения - это проблемы ведения учета, такие как, битые ссылки на несуществующие объекты, незаполненные обязательные реквизиты документов и другие. В таком случае рекомендуется устранять их перед началом обновления, для этого перейти к отчету и следовать приведенным в нем рекомендациям.</value>
           </title>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -336,7 +336,7 @@
       <id>1232</id>
       <title>
         <key>ru</key>
-        <value>Проверка ведения учета в программе давно не выполнялась. Рекомендуется &lt;link ПерейтиКСпискуПроверок>выполнить системные проверки&lt;/> до обновления.</value>
+        <value>Проверка ведения учета в приложении давно не выполнялась. Рекомендуется &lt;link ПерейтиКСпискуПроверок>выполнить системные проверки&lt;/> до обновления.</value>
       </title>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -349,7 +349,7 @@
         <id>1234</id>
         <title>
           <key>ru</key>
-          <value>Одна из частых причин различных блокирующих ошибок при обновлении на новую версию программы - это проблемы ведения учета, такие как, битые ссылки на несуществующие объекты, незаполненные обязательные реквизиты документов и другие. В таком случае рекомендуется устранять их перед началом обновления.</value>
+          <value>Одна из частых причин различных блокирующих ошибок при обновлении на новую версию приложения - это проблемы ведения учета, такие как, битые ссылки на несуществующие объекты, незаполненные обязательные реквизиты документов и другие. В таком случае рекомендуется устранять их перед началом обновления.</value>
         </title>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -430,6 +430,10 @@
         <items xsi:type="form:FormField">
           <name>ПереключательНуженФайлОбновления</name>
           <id>286</id>
+          <title>
+            <key>ru</key>
+            <value>Нужен файл обновления</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -444,7 +448,7 @@
             <name>ПереключательНуженФайлОбновленияПриИзменении</name>
           </handlers>
           <extendedTooltip>
-            <name>ПереключательНуженФайлОбновленияExtendedTooltip</name>
+            <name>ПереключательНуженФайлОбновленияРасширеннаяПодсказка</name>
             <id>747</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -498,6 +502,10 @@
         <items xsi:type="form:FormField">
           <name>ПолеФайлОбновления</name>
           <id>296</id>
+          <title>
+            <key>ru</key>
+            <value>Выбранные файлы</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -508,7 +516,7 @@
           </dataPath>
           <titleLocation>None</titleLocation>
           <extendedTooltip>
-            <name>ПолеФайлОбновленияExtendedTooltip</name>
+            <name>ПолеФайлОбновленияРасширеннаяПодсказка</name>
             <id>749</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -573,7 +581,7 @@
                   <common>true</common>
                 </userVisible>
                 <extendedTooltip>
-                  <name>НадписьКонфигурацияИзмененаExtendedTooltip</name>
+                  <name>НадписьКонфигурацияИзмененаРасширеннаяПодсказка</name>
                   <id>754</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -617,7 +625,7 @@
                 <value>Есть изменения</value>
               </title>
               <extendedTooltip>
-                <name>ЕстьИзмененияExtendedTooltip</name>
+                <name>ЕстьИзмененияРасширеннаяПодсказка</name>
                 <id>753</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -653,7 +661,7 @@
                   <common>true</common>
                 </userVisible>
                 <extendedTooltip>
-                  <name>НадписьНетИзмененийExtendedTooltip</name>
+                  <name>НадписьНетИзмененийРасширеннаяПодсказка</name>
                   <id>756</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -699,7 +707,7 @@
                 <value>Нет изменений</value>
               </title>
               <extendedTooltip>
-                <name>НетИзмененийExtendedTooltip</name>
+                <name>НетИзмененийРасширеннаяПодсказка</name>
                 <id>755</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -887,7 +895,7 @@
             <value>Панель обновление из основной конфигурации</value>
           </title>
           <extendedTooltip>
-            <name>ПанельОбновлениеИзОсновнойКонфигурацииExtendedTooltip</name>
+            <name>ПанельОбновлениеИзОсновнойКонфигурацииРасширеннаяПодсказка</name>
             <id>750</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -952,6 +960,10 @@
         <items xsi:type="form:Button">
           <name>ПоискИУстановкаОбновлений</name>
           <id>1152</id>
+          <title>
+            <key>ru</key>
+            <value>Поиск и установка обновлений</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1031,7 +1043,7 @@
         <value>Файл обновления</value>
       </title>
       <extendedTooltip>
-        <name>ФайлОбновленияExtendedTooltip</name>
+        <name>ФайлОбновленияРасширеннаяПодсказка</name>
         <id>745</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1068,7 +1080,7 @@
               <id>612</id>
               <title>
                 <key>ru</key>
-                <value>Выберите способ установки обновления программы</value>
+                <value>Выберите способ установки обновления приложения</value>
               </title>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1084,7 +1096,7 @@
                 <name>ПереключательОбновленияПриИзменении</name>
               </handlers>
               <extendedTooltip>
-                <name>ПереключательОбновленияФайлExtendedTooltip</name>
+                <name>ПереключательОбновленияФайлРасширеннаяПодсказка</name>
                 <id>853</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -1190,7 +1202,7 @@
                 <common>true</common>
               </userVisible>
               <extendedTooltip>
-                <name>НадписьПроцессОбновленияМожетЗанятьМногоВремениExtendedTooltip</name>
+                <name>НадписьПроцессОбновленияМожетЗанятьМногоВремениРасширеннаяПодсказка</name>
                 <id>866</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -1263,7 +1275,7 @@
               <title>
                 <key>ru</key>
                 <value>Получено обновление из приложения в Интернете. Для установки потребуется
-перезапуск программы. Процесс обновления может занять длительное время.
+перезапуск приложения. Процесс обновления может занять длительное время.
 Не выключайте питание компьютера до завершения установки обновления.</value>
               </title>
               <visible>true</visible>
@@ -1272,7 +1284,7 @@
                 <common>true</common>
               </userVisible>
               <extendedTooltip>
-                <name>НадписьПолученоОбновлениеИзПриложенияФайлExtendedTooltip</name>
+                <name>НадписьПолученоОбновлениеИзПриложенияФайлРасширеннаяПодсказка</name>
                 <id>852</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -1376,7 +1388,7 @@
                 <common>true</common>
               </userVisible>
               <extendedTooltip>
-                <name>Картинка1ExtendedTooltip</name>
+                <name>Картинка1РасширеннаяПодсказка</name>
                 <id>855</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -1405,7 +1417,7 @@
               <skipOnInput>false</skipOnInput>
               <extInfo xsi:type="form:PictureDecorationExtInfo">
                 <picture xsi:type="core:PictureRef">
-                  <picture>CommonPicture.Предупреждение32</picture>
+                  <picture>StdPicture.DialogExclamation</picture>
                 </picture>
               </extInfo>
             </items>
@@ -1420,7 +1432,7 @@
                   <id>183</id>
                   <title>
                     <key>ru</key>
-                    <value>С программой сейчас работают другие пользователи. Для установки обновления необходимо завершить их работу.</value>
+                    <value>С приложением сейчас работают другие пользователи. Для установки обновления необходимо завершить их работу.</value>
                   </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -1428,7 +1440,7 @@
                     <common>true</common>
                   </userVisible>
                   <extendedTooltip>
-                    <name>Надпись43ExtendedTooltip</name>
+                    <name>Надпись43РасширеннаяПодсказка</name>
                     <id>858</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -1472,7 +1484,7 @@
                     <common>true</common>
                   </userVisible>
                   <extendedTooltip>
-                    <name>НадписьСписокДействийExtendedTooltip</name>
+                    <name>НадписьСписокДействийРасширеннаяПодсказка</name>
                     <id>859</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -1518,7 +1530,7 @@
                   <value>Активные пользователи</value>
                 </title>
                 <extendedTooltip>
-                  <name>АктивныеПользователиExtendedTooltip</name>
+                  <name>АктивныеПользователиРасширеннаяПодсказка</name>
                   <id>857</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -1546,7 +1558,7 @@
                   <id>190</id>
                   <title>
                     <key>ru</key>
-                    <value>С программой сейчас работают внешние приложения. Для установки обновления необходимо завершить их работу.</value>
+                    <value>С приложением сейчас работают внешние приложения. Для установки обновления необходимо завершить их работу.</value>
                   </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -1554,7 +1566,7 @@
                     <common>true</common>
                   </userVisible>
                   <extendedTooltip>
-                    <name>Надпись42ExtendedTooltip</name>
+                    <name>Надпись42РасширеннаяПодсказка</name>
                     <id>861</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -1598,7 +1610,7 @@
                     <common>true</common>
                   </userVisible>
                   <extendedTooltip>
-                    <name>НадписьСписокДействий1ExtendedTooltip</name>
+                    <name>НадписьСписокДействий1РасширеннаяПодсказка</name>
                     <id>862</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -1644,7 +1656,7 @@
                   <value>Активные соединения</value>
                 </title>
                 <extendedTooltip>
-                  <name>АктивныеСоединенияExtendedTooltip</name>
+                  <name>АктивныеСоединенияРасширеннаяПодсказка</name>
                   <id>860</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -1680,7 +1692,7 @@
                     <common>true</common>
                   </userVisible>
                   <extendedTooltip>
-                    <name>Надпись45ExtendedTooltip</name>
+                    <name>Надпись45РасширеннаяПодсказка</name>
                     <id>864</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -1725,7 +1737,7 @@
                     <common>true</common>
                   </userVisible>
                   <extendedTooltip>
-                    <name>НадписьСписокДействий3ExtendedTooltip</name>
+                    <name>НадписьСписокДействий3РасширеннаяПодсказка</name>
                     <id>865</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -1772,7 +1784,7 @@
                   <value>Соединение конфигуратора</value>
                 </title>
                 <extendedTooltip>
-                  <name>СоединениеКонфигуратораExtendedTooltip</name>
+                  <name>СоединениеКонфигуратораРасширеннаяПодсказка</name>
                   <id>863</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -1802,7 +1814,7 @@
                 <value>Панель активные пользователи</value>
               </title>
               <extendedTooltip>
-                <name>ПанельАктивныеПользователиExtendedTooltip</name>
+                <name>ПанельАктивныеПользователиРасширеннаяПодсказка</name>
                 <id>856</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -1868,7 +1880,7 @@
           </title>
           <verticalStretch>true</verticalStretch>
           <extendedTooltip>
-            <name>ГруппаСоединенийExtendedTooltip</name>
+            <name>ГруппаСоединенийРасширеннаяПодсказка</name>
             <id>854</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1909,7 +1921,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>Надпись46ExtendedTooltip</name>
+              <name>Надпись46РасширеннаяПодсказка</name>
               <id>869</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1953,7 +1965,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>НадписьРезервнаяКопияФайлExtendedTooltip</name>
+              <name>НадписьРезервнаяКопияФайлРасширеннаяПодсказка</name>
               <id>870</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -2001,7 +2013,7 @@
           </title>
           <verticalStretch>true</verticalStretch>
           <extendedTooltip>
-            <name>ГруппаРезервнаяКопияExtendedTooltip</name>
+            <name>ГруппаРезервнаяКопияРасширеннаяПодсказка</name>
             <id>868</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -2071,7 +2083,7 @@
         <value>Выбор режима обновления файл</value>
       </title>
       <extendedTooltip>
-        <name>ВыборРежимаОбновленияФайлExtendedTooltip</name>
+        <name>ВыборРежимаОбновленияФайлРасширеннаяПодсказка</name>
         <id>842</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -2105,7 +2117,7 @@
             <id>214</id>
             <title>
               <key>ru</key>
-              <value>Выберите способ установки обновления программы</value>
+              <value>Выберите способ установки обновления приложения</value>
             </title>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -2120,7 +2132,7 @@
               <name>ПереключательОбновленияПриИзменении</name>
             </handlers>
             <extendedTooltip>
-              <name>ПереключательОбновленияСерверExtendedTooltip</name>
+              <name>ПереключательОбновленияСерверРасширеннаяПодсказка</name>
               <id>891</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -2197,7 +2209,7 @@
             </dataPath>
             <titleLocation>None</titleLocation>
             <extendedTooltip>
-              <name>ПолеДатаВремяОбновленияExtendedTooltip</name>
+              <name>ПолеДатаВремяОбновленияРасширеннаяПодсказка</name>
               <id>894</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -2246,7 +2258,7 @@
             <value>Отступ четыре</value>
           </title>
           <extendedTooltip>
-            <name>ОтступЧетыреExtendedTooltip</name>
+            <name>ОтступЧетыреРасширеннаяПодсказка</name>
             <id>890</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -2289,7 +2301,7 @@
                 <common>true</common>
               </userVisible>
               <extendedTooltip>
-                <name>Надпись51ExtendedTooltip</name>
+                <name>Надпись51РасширеннаяПодсказка</name>
                 <id>895</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -2322,6 +2334,148 @@
               </extInfo>
             </items>
             <items xsi:type="form:FormGroup">
+              <name>ПанельУведомлятьПользователей</name>
+              <id>1250</id>
+              <items xsi:type="form:FormField">
+                <name>УведомлятьПользователей</name>
+                <id>1252</id>
+                <title>
+                  <key>ru</key>
+                  <value>Уведомлять пользователей</value>
+                </title>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>УведомлятьПользователей</segments>
+                </dataPath>
+                <titleLocation>None</titleLocation>
+                <handlers>
+                  <event>OnChange</event>
+                  <name>УведомлятьПользователейПриИзменении</name>
+                </handlers>
+                <extendedTooltip>
+                  <name>УведомлятьПользователейРасширеннаяПодсказка</name>
+                  <id>1254</id>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <contextMenu>
+                  <name>УведомлятьПользователейКонтекстноеМеню</name>
+                  <id>1253</id>
+                  <autoFill>true</autoFill>
+                </contextMenu>
+                <type>CheckBoxField</type>
+                <editMode>Enter</editMode>
+                <showInHeader>true</showInHeader>
+                <headerHorizontalAlign>Left</headerHorizontalAlign>
+                <showInFooter>true</showInFooter>
+                <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+              </items>
+              <items xsi:type="form:Decoration">
+                <name>ДекорацияУведомлятьПользователей</name>
+                <id>1255</id>
+                <title>
+                  <key>ru</key>
+                  <value>Уведомлять пользователей о планируемом обновлении за &lt;link Ссылка>5 минут&lt;/></value>
+                </title>
+                <visible>true</visible>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <extendedTooltip>
+                  <name>ДекорацияУведомлятьПользователейРасширеннаяПодсказка</name>
+                  <id>1257</id>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <contextMenu>
+                  <name>ДекорацияУведомлятьПользователейКонтекстноеМеню</name>
+                  <id>1256</id>
+                  <autoFill>true</autoFill>
+                </contextMenu>
+                <formatted>true</formatted>
+                <type>Label</type>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <handlers>
+                    <event>URLProcessing</event>
+                    <name>ДекорацияУведомлятьПользователейОбработкаНавигационнойСсылки</name>
+                  </handlers>
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </items>
+              <items xsi:type="form:Decoration">
+                <name>ДекорацияДляПодменю</name>
+                <id>1258</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <extendedTooltip>
+                  <name>ДекорацияДляПодменюРасширеннаяПодсказка</name>
+                  <id>1260</id>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <contextMenu>
+                  <name>ДекорацияДляПодменюКонтекстноеМеню</name>
+                  <id>1259</id>
+                  <autoFill>true</autoFill>
+                </contextMenu>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </items>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <title>
+                <key>ru</key>
+                <value>Панель уведомлять пользователей</value>
+              </title>
+              <extendedTooltip>
+                <name>ПанельУведомлятьПользователейРасширеннаяПодсказка</name>
+                <id>1251</id>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <type>UsualGroup</type>
+              <extInfo xsi:type="form:UsualGroupExtInfo">
+                <group>HorizontalIfPossible</group>
+                <horizontalSpacing>Half</horizontalSpacing>
+                <behavior>Auto</behavior>
+                <showLeftMargin>true</showLeftMargin>
+                <united>true</united>
+                <throughAlign>Auto</throughAlign>
+                <currentRowUse>Auto</currentRowUse>
+              </extInfo>
+            </items>
+            <items xsi:type="form:FormGroup">
               <name>ПанельПочта</name>
               <id>248</id>
               <items xsi:type="form:FormField">
@@ -2345,7 +2499,7 @@
                   <name>ВыслатьОтчетНаПочтуПриИзменении</name>
                 </handlers>
                 <extendedTooltip>
-                  <name>ВыслатьОтчетНаПочтуExtendedTooltip</name>
+                  <name>ВыслатьОтчетНаПочтуРасширеннаяПодсказка</name>
                   <id>897</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -2389,7 +2543,7 @@
                 </dataPath>
                 <titleLocation>None</titleLocation>
                 <extendedTooltip>
-                  <name>АдресЭлектроннойПочтыExtendedTooltip</name>
+                  <name>АдресЭлектроннойПочтыРасширеннаяПодсказка</name>
                   <id>898</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -2438,7 +2592,7 @@
                 <value>Панель почта</value>
               </title>
               <extendedTooltip>
-                <name>ПанельПочтаExtendedTooltip</name>
+                <name>ПанельПочтаРасширеннаяПодсказка</name>
                 <id>896</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -2471,7 +2625,7 @@
               <value>Страница запланированной перезагрузки</value>
             </title>
             <extendedTooltip>
-              <name>СтраницаЗапланированнойПерезагрузкиExtendedTooltip</name>
+              <name>СтраницаЗапланированнойПерезагрузкиРасширеннаяПодсказка</name>
               <id>893</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -2507,7 +2661,7 @@
                 <common>true</common>
               </userVisible>
               <extendedTooltip>
-                <name>НадписьБудетУстановленоОбновлениеСерверExtendedTooltip</name>
+                <name>НадписьБудетУстановленоОбновлениеСерверРасширеннаяПодсказка</name>
                 <id>900</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -2552,7 +2706,7 @@
                   <common>true</common>
                 </userVisible>
                 <extendedTooltip>
-                  <name>Картинка2ExtendedTooltip</name>
+                  <name>Картинка2РасширеннаяПодсказка</name>
                   <id>902</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -2581,7 +2735,7 @@
                 <skipOnInput>false</skipOnInput>
                 <extInfo xsi:type="form:PictureDecorationExtInfo">
                   <picture xsi:type="core:PictureRef">
-                    <picture>CommonPicture.Предупреждение32</picture>
+                    <picture>StdPicture.DialogExclamation</picture>
                   </picture>
                 </extInfo>
               </items>
@@ -2596,7 +2750,7 @@
                     <id>225</id>
                     <title>
                       <key>ru</key>
-                      <value>С программой сейчас работают другие пользователи. Их работа будет завершена автоматически.</value>
+                      <value>С приложением сейчас работают другие пользователи. Их работа будет завершена автоматически.</value>
                     </title>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -2604,7 +2758,7 @@
                       <common>true</common>
                     </userVisible>
                     <extendedTooltip>
-                      <name>Надпись48ExtendedTooltip</name>
+                      <name>Надпись48РасширеннаяПодсказка</name>
                       <id>905</id>
                       <visible>true</visible>
                       <enabled>true</enabled>
@@ -2649,7 +2803,7 @@
                       <common>true</common>
                     </userVisible>
                     <extendedTooltip>
-                      <name>НадписьСписокДействий2ExtendedTooltip</name>
+                      <name>НадписьСписокДействий2РасширеннаяПодсказка</name>
                       <id>906</id>
                       <visible>true</visible>
                       <enabled>true</enabled>
@@ -2695,7 +2849,7 @@
                     <value>Активные пользователи</value>
                   </title>
                   <extendedTooltip>
-                    <name>АктивныеПользователи1ExtendedTooltip</name>
+                    <name>АктивныеПользователи1РасширеннаяПодсказка</name>
                     <id>904</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -2732,7 +2886,7 @@
                       <common>true</common>
                     </userVisible>
                     <extendedTooltip>
-                      <name>Надпись49ExtendedTooltip</name>
+                      <name>Надпись49РасширеннаяПодсказка</name>
                       <id>908</id>
                       <visible>true</visible>
                       <enabled>true</enabled>
@@ -2776,7 +2930,7 @@
                       <common>true</common>
                     </userVisible>
                     <extendedTooltip>
-                      <name>НадписьСписокДействий4ExtendedTooltip</name>
+                      <name>НадписьСписокДействий4РасширеннаяПодсказка</name>
                       <id>909</id>
                       <visible>true</visible>
                       <enabled>true</enabled>
@@ -2822,7 +2976,7 @@
                     <value>Активные соединения</value>
                   </title>
                   <extendedTooltip>
-                    <name>АктивныеСоединения1ExtendedTooltip</name>
+                    <name>АктивныеСоединения1РасширеннаяПодсказка</name>
                     <id>907</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -2852,7 +3006,7 @@
                   <value>Панель активные пользователи 1</value>
                 </title>
                 <extendedTooltip>
-                  <name>ПанельАктивныеПользователи1ExtendedTooltip</name>
+                  <name>ПанельАктивныеПользователи1РасширеннаяПодсказка</name>
                   <id>903</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -2881,7 +3035,7 @@
                 <value>Соединений 1</value>
               </title>
               <extendedTooltip>
-                <name>ГруппаСоединений1ExtendedTooltip</name>
+                <name>ГруппаСоединений1РасширеннаяПодсказка</name>
                 <id>901</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -2975,7 +3129,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>Декорация13ExtendedTooltip</name>
+              <name>Декорация13РасширеннаяПодсказка</name>
               <id>912</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -3024,7 +3178,7 @@
                 <common>true</common>
               </userVisible>
               <extendedTooltip>
-                <name>НадписьРезервнаяКопияСерверExtendedTooltip</name>
+                <name>НадписьРезервнаяКопияСерверРасширеннаяПодсказка</name>
                 <id>913</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -3099,7 +3253,7 @@
             <value>Резервная копия сервер</value>
           </title>
           <extendedTooltip>
-            <name>ГруппаРезервнаяКопияСерверExtendedTooltip</name>
+            <name>ГруппаРезервнаяКопияСерверРасширеннаяПодсказка</name>
             <id>911</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -3168,7 +3322,7 @@
         <value>Выбор режима обновления сервер</value>
       </title>
       <extendedTooltip>
-        <name>ВыборРежимаОбновленияСерверExtendedTooltip</name>
+        <name>ВыборРежимаОбновленияСерверРасширеннаяПодсказка</name>
         <id>880</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -3234,7 +3388,7 @@
             <autoMaxHeight>true</autoMaxHeight>
             <extInfo xsi:type="form:PictureDecorationExtInfo">
               <picture xsi:type="core:PictureRef">
-                <picture>CommonPicture.Ошибка32</picture>
+                <picture>StdPicture.DialogStop</picture>
               </picture>
             </extInfo>
           </items>
@@ -3326,7 +3480,7 @@
           <id>1210</id>
           <title>
             <key>ru</key>
-            <value>Установлено исправлений: %1 из %2, изменения вступят в силу после перезапуска программы</value>
+            <value>Установлено исправлений: %1 из %2, изменения вступят в силу после перезапуска приложения</value>
           </title>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -3406,7 +3560,7 @@
           <id>1182</id>
           <title>
             <key>ru</key>
-            <value>Исправления установлены и вступят в силу после перезапуска программы</value>
+            <value>Исправления установлены и вступят в силу после перезапуска приложения</value>
           </title>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -3492,7 +3646,7 @@
             <id>1190</id>
             <title>
               <key>ru</key>
-              <value>Перезапустить программу</value>
+              <value>Перезапустить приложение</value>
             </title>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -3503,6 +3657,10 @@
               <segments>ПерезапуститьПрограмму</segments>
             </dataPath>
             <titleLocation>Right</titleLocation>
+            <handlers>
+              <event>OnChange</event>
+              <name>ПерезапуститьПрограммуПриИзменении</name>
+            </handlers>
             <extendedTooltip>
               <name>ПерезапуститьПрограммуРасширеннаяПодсказка</name>
               <id>1192</id>
@@ -3576,8 +3734,8 @@
             <id>1195</id>
             <title>
               <key>ru</key>
-              <value>Также с программой работают &lt;link 1>другие пользователи&lt;/>.
-Для них исправления вступят в силу при следующем входе в программу.</value>
+              <value>Также с приложением работают &lt;link 1>другие пользователи&lt;/>.
+Для них исправления вступят в силу при следующем входе в приложение.</value>
             </title>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -3740,7 +3898,7 @@
                 <common>true</common>
               </userVisible>
               <extendedTooltip>
-                <name>Картинка27ExtendedTooltip</name>
+                <name>Картинка27РасширеннаяПодсказка</name>
                 <id>1134</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -3769,7 +3927,7 @@
               <skipOnInput>false</skipOnInput>
               <extInfo xsi:type="form:PictureDecorationExtInfo">
                 <picture xsi:type="core:PictureRef">
-                  <picture>CommonPicture.Информация32</picture>
+                  <picture>StdPicture.DialogInformation</picture>
                 </picture>
               </extInfo>
             </items>
@@ -3778,7 +3936,7 @@
               <id>1135</id>
               <title>
                 <key>ru</key>
-                <value>Обновление программы выполняется при синхронизации данных с &quot;%1&quot;.</value>
+                <value>Обновление приложения выполняется при синхронизации данных с &quot;%1&quot;.</value>
               </title>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -3786,7 +3944,7 @@
                 <common>true</common>
               </userVisible>
               <extendedTooltip>
-                <name>НадписьОбновлениеКонфигурацииВыполняетсяПриОбменеДаннымиСГлавнымУзломExtendedTooltip</name>
+                <name>НадписьОбновлениеКонфигурацииВыполняетсяПриОбменеДаннымиСГлавнымУзломРасширеннаяПодсказка</name>
                 <id>1137</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -3829,7 +3987,7 @@
               <value>Обновление производится в главном узле</value>
             </title>
             <extendedTooltip>
-              <name>ОбновлениеПроизводитсяВГлавномУзлеExtendedTooltip</name>
+              <name>ОбновлениеПроизводитсяВГлавномУзлеРасширеннаяПодсказка</name>
               <id>1131</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -3855,6 +4013,10 @@
           <items xsi:type="form:FormField">
             <name>ВерсияТекущейКонфигурации</name>
             <id>1224</id>
+            <title>
+              <key>ru</key>
+              <value>Текущая версия приложения</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -3955,7 +4117,7 @@
             <value>Результат поиска обновления</value>
           </title>
           <extendedTooltip>
-            <name>ГруппаРезультатПоискаОбновленияExtendedTooltip</name>
+            <name>ГруппаРезультатПоискаОбновленияРасширеннаяПодсказка</name>
             <id>1103</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -4023,7 +4185,7 @@
         <value>Обновления не обнаружено</value>
       </title>
       <extendedTooltip>
-        <name>ОбновленияНеОбнаруженоExtendedTooltip</name>
+        <name>ОбновленияНеОбнаруженоРасширеннаяПодсказка</name>
         <id>1099</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -4053,7 +4215,7 @@
       <value>Страницы помощника</value>
     </title>
     <extendedTooltip>
-      <name>СтраницыПомощникаExtendedTooltip</name>
+      <name>СтраницыПомощникаРасширеннаяПодсказка</name>
       <id>657</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -4081,6 +4243,10 @@
       <items xsi:type="form:Button">
         <name>КнопкаНазад</name>
         <id>19</id>
+        <title>
+          <key>ru</key>
+          <value>&lt; Назад</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -4088,7 +4254,7 @@
         </userVisible>
         <skipOnInput>false</skipOnInput>
         <extendedTooltip>
-          <name>КнопкаНазадExtendedTooltip</name>
+          <name>КнопкаНазадРасширеннаяПодсказка</name>
           <id>654</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -4155,7 +4321,7 @@
         </userVisible>
         <skipOnInput>false</skipOnInput>
         <extendedTooltip>
-          <name>КнопкаДалееExtendedTooltip</name>
+          <name>КнопкаДалееРасширеннаяПодсказка</name>
           <id>655</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -4471,7 +4637,7 @@
     <name>ПерезапуститьПрограмму</name>
     <title>
       <key>ru</key>
-      <value>Перезапустить программу</value>
+      <value>Перезапустить приложение</value>
     </title>
     <id>32</id>
     <valueType>
@@ -4547,7 +4713,7 @@
     <name>ВерсияТекущейКонфигурации</name>
     <title>
       <key>ru</key>
-      <value>Текущая версия программы</value>
+      <value>Текущая версия приложения</value>
     </title>
     <id>3</id>
     <valueType>
@@ -4593,6 +4759,52 @@
     <id>7</id>
     <valueType>
       <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ПоказатьУстановленныеИсправления</name>
+    <id>8</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>УведомлятьПользователей</name>
+    <title>
+      <key>ru</key>
+      <value>Уведомлять пользователей</value>
+    </title>
+    <id>36</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ИнтервалУведомления</name>
+    <id>37</id>
+    <valueType>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
     </valueType>
     <view>
       <common>true</common>

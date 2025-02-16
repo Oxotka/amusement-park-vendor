@@ -7,7 +7,7 @@
   <name>РезультатыОбновленияПрограммы</name>
   <synonym>
     <key>ru</key>
-    <value>Результаты обновления программы</value>
+    <value>Результаты обновления приложения</value>
   </synonym>
   <comment>АПК:78-выкл для вызова различных этапов обновления</comment>
   <defaultForm>DataProcessor.РезультатыОбновленияПрограммы.Form.РезультатыОбновленияПрограммы</defaultForm>
@@ -21,7 +21,7 @@
     <name>РезультатыОбновленияПрограммы</name>
     <synonym>
       <key>ru</key>
-      <value>Результаты обновления программы</value>
+      <value>Результаты обновления приложения</value>
     </synonym>
     <help>
       <pages>
@@ -49,7 +49,7 @@
     <name>ОбновлениеВерсииПрограммы</name>
     <synonym>
       <key>ru</key>
-      <value>Обновление версии программы</value>
+      <value>Обновление версии приложения</value>
     </synonym>
     <help>
       <pages>

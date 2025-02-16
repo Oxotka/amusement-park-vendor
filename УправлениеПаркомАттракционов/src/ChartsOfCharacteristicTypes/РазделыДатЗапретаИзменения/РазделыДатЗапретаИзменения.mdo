@@ -108,15 +108,6 @@
   <codeAllowedLength>Variable</codeAllowedLength>
   <descriptionLength>150</descriptionLength>
   <defaultPresentation>AsDescription</defaultPresentation>
-  <predefined>
-    <items id="527c98a3-3bfc-4bf9-8ec7-0247fdfa7a29">
-      <name>УдалитьОбработкаПерсональныхДанных</name>
-      <description>(не используется) Обработка персональных данных</description>
-      <type>
-        <types>ChartOfCharacteristicTypesRef.РазделыДатЗапретаИзменения</types>
-      </type>
-    </items>
-  </predefined>
   <predefinedDataUpdate>DontAutoUpdate</predefinedDataUpdate>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>

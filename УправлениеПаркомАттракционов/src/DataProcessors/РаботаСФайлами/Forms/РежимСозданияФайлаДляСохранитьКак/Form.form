@@ -20,7 +20,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ДекорацияИконкаExtendedTooltip</name>
+        <name>ДекорацияИконкаРасширеннаяПодсказка</name>
         <id>24</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -49,13 +49,17 @@
       <skipOnInput>false</skipOnInput>
       <extInfo xsi:type="form:PictureDecorationExtInfo">
         <picture xsi:type="core:PictureRef">
-          <picture>CommonPicture.Предупреждение32</picture>
+          <picture>StdPicture.DialogExclamation</picture>
         </picture>
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
       <name>Сообщение</name>
       <id>3</id>
+      <title>
+        <key>ru</key>
+        <value>Сообщение</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -66,7 +70,7 @@
       </dataPath>
       <titleLocation>None</titleLocation>
       <extendedTooltip>
-        <name>СообщениеExtendedTooltip</name>
+        <name>СообщениеРасширеннаяПодсказка</name>
         <id>25</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -113,7 +117,7 @@
       <value>Сообщение</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаСообщениеExtendedTooltip</name>
+      <name>ГруппаСообщениеРасширеннаяПодсказка</name>
       <id>23</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -145,6 +149,10 @@
       <items xsi:type="form:FormField">
         <name>Файл</name>
         <id>8</id>
+        <title>
+          <key>ru</key>
+          <value>Копия файла на компьютере</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -155,7 +163,7 @@
         </dataPath>
         <titleLocation>Top</titleLocation>
         <extendedTooltip>
-          <name>ФайлExtendedTooltip</name>
+          <name>ФайлРасширеннаяПодсказка</name>
           <id>29</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -198,6 +206,10 @@
       <items xsi:type="form:Button">
         <name>ОткрытьКаталог</name>
         <id>14</id>
+        <title>
+          <key>ru</key>
+          <value>Открыть каталог</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -205,7 +217,7 @@
         </userVisible>
         <skipOnInput>false</skipOnInput>
         <extendedTooltip>
-          <name>ОткрытьКаталогExtendedTooltip</name>
+          <name>ОткрытьКаталогРасширеннаяПодсказка</name>
           <id>30</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -237,7 +249,7 @@
         <value>Файл и кнопка</value>
       </title>
       <extendedTooltip>
-        <name>ГруппаФайлИКнопкаExtendedTooltip</name>
+        <name>ГруппаФайлИКнопкаРасширеннаяПодсказка</name>
         <id>28</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -270,7 +282,7 @@
       <value>Файл</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаФайлExtendedTooltip</name>
+      <name>ГруппаФайлРасширеннаяПодсказка</name>
       <id>26</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -297,6 +309,10 @@
   <items xsi:type="form:FormField">
     <name>РежимСозданияФайла</name>
     <id>5</id>
+    <title>
+      <key>ru</key>
+      <value>Выберите, какую копию файла сохранить</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -307,7 +323,7 @@
     </dataPath>
     <titleLocation>Top</titleLocation>
     <extendedTooltip>
-      <name>РежимСозданияФайлаExtendedTooltip</name>
+      <name>РежимСозданияФайлаРасширеннаяПодсказка</name>
       <id>31</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -350,7 +366,7 @@
       <choiceList>
         <presentation>
           <key>ru</key>
-          <value>Получить заново и сохранить копию файла из программы</value>
+          <value>Получить заново и сохранить копию файла из приложения</value>
         </presentation>
         <value xsi:type="core:NumberValue">
           <value>0</value>
@@ -365,6 +381,10 @@
     <items xsi:type="form:Button">
       <name>СохранитьФайл</name>
       <id>12</id>
+      <title>
+        <key>ru</key>
+        <value>Сохранить файл</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -404,7 +424,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>ОтменаExtendedTooltip</name>
+        <name>ОтменаРасширеннаяПодсказка</name>
         <id>22</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -547,6 +567,20 @@
     <representation>Picture</representation>
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
+  <parameters>
+    <name>Файл</name>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>Сообщение</name>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+  </parameters>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>

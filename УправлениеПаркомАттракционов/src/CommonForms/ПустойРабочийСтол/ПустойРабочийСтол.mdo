@@ -3,7 +3,7 @@
   <name>ПустойРабочийСтол</name>
   <synonym>
     <key>ru</key>
-    <value>Пустой рабочий стол</value>
+    <value>Пустая начальная страница</value>
   </synonym>
   <usePurposes>PersonalComputer</usePurposes>
   <usePurposes>MobileDevice</usePurposes>

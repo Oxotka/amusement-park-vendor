@@ -65,7 +65,7 @@
       </dataPath>
       <defaultItem>true</defaultItem>
       <extendedTooltip>
-        <name>НаименованиеExtendedTooltip</name>
+        <name>НаименованиеРасширеннаяПодсказка</name>
         <id>28</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -113,7 +113,7 @@
         <segments>Список.Code</segments>
       </dataPath>
       <extendedTooltip>
-        <name>КодExtendedTooltip</name>
+        <name>КодРасширеннаяПодсказка</name>
         <id>29</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -160,7 +160,7 @@
         <segments>Список.КодАльфа2</segments>
       </dataPath>
       <extendedTooltip>
-        <name>КодАльфа2ExtendedTooltip</name>
+        <name>КодАльфа2РасширеннаяПодсказка</name>
         <id>30</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -207,7 +207,7 @@
         <segments>Список.КодАльфа3</segments>
       </dataPath>
       <extendedTooltip>
-        <name>КодАльфа3ExtendedTooltip</name>
+        <name>КодАльфа3РасширеннаяПодсказка</name>
         <id>31</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -300,7 +300,7 @@
         <segments>Список.НаименованиеПолное</segments>
       </dataPath>
       <extendedTooltip>
-        <name>НаименованиеПолноеExtendedTooltip</name>
+        <name>НаименованиеПолноеРасширеннаяПодсказка</name>
         <id>32</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -514,7 +514,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>СписокExtendedTooltip</name>
+      <name>СписокРасширеннаяПодсказка</name>
       <id>27</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -586,7 +586,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>СписокВыбратьExtendedTooltip</name>
+        <name>СписокВыбратьРасширеннаяПодсказка</name>
         <id>21</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -648,6 +648,10 @@
       <items xsi:type="form:Button">
         <name>СписокВыбратьИзКлассификатора</name>
         <id>53</id>
+        <title>
+          <key>ru</key>
+          <value>Добавить из классификатора...</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -715,7 +719,7 @@
         <value>Команды списка</value>
       </title>
       <extendedTooltip>
-        <name>СписокКомандыExtendedTooltip</name>
+        <name>СписокКомандыРасширеннаяПодсказка</name>
         <id>22</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -736,13 +740,17 @@
     <items xsi:type="form:Button">
       <name>СписокКлассификатор</name>
       <id>17</id>
+      <title>
+        <key>ru</key>
+        <value>Классификатор стран (ОКСМ)</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>СписокКлассификаторExtendedTooltip</name>
+        <name>СписокКлассификаторРасширеннаяПодсказка</name>
         <id>23</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -773,7 +781,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>СписокИзменитьФормуExtendedTooltip</name>
+        <name>СписокИзменитьФормуРасширеннаяПодсказка</name>
         <id>25</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -803,7 +811,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>СписокСправкаExtendedTooltip</name>
+        <name>СписокСправкаРасширеннаяПодсказка</name>
         <id>26</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1069,6 +1077,12 @@
     <name>РазрешитьДанныеКлассификатора</name>
     <valueType/>
     <keyParameter>true</keyParameter>
+  </parameters>
+  <parameters>
+    <name>РежимВыбора</name>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
   </parameters>
   <commandInterface>
     <navigationPanel/>

@@ -10,6 +10,10 @@
     <items xsi:type="form:Button">
       <name>ОчиститьЦвет</name>
       <id>9</id>
+      <title>
+        <key>ru</key>
+        <value>Очистить цвет</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>

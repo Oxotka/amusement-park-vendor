@@ -7,6 +7,10 @@
   <items xsi:type="form:FormField">
     <name>СохранятьСРасшифровкой</name>
     <id>8</id>
+    <title>
+      <key>ru</key>
+      <value>Режим сохранения файла</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -17,7 +21,7 @@
     </dataPath>
     <titleLocation>None</titleLocation>
     <extendedTooltip>
-      <name>СохранятьСРасшифровкойExtendedTooltip</name>
+      <name>СохранятьСРасшифровкойРасширеннаяПодсказка</name>
       <id>13</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -75,6 +79,10 @@
     <items xsi:type="form:Button">
       <name>ФормаСохранитьФайл</name>
       <id>5</id>
+      <title>
+        <key>ru</key>
+        <value>Сохранить файл</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -112,7 +120,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаОтменаExtendedTooltip</name>
+        <name>ФормаОтменаРасширеннаяПодсказка</name>
         <id>12</id>
         <visible>true</visible>
         <enabled>true</enabled>

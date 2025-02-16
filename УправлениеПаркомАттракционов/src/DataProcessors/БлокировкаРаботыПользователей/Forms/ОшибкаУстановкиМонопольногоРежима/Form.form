@@ -22,7 +22,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>КартинкаПредупреждениеExtendedTooltip</name>
+            <name>КартинкаПредупреждениеРасширеннаяПодсказка</name>
             <id>50</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -50,7 +50,7 @@
           <autoMaxHeight>true</autoMaxHeight>
           <extInfo xsi:type="form:PictureDecorationExtInfo">
             <picture xsi:type="core:PictureRef">
-              <picture>CommonPicture.Предупреждение32</picture>
+              <picture>StdPicture.DialogExclamation</picture>
             </picture>
           </extInfo>
         </items>
@@ -65,7 +65,7 @@
               <id>1</id>
               <title>
                 <key>ru</key>
-                <value>Невозможно выполнить обновление версии программы, т.к. с ней работают другие пользователи:</value>
+                <value>Невозможно выполнить обновление версии приложения, т.к. с ним работают другие пользователи:</value>
               </title>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -73,7 +73,7 @@
                 <common>true</common>
               </userVisible>
               <extendedTooltip>
-                <name>ТекстСообщенияОбОшибкеExtendedTooltip</name>
+                <name>ТекстСообщенияОбОшибкеРасширеннаяПодсказка</name>
                 <id>53</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -117,7 +117,7 @@
               </userVisible>
               <toolTipRepresentation>ShowBottom</toolTipRepresentation>
               <extendedTooltip>
-                <name>АктивныеПользователиExtendedTooltip</name>
+                <name>АктивныеПользователиРасширеннаяПодсказка</name>
                 <id>54</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -162,7 +162,7 @@
               <value>Сообщение об ошибке</value>
             </title>
             <extendedTooltip>
-              <name>ГруппаСообщениеОбОшибкеExtendedTooltip</name>
+              <name>ГруппаСообщениеОбОшибкеРасширеннаяПодсказка</name>
               <id>52</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -198,7 +198,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ПояснениеПоОшибкеExtendedTooltip</name>
+              <name>ПояснениеПоОшибкеРасширеннаяПодсказка</name>
               <id>55</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -240,7 +240,7 @@
             <value>Информация</value>
           </title>
           <extendedTooltip>
-            <name>ГруппаИнформацияExtendedTooltip</name>
+            <name>ГруппаИнформацияРасширеннаяПодсказка</name>
             <id>51</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -273,7 +273,7 @@
           <value>Информация для пользователя</value>
         </title>
         <extendedTooltip>
-          <name>ГруппаИнформацияДляПользователяExtendedTooltip</name>
+          <name>ГруппаИнформацияДляПользователяРасширеннаяПодсказка</name>
           <id>49</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -344,7 +344,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>КартинкаОжиданиеExtendedTooltip</name>
+            <name>КартинкаОжиданиеРасширеннаяПодсказка</name>
             <id>58</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -384,8 +384,8 @@
             <id>26</id>
             <title>
               <key>ru</key>
-              <value>В течение ближайших семи минут работа всех пользователей в программе будет завершена автоматически. 
-При этом им будет выведено предупреждение, чтобы перед выходом из программы они могли сохранить введенные данные.</value>
+              <value>В течение ближайших семи минут работа всех пользователей в приложении будет завершена автоматически. 
+При этом им будет выведено предупреждение, чтобы перед выходом из приложения они могли сохранить введенные данные.</value>
             </title>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -393,7 +393,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ТекстПоясненияExtendedTooltip</name>
+              <name>ТекстПоясненияРасширеннаяПодсказка</name>
               <id>60</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -515,7 +515,7 @@
           <value>Содержание</value>
         </title>
         <extendedTooltip>
-          <name>ГруппаСодержаниеExtendedTooltip</name>
+          <name>ГруппаСодержаниеРасширеннаяПодсказка</name>
           <id>57</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -577,7 +577,7 @@
       <value>Страницы</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаСтраницыExtendedTooltip</name>
+      <name>ГруппаСтраницыРасширеннаяПодсказка</name>
       <id>47</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -603,13 +603,17 @@
     <items xsi:type="form:Button">
       <name>ФормаПовторитьЗапускПрограммы</name>
       <id>14</id>
+      <title>
+        <key>ru</key>
+        <value>Повторить</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаПовторитьЗапускПрограммыExtendedTooltip</name>
+        <name>ФормаПовторитьЗапускПрограммыРасширеннаяПодсказка</name>
         <id>43</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -634,13 +638,17 @@
     <items xsi:type="form:Button">
       <name>ФормаЗавершитьСеансыИПерезапуститьПрограмму</name>
       <id>4</id>
+      <title>
+        <key>ru</key>
+        <value>Завершить сеансы и повторить</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаЗавершитьСеансыИПерезапуститьПрограммуExtendedTooltip</name>
+        <name>ФормаЗавершитьСеансыИПерезапуститьПрограммуРасширеннаяПодсказка</name>
         <id>44</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -664,13 +672,17 @@
     <items xsi:type="form:Button">
       <name>ФормаОтменитьЗапускПрограммы</name>
       <id>3</id>
+      <title>
+        <key>ru</key>
+        <value>Отменить</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаОтменитьЗапускПрограммыExtendedTooltip</name>
+        <name>ФормаОтменитьЗапускПрограммыРасширеннаяПодсказка</name>
         <id>45</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -700,7 +712,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаСправкаExtendedTooltip</name>
+        <name>ФормаСправкаРасширеннаяПодсказка</name>
         <id>46</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -777,34 +789,6 @@
     </edit>
   </attributes>
   <attributes>
-    <name>ТекущаяСтраницаПомощника</name>
-    <id>4</id>
-    <valueType>
-      <types>String</types>
-      <stringQualifiers/>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>СообщениеОбОшибке</name>
-    <id>6</id>
-    <valueType>
-      <types>String</types>
-      <stringQualifiers/>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
     <name>ПродолжительностьЗавершенияРаботыПользователей</name>
     <id>5</id>
     <valueType>
@@ -812,19 +796,6 @@
       <numberQualifiers>
         <precision>10</precision>
       </numberQualifiers>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>ЭтоУдалениеПомеченныхОбъектов</name>
-    <id>7</id>
-    <valueType>
-      <types>Boolean</types>
     </valueType>
     <view>
       <common>true</common>
@@ -928,9 +899,56 @@
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <parameters>
-    <name>УдалениеПомеченныхОбъектов</name>
+    <name>Заголовок</name>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>ТекстСообщенияОбОшибке</name>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>ЗавершатьСеансКонфигуратора</name>
     <valueType>
       <types>Boolean</types>
+    </valueType>
+    <keyParameter>true</keyParameter>
+  </parameters>
+  <parameters>
+    <name>ЗавершатьВсеСеансыКромеТекущего</name>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <keyParameter>true</keyParameter>
+  </parameters>
+  <parameters>
+    <name>ПериодБлокировки</name>
+    <valueType>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </valueType>
+    <keyParameter>true</keyParameter>
+  </parameters>
+  <parameters>
+    <name>СообщениеПриВходеВПриложение</name>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <keyParameter>true</keyParameter>
+  </parameters>
+  <parameters>
+    <name>ТекстСообщенияОбОшибкеЗавершенияРаботы</name>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
     </valueType>
     <keyParameter>true</keyParameter>
   </parameters>

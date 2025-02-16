@@ -44,7 +44,7 @@
       <autoMaxHeight>true</autoMaxHeight>
       <extInfo xsi:type="form:PictureDecorationExtInfo">
         <picture xsi:type="core:PictureRef">
-          <picture>CommonPicture.Ошибка32</picture>
+          <picture>StdPicture.DialogStop</picture>
         </picture>
       </extInfo>
     </items>

@@ -18,6 +18,10 @@
             <items xsi:type="form:FormField">
               <name>ОсновнойОбъектМетаданных</name>
               <id>772</id>
+              <title>
+                <key>ru</key>
+                <value>Объект метаданных</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -2006,7 +2010,7 @@
         <key>ru</key>
         <value>Описание</value>
       </title>
-      <shortcut>Alt+1</shortcut>
+      <shortcut>Option+1</shortcut>
       <extendedTooltip>
         <name>СтраницаОписаниеРасширеннаяПодсказка</name>
         <id>4</id>
@@ -2152,6 +2156,10 @@
                   <autoMaxHeight>true</autoMaxHeight>
                   <horizontalStretch>true</horizontalStretch>
                   <verticalStretch>true</verticalStretch>
+                  <border xsi:type="core:BorderDef">
+                    <style>Single</style>
+                    <width>1</width>
+                  </border>
                 </extInfo>
               </items>
               <items xsi:type="form:FormField">
@@ -2305,6 +2313,10 @@
                 <autoMaxHeight>true</autoMaxHeight>
                 <horizontalStretch>true</horizontalStretch>
                 <verticalStretch>true</verticalStretch>
+                <border xsi:type="core:BorderDef">
+                  <style>Single</style>
+                  <width>1</width>
+                </border>
                 <fileDragMode>AsFileRef</fileDragMode>
               </extInfo>
             </items>
@@ -2361,6 +2373,10 @@
               <items xsi:type="form:Button">
                 <name>ЧитаемыеОбъектыСведенияОБлокировке</name>
                 <id>819</id>
+                <title>
+                  <key>ru</key>
+                  <value>Сведения о блокировке</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -2576,6 +2592,10 @@
               <items xsi:type="form:Button">
                 <name>ЧитаемыеОбъектыДобавитьЧитаемыйОбъектВИзменяемые</name>
                 <id>792</id>
+                <title>
+                  <key>ru</key>
+                  <value>Добавить в изменяемые</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -2606,6 +2626,10 @@
               <items xsi:type="form:Button">
                 <name>ЧитаемыеОбъектыДобавитьТипыРеквизита</name>
                 <id>784</id>
+                <title>
+                  <key>ru</key>
+                  <value>Добавить типы реквизита</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -2788,6 +2812,10 @@
             <items xsi:type="form:Button">
               <name>ДобавитьТипыРеквизитаОбъектаВЧитаемыеДанные</name>
               <id>141</id>
+              <title>
+                <key>ru</key>
+                <value>Записать</value>
+              </title>
               <enabled>true</enabled>
               <userVisible>
                 <common>true</common>
@@ -2959,6 +2987,10 @@
                   <autoMaxHeight>true</autoMaxHeight>
                   <horizontalStretch>true</horizontalStretch>
                   <verticalStretch>true</verticalStretch>
+                  <border xsi:type="core:BorderDef">
+                    <style>Single</style>
+                    <width>1</width>
+                  </border>
                 </extInfo>
               </items>
               <items xsi:type="form:FormField">
@@ -3346,6 +3378,10 @@
               <items xsi:type="form:Button">
                 <name>ИзменяемыеОбъектыДобавитьОбъектОбработчика</name>
                 <id>775</id>
+                <title>
+                  <key>ru</key>
+                  <value>Добавить объект по имени обработчика</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -3376,6 +3412,10 @@
               <items xsi:type="form:Button">
                 <name>ИзменяемыеОбъектыДобавитьИзменяемыйОбъектВЧитаемые</name>
                 <id>790</id>
+                <title>
+                  <key>ru</key>
+                  <value>Добавить в читаемые</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -3642,6 +3682,10 @@
               <autoMaxHeight>true</autoMaxHeight>
               <horizontalStretch>true</horizontalStretch>
               <verticalStretch>true</verticalStretch>
+              <border xsi:type="core:BorderDef">
+                <style>Single</style>
+                <width>1</width>
+              </border>
             </extInfo>
           </items>
           <items xsi:type="form:FormField">
@@ -3901,6 +3945,10 @@
           <items xsi:type="form:Button">
             <name>БлокируемыеОбъектыДобавитьТипыРеквизита</name>
             <id>799</id>
+            <title>
+              <key>ru</key>
+              <value>Добавить типы реквизита</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -3971,7 +4019,7 @@
         <key>ru</key>
         <value>Объекты</value>
       </title>
-      <shortcut>Alt+2</shortcut>
+      <shortcut>Option+2</shortcut>
       <extendedTooltip>
         <name>СтраницаОбъектыРасширеннаяПодсказка</name>
         <id>6</id>
@@ -4713,6 +4761,9 @@
           <readOnly>true</readOnly>
           <editMode>EnterOnInput</editMode>
           <showInHeader>true</showInHeader>
+          <headerPicture xsi:type="core:PictureRef">
+            <picture>StdPicture.AppearanceExclamationMark</picture>
+          </headerPicture>
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
           <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
@@ -4729,7 +4780,7 @@
           <titleLocation>None</titleLocation>
           <toolTip>
             <key>ru</key>
-            <value>Повторная запись</value>
+            <value>Повторная запись изменяемых объектов другими обработчиками.</value>
           </toolTip>
           <extendedTooltip>
             <name>ПриоритетыВыполненияПовторнаяЗаписьРасширеннаяПодсказка</name>
@@ -4773,6 +4824,10 @@
           <items xsi:type="form:Button">
             <name>ЗаполнитьОбработчик1</name>
             <id>764</id>
+            <title>
+              <key>ru</key>
+              <value>Сначала Текущий</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -4803,6 +4858,10 @@
           <items xsi:type="form:Button">
             <name>ЗаполнитьОбработчик2</name>
             <id>766</id>
+            <title>
+              <key>ru</key>
+              <value>Сначала Конфликтующий</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -4833,6 +4892,10 @@
           <items xsi:type="form:Button">
             <name>ЗаполнитьЛюбой</name>
             <id>768</id>
+            <title>
+              <key>ru</key>
+              <value>Любой порядок</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -5012,6 +5075,10 @@
           <items xsi:type="form:Button">
             <name>ВыделитьПустойПорядок</name>
             <id>803</id>
+            <title>
+              <key>ru</key>
+              <value>Выделить пустой порядок</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -5127,6 +5194,10 @@
         <items xsi:type="form:FormField">
           <name>Комментарий2</name>
           <id>666</id>
+          <title>
+            <key>ru</key>
+            <value>Комментарий2</value>
+          </title>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
@@ -5332,6 +5403,10 @@
         <items xsi:type="form:FormField">
           <name>ПересеченияЗаписьЧитаемых</name>
           <id>752</id>
+          <title>
+            <key>ru</key>
+            <value>Запись читаемых</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -5375,6 +5450,9 @@
           <readOnly>true</readOnly>
           <editMode>EnterOnInput</editMode>
           <showInHeader>true</showInHeader>
+          <headerPicture xsi:type="core:PictureRef">
+            <picture>StdPicture.AppearanceExclamationMark</picture>
+          </headerPicture>
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
           <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
@@ -5382,6 +5460,10 @@
         <items xsi:type="form:FormField">
           <name>ПересеченияПовторнаяЗапись</name>
           <id>755</id>
+          <title>
+            <key>ru</key>
+            <value>Повторная запись</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -5434,6 +5516,10 @@
         <items xsi:type="form:FormField">
           <name>ПересеченияОбъектМетаданных</name>
           <id>749</id>
+          <title>
+            <key>ru</key>
+            <value>Объект метаданных</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -5487,7 +5573,7 @@
           <id>743</id>
           <title>
             <key>ru</key>
-            <value>Обработчик писатель</value>
+            <value>Обработчик-писатель</value>
           </title>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -5542,7 +5628,7 @@
           <id>746</id>
           <title>
             <key>ru</key>
-            <value>Обработчик читатель (или писатель 2)</value>
+            <value>Обработчик-читатель (или писатель 2)</value>
           </title>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -5775,7 +5861,7 @@
         <key>ru</key>
         <value>Конфликты</value>
       </title>
-      <shortcut>Alt+3</shortcut>
+      <shortcut>Option+3</shortcut>
       <extendedTooltip>
         <name>СтраницаКонфликтыРасширеннаяПодсказка</name>
         <id>276</id>
@@ -5840,6 +5926,10 @@
     <items xsi:type="form:Button">
       <name>ФормаЗаписатьИЗакрыть</name>
       <id>231</id>
+      <title>
+        <key>ru</key>
+        <value>Записать и закрыть</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -5871,6 +5961,10 @@
     <items xsi:type="form:Button">
       <name>ФормаЗаписать</name>
       <id>229</id>
+      <title>
+        <key>ru</key>
+        <value>Записать</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -6518,7 +6612,7 @@
     <use>
       <common>true</common>
     </use>
-    <shortcut>Ctrl+1</shortcut>
+    <shortcut>Cmd+1</shortcut>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>ЗаполнитьОбработчик1</name>
@@ -6540,7 +6634,7 @@
     <use>
       <common>true</common>
     </use>
-    <shortcut>Ctrl+2</shortcut>
+    <shortcut>Cmd+2</shortcut>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>ЗаполнитьОбработчик2</name>
@@ -6562,7 +6656,7 @@
     <use>
       <common>true</common>
     </use>
-    <shortcut>Ctrl+3</shortcut>
+    <shortcut>Cmd+3</shortcut>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>ЗаполнитьЛюбой</name>
@@ -6708,7 +6802,7 @@
     <use>
       <common>true</common>
     </use>
-    <shortcut>Ctrl+Shift+A</shortcut>
+    <shortcut>Cmd+Shift+A</shortcut>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>ВыделитьПустойПорядок</name>

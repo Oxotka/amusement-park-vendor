@@ -19,7 +19,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ДекорацияДлительнаяОперацияExtendedTooltip</name>
+          <name>ДекорацияДлительнаяОперацияРасширеннаяПодсказка</name>
           <id>10</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -484,6 +484,13 @@
   </parameters>
   <parameters>
     <name>Заголовок</name>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>ЗаголовокКнопкиОтмена</name>
     <valueType>
       <types>String</types>
       <stringQualifiers/>

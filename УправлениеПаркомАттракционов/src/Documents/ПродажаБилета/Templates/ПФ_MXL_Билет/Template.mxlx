@@ -371,7 +371,7 @@
 		<fillType>Parameter</fillType>
 	</format>
 	<picture>
-		<index>1</index>
+		<index>0</index>
 		<picture t="false" ref="v8ui:МестоДляQRКода"/>
 	</picture>
 </document>

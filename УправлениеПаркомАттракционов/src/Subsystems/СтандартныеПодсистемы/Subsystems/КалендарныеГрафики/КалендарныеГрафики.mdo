@@ -30,5 +30,6 @@
   <content>CommonModule.КалендарныеГрафикиСлужебный</content>
   <content>StyleItem.НерабочийПериодПроизводственногоКалендаряФон</content>
   <content>InformationRegister.ПериодыНерабочихДнейКалендаря</content>
+  <content>CommonModule.КалендарныеГрафикиЛокализация</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

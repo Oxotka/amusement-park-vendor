@@ -3,6 +3,10 @@
   <items xsi:type="form:FormField">
     <name>ТекстСообщения</name>
     <id>2</id>
+    <title>
+      <key>ru</key>
+      <value>Текст сообщения</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -13,7 +17,7 @@
     </dataPath>
     <titleLocation>None</titleLocation>
     <extendedTooltip>
-      <name>ТекстСообщенияExtendedTooltip</name>
+      <name>ТекстСообщенияРасширеннаяПодсказка</name>
       <id>12</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -69,7 +73,7 @@
     </dataPath>
     <titleLocation>Right</titleLocation>
     <extendedTooltip>
-      <name>ПрименитьДляВсехExtendedTooltip</name>
+      <name>ПрименитьДляВсехРасширеннаяПодсказка</name>
       <id>13</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -115,7 +119,7 @@
     </title>
     <enableContentChange>true</enableContentChange>
     <extendedTooltip>
-      <name>ОсновнаяКоманднаяПанельExtendedTooltip</name>
+      <name>ОсновнаяКоманднаяПанельРасширеннаяПодсказка</name>
       <id>14</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -142,6 +146,10 @@
     <items xsi:type="form:Button">
       <name>Перезаписать</name>
       <id>6</id>
+      <title>
+        <key>ru</key>
+        <value>Перезаписать</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -149,7 +157,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>ПерезаписатьExtendedTooltip</name>
+        <name>ПерезаписатьРасширеннаяПодсказка</name>
         <id>9</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -173,6 +181,10 @@
     <items xsi:type="form:Button">
       <name>Пропустить</name>
       <id>7</id>
+      <title>
+        <key>ru</key>
+        <value>Пропустить</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -180,7 +192,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>ПропуститьExtendedTooltip</name>
+        <name>ПропуститьРасширеннаяПодсказка</name>
         <id>10</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -204,6 +216,10 @@
     <items xsi:type="form:Button">
       <name>Прервать</name>
       <id>8</id>
+      <title>
+        <key>ru</key>
+        <value>Прервать</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -211,7 +227,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>ПрерватьExtendedTooltip</name>
+        <name>ПрерватьРасширеннаяПодсказка</name>
         <id>11</id>
         <visible>true</visible>
         <enabled>true</enabled>

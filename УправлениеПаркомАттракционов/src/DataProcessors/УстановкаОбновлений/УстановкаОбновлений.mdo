@@ -95,7 +95,7 @@
     </type>
     <toolTip>
       <key>ru</key>
-      <value>Имя каталога резервной копии программы</value>
+      <value>Имя каталога резервной копии приложения</value>
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

@@ -15,7 +15,7 @@
         <segments>Объект.Description</segments>
       </dataPath>
       <extendedTooltip>
-        <name>НаименованиеExtendedTooltip</name>
+        <name>НаименованиеРасширеннаяПодсказка</name>
         <id>153</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -77,7 +77,7 @@
         <name>РодительПриИзменении</name>
       </handlers>
       <extendedTooltip>
-        <name>РодительExtendedTooltip</name>
+        <name>РодительРасширеннаяПодсказка</name>
         <id>184</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -182,7 +182,7 @@
             <name>СоставУчастниковПриИзменении</name>
           </handlers>
           <extendedTooltip>
-            <name>УчастникиГруппыExtendedTooltip</name>
+            <name>УчастникиГруппыРасширеннаяПодсказка</name>
             <id>157</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -292,6 +292,10 @@
           <items xsi:type="form:Button">
             <name>ВыбратьНазначение</name>
             <id>234</id>
+            <title>
+              <key>ru</key>
+              <value>&lt;Не указан></value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -363,7 +367,7 @@
           <value>Тип пользователей</value>
         </title>
         <extendedTooltip>
-          <name>ТипПользователейExtendedTooltip</name>
+          <name>ТипПользователейРасширеннаяПодсказка</name>
           <id>156</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -420,7 +424,7 @@
             <segments>Объект.Состав.ВнешнийПользователь</segments>
           </dataPath>
           <extendedTooltip>
-            <name>СоставВнешнийПользовательExtendedTooltip</name>
+            <name>СоставВнешнийПользовательРасширеннаяПодсказка</name>
             <id>172</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -473,7 +477,7 @@
             <segments>Объект.Состав.Недействителен</segments>
           </dataPath>
           <extendedTooltip>
-            <name>НедействителенExtendedTooltip</name>
+            <name>НедействителенРасширеннаяПодсказка</name>
             <id>173</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -510,6 +514,10 @@
           <items xsi:type="form:Button">
             <name>СоставПодобрать</name>
             <id>31</id>
+            <title>
+              <key>ru</key>
+              <value>Подобрать</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -517,7 +525,7 @@
             </userVisible>
             <skipOnInput>false</skipOnInput>
             <extendedTooltip>
-              <name>СоставПодобратьExtendedTooltip</name>
+              <name>СоставПодобратьРасширеннаяПодсказка</name>
               <id>163</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -548,7 +556,7 @@
             </userVisible>
             <skipOnInput>false</skipOnInput>
             <extendedTooltip>
-              <name>СоставДобавитьExtendedTooltip</name>
+              <name>СоставДобавитьРасширеннаяПодсказка</name>
               <id>164</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -610,7 +618,7 @@
             </userVisible>
             <skipOnInput>false</skipOnInput>
             <extendedTooltip>
-              <name>СоставУдалитьExtendedTooltip</name>
+              <name>СоставУдалитьРасширеннаяПодсказка</name>
               <id>166</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -635,6 +643,10 @@
           <items xsi:type="form:Button">
             <name>СоставПереместитьВверх</name>
             <id>202</id>
+            <title>
+              <key>ru</key>
+              <value>Переместить вверх</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -666,6 +678,10 @@
           <items xsi:type="form:Button">
             <name>СоставПереместитьВниз</name>
             <id>204</id>
+            <title>
+              <key>ru</key>
+              <value>Переместить вниз</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -700,6 +716,10 @@
             <items xsi:type="form:Button">
               <name>СоставСортироватьПоВозрастанию</name>
               <id>198</id>
+              <title>
+                <key>ru</key>
+                <value>Сортировать по возрастанию</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -730,6 +750,10 @@
             <items xsi:type="form:Button">
               <name>СоставСортироватьПоУбыванию</name>
               <id>200</id>
+              <title>
+                <key>ru</key>
+                <value>Сортировать по убыванию</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -791,13 +815,17 @@
             <items xsi:type="form:Button">
               <name>ПоказыватьНедействительныхПользователей</name>
               <id>149</id>
+              <title>
+                <key>ru</key>
+                <value>Показывать недействительных пользователей</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
                 <common>true</common>
               </userVisible>
               <extendedTooltip>
-                <name>ПоказыватьНедействительныхПользователейExtendedTooltip</name>
+                <name>ПоказыватьНедействительныхПользователейРасширеннаяПодсказка</name>
                 <id>152</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -1025,7 +1053,7 @@
           </extInfo>
         </searchControlAddition>
         <extendedTooltip>
-          <name>СоставExtendedTooltip</name>
+          <name>СоставРасширеннаяПодсказка</name>
           <id>171</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1045,6 +1073,10 @@
           <items xsi:type="form:Button">
             <name>СоставКонтекстноеМенюПодобрать</name>
             <id>42</id>
+            <title>
+              <key>ru</key>
+              <value>Подобрать</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1168,6 +1200,10 @@
           <items xsi:type="form:Button">
             <name>СоставКонтекстноеМенюПереместитьВверх</name>
             <id>206</id>
+            <title>
+              <key>ru</key>
+              <value>Переместить вверх</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1198,6 +1234,10 @@
           <items xsi:type="form:Button">
             <name>СоставКонтекстноеМенюПереместитьВниз</name>
             <id>208</id>
+            <title>
+              <key>ru</key>
+              <value>Переместить вниз</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1294,7 +1334,7 @@
         <value>Участники группы</value>
       </title>
       <extendedTooltip>
-        <name>ВнешниеПользователиГруппыExtendedTooltip</name>
+        <name>ВнешниеПользователиГруппыРасширеннаяПодсказка</name>
         <id>155</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1355,6 +1395,10 @@
             <items xsi:type="form:FormField">
               <name>РолиПометка</name>
               <id>142</id>
+              <title>
+                <key>ru</key>
+                <value>Пометка</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -1368,7 +1412,7 @@
                 <name>РолиПометкаПриИзменении</name>
               </handlers>
               <extendedTooltip>
-                <name>РолиПометкаExtendedTooltip</name>
+                <name>РолиПометкаРасширеннаяПодсказка</name>
                 <id>182</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -1400,6 +1444,10 @@
             <items xsi:type="form:FormField">
               <name>РолиСиноним</name>
               <id>144</id>
+              <title>
+                <key>ru</key>
+                <value>Разрешенное действие (роль)</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -1409,7 +1457,7 @@
                 <segments>Роли.Синоним</segments>
               </dataPath>
               <extendedTooltip>
-                <name>РолиСинонимExtendedTooltip</name>
+                <name>РолиСинонимРасширеннаяПодсказка</name>
                 <id>183</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -1458,7 +1506,7 @@
               <value>Роли колонок</value>
             </title>
             <extendedTooltip>
-              <name>РолиКолонокExtendedTooltip</name>
+              <name>РолиКолонокРасширеннаяПодсказка</name>
               <id>181</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1487,6 +1535,10 @@
               <items xsi:type="form:Button">
                 <name>РолиУстановитьФлажки</name>
                 <id>139</id>
+                <title>
+                  <key>ru</key>
+                  <value>Включить выделенные роли</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -1494,7 +1546,7 @@
                 </userVisible>
                 <skipOnInput>false</skipOnInput>
                 <extendedTooltip>
-                  <name>РолиУстановитьФлажкиExtendedTooltip</name>
+                  <name>РолиУстановитьФлажкиРасширеннаяПодсказка</name>
                   <id>176</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -1518,6 +1570,10 @@
               <items xsi:type="form:Button">
                 <name>РолиСнятьФлажки</name>
                 <id>140</id>
+                <title>
+                  <key>ru</key>
+                  <value>Исключить выделенные роли</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -1525,7 +1581,7 @@
                 </userVisible>
                 <skipOnInput>false</skipOnInput>
                 <extendedTooltip>
-                  <name>РолиСнятьФлажкиExtendedTooltip</name>
+                  <name>РолиСнятьФлажкиРасширеннаяПодсказка</name>
                   <id>177</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -1577,6 +1633,10 @@
             <items xsi:type="form:Button">
               <name>РолиПоказатьТолькоВыбранныеРоли</name>
               <id>141</id>
+              <title>
+                <key>ru</key>
+                <value>Только выбранные</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -1584,7 +1644,7 @@
               </userVisible>
               <skipOnInput>false</skipOnInput>
               <extendedTooltip>
-                <name>РолиПоказатьТолькоВыбранныеРолиExtendedTooltip</name>
+                <name>РолиПоказатьТолькоВыбранныеРолиРасширеннаяПодсказка</name>
                 <id>178</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -1608,13 +1668,17 @@
             <items xsi:type="form:Button">
               <name>РолиПоказатьПодсистемыРолей</name>
               <id>146</id>
+              <title>
+                <key>ru</key>
+                <value>По подсистемам</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
                 <common>true</common>
               </userVisible>
               <extendedTooltip>
-                <name>РолиПоказатьПодсистемыРолейExtendedTooltip</name>
+                <name>РолиПоказатьПодсистемыРолейРасширеннаяПодсказка</name>
                 <id>179</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -1833,7 +1897,7 @@
             </extInfo>
           </searchControlAddition>
           <extendedTooltip>
-            <name>РолиExtendedTooltip</name>
+            <name>РолиРасширеннаяПодсказка</name>
             <id>180</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1861,6 +1925,7 @@
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <autoMaxRowsCount>true</autoMaxRowsCount>
+          <selectionMode>MultiRow</selectionMode>
           <headerHeight>1</headerHeight>
           <footerHeight>1</footerHeight>
           <horizontalScrollBar>AutoUse</horizontalScrollBar>
@@ -1892,7 +1957,7 @@
           <value>Отображение ролей</value>
         </title>
         <extendedTooltip>
-          <name>ОтображениеРолейExtendedTooltip</name>
+          <name>ОтображениеРолейРасширеннаяПодсказка</name>
           <id>175</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1925,7 +1990,7 @@
         <value>Разрешенные действия (роли)</value>
       </title>
       <extendedTooltip>
-        <name>РолиГруппыExtendedTooltip</name>
+        <name>РолиГруппыРасширеннаяПодсказка</name>
         <id>174</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1961,7 +2026,7 @@
         </dataPath>
         <titleLocation>None</titleLocation>
         <extendedTooltip>
-          <name>КомментарийExtendedTooltip</name>
+          <name>КомментарийРасширеннаяПодсказка</name>
           <id>185</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -2038,7 +2103,7 @@
       <value>Состав и роли</value>
     </title>
     <extendedTooltip>
-      <name>СоставИРолиExtendedTooltip</name>
+      <name>СоставИРолиРасширеннаяПодсказка</name>
       <id>154</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -2413,12 +2478,12 @@
     <name>ИсключитьРоли</name>
     <title>
       <key>ru</key>
-      <value>Исключить роли</value>
+      <value>Исключить выделенные роли</value>
     </title>
     <id>3</id>
     <toolTip>
       <key>ru</key>
-      <value>Исключить роли</value>
+      <value>Исключить выделенные роли</value>
     </toolTip>
     <use>
       <common>true</common>
@@ -2438,12 +2503,12 @@
     <name>ВключитьРоли</name>
     <title>
       <key>ru</key>
-      <value>Включить роли</value>
+      <value>Включить выделенные роли</value>
     </title>
     <id>4</id>
     <toolTip>
       <key>ru</key>
-      <value>Включить роли</value>
+      <value>Включить выделенные роли</value>
     </toolTip>
     <use>
       <common>true</common>

@@ -5,70 +5,74 @@
     <key>ru</key>
     <value>Базовая функциональность</value>
   </synonym>
-  <content>CommonForm.ВыборУзловПлановОбмена</content>
-  <content>Role.ПросмотрЖурналаРегистрации</content>
-  <content>CommonPicture.КоллекцияВидыСобытийЖурналаРегистрации</content>
+  <content>CommonModule.ОбщегоНазначения</content>
+  <content>CommonModule.ДлительныеОперацииКлиент</content>
+  <content>CommonCommand.УстановитьРасширениеДляРаботыС1СПредприятием</content>
+  <content>CommonForm.ФормаВыбораЦвета</content>
   <content>StyleItem.ПоясняющийТекст</content>
   <content>CommonModule.СтроковыеФункцииКлиентСервер</content>
   <content>CommonPicture.Информация32</content>
-  <content>CommonModule.ДлительныеОперацииКлиент</content>
-  <content>CommonCommand.УстановитьРасширениеДляРаботыС1СПредприятием</content>
-  <content>CommonModule.ОбщегоНазначения</content>
+  <content>CommonPicture.КоллекцияВидыСобытийЖурналаРегистрации</content>
+  <content>Role.ПросмотрЖурналаРегистрации</content>
+  <content>CommonForm.ВыборУзловПлановОбмена</content>
   <content>CommonModule.СтандартныеПодсистемыКлиентПовтИсп</content>
-  <content>StyleItem.ПоясняющийОшибкуТекст</content>
   <content>CommonModule.ОбщегоНазначенияКлиент</content>
-  <content>CommonPicture.КоллекцияВариантыВажности</content>
-  <content>CommonModule.ОбщегоНазначенияКлиентСервер</content>
+  <content>StyleItem.ПоясняющийОшибкуТекст</content>
   <content>Role.АдминистраторСистемы</content>
-  <content>Role.ЗапускТонкогоКлиента</content>
+  <content>CommonModule.ОбщегоНазначенияКлиентСервер</content>
+  <content>CommonPicture.КоллекцияВариантыВажности</content>
   <content>CommonForm.ВыборОбъектовМетаданных</content>
+  <content>Role.ЗапускТонкогоКлиента</content>
   <content>CommonPicture.КоллекцияВидыАктивныхПользователей</content>
   <content>CommonPicture.КоллекцияДляПомеченныхНаУдалениеОбъектов</content>
-  <content>CommonPicture.Ошибка32</content>
   <content>EventSubscription.ПриПолученииДанныхОтПодчиненного</content>
-  <content>CommonPicture.Предупреждение32</content>
+  <content>CommonPicture.Ошибка32</content>
   <content>StyleItem.ЗаголовокУдаленногоРеквизитаШрифт</content>
+  <content>CommonPicture.Предупреждение32</content>
   <content>CommonPicture.РазорватьСоединение</content>
-  <content>Constant.ЗаголовокСистемы</content>
   <content>CommonModule.ОбщегоНазначенияВызовСервера</content>
-  <content>DataProcessor.ЖурналРегистрации</content>
-  <content>CommonCommand.ПредупрежденияПриЗавершенииРаботы</content>
-  <content>CommonPicture.ТипКонстанта</content>
+  <content>Constant.ЗаголовокСистемы</content>
+  <content>CommonPicture.МетаданныеВнешниеИсточникиТаблицы</content>
   <content>CommonPicture.МетаданныеЭлементыСтиля</content>
-  <content>CommonForm.ПредупрежденияПриЗавершенииРаботы</content>
-  <content>Role.ВыводНаПринтерФайлБуферОбмена</content>
+  <content>CommonPicture.ТипКонстанта</content>
+  <content>CommonCommand.ПредупрежденияПриЗавершенииРаботы</content>
+  <content>DataProcessor.ЖурналРегистрации</content>
   <content>CommonModule.ОбщегоНазначенияПереопределяемый</content>
+  <content>Role.ВыводНаПринтерФайлБуферОбмена</content>
+  <content>CommonForm.ПредупрежденияПриЗавершенииРаботы</content>
   <content>Role.ЗапускAutomation</content>
-  <content>CommonPicture.Вопрос32</content>
-  <content>StyleItem.ТекстЗапрещеннойЯчейкиЦвет</content>
-  <content>Role.ЗапускВебКлиента</content>
-  <content>CommonPicture.ФорматMXL</content>
   <content>CommonPicture.ФорматOpenOfficeWriter</content>
+  <content>CommonPicture.ФорматMXL</content>
+  <content>Role.ЗапускВебКлиента</content>
+  <content>CommonPicture.МетаданныеВнешниеИсточникиТаблицыИзмерений</content>
+  <content>StyleItem.ТекстЗапрещеннойЯчейкиЦвет</content>
+  <content>CommonPicture.Вопрос32</content>
   <content>Role.ЗапускВнешнегоСоединения</content>
-  <content>Role.ЗапускТолстогоКлиента</content>
   <content>CommonPicture.ПоказатьОтличия</content>
-  <content>CommonModule.СтандартныеПодсистемыСервер</content>
-  <content>CommonPicture.Успешно32</content>
-  <content>CommonPicture.ВводимыеСимволыСкрыты</content>
-  <content>CommonPicture.ПиктограммыЭлементов</content>
+  <content>Role.ЗапускТолстогоКлиента</content>
   <content>Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</content>
+  <content>CommonPicture.ПиктограммыЭлементов</content>
+  <content>Constant.КаталогВременныхФайловДляWindows</content>
+  <content>CommonPicture.ВводимыеСимволыСкрыты</content>
+  <content>CommonPicture.Успешно32</content>
+  <content>CommonModule.СтандартныеПодсистемыСервер</content>
   <content>Role.ОбновлениеКонфигурацииБазыДанных</content>
-  <content>CommandGroup.Органайзер</content>
   <content>Role.Администрирование</content>
-  <content>Role.ПолныеПрава</content>
+  <content>CommandGroup.Органайзер</content>
   <content>CommonModule.СтандартныеПодсистемыКлиентСерверЛокализация</content>
-  <content>Role.БазовыеПраваБСП</content>
-  <content>EventSubscription.ПриПолученииДанныхОтГлавного</content>
+  <content>Role.ПолныеПрава</content>
   <content>InformationRegister.ПараметрыРаботыВерсийРасширений</content>
-  <content>Constant.НеИспользоватьРазделениеПоОбластямДанных</content>
+  <content>EventSubscription.ПриПолученииДанныхОтГлавного</content>
+  <content>Role.БазовыеПраваБСП</content>
   <content>CommonModule.ОбщегоНазначенияКлиентПовтИсп</content>
+  <content>Constant.НеИспользоватьРазделениеПоОбластямДанных</content>
   <content>CommonForm.ВопросОбУстановкеРасширенияРаботыСФайлами</content>
-  <content>Constant.ИспользоватьРазделениеПоОбластямДанных</content>
   <content>CommonPicture.УдалитьИнформация</content>
-  <content>FunctionalOption.РаботаВЛокальномРежиме</content>
-  <content>CommonForm.Вопрос</content>
-  <content>StyleItem.ЦветРазделаПанелиФункций</content>
+  <content>Constant.ИспользоватьРазделениеПоОбластямДанных</content>
   <content>CommonPicture.КоллекцияПиктограммЭлементов</content>
+  <content>StyleItem.ЦветРазделаПанелиФункций</content>
+  <content>CommonForm.Вопрос</content>
+  <content>FunctionalOption.РаботаВЛокальномРежиме</content>
   <content>CommonPicture.ВидыОпераций</content>
   <content>CommonPicture.Подсистема</content>
   <content>CommonPicture.ИерархическийСписок</content>
@@ -90,6 +94,7 @@
   <content>CommonModule.ДлительныеОперации</content>
   <content>CommonForm.ДлительнаяОперация</content>
   <content>CommonPicture.ДлительнаяОперация48</content>
+  <content>CommonPicture.МетаданныеWebСервисыОперацииПараметры</content>
   <content>FunctionalOption.РаботаВМоделиСервиса</content>
   <content>CommonPicture.МетаданныеОбщиеМодули</content>
   <content>CommonPicture.МетаданныеПоследовательности</content>
@@ -109,6 +114,7 @@
   <content>CommonPicture.ЗначокЗаставкиВнешнейОперации</content>
   <content>CommonModule.ФайловаяСистемаСлужебныйКлиентСервер</content>
   <content>Role.УдаленныйДоступБазоваяФункциональность</content>
+  <content>CommonModule.СерверныеОповещенияГлобальный</content>
   <content>CommonPicture.Предупреждение</content>
   <content>InformationRegister.КэшПрограммныхИнтерфейсов</content>
   <content>Enum.ТипыДанныхКэшаПрограммныхИнтерфейсов</content>
@@ -131,16 +137,19 @@
   <content>CommonPicture.ФорматПустой</content>
   <content>CommonPicture.ФорматWord2007</content>
   <content>CommonPicture.ОтправитьПолучитьПочту</content>
+  <content>CommonPicture.ПредварительныйПросмотрКартинка</content>
   <content>Enum.ФорматыСохраненияОтчетов</content>
   <content>FunctionalOption.СтандартныеПодсистемыВАвтономномРежиме</content>
   <content>CommonPicture.МетаданныеПеречисления</content>
   <content>CommonPicture.МетаданныеРесурсы</content>
+  <content>InformationRegister.ДлительныеОперации</content>
   <content>CommonPicture.СтатусыДокумента</content>
   <content>CommonPicture.СтрелкаВнизЗеленая</content>
   <content>CommonPicture.РазделАдминистрирование48</content>
+  <content>Constant.СтандартныеПодсистемыВАвтономномРежиме</content>
   <content>CommonModule.СтандартныеПодсистемыПовтИсп</content>
   <content>EventSubscription.ВыполнитьДействияПослеПолученияДанныхУзлаВРаспределеннойИнформационнойБазе</content>
-  <content>EventSubscription.ЗапретитьПометкуУдаленияПредопределенныхЭлементов</content>
+  <content>EventSubscription.ОбработкаПредопределенныхЭлементовПередЗаписью</content>
   <content>StyleItem.ЗаблокированныйРеквизитЦвет</content>
   <content>CommonPicture.ЦветФона</content>
   <content>CommonPicture.ТолстаяГраницаСнизу</content>
@@ -156,6 +165,7 @@
   <content>CommonPicture.ИзменитьШрифт</content>
   <content>CommonPicture.ВыравниваниеПоЛевомуКраю</content>
   <content>CommonPicture.ВыравниваниеПоПравомуКраю</content>
+  <content>SessionParameter.ОбновлениеСправочниковИдентификаторов</content>
   <content>CommonPicture.ВыравниваниеПоЦентру</content>
   <content>CommonPicture.СтрелкаВверх</content>
   <content>CommonForm.СравнениеТабличныхДокументов</content>
@@ -180,6 +190,7 @@
   <content>CommonPicture.ГраницаСправа</content>
   <content>CommonPicture.ОбъединитьЯчейки</content>
   <content>CommonPicture.МетаданныеHTTPСервисыШаблоныURL</content>
+  <content>CommonPicture.ТелефонныйЗвонок</content>
   <content>CommonPicture.НетГраницы</content>
   <content>CommonPicture.НезавершившаясяПроверка</content>
   <content>CommonPicture.ТолстаяГраницаВокруг</content>
@@ -238,7 +249,7 @@
   <content>CommonPicture.МетаданныеКритерииОтбора</content>
   <content>Constant.АдресПубликацииИнформационнойБазыВЛокальнойСети</content>
   <content>CommonPicture.СостоянияРасширенийКонфигурации</content>
-  <content>CommonCommand.ВремяТекущегоСеанса</content>
+  <content>CommonCommand.ВремяВПриложении</content>
   <content>Enum.СпособыРедактированияЭлектронныхПисем</content>
   <content>StyleItem.ИзмененноеЗначениеРеквизитаЦвет</content>
   <content>StyleItem.УдаленныйРеквизитФон</content>
@@ -289,6 +300,7 @@
   <content>CommonPicture.ТипСоставнойДополнительный</content>
   <content>CommonPicture.ТипСписок</content>
   <content>CommonPicture.МетаданныеОбщие</content>
+  <content>CommonModule.СерверныеОповещения</content>
   <content>CommonPicture.ТипСсылка</content>
   <content>CommonPicture.ТипСтрока</content>
   <content>CommonPicture.ТипФильтр</content>
@@ -296,17 +308,20 @@
   <content>CommonPicture.ТипФункция</content>
   <content>CommonPicture.ТипГиперссылка</content>
   <content>CommonPicture.ТипНеопределено</content>
+  <content>CommonPicture.ЦветГраницы</content>
   <content>CommonPicture.ТипПапка</content>
   <content>CommonPicture.ТипСоставнойОсновной</content>
   <content>ScheduledJob.ОбработкаСервисовИнтеграции</content>
   <content>CommonPicture.ШтампЭлектроннойПодписи</content>
   <content>CommonPicture.МетаданныеКонфигурация</content>
   <content>CommonPicture.МетаданныеПодсистемы</content>
+  <content>EventSubscription.ПроверитьБезопасныйРежимПередЗаписью</content>
   <content>CommonPicture.МетаданныеПараметрыСеанса</content>
   <content>CommonPicture.МетаданныеПланыОбмена</content>
   <content>CommonPicture.МетаданныеПодпискиНаСобытия</content>
   <content>CommonPicture.МетаданныеОпределяемыйТип</content>
   <content>CommonPicture.МетаданныеОбщиеФормы</content>
+  <content>Constant.КоличествоПотоковДлительныхОпераций</content>
   <content>CommonPicture.МетаданныеОбщиеКоманды</content>
   <content>CommonPicture.МетаданныеГруппыКоманд</content>
   <content>CommonPicture.МетаданныеОбщиеКартинки</content>
@@ -333,6 +348,7 @@
   <content>CommonPicture.МетаданныеИзмерения</content>
   <content>CommonPicture.МетаданныеРегистрыБухгалтерии</content>
   <content>CommonPicture.МетаданныеРегистрыРасчета</content>
+  <content>CommonPicture.МестоДляШтрихкода</content>
   <content>CommonPicture.МетаданныеРеквизитыАдресации</content>
   <content>CommonPicture.МетаданныеВнешниеИсточникиДанных</content>
   <content>CommonPicture.МетаданныеТабличныеЧасти</content>
@@ -341,45 +357,35 @@
   <content>CommonPicture.МетаданныеКоманды</content>
   <content>CommonPicture.МетаданныеРегламентныеЗадания</content>
   <content>CommonPicture.ВводимыеСимволыВидны</content>
-  <content>CommonPicture.МетаданныеWebСервисыОперацииПараметры</content>
   <content>CommonPicture.МетаданныеБоты</content>
   <content>CommonPicture.МетаданныеВнешниеИсточникиКубы</content>
-  <content>CommonPicture.МетаданныеВнешниеИсточникиТаблицы</content>
-  <content>CommonPicture.МетаданныеВнешниеИсточникиТаблицыИзмерений</content>
   <content>CommonPicture.МетаданныеВнешниеИсточникиФункции</content>
   <content>ScheduledJob.ЗаполнениеПараметровРаботыРасширений</content>
-  <content>Constant.КоличествоПотоковДлительныхОпераций</content>
   <content>Constant.КаталогВременныхФайловДляLinux</content>
-  <content>Constant.КаталогВременныхФайловДляWindows</content>
-  <content>InformationRegister.ДлительныеОперации</content>
-  <content>Constant.СтандартныеПодсистемыВАвтономномРежиме</content>
   <content>ScheduledJob.ОтправкаСерверныхОповещенийКлиентам</content>
-  <content>CommonModule.СерверныеОповещения</content>
-  <content>CommonModule.СерверныеОповещенияГлобальный</content>
   <content>CommonModule.СерверныеОповещенияКлиент</content>
   <content>CommonModule.СерверныеОповещенияСлужебныйВызовСервера</content>
   <content>CommonModule.СерверныеОповещенияСлужебныйПовтИсп</content>
   <content>InformationRegister.ОтправленныеСерверныеОповещения</content>
   <content>InformationRegister.ПериодическиеСерверныеОповещения</content>
+  <content>CommonPicture.МестоДляQRКода</content>
   <content>Constant.СостояниеОтправкиСерверныхОповещений</content>
   <content>CommonPicture.ВыпадающийСписок</content>
-  <content>SessionParameter.ОбновлениеСправочниковИдентификаторов</content>
-  <content>CommonPicture.ТелефонныйЗвонок</content>
-  <content>CommonPicture.ПредварительныйПросмотрКартинка</content>
   <content>Constant.ДоставлятьСерверныеОповещенияБезСистемыВзаимодействия</content>
   <content>Constant.РегистрироватьПоказателиСерверныхОповещений</content>
   <content>CommonForm.ФормаВыбораШрифта</content>
-  <content>CommonForm.ФормаВыбораЦвета</content>
-  <content>CommonPicture.МестоДляQRКода</content>
-  <content>CommonPicture.МестоДляШтрихкода</content>
-  <content>CommonPicture.ЦветГраницы</content>
   <content>CommonPicture.АнализДанных48</content>
   <content>CommonPicture.ВажностьВысокая</content>
   <content>CommonPicture.ВажностьНеЗадана</content>
   <content>CommonPicture.ВажностьНизкая</content>
   <content>CommonModule.ФизическиеЛицаКлиентСерверЛокализация</content>
   <content>CommonPicture.СерыйКрест</content>
-  <content>EventSubscription.ПроверитьБезопасныйРежимПередЗаписью</content>
   <content>EventSubscription.ПроверитьБезопасныйРежимПередЗаписьюНабораЗаписи</content>
+  <content>CommonModule.СерверныеОповещенияСлужебныйКлиентСервер</content>
+  <content>CommonModule.СтроковыеФункцииКлиентСерверЛокализация</content>
+  <content>CommonModule.СтандартныеПодсистемыСерверЛокализация</content>
+  <content>CommonModule.СтандартныеПодсистемыКлиентСервер</content>
+  <content>InformationRegister.СвойстваРасширений</content>
+  <content>StyleItem.ШрифтОченьКрупныйШрифтТекста</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

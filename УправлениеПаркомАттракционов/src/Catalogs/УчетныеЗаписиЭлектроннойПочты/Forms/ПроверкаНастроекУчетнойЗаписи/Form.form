@@ -169,7 +169,7 @@
           <autoMaxHeight>true</autoMaxHeight>
           <extInfo xsi:type="form:PictureDecorationExtInfo">
             <picture xsi:type="core:PictureRef">
-              <picture>CommonPicture.Предупреждение32</picture>
+              <picture>StdPicture.DialogExclamation</picture>
             </picture>
           </extInfo>
         </items>
@@ -212,6 +212,10 @@
         <items xsi:type="form:FormField">
           <name>СообщенияОбОшибках</name>
           <id>18</id>
+          <title>
+            <key>ru</key>
+            <value>Сообщения об ошибках</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -744,6 +748,10 @@
         <items xsi:type="form:FormField">
           <name>ВыполненныеПроверки</name>
           <id>181</id>
+          <title>
+            <key>ru</key>
+            <value>Выполненные проверки</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -901,7 +909,7 @@
           <autoMaxHeight>true</autoMaxHeight>
           <extInfo xsi:type="form:PictureDecorationExtInfo">
             <picture xsi:type="core:PictureRef">
-              <picture>CommonPicture.Предупреждение32</picture>
+              <picture>StdPicture.DialogExclamation</picture>
             </picture>
           </extInfo>
         </items>
@@ -911,6 +919,10 @@
           <items xsi:type="form:FormField">
             <name>ТекстИнформацияДляТехподдержки</name>
             <id>224</id>
+            <title>
+              <key>ru</key>
+              <value>Информация для техподдержки</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1101,6 +1113,10 @@
     <items xsi:type="form:Button">
       <name>ФормаНазад</name>
       <id>253</id>
+      <title>
+        <key>ru</key>
+        <value>&lt; Назад</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1131,6 +1147,10 @@
     <items xsi:type="form:Button">
       <name>ФормаПерейтиКНастройкам</name>
       <id>200</id>
+      <title>
+        <key>ru</key>
+        <value>Перейти к настройкам</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>

@@ -79,6 +79,10 @@
       <items xsi:type="form:FormField">
         <name>СписокКолонокВидимость</name>
         <id>5</id>
+        <title>
+          <key>ru</key>
+          <value>Видимость</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -123,6 +127,10 @@
       <items xsi:type="form:FormField">
         <name>СписокКолонокНаименование</name>
         <id>8</id>
+        <title>
+          <key>ru</key>
+          <value>Колонка</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -204,6 +212,10 @@
     <items xsi:type="form:FormField">
       <name>СписокКолонокСиноним</name>
       <id>11</id>
+      <title>
+        <key>ru</key>
+        <value>Наименование колонки</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -260,6 +272,10 @@
         <items xsi:type="form:Button">
           <name>СписокКолонокУстановитьФлажки</name>
           <id>25</id>
+          <title>
+            <key>ru</key>
+            <value>Установить флажки</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -290,6 +306,10 @@
         <items xsi:type="form:Button">
           <name>СписокКолонокСнятьФлажки</name>
           <id>27</id>
+          <title>
+            <key>ru</key>
+            <value>Снять флажки</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -441,6 +461,10 @@
       <items xsi:type="form:Button">
         <name>ФормаСброситьВсеНастройки</name>
         <id>29</id>
+        <title>
+          <key>ru</key>
+          <value>Сбросить настройки</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -646,6 +670,10 @@
   <items xsi:type="form:FormField">
     <name>ОписаниеКолонки</name>
     <id>46</id>
+    <title>
+      <key>ru</key>
+      <value>Описание колонки</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -702,6 +730,10 @@
     <items xsi:type="form:Button">
       <name>ОК</name>
       <id>16</id>
+      <title>
+        <key>ru</key>
+        <value>ОК</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1186,6 +1218,10 @@
   </parameters>
   <parameters>
     <name>ПараметрыЗагрузки</name>
+    <valueType/>
+  </parameters>
+  <parameters>
+    <name>ИнформацияПоКолонкам</name>
     <valueType/>
   </parameters>
   <commandInterface>

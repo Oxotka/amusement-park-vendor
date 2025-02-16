@@ -38,6 +38,10 @@
         <name>ДеревоОбъектовМетаданныхСинхронизировать</name>
         <id>44</id>
         <displayImportance>VeryLow</displayImportance>
+        <title>
+          <key>ru</key>
+          <value>Синхронизировать</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -173,6 +177,10 @@
       <name>ДеревоОбъектовМетаданныхТипВладельцаФайла</name>
       <id>97</id>
       <displayImportance>VeryLow</displayImportance>
+      <title>
+        <key>ru</key>
+        <value>Справочник файлов</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible/>
@@ -222,6 +230,10 @@
       <name>ДеревоОбъектовМетаданныхУчетнаяЗапись</name>
       <id>47</id>
       <displayImportance>VeryLow</displayImportance>
+      <title>
+        <key>ru</key>
+        <value>Учетная запись</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -278,6 +290,10 @@
       <name>ДеревоОбъектовМетаданныхПравилоОтбора</name>
       <id>32</id>
       <displayImportance>VeryLow</displayImportance>
+      <title>
+        <key>ru</key>
+        <value>Правило</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -493,6 +509,10 @@
       <items xsi:type="form:Button">
         <name>ДеревоОбъектовМетаданныхКонтекстноеМенюСоздатьСинхронизациюФайлов</name>
         <id>84</id>
+        <title>
+          <key>ru</key>
+          <value>Настроить синхронизацию файлов</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -526,6 +546,10 @@
       <items xsi:type="form:Button">
         <name>ДеревоОбъектовМетаданныхКонтекстноеМенюИзменитьНастройкуСинхронизации</name>
         <id>86</id>
+        <title>
+          <key>ru</key>
+          <value>Изменить</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -625,6 +649,10 @@
       <items xsi:type="form:FormField">
         <name>АвтоматическиСинхронизироватьФайлы</name>
         <id>5</id>
+        <title>
+          <key>ru</key>
+          <value>Автоматически синхронизировать файлы</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -673,6 +701,10 @@
       <items xsi:type="form:Button">
         <name>НастроитьРасписание</name>
         <id>8</id>
+        <title>
+          <key>ru</key>
+          <value>Настроить расписание</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1083,6 +1115,10 @@
       <items xsi:type="form:Button">
         <name>ФормаИзменитьНастройкуСинхронизации</name>
         <id>106</id>
+        <title>
+          <key>ru</key>
+          <value>Изменить</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1173,6 +1209,10 @@
       <items xsi:type="form:Button">
         <name>ФормаДобавитьНастройку</name>
         <id>56</id>
+        <title>
+          <key>ru</key>
+          <value>Синхронизация элемента справочника</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1513,6 +1553,7 @@
       </title>
       <id>5</id>
       <valueType>
+        <types>CatalogRef.ИдентификаторыОбъектовРасширений</types>
         <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>
       </valueType>
       <view>

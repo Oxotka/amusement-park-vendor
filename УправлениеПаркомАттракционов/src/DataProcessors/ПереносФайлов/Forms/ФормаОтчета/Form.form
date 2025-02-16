@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <title>
     <key>ru</key>
     <value>Отчет об ошибках переноса файлов</value>
@@ -7,6 +7,10 @@
   <items xsi:type="form:FormField">
     <name>Пояснение</name>
     <id>4</id>
+    <title>
+      <key>ru</key>
+      <value>Пояснение</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -17,7 +21,7 @@
     </dataPath>
     <titleLocation>None</titleLocation>
     <extendedTooltip>
-      <name>ПояснениеExtendedTooltip</name>
+      <name>ПояснениеРасширеннаяПодсказка</name>
       <id>6</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -47,17 +51,17 @@
     <headerHorizontalAlign>Left</headerHorizontalAlign>
     <showInFooter>true</showInFooter>
     <extInfo xsi:type="form:LabelFieldExtInfo">
-      <height>2</height>
       <autoMaxHeight>true</autoMaxHeight>
       <verticalStretch>false</verticalStretch>
-      <font xsi:type="core:FontRef">
-        <font>Style.ВажнаяНадписьШрифт</font>
-      </font>
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
     <name>Отчет</name>
     <id>2</id>
+    <title>
+      <key>ru</key>
+      <value>Отчет</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -68,7 +72,7 @@
     </dataPath>
     <titleLocation>None</titleLocation>
     <extendedTooltip>
-      <name>ОтчетExtendedTooltip</name>
+      <name>ОтчетРасширеннаяПодсказка</name>
       <id>7</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -99,6 +103,10 @@
     <showInFooter>true</showInFooter>
     <footerHorizontalAlign>Left</footerHorizontalAlign>
     <extInfo xsi:type="form:SpreadSheetDocFieldExtInfo">
+      <handlers>
+        <event>Selection</event>
+        <name>ОтчетВыбор</name>
+      </handlers>
       <width>50</width>
       <autoMaxWidth>true</autoMaxWidth>
       <height>10</height>
@@ -176,6 +184,23 @@
       <common>true</common>
     </edit>
   </attributes>
+  <parameters>
+    <name>Пояснение</name>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>ФайлыСОшибками</name>
+    <valueType/>
+  </parameters>
+  <parameters>
+    <name>Дедупликация</name>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+  </parameters>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>

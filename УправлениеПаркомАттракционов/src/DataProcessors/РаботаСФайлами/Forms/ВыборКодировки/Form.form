@@ -32,7 +32,7 @@
         <segments>СписокКодировок.Value</segments>
       </dataPath>
       <extendedTooltip>
-        <name>СписокКодировокЗначениеExtendedTooltip</name>
+        <name>СписокКодировокЗначениеРасширеннаяПодсказка</name>
         <id>12</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -201,7 +201,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>СписокКодировокExtendedTooltip</name>
+      <name>СписокКодировокРасширеннаяПодсказка</name>
       <id>11</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -252,6 +252,10 @@
   <items xsi:type="form:FormField">
     <name>ПоказыватьТолькоОсновныеКодировки</name>
     <id>8</id>
+    <title>
+      <key>ru</key>
+      <value>Показывать только основные кодировки</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -266,7 +270,7 @@
       <name>ПоказыватьТолькоОсновныеКодировкиПриИзменении</name>
     </handlers>
     <extendedTooltip>
-      <name>ПоказыватьТолькоОсновныеКодировкиExtendedTooltip</name>
+      <name>ПоказыватьТолькоОсновныеКодировкиРасширеннаяПодсказка</name>
       <id>13</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -304,6 +308,10 @@
     <items xsi:type="form:Button">
       <name>ФормаВыбрать</name>
       <id>6</id>
+      <title>
+        <key>ru</key>
+        <value>Выбрать</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>

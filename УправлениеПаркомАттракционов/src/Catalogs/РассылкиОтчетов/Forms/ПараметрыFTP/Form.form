@@ -3,6 +3,10 @@
   <items xsi:type="form:FormField">
     <name>СерверИКаталог</name>
     <id>9</id>
+    <title>
+      <key>ru</key>
+      <value>Сервер и каталог</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -16,7 +20,7 @@
       <name>СерверИКаталогПриИзменении</name>
     </handlers>
     <extendedTooltip>
-      <name>СерверИКаталогExtendedTooltip</name>
+      <name>СерверИКаталогРасширеннаяПодсказка</name>
       <id>22</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -64,6 +68,10 @@
     <items xsi:type="form:FormField">
       <name>Порт</name>
       <id>3</id>
+      <title>
+        <key>ru</key>
+        <value>Порт</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -73,7 +81,7 @@
         <segments>Порт</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ПортExtendedTooltip</name>
+        <name>ПортРасширеннаяПодсказка</name>
         <id>23</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -166,6 +174,10 @@
     <items xsi:type="form:FormField">
       <name>ПассивноеСоединение</name>
       <id>17</id>
+      <title>
+        <key>ru</key>
+        <value>Пассивное соединение</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -176,7 +188,7 @@
       </dataPath>
       <titleLocation>Right</titleLocation>
       <extendedTooltip>
-        <name>ПассивноеСоединениеExtendedTooltip</name>
+        <name>ПассивноеСоединениеРасширеннаяПодсказка</name>
         <id>27</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -243,6 +255,10 @@
   <items xsi:type="form:FormField">
     <name>Логин</name>
     <id>5</id>
+    <title>
+      <key>ru</key>
+      <value>Логин</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -252,7 +268,7 @@
       <segments>Логин</segments>
     </dataPath>
     <extendedTooltip>
-      <name>ЛогинExtendedTooltip</name>
+      <name>ЛогинРасширеннаяПодсказка</name>
       <id>25</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -293,6 +309,10 @@
   <items xsi:type="form:FormField">
     <name>Пароль</name>
     <id>7</id>
+    <title>
+      <key>ru</key>
+      <value>Пароль</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -306,7 +326,7 @@
       <value>Пароль FTP сервера.</value>
     </toolTip>
     <extendedTooltip>
-      <name>ПарольExtendedTooltip</name>
+      <name>ПарольРасширеннаяПодсказка</name>
       <id>26</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -351,13 +371,17 @@
     <items xsi:type="form:Button">
       <name>ФормаОК</name>
       <id>15</id>
+      <title>
+        <key>ru</key>
+        <value>ОК</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаОКExtendedTooltip</name>
+        <name>ФормаОКРасширеннаяПодсказка</name>
         <id>19</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -382,13 +406,17 @@
     <items xsi:type="form:Button">
       <name>ФормаЗаполнить</name>
       <id>14</id>
+      <title>
+        <key>ru</key>
+        <value>Заполнить...</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаЗаполнитьExtendedTooltip</name>
+        <name>ФормаЗаполнитьРасширеннаяПодсказка</name>
         <id>20</id>
         <visible>true</visible>
         <enabled>true</enabled>

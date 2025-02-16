@@ -70,7 +70,7 @@
     </dataPath>
     <skipOnInput>true</skipOnInput>
     <extendedTooltip>
-      <name>НаименованиеExtendedTooltip</name>
+      <name>НаименованиеРасширеннаяПодсказка</name>
       <id>33</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -223,7 +223,7 @@
       </dataPath>
       <skipOnInput>true</skipOnInput>
       <extendedTooltip>
-        <name>ИмяExtendedTooltip</name>
+        <name>ИмяРасширеннаяПодсказка</name>
         <id>35</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -276,7 +276,7 @@
       </dataPath>
       <skipOnInput>true</skipOnInput>
       <extendedTooltip>
-        <name>СинонимExtendedTooltip</name>
+        <name>СинонимРасширеннаяПодсказка</name>
         <id>36</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -326,7 +326,7 @@
       <value>Имя и синоним объекта метаданных</value>
     </title>
     <extendedTooltip>
-      <name>ИмяИСинонимОбъектаМетаданныхExtendedTooltip</name>
+      <name>ИмяИСинонимОбъектаМетаданныхРасширеннаяПодсказка</name>
       <id>34</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -368,7 +368,7 @@
         <name>ПолноеИмяПриИзменении</name>
       </handlers>
       <extendedTooltip>
-        <name>ПолноеИмяExtendedTooltip</name>
+        <name>ПолноеИмяРасширеннаяПодсказка</name>
         <id>38</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -424,7 +424,7 @@
       </dataPath>
       <skipOnInput>true</skipOnInput>
       <extendedTooltip>
-        <name>ПолныйСинонимExtendedTooltip</name>
+        <name>ПолныйСинонимРасширеннаяПодсказка</name>
         <id>39</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -474,7 +474,7 @@
       <value>Полное имя и полный синоним объекта метаданных</value>
     </title>
     <extendedTooltip>
-      <name>ПолноеИмяИПолныйСинонимОбъектаМетаданныхExtendedTooltip</name>
+      <name>ПолноеИмяИПолныйСинонимОбъектаМетаданныхРасширеннаяПодсказка</name>
       <id>37</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -512,7 +512,7 @@
       </dataPath>
       <skipOnInput>true</skipOnInput>
       <extendedTooltip>
-        <name>ПорядокКоллекцииExtendedTooltip</name>
+        <name>ПорядокКоллекцииРасширеннаяПодсказка</name>
         <id>41</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -563,7 +563,7 @@
       <skipOnInput>true</skipOnInput>
       <titleLocation>Right</titleLocation>
       <extendedTooltip>
-        <name>БезДанныхExtendedTooltip</name>
+        <name>БезДанныхРасширеннаяПодсказка</name>
         <id>42</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -598,6 +598,10 @@
     <items xsi:type="form:FormField">
       <name>ПустаяСсылкаПредставление</name>
       <id>21</id>
+      <title>
+        <key>ru</key>
+        <value>Значение пустой ссылки</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible/>
@@ -614,7 +618,7 @@
 типа значения пустой ссылки)</value>
       </toolTip>
       <extendedTooltip>
-        <name>ПустаяСсылкаПредставлениеExtendedTooltip</name>
+        <name>ПустаяСсылкаПредставлениеРасширеннаяПодсказка</name>
         <id>43</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -663,7 +667,7 @@
         <segments>Объект.НоваяСсылка</segments>
       </dataPath>
       <extendedTooltip>
-        <name>НоваяСсылкаExtendedTooltip</name>
+        <name>НоваяСсылкаРасширеннаяПодсказка</name>
         <id>44</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -712,7 +716,7 @@
       <value>Прочее</value>
     </title>
     <extendedTooltip>
-      <name>ПрочиеСвойстваExtendedTooltip</name>
+      <name>ПрочиеСвойстваРасширеннаяПодсказка</name>
       <id>40</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -893,13 +897,17 @@
     <items xsi:type="form:Button">
       <name>ФормаВключитьВозможностьРедактирования</name>
       <id>29</id>
+      <title>
+        <key>ru</key>
+        <value>Включить возможность редактирования</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаВключитьВозможностьРедактированияExtendedTooltip</name>
+        <name>ФормаВключитьВозможностьРедактированияРасширеннаяПодсказка</name>
         <id>32</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1079,22 +1087,10 @@
         <command>0</command>
         <userVisible/>
       </cmiFragmentRecord>
-      <cmiFragmentRecord>
-        <command>0</command>
-        <userVisible/>
-      </cmiFragmentRecord>
     </navigationPanel>
     <commandBar>
       <cmiFragmentRecord>
         <command>Catalog.ВнешниеПользователи.Command.ВнешнийДоступ</command>
-        <userVisible/>
-      </cmiFragmentRecord>
-      <cmiFragmentRecord>
-        <command>0</command>
-        <userVisible/>
-      </cmiFragmentRecord>
-      <cmiFragmentRecord>
-        <command>0</command>
         <userVisible/>
       </cmiFragmentRecord>
       <cmiFragmentRecord>

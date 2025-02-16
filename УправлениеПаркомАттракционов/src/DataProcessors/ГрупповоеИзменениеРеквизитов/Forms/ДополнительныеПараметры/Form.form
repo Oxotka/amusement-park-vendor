@@ -10,6 +10,10 @@
     <items xsi:type="form:FormField">
       <name>ИзменятьВТранзакции</name>
       <id>1</id>
+      <title>
+        <key>ru</key>
+        <value>Изменять в транзакции</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -25,7 +29,7 @@
         <name>ИзменятьВТранзакцииПриИзменении</name>
       </handlers>
       <extendedTooltip>
-        <name>ИзменятьВТранзакцииExtendedTooltip</name>
+        <name>ИзменятьВТранзакцииРасширеннаяПодсказка</name>
         <id>54</id>
         <title>
           <key>ru</key>
@@ -69,7 +73,7 @@
       <value>Изменять в транзакции</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаИзменятьВТранзакцииExtendedTooltip</name>
+      <name>ГруппаИзменятьВТранзакцииРасширеннаяПодсказка</name>
       <id>53</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -134,6 +138,10 @@
     <items xsi:type="form:FormField">
       <name>ПрерыватьПриОшибке</name>
       <id>37</id>
+      <title>
+        <key>ru</key>
+        <value>Прерывать при ошибке</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -145,7 +153,7 @@
       <titleLocation>Right</titleLocation>
       <toolTipRepresentation>ShowBottom</toolTipRepresentation>
       <extendedTooltip>
-        <name>ПрерыватьПриОшибкеExtendedTooltip</name>
+        <name>ПрерыватьПриОшибкеРасширеннаяПодсказка</name>
         <id>57</id>
         <title>
           <key>ru</key>
@@ -189,7 +197,7 @@
       <value>Прерывание при ошибке</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаПрерываниеПриОшибкеExtendedTooltip</name>
+      <name>ГруппаПрерываниеПриОшибкеРасширеннаяПодсказка</name>
       <id>56</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -218,6 +226,10 @@
     <items xsi:type="form:FormField">
       <name>ОбрабатыватьГруппыРекурсивно</name>
       <id>3</id>
+      <title>
+        <key>ru</key>
+        <value>Обрабатывать дочерние элементы</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -229,7 +241,7 @@
       <titleLocation>Right</titleLocation>
       <toolTipRepresentation>ShowBottom</toolTipRepresentation>
       <extendedTooltip>
-        <name>ОбрабатыватьГруппыРекурсивноExtendedTooltip</name>
+        <name>ОбрабатыватьГруппыРекурсивноРасширеннаяПодсказка</name>
         <id>60</id>
         <title>
           <key>ru</key>
@@ -273,7 +285,7 @@
       <value>Обрабатывать рекурсивно</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаОбрабатыватьРекурсивноExtendedTooltip</name>
+      <name>ГруппаОбрабатыватьРекурсивноРасширеннаяПодсказка</name>
       <id>59</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -305,6 +317,10 @@
       <items xsi:type="form:FormField">
         <name>ПоказыватьСлужебныеРеквизиты</name>
         <id>80</id>
+        <title>
+          <key>ru</key>
+          <value>Показывать служебные реквизиты</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -477,6 +493,10 @@
       <items xsi:type="form:FormField">
         <name>ОтключитьСвязиПараметровВыбора</name>
         <id>93</id>
+        <title>
+          <key>ru</key>
+          <value>Отключить отборы при выборе значений</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -600,13 +620,17 @@
     <items xsi:type="form:Button">
       <name>ФормаОК</name>
       <id>5</id>
+      <title>
+        <key>ru</key>
+        <value>ОК</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаОКExtendedTooltip</name>
+        <name>ФормаОКРасширеннаяПодсказка</name>
         <id>50</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -637,7 +661,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаОтменаExtendedTooltip</name>
+        <name>ФормаОтменаРасширеннаяПодсказка</name>
         <id>51</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -667,7 +691,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаСправкаExtendedTooltip</name>
+        <name>ФормаСправкаРасширеннаяПодсказка</name>
         <id>52</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -951,6 +975,12 @@
   </parameters>
   <parameters>
     <name>РежимРазработчика</name>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>ПоказыватьСлужебныеРеквизиты</name>
     <valueType>
       <types>Boolean</types>
     </valueType>

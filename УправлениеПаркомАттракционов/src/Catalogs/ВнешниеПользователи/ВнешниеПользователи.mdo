@@ -168,9 +168,9 @@
     </type>
     <toolTip>
       <key>ru</key>
-      <value>Внешний пользователь больше не работает в программе, но сведения о нем сохранены.
+      <value>Внешний пользователь больше не работает в приложении, но сведения о нем сохранены.
 Недействительные внешние пользователи скрываются из всех списков
-при выборе или подборе в документах и других местах программы.</value>
+при выборе или подборе в документах и других местах приложения.</value>
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -439,7 +439,7 @@
     <representation>Picture</representation>
     <toolTip>
       <key>ru</key>
-      <value>Внешний пользователь (для входа в программу)</value>
+      <value>Внешний пользователь (для входа в приложение)</value>
     </toolTip>
     <picture xsi:type="core:PictureRef">
       <picture>CommonPicture.СостояниеПользователя08</picture>

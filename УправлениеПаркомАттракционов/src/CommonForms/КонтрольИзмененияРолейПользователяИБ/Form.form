@@ -44,7 +44,7 @@
       <autoMaxHeight>true</autoMaxHeight>
       <extInfo xsi:type="form:PictureDecorationExtInfo">
         <picture xsi:type="core:PictureRef">
-          <picture>CommonPicture.Информация32</picture>
+          <picture>StdPicture.DialogInformation</picture>
         </picture>
         <fileDragMode>AsFileRef</fileDragMode>
       </extInfo>
@@ -55,7 +55,7 @@
       <title>
         <key>ru</key>
         <value>Администратор изменил права доступа.
-Перезапустите программу, чтобы они вступили в силу.</value>
+Перезапустите приложение, чтобы они вступили в силу.</value>
       </title>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -137,6 +137,10 @@
     <items xsi:type="form:Button">
       <name>ФормаПерезапустить</name>
       <id>9</id>
+      <title>
+        <key>ru</key>
+        <value>Перезапустить</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -168,6 +172,10 @@
     <items xsi:type="form:Button">
       <name>ФормаНапомнитьЗавтра</name>
       <id>11</id>
+      <title>
+        <key>ru</key>
+        <value>Напомнить завтра</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -202,7 +210,11 @@
     </userVisible>
     <horizontalAlign>Right</horizontalAlign>
   </autoCommandBar>
-  <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <handlers>
+    <event>OnOpen</event>
+    <name>ПриОткрытии</name>
+  </handlers>
+  <windowOpeningMode>LockWholeInterface</windowOpeningMode>
   <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

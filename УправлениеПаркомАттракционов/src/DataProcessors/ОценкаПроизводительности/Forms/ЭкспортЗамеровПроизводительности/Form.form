@@ -151,6 +151,10 @@
   <items xsi:type="form:FormField">
     <name>Профиль</name>
     <id>17</id>
+    <title>
+      <key>ru</key>
+      <value>Профиль</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -200,6 +204,10 @@
   <items xsi:type="form:FormField">
     <name>КаталогЭкспорта</name>
     <id>9</id>
+    <title>
+      <key>ru</key>
+      <value>Каталог экспорта</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -254,6 +262,10 @@
   <items xsi:type="form:FormField">
     <name>ИмяАрхива</name>
     <id>14</id>
+    <title>
+      <key>ru</key>
+      <value>Имя архива</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>

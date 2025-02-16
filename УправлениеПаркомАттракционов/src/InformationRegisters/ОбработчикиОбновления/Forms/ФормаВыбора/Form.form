@@ -63,6 +63,10 @@
     <items xsi:type="form:FormField">
       <name>Выбран</name>
       <id>55</id>
+      <title>
+        <key>ru</key>
+        <value>Выбран</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -107,6 +111,10 @@
     <items xsi:type="form:FormField">
       <name>ИмяОбработчика</name>
       <id>44</id>
+      <title>
+        <key>ru</key>
+        <value>Имя обработчика</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -157,6 +165,10 @@
     <items xsi:type="form:FormField">
       <name>Статус</name>
       <id>47</id>
+      <title>
+        <key>ru</key>
+        <value>Статус</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -208,6 +220,10 @@
     <items xsi:type="form:FormField">
       <name>Версия</name>
       <id>50</id>
+      <title>
+        <key>ru</key>
+        <value>Версия</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -452,6 +468,10 @@
     <items xsi:type="form:Button">
       <name>ФормаГотово</name>
       <id>25</id>
+      <title>
+        <key>ru</key>
+        <value>Готово</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -483,6 +503,10 @@
     <items xsi:type="form:Button">
       <name>ФормаВыбрать</name>
       <id>27</id>
+      <title>
+        <key>ru</key>
+        <value>Выбрать</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -513,6 +537,10 @@
     <items xsi:type="form:Button">
       <name>ФормаОтменитьВыбор</name>
       <id>29</id>
+      <title>
+        <key>ru</key>
+        <value>Отменить выбор</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -543,6 +571,10 @@
     <items xsi:type="form:Button">
       <name>ФормаОтменитьВыборВсех</name>
       <id>53</id>
+      <title>
+        <key>ru</key>
+        <value>Отменить выбор всех</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>

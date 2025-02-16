@@ -22,6 +22,10 @@
       <items xsi:type="form:FormField">
         <name>ПравилаПоискаИспользовать</name>
         <id>30</id>
+        <title>
+          <key>ru</key>
+          <value>Использовать</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -70,6 +74,10 @@
       <items xsi:type="form:FormField">
         <name>ПравилаПоискаПредставлениеРеквизита</name>
         <id>24</id>
+        <title>
+          <key>ru</key>
+          <value>Поле</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -150,6 +158,10 @@
     <items xsi:type="form:FormField">
       <name>ПравилаПоискаВидСравнения</name>
       <id>27</id>
+      <title>
+        <key>ru</key>
+        <value>Правило</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -395,6 +407,10 @@
   <items xsi:type="form:FormField">
     <name>СкрыватьНезначимыеДубли</name>
     <id>48</id>
+    <title>
+      <key>ru</key>
+      <value>Скрывать дубли, помеченные на удаление и без мест использования</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -442,6 +458,10 @@
     <items xsi:type="form:FormField">
       <name>УчитыватьПрикладныеПравила</name>
       <id>1</id>
+      <title>
+        <key>ru</key>
+        <value>Учитывать ограничения:</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -490,6 +510,10 @@
     <items xsi:type="form:FormField">
       <name>ОписаниеПрикладныхПравил</name>
       <id>7</id>
+      <title>
+        <key>ru</key>
+        <value>С учетом ограничений</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -587,6 +611,10 @@
       <items xsi:type="form:Button">
         <name>ЗавершитьРедактирование</name>
         <id>12</id>
+        <title>
+          <key>ru</key>
+          <value>ОК</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -993,6 +1021,27 @@
     </action>
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
+  <parameters>
+    <name>ОбластьПоискаДублей</name>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>ПредставлениеОбластиОтбора</name>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>АдресНастроек</name>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+  </parameters>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>

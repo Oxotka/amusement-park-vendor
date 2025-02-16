@@ -43,13 +43,17 @@
     <items xsi:type="form:Button">
       <name>ФормаОбновитьВспомогательныеДанныеРегистра</name>
       <id>33</id>
+      <title>
+        <key>ru</key>
+        <value>Обновить вспомогательные данные регистра</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаОбновитьВспомогательныеДанныеРегистраExtendedTooltip</name>
+        <name>ФормаОбновитьВспомогательныеДанныеРегистраРасширеннаяПодсказка</name>
         <id>39</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -74,13 +78,17 @@
     <items xsi:type="form:Button">
       <name>ФормаВключитьВозможностьРедактирования</name>
       <id>32</id>
+      <title>
+        <key>ru</key>
+        <value>Включить возможность редактирования</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаВключитьВозможностьРедактированияExtendedTooltip</name>
+        <name>ФормаВключитьВозможностьРедактированияРасширеннаяПодсказка</name>
         <id>40</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1017,7 +1025,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>СписокExtendedTooltip</name>
+      <name>СписокРасширеннаяПодсказка</name>
       <id>41</id>
       <visible>true</visible>
       <enabled>true</enabled>

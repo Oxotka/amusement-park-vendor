@@ -62,7 +62,7 @@
       <segments>Запись.Пользователь</segments>
     </dataPath>
     <extendedTooltip>
-      <name>ПользовательExtendedTooltip</name>
+      <name>ПользовательРасширеннаяПодсказка</name>
       <id>37</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -112,7 +112,7 @@
       <segments>Запись.Право</segments>
     </dataPath>
     <extendedTooltip>
-      <name>ПравоExtendedTooltip</name>
+      <name>ПравоРасширеннаяПодсказка</name>
       <id>38</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -251,7 +251,7 @@
       <value>Свойства права</value>
     </title>
     <extendedTooltip>
-      <name>СвойстваПраваExtendedTooltip</name>
+      <name>СвойстваПраваРасширеннаяПодсказка</name>
       <id>39</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -339,7 +339,7 @@
         <segments>Запись.Таблица</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ТаблицаExtendedTooltip</name>
+        <name>ТаблицаРасширеннаяПодсказка</name>
         <id>43</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -799,7 +799,7 @@
         <value>Горизонтальная группа</value>
       </title>
       <extendedTooltip>
-        <name>ГоризонтальнаяГруппаExtendedTooltip</name>
+        <name>ГоризонтальнаяГруппаРасширеннаяПодсказка</name>
         <id>44</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -832,7 +832,7 @@
       <value>Вспомогательные данные</value>
     </title>
     <extendedTooltip>
-      <name>ВспомогательныеДанныеExtendedTooltip</name>
+      <name>ВспомогательныеДанныеРасширеннаяПодсказка</name>
       <id>42</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -863,13 +863,17 @@
     <items xsi:type="form:Button">
       <name>ФормаВключитьВозможностьРедактирования</name>
       <id>29</id>
+      <title>
+        <key>ru</key>
+        <value>Включить возможность редактирования</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаВключитьВозможностьРедактированияExtendedTooltip</name>
+        <name>ФормаВключитьВозможностьРедактированияРасширеннаяПодсказка</name>
         <id>35</id>
         <visible>true</visible>
         <enabled>true</enabled>

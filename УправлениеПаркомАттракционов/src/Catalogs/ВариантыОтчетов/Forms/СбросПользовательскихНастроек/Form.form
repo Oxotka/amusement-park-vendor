@@ -96,6 +96,10 @@
     <items xsi:type="form:Button">
       <name>ФормаКомандаСбросить</name>
       <id>6</id>
+      <title>
+        <key>ru</key>
+        <value>Сбросить пользовательские настройки</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -232,6 +236,10 @@
     </action>
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
+  <parameters>
+    <name>Варианты</name>
+    <valueType/>
+  </parameters>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>

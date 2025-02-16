@@ -81,6 +81,10 @@
         <items xsi:type="form:Button">
           <name>ИнформационнаяБазаПеремещена</name>
           <id>6</id>
+          <title>
+            <key>ru</key>
+            <value>Информационная база перемещена</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -112,6 +116,10 @@
         <items xsi:type="form:Button">
           <name>ЭтоКопияИнформационнойБазы</name>
           <id>8</id>
+          <title>
+            <key>ru</key>
+            <value>Это копия информационной базы</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -146,6 +154,10 @@
           <items xsi:type="form:Button">
             <name>ФормаПроверятьИмяСервера</name>
             <id>10</id>
+            <title>
+              <key>ru</key>
+              <value>Проверять имя сервера</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -333,6 +345,10 @@
         <items xsi:type="form:Button">
           <name>ЗаписатьИЗакрыть</name>
           <id>34</id>
+          <title>
+            <key>ru</key>
+            <value>Записать и закрыть</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -392,6 +408,10 @@
       <items xsi:type="form:FormField">
         <name>ПроверятьИмяСервера</name>
         <id>29</id>
+        <title>
+          <key>ru</key>
+          <value>Проверять имя сервера</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>

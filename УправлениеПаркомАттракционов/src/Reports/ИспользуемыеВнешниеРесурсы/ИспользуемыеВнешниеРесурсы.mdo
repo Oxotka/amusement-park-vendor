@@ -7,7 +7,7 @@
   <name>ИспользуемыеВнешниеРесурсы</name>
   <synonym>
     <key>ru</key>
-    <value>Внешние ресурсы, используемые программой и дополнительными модулями</value>
+    <value>Внешние ресурсы, используемые приложением и дополнительными модулями</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>

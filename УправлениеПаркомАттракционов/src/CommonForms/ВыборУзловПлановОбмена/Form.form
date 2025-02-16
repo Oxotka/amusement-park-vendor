@@ -32,6 +32,10 @@
     <items xsi:type="form:FormField">
       <name>УзлыПлановОбменаПланОбменаПредставление</name>
       <id>23</id>
+      <title>
+        <key>ru</key>
+        <value>Приложение</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -41,7 +45,7 @@
         <segments>УзлыПлановОбмена.ПланОбменаПредставление</segments>
       </dataPath>
       <extendedTooltip>
-        <name>УзлыПлановОбменаПланОбменаПредставлениеExtendedTooltip</name>
+        <name>УзлыПлановОбменаПланОбменаПредставлениеРасширеннаяПодсказка</name>
         <id>31</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -83,6 +87,10 @@
     <items xsi:type="form:FormField">
       <name>УзлыПлановОбменаУзелПредставление</name>
       <id>25</id>
+      <title>
+        <key>ru</key>
+        <value>Информационная база</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -92,7 +100,7 @@
         <segments>УзлыПлановОбмена.УзелПредставление</segments>
       </dataPath>
       <extendedTooltip>
-        <name>УзлыПлановОбменаУзелПредставлениеExtendedTooltip</name>
+        <name>УзлыПлановОбменаУзелПредставлениеРасширеннаяПодсказка</name>
         <id>32</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -264,7 +272,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>УзлыПлановОбменаExtendedTooltip</name>
+      <name>УзлыПлановОбменаРасширеннаяПодсказка</name>
       <id>30</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -318,13 +326,17 @@
     <items xsi:type="form:Button">
       <name>ФормаВыбрать</name>
       <id>6</id>
+      <title>
+        <key>ru</key>
+        <value>Выбрать</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаВыбратьExtendedTooltip</name>
+        <name>ФормаВыбратьРасширеннаяПодсказка</name>
         <id>28</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -359,7 +371,7 @@
         <value>Команды списка узлов</value>
       </title>
       <extendedTooltip>
-        <name>КомандыСпискаУзловExtendedTooltip</name>
+        <name>КомандыСпискаУзловРасширеннаяПодсказка</name>
         <id>29</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -441,7 +453,7 @@
       <name>ПланОбменаПредставление</name>
       <title>
         <key>ru</key>
-        <value>Программа</value>
+        <value>Приложение</value>
       </title>
       <id>3</id>
       <valueType>
@@ -548,6 +560,18 @@
     <name>ТекущаяСтрока</name>
     <valueType>
       <types>ExchangePlanRef</types>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>ЗакрыватьПриВыборе</name>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>МножественныйВыбор</name>
+    <valueType>
+      <types>Boolean</types>
     </valueType>
   </parameters>
   <commandInterface>

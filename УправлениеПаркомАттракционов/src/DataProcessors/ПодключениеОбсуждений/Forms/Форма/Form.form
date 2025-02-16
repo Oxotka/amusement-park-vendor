@@ -52,7 +52,7 @@
         <id>44</id>
         <title>
           <key>ru</key>
-          <value>Для подключения обсуждений требуется создать учетную запись администратора программы.
+          <value>Для подключения обсуждений требуется создать учетную запись администратора приложения.
 
 &lt;link e1cib/list/Справочник.Пользователи>Перейти к списку пользователей&lt;/></value>
         </title>
@@ -307,8 +307,7 @@
           <id>17</id>
           <title>
             <key>ru</key>
-            <value>Подключите обсуждения, и пользователи этой программы смогут общаться друг с другом в режиме реального времени, создавать тематические обсуждения и вести переписку по конкретным документам, например: заказам, реализациям или контрагентам.
-</value>
+            <value>Подключите обсуждения, и пользователи этого приложения смогут общаться друг с другом в режиме реального времени, создавать тематические обсуждения и вести переписку по конкретным документам, например: заказам, реализациям или контрагентам.</value>
           </title>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -351,6 +350,10 @@
         <items xsi:type="form:FormField">
           <name>АдресЭлектроннойПочты</name>
           <id>7</id>
+          <title>
+            <key>ru</key>
+            <value>Адрес электронной почты</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -419,6 +422,10 @@
           <items xsi:type="form:FormField">
             <name>ВыборСервераВзаимодействияДиалог</name>
             <id>111</id>
+            <title>
+              <key>ru</key>
+              <value>Выбор сервера взаимодействия</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -478,6 +485,10 @@
           <items xsi:type="form:FormField">
             <name>ВыборСервераВзаимодействияЛокально</name>
             <id>114</id>
+            <title>
+              <key>ru</key>
+              <value>Выбор сервера взаимодействия</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -497,7 +508,7 @@
               <id>116</id>
               <title>
                 <key>ru</key>
-                <value>1С:Сервер взаимодействия - это программа, реализующая серверную часть системы взаимодействия. Сервер взаимодействия может быть развернут в Интернете или в локальной сети предприятия. &lt;link https://its.1c.ru/db/cs20doc>Подробнее&lt;/>.</value>
+                <value>1С:Сервер взаимодействия - это приложение, реализующее серверную часть системы взаимодействия. Сервер взаимодействия может быть развернут в Интернете или в локальной сети предприятия. &lt;link https://its.1c.ru/db/cs20doc>Подробнее&lt;/>.</value>
               </title>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -586,6 +597,10 @@
             <items xsi:type="form:FormField">
               <name>АдресЛокальногоСервераВзаимодействия</name>
               <id>117</id>
+              <title>
+                <key>ru</key>
+                <value>Адрес сервера взаимодействия</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -825,6 +840,10 @@
       <items xsi:type="form:FormField">
         <name>КодРегистрации</name>
         <id>12</id>
+        <title>
+          <key>ru</key>
+          <value>Код регистрации</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -959,7 +978,7 @@
         <id>76</id>
         <title>
           <key>ru</key>
-          <value>К программе подключены обсуждения, и пользователи этой программы теперь могут общаться между собой.</value>
+          <value>К приложению подключены обсуждения, и пользователи этого приложения теперь могут общаться между собой.</value>
         </title>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1194,6 +1213,10 @@
       <items xsi:type="form:Button">
         <name>Назад</name>
         <id>79</id>
+        <title>
+          <key>ru</key>
+          <value>&lt; Назад</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1257,6 +1280,10 @@
       <items xsi:type="form:Button">
         <name>Зарегистрироваться</name>
         <id>24</id>
+        <title>
+          <key>ru</key>
+          <value>Зарегистрироваться ></value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>

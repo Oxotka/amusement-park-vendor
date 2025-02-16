@@ -185,6 +185,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Командная панель</value>
+      </title>
       <extendedTooltip>
         <name>ГруппаКоманднаяПанельРасширеннаяПодсказка</name>
         <id>35</id>
@@ -268,6 +272,27 @@
     <main>true</main>
     <savedData>true</savedData>
   </attributes>
+  <parameters>
+    <name>ВладелецФайла</name>
+    <valueType>
+      <types>BusinessProcessRef</types>
+      <types>DocumentRef</types>
+      <types>TaskRef</types>
+      <types>CatalogRef</types>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>ТипВладельцаФайла</name>
+    <valueType>
+      <types>CatalogRef.ИдентификаторыОбъектовРасширений</types>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>ЭтоФайл</name>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+  </parameters>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>

@@ -21,7 +21,7 @@
             <segments>Объект.Description</segments>
           </dataPath>
           <extendedTooltip>
-            <name>НаименованиеExtendedTooltip</name>
+            <name>НаименованиеРасширеннаяПодсказка</name>
             <id>302</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -172,7 +172,7 @@
                     <name>ДатаНачалаПриИзменении</name>
                   </handlers>
                   <extendedTooltip>
-                    <name>ДатаНачалаExtendedTooltip</name>
+                    <name>ДатаНачалаРасширеннаяПодсказка</name>
                     <id>306</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -231,7 +231,7 @@
                     <name>ДатаОкончанияПриИзменении</name>
                   </handlers>
                   <extendedTooltip>
-                    <name>ДатаОкончанияExtendedTooltip</name>
+                    <name>ДатаОкончанияРасширеннаяПодсказка</name>
                     <id>307</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -319,7 +319,7 @@
               </toolTip>
               <toolTipRepresentation>ShowBottom</toolTipRepresentation>
               <extendedTooltip>
-                <name>ПериодГруппаExtendedTooltip</name>
+                <name>ПериодГруппаРасширеннаяПодсказка</name>
                 <id>305</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -351,7 +351,7 @@
               <value>Период заполнения группа</value>
             </title>
             <extendedTooltip>
-              <name>ПериодЗаполненияГруппаExtendedTooltip</name>
+              <name>ПериодЗаполненияГруппаРасширеннаяПодсказка</name>
               <id>304</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -393,7 +393,7 @@
                 <name>ПроизводственныйКалендарьПриИзменении</name>
               </handlers>
               <extendedTooltip>
-                <name>ПроизводственныйКалендарьExtendedTooltip</name>
+                <name>ПроизводственныйКалендарьРасширеннаяПодсказка</name>
                 <id>310</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -448,7 +448,7 @@
             </toolTip>
             <toolTipRepresentation>ShowBottom</toolTipRepresentation>
             <extendedTooltip>
-              <name>ПроизводственныйКалендарьГруппаExtendedTooltip</name>
+              <name>ПроизводственныйКалендарьГруппаРасширеннаяПодсказка</name>
               <id>309</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -481,7 +481,7 @@
             <value>Настройки производственного календаря группа</value>
           </title>
           <extendedTooltip>
-            <name>НастройкиПроизводственногоКалендаряГруппаExtendedTooltip</name>
+            <name>НастройкиПроизводственногоКалендаряГруппаРасширеннаяПодсказка</name>
             <id>303</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -530,7 +530,7 @@
                   <name>СпособЗаполненияПриИзменении</name>
                 </handlers>
                 <extendedTooltip>
-                  <name>СпособЗаполненияПоНеделямExtendedTooltip</name>
+                  <name>СпособЗаполненияПоНеделямРасширеннаяПодсказка</name>
                   <id>315</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -592,7 +592,7 @@
                     <name>СпособЗаполненияПриИзменении</name>
                   </handlers>
                   <extendedTooltip>
-                    <name>СпособЗаполненияПоЦикламПроизвольнойДлиныExtendedTooltip</name>
+                    <name>СпособЗаполненияПоЦикламПроизвольнойДлиныРасширеннаяПодсказка</name>
                     <id>317</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -640,6 +640,10 @@
                   <items xsi:type="form:FormField">
                     <name>ДлинаЦикла</name>
                     <id>189</id>
+                    <title>
+                      <key>ru</key>
+                      <value>Длина цикла</value>
+                    </title>
                     <visible>true</visible>
                     <enabled>true</enabled>
                     <userVisible>
@@ -659,7 +663,7 @@
                       <name>ДлинаЦиклаПриИзменении</name>
                     </handlers>
                     <extendedTooltip>
-                      <name>ДлинаЦиклаExtendedTooltip</name>
+                      <name>ДлинаЦиклаРасширеннаяПодсказка</name>
                       <id>319</id>
                       <visible>true</visible>
                       <enabled>true</enabled>
@@ -717,7 +721,7 @@
                       <common>true</common>
                     </userVisible>
                     <extendedTooltip>
-                      <name>ДлинаЦиклаЕдиницаИзмеренияExtendedTooltip</name>
+                      <name>ДлинаЦиклаЕдиницаИзмеренияРасширеннаяПодсказка</name>
                       <id>320</id>
                       <visible>true</visible>
                       <enabled>true</enabled>
@@ -767,7 +771,7 @@
                       <name>ДатаОтсчетаПриИзменении</name>
                     </handlers>
                     <extendedTooltip>
-                      <name>ДатаОтсчетаExtendedTooltip</name>
+                      <name>ДатаОтсчетаРасширеннаяПодсказка</name>
                       <id>321</id>
                       <visible>true</visible>
                       <enabled>true</enabled>
@@ -816,7 +820,7 @@
                     <value>Длина цикла дней</value>
                   </title>
                   <extendedTooltip>
-                    <name>ГруппаДлинаЦиклаДнейExtendedTooltip</name>
+                    <name>ГруппаДлинаЦиклаДнейРасширеннаяПодсказка</name>
                     <id>318</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -849,7 +853,7 @@
                   <value>Способ заполнения по циклам произвольной длины группа</value>
                 </title>
                 <extendedTooltip>
-                  <name>СпособЗаполненияПоЦикламПроизвольнойДлиныГруппаExtendedTooltip</name>
+                  <name>СпособЗаполненияПоЦикламПроизвольнойДлиныГруппаРасширеннаяПодсказка</name>
                   <id>316</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -887,7 +891,7 @@
               </toolTip>
               <toolTipRepresentation>ShowBottom</toolTipRepresentation>
               <extendedTooltip>
-                <name>СпособЗаполненияГруппаExtendedTooltip</name>
+                <name>СпособЗаполненияГруппаРасширеннаяПодсказка</name>
                 <id>314</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -1222,7 +1226,7 @@
               <value>Настройки группа</value>
             </title>
             <extendedTooltip>
-              <name>НастройкиГруппаExtendedTooltip</name>
+              <name>НастройкиГруппаРасширеннаяПодсказка</name>
               <id>313</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1285,7 +1289,7 @@
                     <segments>Объект.ШаблонЗаполнения.LineNumber</segments>
                   </dataPath>
                   <extendedTooltip>
-                    <name>ШаблонЗаполненияНомерСтрокиExtendedTooltip</name>
+                    <name>ШаблонЗаполненияНомерСтрокиРасширеннаяПодсказка</name>
                     <id>330</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -1331,7 +1335,7 @@
                     <segments>Объект.ШаблонЗаполнения.ПредставлениеДня</segments>
                   </dataPath>
                   <extendedTooltip>
-                    <name>ШаблонЗаполненияПредставлениеДняExtendedTooltip</name>
+                    <name>ШаблонЗаполненияПредставлениеДняРасширеннаяПодсказка</name>
                     <id>331</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -1386,7 +1390,7 @@
                     <name>ШаблонЗаполненияДеньВключенВГрафикПриИзменении</name>
                   </handlers>
                   <extendedTooltip>
-                    <name>ШаблонЗаполненияДеньВключенВГрафикExtendedTooltip</name>
+                    <name>ШаблонЗаполненияДеньВключенВГрафикРасширеннаяПодсказка</name>
                     <id>332</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -1429,7 +1433,7 @@
                     <segments>Объект.ШаблонЗаполнения.ПредставлениеРасписания</segments>
                   </dataPath>
                   <extendedTooltip>
-                    <name>ШаблонЗаполненияПредставлениеРасписанияExtendedTooltip</name>
+                    <name>ШаблонЗаполненияПредставлениеРасписанияРасширеннаяПодсказка</name>
                     <id>333</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -1475,7 +1479,7 @@
                   <value>Шаблон заполнения группа колонок</value>
                 </title>
                 <extendedTooltip>
-                  <name>ШаблонЗаполненияГруппаКолонокExtendedTooltip</name>
+                  <name>ШаблонЗаполненияГруппаКолонокРасширеннаяПодсказка</name>
                   <id>329</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -1627,7 +1631,7 @@
                 </extInfo>
               </searchControlAddition>
               <extendedTooltip>
-                <name>ШаблонЗаполненияExtendedTooltip</name>
+                <name>ШаблонЗаполненияРасширеннаяПодсказка</name>
                 <id>328</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -1668,6 +1672,10 @@
             <items xsi:type="form:FormField">
               <name>РасписаниеПредпраздничногоДня</name>
               <id>287</id>
+              <title>
+                <key>ru</key>
+                <value>Расписание предпраздничного дня</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -1677,7 +1685,7 @@
                 <segments>РасписаниеПредпраздничногоДня</segments>
               </dataPath>
               <extendedTooltip>
-                <name>РасписаниеПредпраздничногоДняExtendedTooltip</name>
+                <name>РасписаниеПредпраздничногоДняРасширеннаяПодсказка</name>
                 <id>326</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -1727,7 +1735,7 @@
               <value>Шаблон заполнения</value>
             </title>
             <extendedTooltip>
-              <name>ШаблонЗаполненияГруппаExtendedTooltip</name>
+              <name>ШаблонЗаполненияГруппаРасширеннаяПодсказка</name>
               <id>327</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1760,7 +1768,7 @@
             <value>Настройка заполнения</value>
           </title>
           <extendedTooltip>
-            <name>НастройкаЗаполненияГруппаExtendedTooltip</name>
+            <name>НастройкаЗаполненияГруппаРасширеннаяПодсказка</name>
             <id>312</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1846,7 +1854,7 @@
                 <name>ГоризонтПланированияПриИзменении</name>
               </handlers>
               <extendedTooltip>
-                <name>ГоризонтПланированияExtendedTooltip</name>
+                <name>ГоризонтПланированияРасширеннаяПодсказка</name>
                 <id>338</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -1900,7 +1908,7 @@
             </toolTip>
             <toolTipRepresentation>ShowRight</toolTipRepresentation>
             <extendedTooltip>
-              <name>ГоризонтПланированияЕдиницаГруппаExtendedTooltip</name>
+              <name>ГоризонтПланированияЕдиницаГруппаРасширеннаяПодсказка</name>
               <id>337</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1932,7 +1940,7 @@
             <value>Горизонт планирования группа</value>
           </title>
           <extendedTooltip>
-            <name>ГоризонтПланированияГруппаExtendedTooltip</name>
+            <name>ГоризонтПланированияГруппаРасширеннаяПодсказка</name>
             <id>336</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1971,7 +1979,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ЗаполненностьДекорацияExtendedTooltip</name>
+              <name>ЗаполненностьДекорацияРасширеннаяПодсказка</name>
               <id>342</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -2004,6 +2012,10 @@
           <items xsi:type="form:FormField">
             <name>ЗаполненностьИнформационныйТекст</name>
             <id>243</id>
+            <title>
+              <key>ru</key>
+              <value>Заполненность информационный текст</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -2014,7 +2026,7 @@
             </dataPath>
             <titleLocation>None</titleLocation>
             <extendedTooltip>
-              <name>ЗаполненностьИнформационныйТекстExtendedTooltip</name>
+              <name>ЗаполненностьИнформационныйТекстРасширеннаяПодсказка</name>
               <id>343</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -2060,7 +2072,7 @@
             <value>Заполненность группа</value>
           </title>
           <extendedTooltip>
-            <name>ЗаполненностьГруппаExtendedTooltip</name>
+            <name>ЗаполненностьГруппаРасширеннаяПодсказка</name>
             <id>341</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -2094,7 +2106,7 @@
         </title>
         <horizontalStretch>true</horizontalStretch>
         <extendedTooltip>
-          <name>КонтрольЗаполненияГруппаExtendedTooltip</name>
+          <name>КонтрольЗаполненияГруппаРасширеннаяПодсказка</name>
           <id>335</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -2133,7 +2145,7 @@
             <segments>Объект.Описание</segments>
           </dataPath>
           <extendedTooltip>
-            <name>ОписаниеExtendedTooltip</name>
+            <name>ОписаниеРасширеннаяПодсказка</name>
             <id>345</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -2185,7 +2197,7 @@
           <value>Описание группа</value>
         </title>
         <extendedTooltip>
-          <name>ОписаниеГруппаExtendedTooltip</name>
+          <name>ОписаниеГруппаРасширеннаяПодсказка</name>
           <id>344</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -2228,7 +2240,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>РучноеРедактированиеДекорацияExtendedTooltip</name>
+              <name>РучноеРедактированиеДекорацияРасширеннаяПодсказка</name>
               <id>348</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -2265,6 +2277,10 @@
           <items xsi:type="form:FormField">
             <name>РучноеРедактированиеИнформационныйТекст</name>
             <id>297</id>
+            <title>
+              <key>ru</key>
+              <value>Ручное редактирование информационный текст</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -2275,7 +2291,7 @@
             </dataPath>
             <titleLocation>None</titleLocation>
             <extendedTooltip>
-              <name>РучноеРедактированиеИнформационныйТекстExtendedTooltip</name>
+              <name>РучноеРедактированиеИнформационныйТекстРасширеннаяПодсказка</name>
               <id>349</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -2323,7 +2339,7 @@
             <value>Годы ручного редактирования</value>
           </title>
           <extendedTooltip>
-            <name>ГодыРучногоРедактированияГруппаExtendedTooltip</name>
+            <name>ГодыРучногоРедактированияГруппаРасширеннаяПодсказка</name>
             <id>347</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -2349,13 +2365,17 @@
         <items xsi:type="form:Button">
           <name>РезультатЗаполнения</name>
           <id>289</id>
+          <title>
+            <key>ru</key>
+            <value>Результат заполнения >></value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>РезультатЗаполненияExtendedTooltip</name>
+            <name>РезультатЗаполненияРасширеннаяПодсказка</name>
             <id>350</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -2389,7 +2409,7 @@
           <value>Результат заполнения команда перехода группа</value>
         </title>
         <extendedTooltip>
-          <name>РезультатЗаполненияКомандаПереходаГруппаExtendedTooltip</name>
+          <name>РезультатЗаполненияКомандаПереходаГруппаРасширеннаяПодсказка</name>
           <id>346</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -2422,7 +2442,7 @@
         <value>Настройка заполнения страница</value>
       </title>
       <extendedTooltip>
-        <name>НастройкаЗаполненияСтраницаExtendedTooltip</name>
+        <name>НастройкаЗаполненияСтраницаРасширеннаяПодсказка</name>
         <id>300</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -2474,7 +2494,7 @@
                 <name>НомерТекущегоГодаПриИзменении</name>
               </handlers>
               <extendedTooltip>
-                <name>НомерТекущегоГодаExtendedTooltip</name>
+                <name>НомерТекущегоГодаРасширеннаяПодсказка</name>
                 <id>355</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -2530,7 +2550,7 @@
                 <common>true</common>
               </userVisible>
               <extendedTooltip>
-                <name>ГодПодписьExtendedTooltip</name>
+                <name>ГодПодписьРасширеннаяПодсказка</name>
                 <id>356</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -2563,13 +2583,17 @@
             <items xsi:type="form:Button">
               <name>ЗаполнитьПоШаблону</name>
               <id>270</id>
+              <title>
+                <key>ru</key>
+                <value>Заполнить по шаблону</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
                 <common>true</common>
               </userVisible>
               <extendedTooltip>
-                <name>ЗаполнитьПоШаблонуExtendedTooltip</name>
+                <name>ЗаполнитьПоШаблонуРасширеннаяПодсказка</name>
                 <id>357</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -2601,7 +2625,7 @@
               <value>Настройка результата заполнения группа</value>
             </title>
             <extendedTooltip>
-              <name>НастройкаРезультатаЗаполненияГруппаExtendedTooltip</name>
+              <name>НастройкаРезультатаЗаполненияГруппаРасширеннаяПодсказка</name>
               <id>354</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -2646,7 +2670,7 @@
             </toolTip>
             <toolTipRepresentation>ShowBottom</toolTipRepresentation>
             <extendedTooltip>
-              <name>ГрафикРаботыExtendedTooltip</name>
+              <name>ГрафикРаботыРасширеннаяПодсказка</name>
               <id>358</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -2690,6 +2714,10 @@
               <horizontalStretch>true</horizontalStretch>
               <verticalStretch>true</verticalStretch>
               <calendarNavigation>true</calendarNavigation>
+              <border xsi:type="core:BorderDef">
+                <style>Single</style>
+                <width>1</width>
+              </border>
             </extInfo>
           </items>
           <visible>true</visible>
@@ -2702,7 +2730,7 @@
             <value>График работы</value>
           </title>
           <extendedTooltip>
-            <name>ГрафикРаботыГруппаExtendedTooltip</name>
+            <name>ГрафикРаботыГруппаРасширеннаяПодсказка</name>
             <id>353</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -2735,7 +2763,7 @@
           <value>Результат заполнения</value>
         </title>
         <extendedTooltip>
-          <name>РезультатЗаполненияГруппаExtendedTooltip</name>
+          <name>РезультатЗаполненияГруппаРасширеннаяПодсказка</name>
           <id>352</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -2775,7 +2803,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>РезультатЗаполненияДекорацияExtendedTooltip</name>
+            <name>РезультатЗаполненияДекорацияРасширеннаяПодсказка</name>
             <id>361</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -2808,6 +2836,10 @@
         <items xsi:type="form:FormField">
           <name>РезультатЗаполненияИнформационныйТекст</name>
           <id>277</id>
+          <title>
+            <key>ru</key>
+            <value>Результат заполнения информационный текст</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -2818,7 +2850,7 @@
           </dataPath>
           <titleLocation>None</titleLocation>
           <extendedTooltip>
-            <name>РезультатЗаполненияИнформационныйТекстExtendedTooltip</name>
+            <name>РезультатЗаполненияИнформационныйТекстРасширеннаяПодсказка</name>
             <id>362</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -2865,7 +2897,7 @@
           <value>Результат заполнения информационный текст группа</value>
         </title>
         <extendedTooltip>
-          <name>РезультатЗаполненияИнформационныйТекстГруппаExtendedTooltip</name>
+          <name>РезультатЗаполненияИнформационныйТекстГруппаРасширеннаяПодсказка</name>
           <id>360</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -2891,13 +2923,17 @@
       <items xsi:type="form:Button">
         <name>НастройкаЗаполнения</name>
         <id>293</id>
+        <title>
+          <key>ru</key>
+          <value>&lt;&lt; Настройка заполнения</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>НастройкаЗаполненияExtendedTooltip</name>
+          <name>НастройкаЗаполненияРасширеннаяПодсказка</name>
           <id>363</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -2929,7 +2965,7 @@
         <value>Результат заполнения страница</value>
       </title>
       <extendedTooltip>
-        <name>РезультатЗаполненияСтраницаExtendedTooltip</name>
+        <name>РезультатЗаполненияСтраницаРасширеннаяПодсказка</name>
         <id>351</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -2959,7 +2995,7 @@
       <value>Страницы</value>
     </title>
     <extendedTooltip>
-      <name>СтраницыExtendedTooltip</name>
+      <name>СтраницыРасширеннаяПодсказка</name>
       <id>299</id>
       <visible>true</visible>
       <enabled>true</enabled>

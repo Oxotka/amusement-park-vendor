@@ -32,6 +32,10 @@
     <items xsi:type="form:FormField">
       <name>ИсторияДействуетС</name>
       <id>14</id>
+      <title>
+        <key>ru</key>
+        <value>Действует с</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -86,6 +90,10 @@
     <items xsi:type="form:FormField">
       <name>ИсторияПредставление</name>
       <id>17</id>
+      <title>
+        <key>ru</key>
+        <value>Представление</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -143,6 +151,10 @@
     <items xsi:type="form:FormField">
       <name>ИсторияКомментарий</name>
       <id>52</id>
+      <title>
+        <key>ru</key>
+        <value>Комментарий</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible/>
@@ -195,6 +207,10 @@
         <name>ИсторияВыбрать</name>
         <id>50</id>
         <displayImportance>VeryHigh</displayImportance>
+        <title>
+          <key>ru</key>
+          <value>Выбрать</value>
+        </title>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
@@ -669,6 +685,10 @@
       <name>ОК</name>
       <id>40</id>
       <displayImportance>VeryHigh</displayImportance>
+      <title>
+        <key>ru</key>
+        <value>ОК</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -701,6 +721,10 @@
     <items xsi:type="form:Button">
       <name>Отмена</name>
       <id>38</id>
+      <title>
+        <key>ru</key>
+        <value>Отмена</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1141,6 +1165,21 @@
     <name>ВидКонтактнойИнформации</name>
     <valueType>
       <types>CatalogRef.ВидыКонтактнойИнформации</types>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>ИзФормыВводаАдреса</name>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>ДействуетС</name>
+    <valueType>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
     </valueType>
   </parameters>
   <commandInterface>

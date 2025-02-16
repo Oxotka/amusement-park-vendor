@@ -3,6 +3,10 @@
   <items xsi:type="form:FormField">
     <name>НоваяПочта</name>
     <id>1</id>
+    <title>
+      <key>ru</key>
+      <value>Новый адрес эл. почты</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -13,7 +17,7 @@
     </dataPath>
     <titleLocation>Top</titleLocation>
     <extendedTooltip>
-      <name>НоваяПочтаExtendedTooltip</name>
+      <name>НоваяПочтаРасширеннаяПодсказка</name>
       <id>5</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -58,13 +62,17 @@
     <items xsi:type="form:Button">
       <name>ФормаСменитьПочту</name>
       <id>3</id>
+      <title>
+        <key>ru</key>
+        <value>Сменить почту</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаСменитьПочтуExtendedTooltip</name>
+        <name>ФормаСменитьПочтуРасширеннаяПодсказка</name>
         <id>4</id>
         <visible>true</visible>
         <enabled>true</enabled>

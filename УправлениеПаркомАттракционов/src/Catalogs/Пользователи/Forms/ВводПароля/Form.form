@@ -107,6 +107,10 @@
     <items xsi:type="form:Button">
       <name>ФормаОК</name>
       <id>8</id>
+      <title>
+        <key>ru</key>
+        <value>ОК</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>

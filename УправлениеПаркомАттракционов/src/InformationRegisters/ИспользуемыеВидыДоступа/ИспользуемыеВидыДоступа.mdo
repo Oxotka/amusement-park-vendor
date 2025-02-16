@@ -50,6 +50,21 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="57d1bde3-eaa7-476b-aecb-f78e0e97c765">
+    <name>Используется</name>
+    <synonym>
+      <key>ru</key>
+      <value>Используется</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
   <dimensions uuid="89cf2cd8-dc43-4742-af5a-5975e9546786">
     <name>ТипЗначенийДоступа</name>
     <synonym>
@@ -69,8 +84,6 @@
     <dataHistory>Use</dataHistory>
     <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:ReferenceValue"/>
-    <master>true</master>
-    <mainFilter>true</mainFilter>
   </dimensions>
   <forms uuid="089ae618-cd90-482a-b4a2-45a04aaecc0c">
     <name>ФормаСписка</name>

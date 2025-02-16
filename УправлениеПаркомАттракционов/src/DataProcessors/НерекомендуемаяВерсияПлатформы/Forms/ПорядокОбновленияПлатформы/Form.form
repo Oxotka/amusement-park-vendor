@@ -10,6 +10,10 @@
     <items xsi:type="form:Button">
       <name>ПечатьИнструкции</name>
       <id>13</id>
+      <title>
+        <key>ru</key>
+        <value>Печать</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -69,6 +73,10 @@
   <items xsi:type="form:FormField">
     <name>ПорядокОбновленияПлатформы</name>
     <id>5</id>
+    <title>
+      <key>ru</key>
+      <value>Порядок обновления платформы</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>

@@ -52,6 +52,10 @@
       <items xsi:type="form:FormField">
         <name>ВыполнятьЭкспорт</name>
         <id>14</id>
+        <title>
+          <key>ru</key>
+          <value>Выполнять экспорт</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -66,7 +70,7 @@
           <name>ВыполнятьЭкспортПриИзменении</name>
         </handlers>
         <extendedTooltip>
-          <name>ВыполнятьЭкспортExtendedTooltip</name>
+          <name>ВыполнятьЭкспортРасширеннаяПодсказка</name>
           <id>29</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -641,6 +645,10 @@
     <items xsi:type="form:FormField">
       <name>ВыполнятьЭкспортВЛокальныйКаталог</name>
       <id>20</id>
+      <title>
+        <key>ru</key>
+        <value>Выполнять экспорт в локальный каталог</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -655,7 +663,7 @@
         <name>ВыполнятьЭкспортВКаталогПриИзменении</name>
       </handlers>
       <extendedTooltip>
-        <name>ВыполнятьЭкспортВЛокальныйКаталогExtendedTooltip</name>
+        <name>ВыполнятьЭкспортВЛокальныйКаталогРасширеннаяПодсказка</name>
         <id>31</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -706,7 +714,7 @@
         <name>ЛокальныйКаталогЭкспортаПриИзменении</name>
       </handlers>
       <extendedTooltip>
-        <name>ЛокальныйКаталогЭкспортаExtendedTooltip</name>
+        <name>ЛокальныйКаталогЭкспортаРасширеннаяПодсказка</name>
         <id>32</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -759,7 +767,7 @@
       <value>Настройки экспорта в локальный каталог</value>
     </title>
     <extendedTooltip>
-      <name>НастройкиЭкспортаВЛокальныйКаталогExtendedTooltip</name>
+      <name>НастройкиЭкспортаВЛокальныйКаталогРасширеннаяПодсказка</name>
       <id>30</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -789,6 +797,10 @@
     <items xsi:type="form:FormField">
       <name>ВыполнятьЭкспортНаFTP</name>
       <id>18</id>
+      <title>
+        <key>ru</key>
+        <value>Выполнять экспорт на FTP</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -803,7 +815,7 @@
         <name>ВыполнятьЭкспортВКаталогПриИзменении</name>
       </handlers>
       <extendedTooltip>
-        <name>ВыполнятьЭкспортНаFTPExtendedTooltip</name>
+        <name>ВыполнятьЭкспортНаFTPРасширеннаяПодсказка</name>
         <id>34</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -854,7 +866,7 @@
         <name>FTPКаталогЭкспортаПриИзменении</name>
       </handlers>
       <extendedTooltip>
-        <name>FTPКаталогЭкспортаExtendedTooltip</name>
+        <name>FTPКаталогЭкспортаРасширеннаяПодсказка</name>
         <id>35</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -902,7 +914,7 @@
       <value>Настройки экспорта на FTP</value>
     </title>
     <extendedTooltip>
-      <name>НастройкиЭкспортаНаFTPExtendedTooltip</name>
+      <name>НастройкиЭкспортаНаFTPРасширеннаяПодсказка</name>
       <id>33</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -929,13 +941,17 @@
   <items xsi:type="form:Button">
     <name>НастроитьРасписаниеЭкспорта</name>
     <id>11</id>
+    <title>
+      <key>ru</key>
+      <value>Настроить расписание экспорта</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
     </userVisible>
     <extendedTooltip>
-      <name>НастроитьРасписаниеЭкспортаExtendedTooltip</name>
+      <name>НастроитьРасписаниеЭкспортаРасширеннаяПодсказка</name>
       <id>36</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -973,7 +989,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаСохранитьЗакрытьExtendedTooltip</name>
+        <name>ФормаСохранитьЗакрытьРасширеннаяПодсказка</name>
         <id>25</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1008,7 +1024,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаСохранитьНастройкиExtendedTooltip</name>
+        <name>ФормаСохранитьНастройкиРасширеннаяПодсказка</name>
         <id>26</id>
         <visible>true</visible>
         <enabled>true</enabled>

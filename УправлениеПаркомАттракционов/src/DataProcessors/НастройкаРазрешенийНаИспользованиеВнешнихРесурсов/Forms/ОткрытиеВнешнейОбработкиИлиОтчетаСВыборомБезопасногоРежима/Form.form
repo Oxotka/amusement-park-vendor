@@ -3,6 +3,10 @@
   <items xsi:type="form:FormField">
     <name>ФайлОбработкиИмя</name>
     <id>1</id>
+    <title>
+      <key>ru</key>
+      <value>Внешний отчет или обработка</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -59,6 +63,10 @@
   <items xsi:type="form:FormField">
     <name>БезопасныйРежим</name>
     <id>4</id>
+    <title>
+      <key>ru</key>
+      <value>Безопасный режим для подключения</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -113,6 +121,10 @@
     <items xsi:type="form:Button">
       <name>ПодключитьИОткрыть</name>
       <id>7</id>
+      <title>
+        <key>ru</key>
+        <value>Подключить и открыть</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>

@@ -535,7 +535,7 @@
     </type>
     <toolTip>
       <key>ru</key>
-      <value>Используется при обновлении программы.</value>
+      <value>Используется при обновлении приложения</value>
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

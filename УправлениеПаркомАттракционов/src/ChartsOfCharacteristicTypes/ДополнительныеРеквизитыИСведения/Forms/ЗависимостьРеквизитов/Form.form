@@ -30,6 +30,10 @@
     <items xsi:type="form:FormField">
       <name>ЗависимостиРеквизитовРеквизит</name>
       <id>18</id>
+      <title>
+        <key>ru</key>
+        <value>Реквизит</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -86,6 +90,10 @@
     <items xsi:type="form:FormField">
       <name>ЗависимостиРеквизитовВидСравнения</name>
       <id>21</id>
+      <title>
+        <key>ru</key>
+        <value>Вид сравнения</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -195,6 +203,10 @@
     <items xsi:type="form:FormField">
       <name>ЗависимостиРеквизитовПравоеЗначение</name>
       <id>24</id>
+      <title>
+        <key>ru</key>
+        <value>Значение</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -248,6 +260,10 @@
       <items xsi:type="form:Button">
         <name>ЗависимостиРеквизитовДобавитьУсловие</name>
         <id>34</id>
+        <title>
+          <key>ru</key>
+          <value>Добавить условие</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -498,6 +514,10 @@
     <items xsi:type="form:Button">
       <name>ФормаКомандаОк</name>
       <id>3</id>
+      <title>
+        <key>ru</key>
+        <value>ОК</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -529,6 +549,10 @@
     <items xsi:type="form:Button">
       <name>ФормаКомандаОтмена</name>
       <id>1</id>
+      <title>
+        <key>ru</key>
+        <value>Отмена</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>

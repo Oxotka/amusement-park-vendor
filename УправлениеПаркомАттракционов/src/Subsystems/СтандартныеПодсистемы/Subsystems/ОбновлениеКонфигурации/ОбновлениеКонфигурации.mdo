@@ -12,12 +12,13 @@
     </pages>
   </help>
   <content>CommonModule.ОбновлениеКонфигурации</content>
+  <content>CommonForm.УстановленныеИсправления</content>
   <content>CommonModule.ОбновлениеКонфигурацииКлиент</content>
   <content>Constant.СтатусОбновленияКонфигурации</content>
   <content>DataProcessor.УстановкаОбновлений</content>
   <content>CommonModule.ОбновлениеКонфигурацииВызовСервера</content>
   <content>XDTOPackage.Patch</content>
-  <content>CommonForm.УстановленныеИсправления</content>
   <content>CommonForm.ПроверкаФайлаОбновления</content>
+  <content>Constant.СвойстваИсправленийПередОбновлениемИБ</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

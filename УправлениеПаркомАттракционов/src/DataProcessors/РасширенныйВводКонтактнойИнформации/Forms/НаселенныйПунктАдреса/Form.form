@@ -2,11 +2,15 @@
 <form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <title>
     <key>ru</key>
-    <value>Населенный пункт</value>
+    <value>Город, населенный пункт</value>
   </title>
   <items xsi:type="form:FormField">
     <name>ТипАдреса</name>
     <id>9</id>
+    <title>
+      <key>ru</key>
+      <value>Тип адреса</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -75,8 +79,12 @@
     <name>ГруппаЧастейАдреса</name>
     <id>7</id>
     <items xsi:type="form:FormField">
-      <name>СубъектРФ</name>
+      <name>Регион</name>
       <id>12</id>
+      <title>
+        <key>ru</key>
+        <value>Регион</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -91,13 +99,8 @@
         <name>СубъектРФПриИзменении</name>
       </handlers>
       <extendedTooltip>
-        <name>СубъектРФРасширеннаяПодсказка</name>
+        <name>РегионРасширеннаяПодсказка</name>
         <id>14</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -106,13 +109,8 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>СубъектРФКонтекстноеМеню</name>
+        <name>РегионКонтекстноеМеню</name>
         <id>13</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>InputField</type>
@@ -147,6 +145,10 @@
     <items xsi:type="form:FormField">
       <name>Район</name>
       <id>18</id>
+      <title>
+        <key>ru</key>
+        <value>Район</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -216,6 +218,10 @@
     <items xsi:type="form:FormField">
       <name>МуниципальныйРайон</name>
       <id>15</id>
+      <title>
+        <key>ru</key>
+        <value>Муниципальный район, городской округ</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -286,6 +292,10 @@
     <items xsi:type="form:FormField">
       <name>Поселение</name>
       <id>24</id>
+      <title>
+        <key>ru</key>
+        <value>Поселение</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -355,6 +365,10 @@
     <items xsi:type="form:FormField">
       <name>Город</name>
       <id>21</id>
+      <title>
+        <key>ru</key>
+        <value>Город</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -424,6 +438,10 @@
     <items xsi:type="form:FormField">
       <name>НаселенныйПункт</name>
       <id>30</id>
+      <title>
+        <key>ru</key>
+        <value>Населенный пункт</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -493,6 +511,10 @@
     <items xsi:type="form:FormField">
       <name>Территория</name>
       <id>33</id>
+      <title>
+        <key>ru</key>
+        <value>Территория</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -599,13 +621,17 @@
     <items xsi:type="form:Button">
       <name>ФормаКомандаОК</name>
       <id>1</id>
+      <title>
+        <key>ru</key>
+        <value>ОК</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаКомандаОКExtendedTooltip</name>
+        <name>ФормаКомандаОКРасширеннаяПодсказка</name>
         <id>4</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -638,7 +664,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаСправкаExtendedTooltip</name>
+        <name>ФормаСправкаРасширеннаяПодсказка</name>
         <id>5</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -668,7 +694,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаОтменаExtendedTooltip</name>
+        <name>ФормаОтменаРасширеннаяПодсказка</name>
         <id>6</id>
         <visible>true</visible>
         <enabled>true</enabled>

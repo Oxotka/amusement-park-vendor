@@ -3,6 +3,10 @@
   <items xsi:type="form:FormField">
     <name>Ссылка</name>
     <id>1</id>
+    <title>
+      <key>ru</key>
+      <value>Ссылка</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -53,6 +57,10 @@
   <items xsi:type="form:FormField">
     <name>Представление</name>
     <id>4</id>
+    <title>
+      <key>ru</key>
+      <value>Представление</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -107,6 +115,10 @@
     <items xsi:type="form:Button">
       <name>ФормаКнопкаОк</name>
       <id>7</id>
+      <title>
+        <key>ru</key>
+        <value>ОК</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -140,6 +152,10 @@
     <items xsi:type="form:Button">
       <name>ФормаКнопкаОтмена</name>
       <id>9</id>
+      <title>
+        <key>ru</key>
+        <value>Отмена</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>

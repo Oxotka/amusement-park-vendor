@@ -104,7 +104,7 @@
       </dataPath>
       <defaultItem>true</defaultItem>
       <extendedTooltip>
-        <name>НаименованиеExtendedTooltip</name>
+        <name>НаименованиеРасширеннаяПодсказка</name>
         <id>11</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -119,7 +119,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>Наименование_КонтекстноеМеню</name>
+        <name>НаименованиеКонтекстноеМеню</name>
         <id>5</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -156,7 +156,7 @@
         <segments>Список.ИмяПользователя</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ИмяПользователяExtendedTooltip</name>
+        <name>ИмяПользователяРасширеннаяПодсказка</name>
         <id>12</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -171,7 +171,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ИмяПользователя_КонтекстноеМеню</name>
+        <name>ИмяПользователяКонтекстноеМеню</name>
         <id>7</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -207,7 +207,7 @@
         <segments>Список.АдресЭлектроннойПочты</segments>
       </dataPath>
       <extendedTooltip>
-        <name>АдресЭлектроннойПочтыExtendedTooltip</name>
+        <name>АдресЭлектроннойПочтыРасширеннаяПодсказка</name>
         <id>13</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -222,7 +222,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>АдресЭлектроннойПочты_КонтекстноеМеню</name>
+        <name>АдресЭлектроннойПочтыКонтекстноеМеню</name>
         <id>9</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -334,7 +334,7 @@
     </items>
     <commandBarLocation>None</commandBarLocation>
     <autoCommandBar>
-      <name>Список_КоманднаяПанель</name>
+      <name>СписокКоманднаяПанель</name>
       <id>3</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -465,7 +465,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>СписокExtendedTooltip</name>
+      <name>СписокРасширеннаяПодсказка</name>
       <id>10</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -480,7 +480,7 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>Список_КонтекстноеМеню</name>
+      <name>СписокКонтекстноеМеню</name>
       <id>2</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -580,6 +580,10 @@
     <items xsi:type="form:FormField">
       <name>ПоказыватьНедействительные</name>
       <id>46</id>
+      <title>
+        <key>ru</key>
+        <value>Показывать недействительные</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -659,7 +663,7 @@
     </extInfo>
   </items>
   <autoCommandBar>
-    <name>Форма_КоманднаяПанель</name>
+    <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
     <visible>true</visible>
     <enabled>true</enabled>

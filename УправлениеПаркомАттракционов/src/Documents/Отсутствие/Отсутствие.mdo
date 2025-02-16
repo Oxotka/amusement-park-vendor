@@ -28,6 +28,7 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.Отсутствие.Form.ФормаДокумента</defaultObjectForm>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="ab5f67e2-d6c5-43bc-8ffa-98b2351c30a0">
@@ -137,4 +138,127 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="e8b57a0d-e068-42bc-9aca-9778283aad1a">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="3f8cc811-3940-46be-986b-e34496d102e0">
+    <producedTypes>
+      <objectType typeId="35fb654b-03bd-441c-b119-88a2567622e7" valueTypeId="be143fa9-ade9-4426-bd32-4de7e743a413"/>
+      <rowType typeId="d825bd2a-2614-4687-b466-84bc750636e7" valueTypeId="84e250e0-eb3b-4997-bade-7b88da1a889d"/>
+    </producedTypes>
+    <name>НаборыЗначенийДоступа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наборы значений доступа</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="51125dbd-9c4b-4586-b4bc-401c084c62aa">
+      <name>НомерНабора</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер набора</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>4</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Число, объединяющие несколько строк в один набор.
+Результаты проверок строк в наборе объединяется по логическому &quot;И&quot;,
+а результаты проверок наборов объекта по логическому &quot;ИЛИ&quot;</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="346a0d96-9b10-4c4c-9ad4-ed7081c60129">
+      <name>ЗначениеДоступа</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение доступа</value>
+      </synonym>
+      <comment>Незаполненные значения нужно допустить, чтобы избежать ошибок при записи проверяемых объектов</comment>
+      <type>
+        <types>DefinedType.ЗначениеДоступа</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Ссылка на значение, например, на организацию, контрагента, ...</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="c7a03b12-b016-4e3b-88ad-0e7c13cbb15e">
+      <name>Уточнение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Уточнение</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Уточняет значение доступа:
+- если идентификатор объекта метаданных, тогда уточняет проверку права
+(Пустая ссылка - Изменение, иначе Чтение);
+- если владелец настроек прав, тогда уточняет таблицу для выбора настроек прав.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="01446062-4de9-4f03-874d-3b8266317a0a">
+      <name>Чтение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Чтение использует номер набора</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Использовать наборы при проверке ограничения чтения</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="d407947a-defd-4b1f-ac5e-109ea3deac93">
+      <name>Изменение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Изменение использует номер набора</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Использовать наборы при проверке ограничения изменения</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+  </tabularSections>
 </mdclass:Document>

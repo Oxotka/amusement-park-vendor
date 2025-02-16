@@ -10,6 +10,10 @@
     <items xsi:type="form:FormField">
       <name>ТаблицаОтчета</name>
       <id>15</id>
+      <title>
+        <key>ru</key>
+        <value>Таблица отчета</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -20,7 +24,7 @@
       </dataPath>
       <titleLocation>None</titleLocation>
       <extendedTooltip>
-        <name>ТаблицаОтчетаExtendedTooltip</name>
+        <name>ТаблицаОтчетаРасширеннаяПодсказка</name>
         <id>20</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -74,7 +78,7 @@
       <value>Отчет</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаОтчетExtendedTooltip</name>
+      <name>ГруппаОтчетРасширеннаяПодсказка</name>
       <id>19</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -104,6 +108,10 @@
     <items xsi:type="form:Button">
       <name>Обновить</name>
       <id>10</id>
+      <title>
+        <key>ru</key>
+        <value>Обновить</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -111,7 +119,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>ОбновитьExtendedTooltip</name>
+        <name>ОбновитьРасширеннаяПодсказка</name>
         <id>17</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -135,6 +143,10 @@
     <items xsi:type="form:Button">
       <name>ВывестиДляТекущего</name>
       <id>11</id>
+      <title>
+        <key>ru</key>
+        <value>Вывести для текущего</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -142,7 +154,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>ВывестиДляТекущегоExtendedTooltip</name>
+        <name>ВывестиДляТекущегоРасширеннаяПодсказка</name>
         <id>18</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -264,6 +276,10 @@
         <items xsi:type="form:Button">
           <name>Провести</name>
           <id>25</id>
+          <title>
+            <key>ru</key>
+            <value>Провести</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -294,6 +310,10 @@
         <items xsi:type="form:Button">
           <name>ОтменитьПроведение</name>
           <id>27</id>
+          <title>
+            <key>ru</key>
+            <value>Отменить проведение</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -352,6 +372,10 @@
       <items xsi:type="form:Button">
         <name>ИзменитьПометкуУдаления</name>
         <id>23</id>
+        <title>
+          <key>ru</key>
+          <value>Пометить на удаление / Снять пометку</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>

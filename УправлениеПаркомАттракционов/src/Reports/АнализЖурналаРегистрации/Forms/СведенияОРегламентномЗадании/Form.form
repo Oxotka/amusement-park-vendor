@@ -7,6 +7,10 @@
   <items xsi:type="form:FormField">
     <name>Отчет</name>
     <id>1</id>
+    <title>
+      <key>ru</key>
+      <value>Отчет</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -17,7 +21,7 @@
     </dataPath>
     <titleLocation>None</titleLocation>
     <extendedTooltip>
-      <name>ОтчетExtendedTooltip</name>
+      <name>ОтчетРасширеннаяПодсказка</name>
       <id>7</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -83,7 +87,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ИзменитьРасписаниеExtendedTooltip</name>
+        <name>ИзменитьРасписаниеРасширеннаяПодсказка</name>
         <id>5</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -120,7 +124,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ПерейтиКЖурналуРегистрацииExtendedTooltip</name>
+        <name>ПерейтиКЖурналуРегистрацииРасширеннаяПодсказка</name>
         <id>6</id>
         <visible>true</visible>
         <enabled>true</enabled>

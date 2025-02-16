@@ -726,6 +726,10 @@
         <items xsi:type="form:Button">
           <name>СписокКонтекстноеМенюОткрытьЗначение</name>
           <id>98</id>
+          <title>
+            <key>ru</key>
+            <value>Открыть</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -898,6 +902,10 @@
     <items xsi:type="form:Button">
       <name>ФормаВыбратьИЗакрыть</name>
       <id>21</id>
+      <title>
+        <key>ru</key>
+        <value>ОК</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>

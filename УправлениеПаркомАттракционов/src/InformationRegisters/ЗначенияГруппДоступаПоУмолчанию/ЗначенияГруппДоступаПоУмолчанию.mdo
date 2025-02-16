@@ -101,7 +101,7 @@
     <toolTip>
       <key>ru</key>
       <value>Обозначает, что в профиле и группе доступа нет вида доступа или
-ограничение по виду доступа не используется в программе.</value>
+ограничение по виду доступа не используется в приложении.</value>
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

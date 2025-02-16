@@ -10,5 +10,4 @@
   <content>Subsystem.СтандартныеПодсистемы.Subsystem.НапоминанияПользователя</content>
   <content>InformationRegister.НапоминанияПользователя</content>
   <content>Enum.СпособыУстановкиВремениНапоминания</content>
-  <content>CommonCommand.Напомнить</content>
 </mdclass:FunctionalOption>

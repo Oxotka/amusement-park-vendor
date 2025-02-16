@@ -385,6 +385,10 @@
         <items xsi:type="form:Button">
           <name>СписокВставитьИзБуфераОбменаМеню</name>
           <id>76</id>
+          <title>
+            <key>ru</key>
+            <value>Вставить из буфера обмена...</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -806,6 +810,10 @@
       <items xsi:type="form:Button">
         <name>КомандаОК</name>
         <id>26</id>
+        <title>
+          <key>ru</key>
+          <value>ОК</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -996,6 +1004,10 @@
       <items xsi:type="form:Button">
         <name>СписокВставитьИзБуфераОбмена</name>
         <id>33</id>
+        <title>
+          <key>ru</key>
+          <value>Вставить из буфера обмена...</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1559,6 +1571,62 @@
     </action>
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
+  <parameters>
+    <name>ОписаниеТипов</name>
+    <valueType/>
+  </parameters>
+  <parameters>
+    <name>ЗначенияДляВыбораЗаполнены</name>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>ОграничиватьВыборУказаннымиЗначениями</name>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>БыстрыйВыбор</name>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>ЗначенияДляВыбора</name>
+    <valueType>
+      <types>ValueList</types>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>Отмеченные</name>
+    <valueType>
+      <types>ValueList</types>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>Представление</name>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>ВыборГруппИЭлементов</name>
+    <valueType/>
+  </parameters>
+  <parameters>
+    <name>ПараметрыВыбора</name>
+    <valueType/>
+  </parameters>
+  <parameters>
+    <name>КлючУникальности</name>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+  </parameters>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>

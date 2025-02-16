@@ -40,7 +40,7 @@
       <autoMaxHeight>true</autoMaxHeight>
       <extInfo xsi:type="form:PictureDecorationExtInfo">
         <picture xsi:type="core:PictureRef">
-          <picture>CommonPicture.Предупреждение32</picture>
+          <picture>StdPicture.DialogExclamation</picture>
         </picture>
       </extInfo>
     </items>
@@ -161,7 +161,7 @@
       <autoMaxHeight>true</autoMaxHeight>
       <extInfo xsi:type="form:PictureDecorationExtInfo">
         <picture xsi:type="core:PictureRef">
-          <picture>CommonPicture.Предупреждение32</picture>
+          <picture>StdPicture.DialogExclamation</picture>
         </picture>
       </extInfo>
     </items>
@@ -310,6 +310,10 @@
           <items xsi:type="form:FormField">
             <name>КоличествоПотоковОбновленияДоступа1</name>
             <id>313</id>
+            <title>
+              <key>ru</key>
+              <value>Количество потоков обновления доступа</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -451,6 +455,11 @@
           <items xsi:type="form:FormField">
             <name>БалансировкаНагрузкиНаДиск1</name>
             <id>321</id>
+            <title>
+              <key>ru</key>
+              <value>Оптимизировать для базы данных
+размещенной на устройстве</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -506,14 +515,14 @@
               <choiceList>
                 <presentation>
                   <key>ru</key>
-                  <value>Быстрый диск</value>
+                  <value>Быстрое устройство (SSD)</value>
                 </presentation>
                 <value xsi:type="core:BooleanValue"/>
               </choiceList>
               <choiceList>
                 <presentation>
                   <key>ru</key>
-                  <value>Медленный диск</value>
+                  <value>Медленное устройство (HDD)</value>
                 </presentation>
                 <value xsi:type="core:BooleanValue">
                   <value>true</value>
@@ -528,7 +537,7 @@
           </userVisible>
           <title>
             <key>ru</key>
-            <value>Балансировка нагрузки на диск подсказка 1</value>
+            <value>Балансировка нагрузки на устройство подсказка 1</value>
           </title>
           <toolTipRepresentation>ShowBottom</toolTipRepresentation>
           <extendedTooltip>
@@ -870,6 +879,10 @@
           <items xsi:type="form:FormField">
             <name>КоличествоПотоковОбновленияДоступа2</name>
             <id>328</id>
+            <title>
+              <key>ru</key>
+              <value>Количество потоков обновления доступа</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1011,6 +1024,11 @@
           <items xsi:type="form:FormField">
             <name>БалансировкаНагрузкиНаДиск2</name>
             <id>336</id>
+            <title>
+              <key>ru</key>
+              <value>Оптимизировать для базы данных
+размещенной на устройстве</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1066,14 +1084,14 @@
               <choiceList>
                 <presentation>
                   <key>ru</key>
-                  <value>Быстрый диск</value>
+                  <value>Быстрое устройство (SSD)</value>
                 </presentation>
                 <value xsi:type="core:BooleanValue"/>
               </choiceList>
               <choiceList>
                 <presentation>
                   <key>ru</key>
-                  <value>Медленный диск</value>
+                  <value>Медленное устройство (HDD)</value>
                 </presentation>
                 <value xsi:type="core:BooleanValue">
                   <value>true</value>
@@ -1088,7 +1106,7 @@
           </userVisible>
           <title>
             <key>ru</key>
-            <value>Балансировка нагрузки на диск подсказка 2</value>
+            <value>Балансировка нагрузки на устройство подсказка 2</value>
           </title>
           <toolTipRepresentation>ShowBottom</toolTipRepresentation>
           <extendedTooltip>
@@ -1729,6 +1747,10 @@
       <items xsi:type="form:Button">
         <name>ФормаРучноеУправление</name>
         <id>3</id>
+        <title>
+          <key>ru</key>
+          <value>Ручное управление ...</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1761,6 +1783,10 @@
       <items xsi:type="form:Button">
         <name>ФормаОстановитьИЗапретитьОбновлениеДоступа</name>
         <id>275</id>
+        <title>
+          <key>ru</key>
+          <value>Остановить и запретить обновление доступа</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1954,6 +1980,10 @@
         <items xsi:type="form:Button">
           <name>ОбновитьПрогресс</name>
           <id>84</id>
+          <title>
+            <key>ru</key>
+            <value>Обновить прогресс</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -2528,6 +2558,10 @@
         <items xsi:type="form:FormField">
           <name>ПоказыватьКоличествоЭлементов</name>
           <id>279</id>
+          <title>
+            <key>ru</key>
+            <value>Показывать количество элементов</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -2576,6 +2610,10 @@
         <items xsi:type="form:FormField">
           <name>ПоказыватьКоличествоКлючейДоступа</name>
           <id>287</id>
+          <title>
+            <key>ru</key>
+            <value>Показывать количество ключей доступа</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -2624,6 +2662,10 @@
         <items xsi:type="form:FormField">
           <name>ПоказыватьЗадержкуОбработки</name>
           <id>306</id>
+          <title>
+            <key>ru</key>
+            <value>Показывать задержку обработки</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -2672,6 +2714,10 @@
         <items xsi:type="form:FormField">
           <name>ПоказыватьИмяТаблицы</name>
           <id>290</id>
+          <title>
+            <key>ru</key>
+            <value>Показывать имя таблицы</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -2720,6 +2766,10 @@
         <items xsi:type="form:FormField">
           <name>ПоказыватьОбработанныеСписки</name>
           <id>284</id>
+          <title>
+            <key>ru</key>
+            <value>Показывать обработанные списки</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -3631,6 +3681,10 @@
         <items xsi:type="form:Button">
           <name>СпискиКонтекстноеМенюСортироватьСписокПоВозрастанию</name>
           <id>102</id>
+          <title>
+            <key>ru</key>
+            <value>Сортировать список по возрастанию</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -3661,6 +3715,10 @@
         <items xsi:type="form:Button">
           <name>СпискиКонтекстноеМенюСортироватьСписокПоУбыванию</name>
           <id>104</id>
+          <title>
+            <key>ru</key>
+            <value>Сортировать список по убыванию</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -4404,7 +4462,7 @@
     <title>
       <key>ru</key>
       <value>Оптимизировать для базы данных
-размещенной на диске</value>
+размещенной на устройстве</value>
     </title>
     <id>15</id>
     <valueType>

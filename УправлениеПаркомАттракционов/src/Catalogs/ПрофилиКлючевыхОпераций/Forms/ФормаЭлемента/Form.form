@@ -283,6 +283,10 @@
       <items xsi:type="form:Button">
         <name>КлючевыеОперацииПрофиляЗаполнить</name>
         <id>62</id>
+        <title>
+          <key>ru</key>
+          <value>Заполнить</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -488,6 +492,10 @@
     <items xsi:type="form:Button">
       <name>ФормаСохранитьПрофильКлючевыхОпераций</name>
       <id>49</id>
+      <title>
+        <key>ru</key>
+        <value>Сохранить профиль</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -518,6 +526,10 @@
     <items xsi:type="form:Button">
       <name>ФормаЗагрузитьПрофильКлючевыхОпераций</name>
       <id>4</id>
+      <title>
+        <key>ru</key>
+        <value>Загрузить профиль</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>

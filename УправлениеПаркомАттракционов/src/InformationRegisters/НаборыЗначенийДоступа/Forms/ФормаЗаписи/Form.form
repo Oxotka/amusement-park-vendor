@@ -12,7 +12,7 @@
       <segments>Запись.Объект</segments>
     </dataPath>
     <extendedTooltip>
-      <name>ОбъектExtendedTooltip</name>
+      <name>ОбъектРасширеннаяПодсказка</name>
       <id>42</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -62,7 +62,7 @@
       <segments>Запись.НомерНабора</segments>
     </dataPath>
     <extendedTooltip>
-      <name>НомерНабораExtendedTooltip</name>
+      <name>НомерНабораРасширеннаяПодсказка</name>
       <id>45</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -112,7 +112,7 @@
       <segments>Запись.ЗначениеДоступа</segments>
     </dataPath>
     <extendedTooltip>
-      <name>ЗначениеДоступаExtendedTooltip</name>
+      <name>ЗначениеДоступаРасширеннаяПодсказка</name>
       <id>47</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -213,7 +213,7 @@
     </dataPath>
     <titleLocation>Right</titleLocation>
     <extendedTooltip>
-      <name>ЧтениеExtendedTooltip</name>
+      <name>ЧтениеРасширеннаяПодсказка</name>
       <id>48</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -257,7 +257,7 @@
     </dataPath>
     <titleLocation>Right</titleLocation>
     <extendedTooltip>
-      <name>ИзменениеExtendedTooltip</name>
+      <name>ИзменениеРасширеннаяПодсказка</name>
       <id>50</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -456,13 +456,17 @@
     <items xsi:type="form:Button">
       <name>ФормаВключитьВозможностьРедактирования</name>
       <id>38</id>
+      <title>
+        <key>ru</key>
+        <value>Включить возможность редактирования</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаВключитьВозможностьРедактированияExtendedTooltip</name>
+        <name>ФормаВключитьВозможностьРедактированияРасширеннаяПодсказка</name>
         <id>39</id>
         <visible>true</visible>
         <enabled>true</enabled>

@@ -54,7 +54,7 @@
       <id>181</id>
       <title>
         <key>ru</key>
-        <value>Рассылки отчетов могут работать быстрее</value>
+        <value>Рассылки отчетов могут работать быстрее.</value>
       </title>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -65,7 +65,7 @@
         <key>ru</key>
         <value>Для рассылки отчетов в несколько потоков, необходимо указать каталог временных файлов кластера серверов 1С:Предприятие.</value>
       </toolTip>
-      <toolTipRepresentation>ShowRight</toolTipRepresentation>
+      <toolTipRepresentation>Button</toolTipRepresentation>
       <extendedTooltip>
         <name>ЗаголовокУскорениеРассылокРасширеннаяПодсказка</name>
         <id>183</id>
@@ -103,7 +103,7 @@
     </userVisible>
     <title>
       <key>ru</key>
-      <value>Группа рассылки могут работать быстрее</value>
+      <value>Рассылки могут работать быстрее</value>
     </title>
     <toolTipRepresentation>ShowLeft</toolTipRepresentation>
     <extendedTooltip>
@@ -137,6 +137,10 @@
     <items xsi:type="form:FormField">
       <name>СостояниеОтбор</name>
       <id>165</id>
+      <title>
+        <key>ru</key>
+        <value>Состояние</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -226,6 +230,10 @@
     <items xsi:type="form:FormField">
       <name>ОтветственныйОтбор</name>
       <id>159</id>
+      <title>
+        <key>ru</key>
+        <value>Ответственный</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -287,6 +295,10 @@
     <items xsi:type="form:FormField">
       <name>ОтчетОтбор</name>
       <id>162</id>
+      <title>
+        <key>ru</key>
+        <value>Отчет</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -700,7 +712,7 @@
           <segments>Items.Список.CurrentData.Ref</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ВыполнитьСейчасExtendedTooltip</name>
+          <name>ВыполнитьСейчасРасширеннаяПодсказка</name>
           <id>57</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -724,6 +736,10 @@
       <items xsi:type="form:Button">
         <name>ИзменитьВыделенные</name>
         <id>79</id>
+        <title>
+          <key>ru</key>
+          <value>Изменить выделенные...</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -793,7 +809,7 @@
           <segments>Items.Список.CurrentData.Ref</segments>
         </dataPath>
         <extendedTooltip>
-          <name>СобытияРассылкиExtendedTooltip</name>
+          <name>СобытияРассылкиРасширеннаяПодсказка</name>
           <id>58</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1559,7 +1575,7 @@
         <segments>Список.Description</segments>
       </dataPath>
       <extendedTooltip>
-        <name>НаименованиеExtendedTooltip</name>
+        <name>НаименованиеРасширеннаяПодсказка</name>
         <id>63</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1609,7 +1625,7 @@
       </dataPath>
       <titleLocation>None</titleLocation>
       <extendedTooltip>
-        <name>ПодготовленаExtendedTooltip</name>
+        <name>ПодготовленаРасширеннаяПодсказка</name>
         <id>71</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1662,7 +1678,7 @@
           <segments>Список.ИндексКартинкиПоследнегоЗапуска</segments>
         </dataPath>
         <extendedTooltip>
-          <name>КартинкаExtendedTooltip</name>
+          <name>КартинкаРасширеннаяПодсказка</name>
           <id>65</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1696,6 +1712,10 @@
           <valuesPicture xsi:type="core:PictureRef">
             <picture>CommonPicture.СостояниеРассылкиОтчетов</picture>
           </valuesPicture>
+          <border xsi:type="core:BorderDef">
+            <style>Single</style>
+            <width>1</width>
+          </border>
         </extInfo>
       </items>
       <items xsi:type="form:FormField">
@@ -1714,7 +1734,7 @@
           <segments>Список.ПоследнийЗапуск</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ПоследнийЗапускExtendedTooltip</name>
+          <name>ПоследнийЗапускРасширеннаяПодсказка</name>
           <id>66</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1761,7 +1781,7 @@
         <value>Последний запуск с картинкой</value>
       </title>
       <extendedTooltip>
-        <name>ПоследнийЗапускСКартинкойExtendedTooltip</name>
+        <name>ПоследнийЗапускСКартинкойРасширеннаяПодсказка</name>
         <id>64</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1800,7 +1820,7 @@
           <segments>Список.ИндексКартинкиРасписания</segments>
         </dataPath>
         <extendedTooltip>
-          <name>РасписаниеExtendedTooltip</name>
+          <name>РасписаниеРасширеннаяПодсказка</name>
           <id>68</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1837,6 +1857,10 @@
           <valuesPicture xsi:type="core:PictureRef">
             <picture>StdPicture.SetTime</picture>
           </valuesPicture>
+          <border xsi:type="core:BorderDef">
+            <style>Single</style>
+            <width>1</width>
+          </border>
         </extInfo>
       </items>
       <items xsi:type="form:FormField">
@@ -1855,7 +1879,7 @@
           <segments>Список.ПериодичностьРасписания</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ПериодичностьРасписанияExtendedTooltip</name>
+          <name>ПериодичностьРасписанияРасширеннаяПодсказка</name>
           <id>69</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1899,7 +1923,7 @@
         <value>Расписание с картинкой</value>
       </title>
       <extendedTooltip>
-        <name>РасписаниеСКартинкойExtendedTooltip</name>
+        <name>РасписаниеСКартинкойРасширеннаяПодсказка</name>
         <id>67</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1980,7 +2004,7 @@
         <segments>Список.Автор</segments>
       </dataPath>
       <extendedTooltip>
-        <name>АвторExtendedTooltip</name>
+        <name>АвторРасширеннаяПодсказка</name>
         <id>70</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -2028,7 +2052,7 @@
         <segments>Список.Состояние</segments>
       </dataPath>
       <extendedTooltip>
-        <name>СостояниеExtendedTooltip</name>
+        <name>СостояниеРасширеннаяПодсказка</name>
         <id>72</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -2073,7 +2097,7 @@
         <segments>Список.Архивировать</segments>
       </dataPath>
       <extendedTooltip>
-        <name>АрхивироватьExtendedTooltip</name>
+        <name>АрхивироватьРасширеннаяПодсказка</name>
         <id>73</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -2114,7 +2138,7 @@
         <segments>Список.ТипПолучателейРассылки</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ТипПолучателейРассылкиExtendedTooltip</name>
+        <name>ТипПолучателейРассылкиРасширеннаяПодсказка</name>
         <id>74</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -2159,7 +2183,7 @@
         <segments>Список.ВидПочтовогоАдресаПолучателей</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ВидПочтовогоАдресаПолучателейExtendedTooltip</name>
+        <name>ВидПочтовогоАдресаПолучателейРасширеннаяПодсказка</name>
         <id>75</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -2373,7 +2397,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>СписокExtendedTooltip</name>
+      <name>СписокРасширеннаяПодсказка</name>
       <id>62</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -2459,6 +2483,10 @@
       <items xsi:type="form:Button">
         <name>ИзменитьВыделенныеСписок</name>
         <id>81</id>
+        <title>
+          <key>ru</key>
+          <value>Изменить выделенные...</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -2775,6 +2803,33 @@
       <types>CatalogRef.ВариантыОтчетов</types>
     </valueType>
     <keyParameter>true</keyParameter>
+  </parameters>
+  <parameters>
+    <name>Отображение</name>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>МножественныйВыбор</name>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>ВыборГруппИЭлементов</name>
+    <valueType/>
+  </parameters>
+  <parameters>
+    <name>ТекущаяСтрока</name>
+    <valueType/>
+  </parameters>
+  <parameters>
+    <name>РежимВыбора</name>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
   </parameters>
   <commandInterface>
     <navigationPanel/>

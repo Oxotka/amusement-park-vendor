@@ -126,6 +126,10 @@
       <name>ДеревоОбъектовМетаданныхТипВладельцаФайла</name>
       <id>107</id>
       <displayImportance>Usual</displayImportance>
+      <title>
+        <key>ru</key>
+        <value>Справочник файлов</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible/>
@@ -175,6 +179,10 @@
       <name>ДеревоОбъектовМетаданныхДействие</name>
       <id>25</id>
       <displayImportance>Usual</displayImportance>
+      <title>
+        <key>ru</key>
+        <value>Действие</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -232,6 +240,10 @@
       <name>ДеревоОбъектовМетаданныхПериодОчистки</name>
       <id>28</id>
       <displayImportance>Usual</displayImportance>
+      <title>
+        <key>ru</key>
+        <value>Период очистки</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -289,6 +301,10 @@
       <name>ДеревоОбъектовМетаданныхПравилоОтбора</name>
       <id>34</id>
       <displayImportance>VeryLow</displayImportance>
+      <title>
+        <key>ru</key>
+        <value>Правило</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -365,6 +381,10 @@
     <handlers>
       <event>BeforeDeleteRow</event>
       <name>ДеревоОбъектовМетаданныхПередУдалением</name>
+    </handlers>
+    <handlers>
+      <event>OnActivateRow</event>
+      <name>ДеревоОбъектовМетаданныхПриАктивизацииСтроки</name>
     </handlers>
     <handlers>
       <event>ChoiceProcessing</event>
@@ -511,6 +531,10 @@
       <items xsi:type="form:Button">
         <name>ДеревоОбъектовМетаданныхКонтекстноеМенюПерейтиКСписку</name>
         <id>149</id>
+        <title>
+          <key>ru</key>
+          <value>Перейти к списку...</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -712,6 +736,10 @@
             <items xsi:type="form:Button">
               <name>Очистить</name>
               <id>69</id>
+              <title>
+                <key>ru</key>
+                <value>Очистить</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -879,6 +907,10 @@
         <items xsi:type="form:Button">
           <name>ОбновитьСведения</name>
           <id>151</id>
+          <title>
+            <key>ru</key>
+            <value>Обновить</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -913,6 +945,10 @@
           <items xsi:type="form:Button">
             <name>ОбъемУдаленныхФайлов</name>
             <id>128</id>
+            <title>
+              <key>ru</key>
+              <value>Объем удаленных файлов</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -944,6 +980,10 @@
           <items xsi:type="form:Button">
             <name>ОбъемНенужныхФайлов</name>
             <id>74</id>
+            <title>
+              <key>ru</key>
+              <value>Объем ненужных файлов</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1113,6 +1153,10 @@
       <items xsi:type="form:FormField">
         <name>АвтоматическиОчищатьНенужныеФайлы</name>
         <id>66</id>
+        <title>
+          <key>ru</key>
+          <value>Автоматически очищать ненужные файлы:</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1161,6 +1205,10 @@
       <items xsi:type="form:FormField">
         <name>РежимОчисткиФайлов</name>
         <id>143</id>
+        <title>
+          <key>ru</key>
+          <value>Режим очистки файлов</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1237,6 +1285,10 @@
       <items xsi:type="form:Button">
         <name>НастроитьРасписание</name>
         <id>76</id>
+        <title>
+          <key>ru</key>
+          <value>настроить расписание</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1481,6 +1533,10 @@
       <items xsi:type="form:Button">
         <name>ФормаУстановитьДействиеОчиститьФайлыИВерсии</name>
         <id>41</id>
+        <title>
+          <key>ru</key>
+          <value>Очистить файлы и версии</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1511,6 +1567,10 @@
       <items xsi:type="form:Button">
         <name>ФормаУстановитьДействиеОчиститьФайлы</name>
         <id>43</id>
+        <title>
+          <key>ru</key>
+          <value>Очистить файлы</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1541,6 +1601,10 @@
       <items xsi:type="form:Button">
         <name>ФормаУстановитьДействиеОчиститьВерсии</name>
         <id>45</id>
+        <title>
+          <key>ru</key>
+          <value>Очистить версии</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1571,6 +1635,10 @@
       <items xsi:type="form:Button">
         <name>ФормаУстановитьДействиеНеОчищать</name>
         <id>47</id>
+        <title>
+          <key>ru</key>
+          <value>Не очищать</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1633,6 +1701,10 @@
       <items xsi:type="form:Button">
         <name>ФормаСтаршеМесяца</name>
         <id>51</id>
+        <title>
+          <key>ru</key>
+          <value>Старше месяца</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1663,6 +1735,10 @@
       <items xsi:type="form:Button">
         <name>ФормаСтаршеШестиМесяцев</name>
         <id>53</id>
+        <title>
+          <key>ru</key>
+          <value>Старше шести месяцев</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1693,6 +1769,10 @@
       <items xsi:type="form:Button">
         <name>ФормаСтаршеГода</name>
         <id>55</id>
+        <title>
+          <key>ru</key>
+          <value>Старше года</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1749,22 +1829,21 @@
         <representation>Auto</representation>
       </extInfo>
     </items>
-    <items xsi:type="form:Button">
-      <name>ФормаСправка</name>
-      <id>105</id>
+    <items xsi:type="form:FormGroup">
+      <name>ПодменюОтчеты</name>
+      <id>156</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Отчеты</value>
+      </title>
       <extendedTooltip>
-        <name>ФормаСправкаРасширеннаяПодсказка</name>
-        <id>106</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
+        <name>ПодменюОтчетыРасширеннаяПодсказка</name>
+        <id>157</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -1772,13 +1851,13 @@
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
-      <commandName>Form.StandardCommand.Help</commandName>
-      <representation>Auto</representation>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <placementArea>UserCmds</placementArea>
-      <representationInContextMenu>Auto</representationInContextMenu>
-      <locationInCommandBar>InCommandBarAndInAdditionalSubmenu</locationInCommandBar>
+      <type>Popup</type>
+      <extInfo xsi:type="form:PopupGroupExtInfo">
+        <picture xsi:type="core:PictureRef">
+          <picture>CommonPicture.Отчеты</picture>
+        </picture>
+        <representation>PictureAndText</representation>
+      </extInfo>
     </items>
     <items xsi:type="form:Addition">
       <title>
@@ -1971,6 +2050,7 @@
       </title>
       <id>7</id>
       <valueType>
+        <types>CatalogRef.ИдентификаторыОбъектовРасширений</types>
         <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>
       </valueType>
       <view>
@@ -2380,7 +2460,7 @@
     <id>12</id>
     <toolTip>
       <key>ru</key>
-      <value>Файлы, которых не существует в программе, но имеются в томе в сетевом каталоге</value>
+      <value>Файлы, которые не существуют в приложении, но имеются в томе на сервере</value>
     </toolTip>
     <use>
       <common>true</common>

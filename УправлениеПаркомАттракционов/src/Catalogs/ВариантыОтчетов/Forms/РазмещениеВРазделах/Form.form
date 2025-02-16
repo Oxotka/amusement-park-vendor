@@ -35,6 +35,10 @@
         <name>ДеревоПодсистемИспользование</name>
         <id>69</id>
         <displayImportance>VeryHigh</displayImportance>
+        <title>
+          <key>ru</key>
+          <value>Использование</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -49,7 +53,7 @@
           <name>ДеревоПодсистемИспользованиеПриИзменении</name>
         </handlers>
         <extendedTooltip>
-          <name>ДеревоПодсистемИспользованиеExtendedTooltip</name>
+          <name>ДеревоПодсистемИспользованиеРасширеннаяПодсказка</name>
           <id>87</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -87,6 +91,10 @@
         <name>ДеревоПодсистемПредставление</name>
         <id>61</id>
         <displayImportance>VeryHigh</displayImportance>
+        <title>
+          <key>ru</key>
+          <value>Раздел, Группа</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -96,7 +104,7 @@
           <segments>ДеревоПодсистем.Представление</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ДеревоПодсистемПредставлениеExtendedTooltip</name>
+          <name>ДеревоПодсистемПредставлениеРасширеннаяПодсказка</name>
           <id>88</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -145,7 +153,7 @@
         <value>Колонок</value>
       </title>
       <extendedTooltip>
-        <name>ГруппаКолонокExtendedTooltip</name>
+        <name>ГруппаКолонокРасширеннаяПодсказка</name>
         <id>86</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -168,6 +176,10 @@
     <items xsi:type="form:FormField">
       <name>ДеревоПодсистемВажность</name>
       <id>71</id>
+      <title>
+        <key>ru</key>
+        <value>Важность</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -181,7 +193,7 @@
         <name>ДеревоПодсистемВажностьПриИзменении</name>
       </handlers>
       <extendedTooltip>
-        <name>ДеревоПодсистемВажностьExtendedTooltip</name>
+        <name>ДеревоПодсистемВажностьРасширеннаяПодсказка</name>
         <id>89</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -354,7 +366,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>ДеревоПодсистемExtendedTooltip</name>
+      <name>ДеревоПодсистемРасширеннаяПодсказка</name>
       <id>85</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -374,13 +386,17 @@
       <items xsi:type="form:Button">
         <name>ДеревоПодсистемКонтекстноеМенюСнятьФлажки</name>
         <id>78</id>
+        <title>
+          <key>ru</key>
+          <value>Снять флажки</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ДеревоПодсистемКонтекстноеМенюСнятьФлажкиExtendedTooltip</name>
+          <name>ДеревоПодсистемКонтекстноеМенюСнятьФлажкиРасширеннаяПодсказка</name>
           <id>83</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -432,22 +448,90 @@
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
-    <items xsi:type="form:Button">
-      <name>Разместить</name>
-      <id>58</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <extendedTooltip>
-        <name>РазместитьExtendedTooltip</name>
-        <id>79</id>
+    <items xsi:type="form:FormGroup">
+      <name>ФормаГруппаФлажки</name>
+      <id>102</id>
+      <items xsi:type="form:Button">
+        <name>Разместить</name>
+        <id>58</id>
+        <title>
+          <key>ru</key>
+          <value>Разместить</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
+        <extendedTooltip>
+          <name>РазместитьРасширеннаяПодсказка</name>
+          <id>79</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <commandName>Form.Command.Разместить</commandName>
+        <defaultButton>true</defaultButton>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <representationInContextMenu>Auto</representationInContextMenu>
+      </items>
+      <items xsi:type="form:Button">
+        <name>ДеревоПодсистемСнятьФлажки</name>
+        <id>76</id>
+        <title>
+          <key>ru</key>
+          <value>Снять флажки</value>
+        </title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>ДеревоПодсистемСнятьФлажкиРасширеннаяПодсказка</name>
+          <id>80</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <commandName>Form.Command.СнятьФлажки</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <representationInContextMenu>Auto</representationInContextMenu>
+        <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
+      </items>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Форма группа флажки</value>
+      </title>
+      <extendedTooltip>
+        <name>ФормаГруппаФлажкиРасширеннаяПодсказка</name>
+        <id>103</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -455,43 +539,7 @@
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
-      <commandName>Form.Command.Разместить</commandName>
-      <defaultButton>true</defaultButton>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <placementArea>UserCmds</placementArea>
-      <representationInContextMenu>Auto</representationInContextMenu>
-    </items>
-    <items xsi:type="form:Button">
-      <name>ДеревоПодсистемСнятьФлажки</name>
-      <id>76</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <extendedTooltip>
-        <name>ДеревоПодсистемСнятьФлажкиExtendedTooltip</name>
-        <id>80</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <commandName>Form.Command.СнятьФлажки</commandName>
-      <representation>Auto</representation>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <placementArea>UserCmds</placementArea>
-      <representationInContextMenu>Auto</representationInContextMenu>
-      <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
+      <extInfo xsi:type="form:ButtonGroupExtInfo"/>
     </items>
     <items xsi:type="form:Addition">
       <visible>true</visible>

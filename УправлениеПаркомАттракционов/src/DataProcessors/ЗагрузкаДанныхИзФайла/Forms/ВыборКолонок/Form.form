@@ -172,6 +172,10 @@
       <items xsi:type="form:Button">
         <name>ФормаВыбор</name>
         <id>11</id>
+        <title>
+          <key>ru</key>
+          <value>Сопоставить</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -272,7 +276,7 @@
         </userVisible>
         <title>
           <key>ru</key>
-          <value>Список колонок группа1</value>
+          <value>Колонок группа 1</value>
         </title>
         <extendedTooltip>
           <name>СписокКолонокГруппа1РасширеннаяПодсказка</name>

@@ -12,7 +12,7 @@
       <segments>Запись.ПодчиненнаяТаблица</segments>
     </dataPath>
     <extendedTooltip>
-      <name>ПодчиненнаяТаблицаExtendedTooltip</name>
+      <name>ПодчиненнаяТаблицаРасширеннаяПодсказка</name>
       <id>17</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -62,7 +62,7 @@
       <segments>Запись.ТипВедущейТаблицы</segments>
     </dataPath>
     <extendedTooltip>
-      <name>ТипВедущейТаблицыExtendedTooltip</name>
+      <name>ТипВедущейТаблицыРасширеннаяПодсказка</name>
       <id>18</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -103,6 +103,10 @@
   <items xsi:type="form:FormField">
     <name>ПроверитьЧтениеВместоИзменения</name>
     <id>24</id>
+    <title>
+      <key>ru</key>
+      <value>Проверить чтение вместо изменения</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -156,13 +160,17 @@
     <items xsi:type="form:Button">
       <name>ФормаВключитьВозможностьРедактирования</name>
       <id>15</id>
+      <title>
+        <key>ru</key>
+        <value>Включить возможность редактирования</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаВключитьВозможностьРедактированияExtendedTooltip</name>
+        <name>ФормаВключитьВозможностьРедактированияРасширеннаяПодсказка</name>
         <id>16</id>
         <visible>true</visible>
         <enabled>true</enabled>

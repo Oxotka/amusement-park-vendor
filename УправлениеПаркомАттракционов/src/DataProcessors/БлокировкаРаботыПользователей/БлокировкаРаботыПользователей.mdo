@@ -61,7 +61,7 @@
     </type>
     <toolTip>
       <key>ru</key>
-      <value>Код разрешения, позволяющий администратору войти в заблокированную программу.</value>
+      <value>Код разрешения, позволяющий администратору войти в заблокированное приложение</value>
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -104,7 +104,7 @@
     <name>СообщениеДляПользователей</name>
     <synonym>
       <key>ru</key>
-      <value>Сообщение для пользователей</value>
+      <value>Сообщение при входе</value>
     </synonym>
     <type>
       <types>String</types>
@@ -114,7 +114,7 @@
     </type>
     <toolTip>
       <key>ru</key>
-      <value>Сообщение о причине блокировки, которое выводится пользователю при попытке войти в заблокированную ИБ</value>
+      <value>Сообщение о причине блокировки, которое выводится при попытке войти в заблокированное приложение</value>
     </toolTip>
     <multiLine>true</multiLine>
     <minValue xsi:type="core:UndefinedValue"/>

@@ -274,6 +274,120 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
+  <tabularSections uuid="4d1fc26e-563a-47e3-9f2d-0323f63ea81a">
+    <producedTypes>
+      <objectType typeId="44dc0b12-f5b5-496a-a654-73213f31117a" valueTypeId="86694426-a190-4b23-9ccd-e0fcecb263ea"/>
+      <rowType typeId="9af0e891-272a-420e-b492-7178a71e38a7" valueTypeId="3d04f8b1-a075-4b2a-8d3d-92c24479286c"/>
+    </producedTypes>
+    <name>НаборыЗначенийДоступа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наборы значений доступа</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="44c218f2-e69f-40f1-b3cd-286d729f4e6e">
+      <name>НомерНабора</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер набора</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>4</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Число, объединяющие несколько строк в один набор.
+Результаты проверок строк в наборе объединяется по логическому &quot;И&quot;,
+а результаты проверок наборов объекта по логическому &quot;ИЛИ&quot;</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="049c0e03-135e-46b0-ad09-412d14c954d8">
+      <name>ЗначениеДоступа</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение доступа</value>
+      </synonym>
+      <comment>Незаполненные значения нужно допустить, чтобы избежать ошибок при записи проверяемых объектов</comment>
+      <type>
+        <types>DefinedType.ЗначениеДоступа</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Ссылка на значение, например, на организацию, контрагента, ...</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="8a4aca7c-5555-4e2d-8bfc-93f90137c1e4">
+      <name>Уточнение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Уточнение</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Уточняет значение доступа:
+- если идентификатор объекта метаданных, тогда уточняет проверку права
+(Пустая ссылка - Изменение, иначе Чтение);
+- если владелец настроек прав, тогда уточняет таблицу для выбора настроек прав.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="9992e000-a341-42dd-9cbb-fcf584dfb95f">
+      <name>Чтение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Чтение использует номер набора</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Использовать наборы при проверке ограничения чтения</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="ac253c38-2635-4204-9ec6-7c867341b635">
+      <name>Изменение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Изменение использует номер набора</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Использовать наборы при проверке ограничения изменения</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+  </tabularSections>
   <templates uuid="ad2f6b12-a7e2-4006-91bd-cfabadcc954f">
     <name>ПФ_MXL_Билет</name>
     <synonym>

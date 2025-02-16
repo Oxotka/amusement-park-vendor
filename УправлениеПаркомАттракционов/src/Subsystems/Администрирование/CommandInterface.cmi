@@ -68,7 +68,7 @@
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
-      <command>CommonCommand.ВремяТекущегоСеанса</command>
+      <command>CommonCommand.ВремяВПриложении</command>
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
@@ -338,7 +338,7 @@
       <commands>Catalog.НаборыДополнительныхРеквизитовИСведений.Command.ДополнительныеРеквизиты</commands>
       <commands>Catalog.НаборыДополнительныхРеквизитовИСведений.Command.ДополнительныеСведения</commands>
       <commands>InformationRegister.НастройкиОчисткиФайлов.StandardCommand.OpenList</commands>
-      <commands>CommonCommand.ВремяТекущегоСеанса</commands>
+      <commands>CommonCommand.ВремяВПриложении</commands>
       <commands>Catalog.ПрофилиКлючевыхОпераций.StandardCommand.OpenList</commands>
       <commands>InformationRegister.АдресныеОбъекты.StandardCommand.OpenList</commands>
       <commands>InformationRegister.АдресныеОбъекты.Command.ЗагрузитьАдресныйКлассификатор</commands>

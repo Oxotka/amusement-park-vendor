@@ -10,6 +10,6 @@
   <representation>Auto</representation>
   <toolTip>
     <key>ru</key>
-    <value>Отчеты по журналу регистрации и другие отчеты для администрирования программы.</value>
+    <value>Отчеты по журналу регистрации и для администрирования приложения</value>
   </toolTip>
 </mdclass:CommonCommand>

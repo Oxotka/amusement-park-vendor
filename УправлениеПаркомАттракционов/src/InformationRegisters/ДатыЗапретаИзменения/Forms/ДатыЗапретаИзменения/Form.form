@@ -10,6 +10,10 @@
     <items xsi:type="form:FormField">
       <name>УстановкаДатыЗапрета</name>
       <id>439</id>
+      <title>
+        <key>ru</key>
+        <value>Установка даты запрета новое</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -82,13 +86,17 @@
       <items xsi:type="form:Button">
         <name>Обновить</name>
         <id>200</id>
+        <title>
+          <key>ru</key>
+          <value>Обновить</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ОбновитьExtendedTooltip</name>
+          <name>ОбновитьРасширеннаяПодсказка</name>
           <id>321</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -113,6 +121,10 @@
       <items xsi:type="form:Button">
         <name>ПоказатьОтчет</name>
         <id>429</id>
+        <title>
+          <key>ru</key>
+          <value>Отчет</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -339,7 +351,7 @@
         <id>436</id>
         <title>
           <key>ru</key>
-          <value>Даты запрета ввода и редактирования данных прошлых периодов отключены в настройках программы.</value>
+          <value>Даты запрета ввода и редактирования данных прошлых периодов отключены в настройках приложения.</value>
         </title>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -474,6 +486,10 @@
         <items xsi:type="form:FormField">
           <name>ПользователиПолноеПредставление</name>
           <id>127</id>
+          <title>
+            <key>ru</key>
+            <value>Пользователь, группа пользователей</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -491,7 +507,7 @@
             <name>ПользователиПолноеПредставлениеПриИзменении</name>
           </handlers>
           <extendedTooltip>
-            <name>ПользователиПолноеПредставлениеExtendedTooltip</name>
+            <name>ПользователиПолноеПредставлениеРасширеннаяПодсказка</name>
             <id>328</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -560,6 +576,10 @@
         <items xsi:type="form:FormField">
           <name>ПользователиКомментарий</name>
           <id>129</id>
+          <title>
+            <key>ru</key>
+            <value>Комментарий</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -573,7 +593,7 @@
             <name>ПользователиКомментарийПриИзменении</name>
           </handlers>
           <extendedTooltip>
-            <name>ПользователиКомментарийExtendedTooltip</name>
+            <name>ПользователиКомментарийРасширеннаяПодсказка</name>
             <id>329</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -619,13 +639,17 @@
           <items xsi:type="form:Button">
             <name>ПользователиПодобрать</name>
             <id>176</id>
+            <title>
+              <key>ru</key>
+              <value>Подобрать</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ПользователиПодобратьExtendedTooltip</name>
+              <name>ПользователиПодобратьРасширеннаяПодсказка</name>
               <id>325</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -685,8 +709,12 @@
             <userVisible>
               <common>true</common>
             </userVisible>
+            <title>
+              <key>ru</key>
+              <value>Пользователи стандартные команды</value>
+            </title>
             <extendedTooltip>
-              <name>ПользователиСтандартныеКомандыExtendedTooltip</name>
+              <name>ПользователиСтандартныеКомандыРасширеннаяПодсказка</name>
               <id>326</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -902,7 +930,7 @@
           </extInfo>
         </searchControlAddition>
         <extendedTooltip>
-          <name>ПользователиExtendedTooltip</name>
+          <name>ПользователиРасширеннаяПодсказка</name>
           <id>327</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -964,7 +992,7 @@
         <value>Установка по пользователям</value>
       </title>
       <extendedTooltip>
-        <name>УстановкаПоПользователямExtendedTooltip</name>
+        <name>УстановкаПоПользователямРасширеннаяПодсказка</name>
         <id>324</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1009,7 +1037,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ПользовательНеВыбранExtendedTooltip</name>
+              <name>ПользовательНеВыбранРасширеннаяПодсказка</name>
               <id>333</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1049,7 +1077,7 @@
             <value>Страница пользователь не выбран</value>
           </title>
           <extendedTooltip>
-            <name>СтраницаПользовательНеВыбранExtendedTooltip</name>
+            <name>СтраницаПользовательНеВыбранРасширеннаяПодсказка</name>
             <id>332</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1087,6 +1115,10 @@
                   <items xsi:type="form:FormField">
                     <name>ЗапретИзмененияДанныхНеУстановлен</name>
                     <id>467</id>
+                    <title>
+                      <key>ru</key>
+                      <value>Описание даты запрета</value>
+                    </title>
                     <enabled>true</enabled>
                     <userVisible>
                       <common>true</common>
@@ -1143,6 +1175,10 @@
                     <items xsi:type="form:FormField">
                       <name>ПроизвольнаяДатаЗапрета</name>
                       <id>472</id>
+                      <title>
+                        <key>ru</key>
+                        <value>Описание даты запрета</value>
+                      </title>
                       <enabled>true</enabled>
                       <userVisible>
                         <common>true</common>
@@ -1196,6 +1232,10 @@
                     <items xsi:type="form:FormField">
                       <name>ДатаЗапретаПростойРежим</name>
                       <id>475</id>
+                      <title>
+                        <key>ru</key>
+                        <value>Дата запрета</value>
+                      </title>
                       <visible>true</visible>
                       <enabled>true</enabled>
                       <userVisible>
@@ -1426,7 +1466,7 @@
                         <name>ОписаниеДатыЗапретаПриИзменении</name>
                       </handlers>
                       <extendedTooltip>
-                        <name>ОписаниеДатыЗапретаExtendedTooltip</name>
+                        <name>ОписаниеДатыЗапретаРасширеннаяПодсказка</name>
                         <id>340</id>
                         <visible>true</visible>
                         <enabled>true</enabled>
@@ -1545,6 +1585,10 @@
                         <items xsi:type="form:FormField">
                           <name>ДатаЗапрета</name>
                           <id>227</id>
+                          <title>
+                            <key>ru</key>
+                            <value>Дата запрета</value>
+                          </title>
                           <visible>true</visible>
                           <enabled>true</enabled>
                           <userVisible>
@@ -1559,7 +1603,7 @@
                             <name>ДатаЗапретаПриИзменении</name>
                           </handlers>
                           <extendedTooltip>
-                            <name>ДатаЗапретаExtendedTooltip</name>
+                            <name>ДатаЗапретаРасширеннаяПодсказка</name>
                             <id>343</id>
                             <visible>true</visible>
                             <enabled>true</enabled>
@@ -1612,7 +1656,7 @@
                           <value>Произвольная дата используется</value>
                         </title>
                         <extendedTooltip>
-                          <name>ПроизвольнаяДатаИспользуетсяExtendedTooltip</name>
+                          <name>ПроизвольнаяДатаИспользуетсяРасширеннаяПодсказка</name>
                           <id>342</id>
                           <visible>true</visible>
                           <enabled>true</enabled>
@@ -1644,7 +1688,7 @@
                             <common>true</common>
                           </userVisible>
                           <extendedTooltip>
-                            <name>ПустаяНадписьДляОтображенияСтраницы1ExtendedTooltip</name>
+                            <name>ПустаяНадписьДляОтображенияСтраницы1РасширеннаяПодсказка</name>
                             <id>345</id>
                             <visible>true</visible>
                             <enabled>true</enabled>
@@ -1685,7 +1729,7 @@
                           <value>Произвольная дата не используется</value>
                         </title>
                         <extendedTooltip>
-                          <name>ПроизвольнаяДатаНеИспользуетсяExtendedTooltip</name>
+                          <name>ПроизвольнаяДатаНеИспользуетсяРасширеннаяПодсказка</name>
                           <id>344</id>
                           <visible>true</visible>
                           <enabled>true</enabled>
@@ -1715,7 +1759,7 @@
                         <value>Произвольная дата</value>
                       </title>
                       <extendedTooltip>
-                        <name>ПроизвольнаяДатаExtendedTooltip</name>
+                        <name>ПроизвольнаяДатаРасширеннаяПодсказка</name>
                         <id>341</id>
                         <visible>true</visible>
                         <enabled>true</enabled>
@@ -1744,7 +1788,7 @@
                       <value>Дата запрета с описанием</value>
                     </title>
                     <extendedTooltip>
-                      <name>ДатаЗапретаСОписаниемExtendedTooltip</name>
+                      <name>ДатаЗапретаСОписаниемРасширеннаяПодсказка</name>
                       <id>339</id>
                       <visible>true</visible>
                       <enabled>true</enabled>
@@ -1779,6 +1823,10 @@
                         <items xsi:type="form:FormField">
                           <name>РазрешитьИзменениеДанныхДоДатыЗапрета</name>
                           <id>487</id>
+                          <title>
+                            <key>ru</key>
+                            <value>Вступает в действие с отсрочкой в</value>
+                          </title>
                           <visible>true</visible>
                           <enabled>true</enabled>
                           <userVisible>
@@ -2174,7 +2222,7 @@
                 <value>Способ указания общая дата</value>
               </title>
               <extendedTooltip>
-                <name>СпособУказанияОбщаяДатаExtendedTooltip</name>
+                <name>СпособУказанияОбщаяДатаРасширеннаяПодсказка</name>
                 <id>337</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -2226,6 +2274,10 @@
                 <items xsi:type="form:FormField">
                   <name>ДатыЗапретаПолноеПредставление</name>
                   <id>143</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Раздел, объект</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -2239,7 +2291,7 @@
                     <value>Раздел дат запрета изменения и объекты разделов</value>
                   </toolTip>
                   <extendedTooltip>
-                    <name>ДатыЗапретаПолноеПредставлениеExtendedTooltip</name>
+                    <name>ДатыЗапретаПолноеПредставлениеРасширеннаяПодсказка</name>
                     <id>394</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -2306,7 +2358,7 @@
                     <segments>ДатыЗапрета.ОписаниеДатыЗапретаПредставление</segments>
                   </dataPath>
                   <extendedTooltip>
-                    <name>ДатыЗапретаОписаниеДатыЗапретаПредставлениеExtendedTooltip</name>
+                    <name>ДатыЗапретаОписаниеДатыЗапретаПредставлениеРасширеннаяПодсказка</name>
                     <id>395</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -2362,7 +2414,7 @@
                     <name>ДатыЗапретаДатаЗапретаПриИзменении</name>
                   </handlers>
                   <extendedTooltip>
-                    <name>ДатыЗапретаДатаЗапретаExtendedTooltip</name>
+                    <name>ДатыЗапретаДатаЗапретаРасширеннаяПодсказка</name>
                     <id>396</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -2408,6 +2460,10 @@
                   <items xsi:type="form:Button">
                     <name>ДатыЗапретаПодобрать</name>
                     <id>401</id>
+                    <title>
+                      <key>ru</key>
+                      <value>Подобрать</value>
+                    </title>
                     <visible>true</visible>
                     <enabled>true</enabled>
                     <userVisible>
@@ -2541,6 +2597,10 @@
                     <userVisible>
                       <common>true</common>
                     </userVisible>
+                    <title>
+                      <key>ru</key>
+                      <value>Даты запрета стандартные команды</value>
+                    </title>
                     <extendedTooltip>
                       <name>ДатыЗапретаСтандартныеКомандыРасширеннаяПодсказка</name>
                       <id>404</id>
@@ -2758,7 +2818,7 @@
                   </extInfo>
                 </searchControlAddition>
                 <extendedTooltip>
-                  <name>ДатыЗапретаExtendedTooltip</name>
+                  <name>ДатыЗапретаРасширеннаяПодсказка</name>
                   <id>393</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -2784,7 +2844,7 @@
                       <common>true</common>
                     </userVisible>
                     <extendedTooltip>
-                      <name>ДатыЗапретаКонтекстноеМенюДобавитьExtendedTooltip</name>
+                      <name>ДатыЗапретаКонтекстноеМенюДобавитьРасширеннаяПодсказка</name>
                       <id>389</id>
                       <visible>true</visible>
                       <enabled>true</enabled>
@@ -2814,7 +2874,7 @@
                       <common>true</common>
                     </userVisible>
                     <extendedTooltip>
-                      <name>ДатыЗапретаКонтекстноеМенюИзменитьExtendedTooltip</name>
+                      <name>ДатыЗапретаКонтекстноеМенюИзменитьРасширеннаяПодсказка</name>
                       <id>390</id>
                       <visible>true</visible>
                       <enabled>true</enabled>
@@ -2848,7 +2908,7 @@
                       <common>true</common>
                     </userVisible>
                     <extendedTooltip>
-                      <name>ДатыЗапретаКонтекстноеМенюУдалитьExtendedTooltip</name>
+                      <name>ДатыЗапретаКонтекстноеМенюУдалитьРасширеннаяПодсказка</name>
                       <id>391</id>
                       <visible>true</visible>
                       <enabled>true</enabled>
@@ -2877,8 +2937,12 @@
                     <userVisible>
                       <common>true</common>
                     </userVisible>
+                    <title>
+                      <key>ru</key>
+                      <value>Даты запрета контекстное меню стандартные команды</value>
+                    </title>
                     <extendedTooltip>
-                      <name>ДатыЗапретаКонтекстноеМенюСтандартныеКомандыExtendedTooltip</name>
+                      <name>ДатыЗапретаКонтекстноеМенюСтандартныеКомандыРасширеннаяПодсказка</name>
                       <id>392</id>
                       <visible>true</visible>
                       <enabled>true</enabled>
@@ -2936,7 +3000,7 @@
                 <value>Способ указания по разделам объектам</value>
               </title>
               <extendedTooltip>
-                <name>СпособУказанияПоРазделамОбъектамExtendedTooltip</name>
+                <name>СпособУказанияПоРазделамОбъектамРасширеннаяПодсказка</name>
                 <id>358</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -2966,7 +3030,7 @@
               <value>Способы указания</value>
             </title>
             <extendedTooltip>
-              <name>СпособыУказанияExtendedTooltip</name>
+              <name>СпособыУказанияРасширеннаяПодсказка</name>
               <id>336</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -3004,7 +3068,7 @@
                 <segments>СпособУказанияДатыЗапрета</segments>
               </dataPath>
               <extendedTooltip>
-                <name>СпособУказанияДатыЗапретаExtendedTooltip</name>
+                <name>СпособУказанияДатыЗапретаРасширеннаяПодсказка</name>
                 <id>335</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -3138,7 +3202,7 @@
             <value>Страница пользователь выбран</value>
           </title>
           <extendedTooltip>
-            <name>СтраницаПользовательВыбранExtendedTooltip</name>
+            <name>СтраницаПользовательВыбранРасширеннаяПодсказка</name>
             <id>334</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -3168,7 +3232,7 @@
           <value>Данные пользователя</value>
         </title>
         <extendedTooltip>
-          <name>ДанныеПользователяExtendedTooltip</name>
+          <name>ДанныеПользователяРасширеннаяПодсказка</name>
           <id>331</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -3232,7 +3296,7 @@
       <value>Настройка даты запрета</value>
     </title>
     <extendedTooltip>
-      <name>НастройкаДатыЗапретаExtendedTooltip</name>
+      <name>НастройкаДатыЗапретаРасширеннаяПодсказка</name>
       <id>323</id>
       <visible>true</visible>
       <enabled>true</enabled>

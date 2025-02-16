@@ -6,6 +6,10 @@
     <items xsi:type="form:FormField">
       <name>Использование1</name>
       <id>44</id>
+      <title>
+        <key>ru</key>
+        <value>Использование 1</value>
+      </title>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
@@ -52,6 +56,10 @@
       <items xsi:type="form:FormField">
         <name>ЛевоеЗначение1</name>
         <id>24</id>
+        <title>
+          <key>ru</key>
+          <value>Левое значение 1</value>
+        </title>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
@@ -107,6 +115,10 @@
       <items xsi:type="form:FormField">
         <name>ПредставлениеЛевогоЗначения1</name>
         <id>60</id>
+        <title>
+          <key>ru</key>
+          <value>Представление левого значения 1</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -195,6 +207,10 @@
     <items xsi:type="form:FormField">
       <name>ВидСравнения1</name>
       <id>5</id>
+      <title>
+        <key>ru</key>
+        <value>Вид сравнения 1</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -257,6 +273,10 @@
     <items xsi:type="form:FormField">
       <name>ПравоеЗначение1</name>
       <id>8</id>
+      <title>
+        <key>ru</key>
+        <value>Правое значение 1</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -357,6 +377,10 @@
     <items xsi:type="form:FormField">
       <name>ИспользованиеГруппы</name>
       <id>47</id>
+      <title>
+        <key>ru</key>
+        <value>Использование группы</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -525,6 +549,10 @@
       <items xsi:type="form:FormField">
         <name>ЛевоеЗначение2</name>
         <id>27</id>
+        <title>
+          <key>ru</key>
+          <value>Левое значение 2</value>
+        </title>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
@@ -584,6 +612,10 @@
       <items xsi:type="form:FormField">
         <name>ПредставлениеЛевогоЗначения2</name>
         <id>65</id>
+        <title>
+          <key>ru</key>
+          <value>Представление левого значения 2</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -672,6 +704,10 @@
     <items xsi:type="form:FormField">
       <name>ВидСравнения2</name>
       <id>11</id>
+      <title>
+        <key>ru</key>
+        <value>Вид сравнения 2</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -734,6 +770,10 @@
     <items xsi:type="form:FormField">
       <name>ПравоеЗначение2</name>
       <id>14</id>
+      <title>
+        <key>ru</key>
+        <value>Правое значение 2</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -838,6 +878,10 @@
     <items xsi:type="form:Button">
       <name>ПерейтиКРасширеннымНастройкам</name>
       <id>72</id>
+      <title>
+        <key>ru</key>
+        <value>Больше возможностей...</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -873,6 +917,10 @@
         <name>ПрименитьИСформировать</name>
         <id>56</id>
         <displayImportance>VeryHigh</displayImportance>
+        <title>
+          <key>ru</key>
+          <value>Применить и сформировать</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -903,6 +951,10 @@
       <items xsi:type="form:Button">
         <name>Применить</name>
         <id>54</id>
+        <title>
+          <key>ru</key>
+          <value>Применить</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>

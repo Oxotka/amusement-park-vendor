@@ -5,7 +5,7 @@
     <id>1</id>
     <title>
       <key>ru</key>
-      <value>Для входа в программу смените пароль на новый.</value>
+      <value>Для входа в приложение смените пароль на новый.</value>
     </title>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -49,6 +49,10 @@
     <items xsi:type="form:FormField">
       <name>СтарыйПароль</name>
       <id>66</id>
+      <title>
+        <key>ru</key>
+        <value>Старый пароль</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -105,6 +109,10 @@
       <items xsi:type="form:FormField">
         <name>НовыйПароль</name>
         <id>8</id>
+        <title>
+          <key>ru</key>
+          <value>Новый пароль</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -167,6 +175,10 @@
       <items xsi:type="form:FormField">
         <name>НовыйПароль2</name>
         <id>96</id>
+        <title>
+          <key>ru</key>
+          <value>Новый пароль</value>
+        </title>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
@@ -227,6 +239,10 @@
       <items xsi:type="form:Button">
         <name>СоздатьПароль</name>
         <id>29</id>
+        <title>
+          <key>ru</key>
+          <value>Создать пароль</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -295,6 +311,10 @@
       <items xsi:type="form:FormField">
         <name>Подтверждение</name>
         <id>11</id>
+        <title>
+          <key>ru</key>
+          <value>Подтверждение</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -440,6 +460,10 @@
       <items xsi:type="form:FormField">
         <name>ПоказыватьНовыйПароль</name>
         <id>26</id>
+        <title>
+          <key>ru</key>
+          <value>Показывать новый пароль</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -560,6 +584,10 @@
     <items xsi:type="form:Button">
       <name>ФормаУстановитьПароль</name>
       <id>4</id>
+      <title>
+        <key>ru</key>
+        <value>Установить пароль</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>

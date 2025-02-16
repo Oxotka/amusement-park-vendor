@@ -7,6 +7,10 @@
   <items xsi:type="form:Button">
     <name>КомандаПросклонятьПовторно</name>
     <id>33</id>
+    <title>
+      <key>ru</key>
+      <value>Просклонять повторно</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -452,7 +456,7 @@
       <title>
         <key>ru</key>
         <value>Не удалось просклонять с помощью сервиса Морфер.
-Склонение выполнено с помощью встроенных возможностей программы.</value>
+Склонение выполнено с помощью встроенных возможностей приложения.</value>
       </title>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -570,6 +574,10 @@
     <items xsi:type="form:Button">
       <name>ФормаКомандаОтмена</name>
       <id>27</id>
+      <title>
+        <key>ru</key>
+        <value>Отмена</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -859,6 +867,27 @@
     <modifiesStoredData>true</modifiesStoredData>
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
+  <parameters>
+    <name>Склонения</name>
+    <valueType/>
+  </parameters>
+  <parameters>
+    <name>ПараметрыСклонения</name>
+    <valueType/>
+  </parameters>
+  <parameters>
+    <name>Представление</name>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>ИзмененоПредставление</name>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+  </parameters>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>

@@ -17,7 +17,7 @@
             <id>23</id>
             <title>
               <key>ru</key>
-              <value>Дополнительный реквизит не используется в документах программы.
+              <value>Дополнительный реквизит не используется в документах приложения.
 
 Тип значения и имя дополнительного реквизита можно изменять.</value>
             </title>
@@ -27,7 +27,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ТекстПоясненияДополнительногоРеквизитаExtendedTooltip</name>
+              <name>ТекстПоясненияДополнительногоРеквизитаРасширеннаяПодсказка</name>
               <id>32</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -70,7 +70,7 @@
             <value>Пояснение дополнительного реквизита</value>
           </title>
           <extendedTooltip>
-            <name>ПояснениеДополнительногоРеквизитаExtendedTooltip</name>
+            <name>ПояснениеДополнительногоРеквизитаРасширеннаяПодсказка</name>
             <id>31</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -107,7 +107,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ТекстПоясненияДополнительногоСведенияExtendedTooltip</name>
+              <name>ТекстПоясненияДополнительногоСведенияРасширеннаяПодсказка</name>
               <id>34</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -150,7 +150,7 @@
             <value>Пояснение дополнительного сведения</value>
           </title>
           <extendedTooltip>
-            <name>ПояснениеДополнительногоСведенияExtendedTooltip</name>
+            <name>ПояснениеДополнительногоСведенияРасширеннаяПодсказка</name>
             <id>33</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -179,7 +179,7 @@
           <value>Пояснения</value>
         </title>
         <extendedTooltip>
-          <name>ПоясненияExtendedTooltip</name>
+          <name>ПоясненияРасширеннаяПодсказка</name>
           <id>30</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -208,7 +208,7 @@
         <value>Объект не используется</value>
       </title>
       <extendedTooltip>
-        <name>ОбъектНеИспользуетсяExtendedTooltip</name>
+        <name>ОбъектНеИспользуетсяРасширеннаяПодсказка</name>
         <id>29</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -251,7 +251,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ТекстПредупрежденияДополнительногоРеквизитаExtendedTooltip</name>
+              <name>ТекстПредупрежденияДополнительногоРеквизитаРасширеннаяПодсказка</name>
               <id>40</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -294,7 +294,7 @@
             <value>Предупреждение дополнительного реквизита</value>
           </title>
           <extendedTooltip>
-            <name>ПредупреждениеДополнительногоРеквизитаExtendedTooltip</name>
+            <name>ПредупреждениеДополнительногоРеквизитаРасширеннаяПодсказка</name>
             <id>39</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -331,7 +331,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ТекстПредупрежденияДополнительногоСведенияExtendedTooltip</name>
+              <name>ТекстПредупрежденияДополнительногоСведенияРасширеннаяПодсказка</name>
               <id>42</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -374,7 +374,7 @@
             <value>Предупреждение дополнительного сведения</value>
           </title>
           <extendedTooltip>
-            <name>ПредупреждениеДополнительногоСведенияExtendedTooltip</name>
+            <name>ПредупреждениеДополнительногоСведенияРасширеннаяПодсказка</name>
             <id>41</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -403,7 +403,7 @@
           <value>Предупреждения</value>
         </title>
         <extendedTooltip>
-          <name>ПредупрежденияExtendedTooltip</name>
+          <name>ПредупрежденияРасширеннаяПодсказка</name>
           <id>38</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -432,7 +432,7 @@
         <value>Объект используется</value>
       </title>
       <extendedTooltip>
-        <name>ОбъектИспользуетсяExtendedTooltip</name>
+        <name>ОбъектИспользуетсяРасширеннаяПодсказка</name>
         <id>37</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -461,7 +461,7 @@
       <value>Диалоги пользователя</value>
     </title>
     <extendedTooltip>
-      <name>ДиалогиПользователяExtendedTooltip</name>
+      <name>ДиалогиПользователяРасширеннаяПодсказка</name>
       <id>28</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -501,7 +501,7 @@
         </userVisible>
         <skipOnInput>false</skipOnInput>
         <extendedTooltip>
-          <name>ОКExtendedTooltip</name>
+          <name>ОКРасширеннаяПодсказка</name>
           <id>36</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -534,7 +534,7 @@
       </title>
       <groupVerticalAlign>Bottom</groupVerticalAlign>
       <extendedTooltip>
-        <name>КнопкиПоясненияExtendedTooltip</name>
+        <name>КнопкиПоясненияРасширеннаяПодсказка</name>
         <id>35</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -556,6 +556,10 @@
       <items xsi:type="form:Button">
         <name>РазрешитьРедактирование</name>
         <id>9</id>
+        <title>
+          <key>ru</key>
+          <value>Разрешить редактирование</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -563,7 +567,7 @@
         </userVisible>
         <skipOnInput>false</skipOnInput>
         <extendedTooltip>
-          <name>РазрешитьРедактированиеExtendedTooltip</name>
+          <name>РазрешитьРедактированиеРасширеннаяПодсказка</name>
           <id>44</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -594,7 +598,7 @@
         </userVisible>
         <skipOnInput>false</skipOnInput>
         <extendedTooltip>
-          <name>ОтменаExtendedTooltip</name>
+          <name>ОтменаРасширеннаяПодсказка</name>
           <id>45</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -626,7 +630,7 @@
       </title>
       <groupVerticalAlign>Bottom</groupVerticalAlign>
       <extendedTooltip>
-        <name>КнопкиПредупрежденияExtendedTooltip</name>
+        <name>КнопкиПредупрежденияРасширеннаяПодсказка</name>
         <id>43</id>
         <visible>true</visible>
         <enabled>true</enabled>

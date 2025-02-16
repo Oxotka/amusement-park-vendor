@@ -237,6 +237,10 @@
   <items xsi:type="form:Table">
     <name>Получатели</name>
     <id>1</id>
+    <title>
+      <key>ru</key>
+      <value>Получатели</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -249,6 +253,10 @@
     <items xsi:type="form:FormField">
       <name>ПолучателиПолучатель</name>
       <id>14</id>
+      <title>
+        <key>ru</key>
+        <value>Получатель</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -300,6 +308,10 @@
     <items xsi:type="form:FormField">
       <name>ПолучателиАдресЭлектроннойПочты</name>
       <id>17</id>
+      <title>
+        <key>ru</key>
+        <value>Адрес электронной почты</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -529,6 +541,10 @@
     <items xsi:type="form:Button">
       <name>ВыполнитьСейчас</name>
       <id>20</id>
+      <title>
+        <key>ru</key>
+        <value>Повторить рассылку</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>

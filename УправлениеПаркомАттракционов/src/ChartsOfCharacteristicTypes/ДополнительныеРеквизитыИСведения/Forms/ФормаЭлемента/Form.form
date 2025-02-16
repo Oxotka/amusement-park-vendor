@@ -61,6 +61,10 @@
             <items xsi:type="form:Button">
               <name>НеиспользуемыеРеквизиты</name>
               <id>412</id>
+              <title>
+                <key>ru</key>
+                <value>Неиспользуемые реквизиты</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -914,6 +918,10 @@
             <items xsi:type="form:FormField">
               <name>СвойстваЗаголовок</name>
               <id>379</id>
+              <title>
+                <key>ru</key>
+                <value>Реквизит</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -1113,6 +1121,10 @@
               <items xsi:type="form:Button">
                 <name>СвойстваКонтекстноеМенюИзменить</name>
                 <id>382</id>
+                <title>
+                  <key>ru</key>
+                  <value>Изменить</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -1655,7 +1667,7 @@
             <name>ЗаголовокПриИзменении</name>
           </handlers>
           <extendedTooltip>
-            <name>ЗаголовокExtendedTooltip</name>
+            <name>ЗаголовокРасширеннаяПодсказка</name>
             <id>118</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1695,6 +1707,10 @@
         <items xsi:type="form:FormField">
           <name>ВидСвойств</name>
           <id>20</id>
+          <title>
+            <key>ru</key>
+            <value>Вид свойств</value>
+          </title>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
@@ -1806,7 +1822,7 @@
               <name>ТипЗначенияПриИзменении</name>
             </handlers>
             <extendedTooltip>
-              <name>ТипЗначенияExtendedTooltip</name>
+              <name>ТипЗначенияРасширеннаяПодсказка</name>
               <id>126</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1846,13 +1862,17 @@
           <items xsi:type="form:Button">
             <name>РедактироватьФорматЗначения</name>
             <id>37</id>
+            <title>
+              <key>ru</key>
+              <value>Формат</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>РедактироватьФорматЗначенияExtendedTooltip</name>
+              <name>РедактироватьФорматЗначенияРасширеннаяПодсказка</name>
               <id>127</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -2070,6 +2090,10 @@
           <items xsi:type="form:FormField">
             <name>ОднострочныйВид</name>
             <id>442</id>
+            <title>
+              <key>ru</key>
+              <value>Представление реквизита</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -2211,6 +2235,10 @@
           <items xsi:type="form:FormField">
             <name>МногострочныйВид</name>
             <id>450</id>
+            <title>
+              <key>ru</key>
+              <value>Представление реквизита</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -2290,7 +2318,7 @@
               <name>МногострочноеПолеВводаЧислоПриИзменении</name>
             </handlers>
             <extendedTooltip>
-              <name>МногострочноеПолеВводаЧислоExtendedTooltip</name>
+              <name>МногострочноеПолеВводаЧислоРасширеннаяПодсказка</name>
               <id>132</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -2345,7 +2373,7 @@
             <value>Многострочное поле ввода настройки</value>
           </title>
           <extendedTooltip>
-            <name>ГруппаМногострочноеПолеВводаНастройкиExtendedTooltip</name>
+            <name>ГруппаМногострочноеПолеВводаНастройкиРасширеннаяПодсказка</name>
             <id>130</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -2377,7 +2405,7 @@
           <value>Многострочность</value>
         </title>
         <extendedTooltip>
-          <name>ГруппаМногострочностьExtendedTooltip</name>
+          <name>ГруппаМногострочностьРасширеннаяПодсказка</name>
           <id>129</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -2467,6 +2495,10 @@
                 <items xsi:type="form:Button">
                   <name>СвойствоСерое</name>
                   <id>507</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Свойство серое</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -2497,6 +2529,10 @@
                 <items xsi:type="form:Button">
                   <name>СвойствоЗеленое</name>
                   <id>517</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Свойство зеленое</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -2527,6 +2563,10 @@
                 <items xsi:type="form:Button">
                   <name>СвойствоЖелтое</name>
                   <id>515</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Свойство желтое</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -2557,6 +2597,10 @@
                 <items xsi:type="form:Button">
                   <name>СвойствоОранжевое</name>
                   <id>513</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Свойство оранжевое</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -2587,6 +2631,10 @@
                 <items xsi:type="form:Button">
                   <name>СвойствоКрасное</name>
                   <id>511</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Свойство красное</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -2617,6 +2665,10 @@
                 <items xsi:type="form:Button">
                   <name>СвойствоФиолетовое</name>
                   <id>523</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Свойство фиолетовое</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -2647,6 +2699,10 @@
                 <items xsi:type="form:Button">
                   <name>СвойствоСинее</name>
                   <id>519</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Свойство синее</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -2677,6 +2733,10 @@
                 <items xsi:type="form:Button">
                   <name>СвойствоЛаймовое</name>
                   <id>509</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Свойство лаймовое</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -2707,6 +2767,10 @@
                 <items xsi:type="form:Button">
                   <name>СвойствоРозовое</name>
                   <id>525</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Свойство розовое</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -2737,6 +2801,10 @@
                 <items xsi:type="form:Button">
                   <name>СвойствоГолубое</name>
                   <id>521</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Свойство голубое</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -2771,7 +2839,7 @@
                 </userVisible>
                 <title>
                   <key>ru</key>
-                  <value>Группа цвета</value>
+                  <value>Цвета</value>
                 </title>
                 <extendedTooltip>
                   <name>ГруппаЦветаРасширеннаяПодсказка</name>
@@ -3342,6 +3410,10 @@
               <items xsi:type="form:Button">
                 <name>ЗаполнитьИдентификаторДляФормул</name>
                 <id>486</id>
+                <title>
+                  <key>ru</key>
+                  <value>Заполнить идентификатор для формул</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -3420,7 +3492,7 @@
               </dataPath>
               <titleHeight>2</titleHeight>
               <extendedTooltip>
-                <name>ПодсказкаExtendedTooltip</name>
+                <name>ПодсказкаРасширеннаяПодсказка</name>
                 <id>155</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -3478,7 +3550,7 @@
                   <value>Используется в заголовке формы дополнительного значения свойства.</value>
                 </toolTip>
                 <extendedTooltip>
-                  <name>ЗаголовокФормыЗначенияExtendedTooltip</name>
+                  <name>ЗаголовокФормыЗначенияРасширеннаяПодсказка</name>
                   <id>157</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -3534,7 +3606,7 @@
                   <value>Используется в заголовке формы выбора дополнительного значения свойства.</value>
                 </toolTip>
                 <extendedTooltip>
-                  <name>ЗаголовокФормыВыбораЗначенияExtendedTooltip</name>
+                  <name>ЗаголовокФормыВыбораЗначенияРасширеннаяПодсказка</name>
                   <id>158</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -3583,7 +3655,7 @@
                 <value>Заголовки форм значений</value>
               </title>
               <extendedTooltip>
-                <name>ГруппаЗаголовкиФормЗначенийExtendedTooltip</name>
+                <name>ГруппаЗаголовкиФормЗначенийРасширеннаяПодсказка</name>
                 <id>156</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -3619,7 +3691,7 @@
               </dataPath>
               <titleLocation>Left</titleLocation>
               <extendedTooltip>
-                <name>КомментарийExtendedTooltip</name>
+                <name>КомментарийРасширеннаяПодсказка</name>
                 <id>159</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -3678,7 +3750,7 @@
               <value>Остальные реквизиты</value>
             </title>
             <extendedTooltip>
-              <name>ОстальныеРеквизитыExtendedTooltip</name>
+              <name>ОстальныеРеквизитыРасширеннаяПодсказка</name>
               <id>154</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -3721,7 +3793,7 @@
                 <value>Переход к набору.</value>
               </toolTip>
               <extendedTooltip>
-                <name>УточнениеНаборовКомментарийExtendedTooltip</name>
+                <name>УточнениеНаборовКомментарийРасширеннаяПодсказка</name>
                 <id>161</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -3759,13 +3831,17 @@
             <items xsi:type="form:Button">
               <name>УточнениеНаборовИзменить</name>
               <id>106</id>
+              <title>
+                <key>ru</key>
+                <value>Изменить...</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
                 <common>true</common>
               </userVisible>
               <extendedTooltip>
-                <name>УточнениеНаборовИзменитьExtendedTooltip</name>
+                <name>УточнениеНаборовИзменитьРасширеннаяПодсказка</name>
                 <id>162</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -3797,7 +3873,7 @@
               <value>Уточнение наборов</value>
             </title>
             <extendedTooltip>
-              <name>УточнениеНаборовExtendedTooltip</name>
+              <name>УточнениеНаборовРасширеннаяПодсказка</name>
               <id>160</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -3894,7 +3970,7 @@
                     <segments>Значения.Наименование</segments>
                   </dataPath>
                   <extendedTooltip>
-                    <name>ЗначенияНаименованиеExtendedTooltip</name>
+                    <name>ЗначенияНаименованиеРасширеннаяПодсказка</name>
                     <id>148</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -3940,7 +4016,7 @@
                     <segments>Значения.Вес</segments>
                   </dataPath>
                   <extendedTooltip>
-                    <name>ЗначенияВесExtendedTooltip</name>
+                    <name>ЗначенияВесРасширеннаяПодсказка</name>
                     <id>149</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -4034,7 +4110,7 @@
                         <common>true</common>
                       </userVisible>
                       <extendedTooltip>
-                        <name>ЗначенияСоздатьExtendedTooltip</name>
+                        <name>ЗначенияСоздатьРасширеннаяПодсказка</name>
                         <id>141</id>
                         <visible>true</visible>
                         <enabled>true</enabled>
@@ -4064,7 +4140,7 @@
                         <common>true</common>
                       </userVisible>
                       <extendedTooltip>
-                        <name>ЗначенияСоздатьГруппуExtendedTooltip</name>
+                        <name>ЗначенияСоздатьГруппуРасширеннаяПодсказка</name>
                         <id>142</id>
                         <visible>true</visible>
                         <enabled>true</enabled>
@@ -4094,7 +4170,7 @@
                         <common>true</common>
                       </userVisible>
                       <extendedTooltip>
-                        <name>ЗначенияИзменитьExtendedTooltip</name>
+                        <name>ЗначенияИзменитьРасширеннаяПодсказка</name>
                         <id>143</id>
                         <visible>true</visible>
                         <enabled>true</enabled>
@@ -4124,7 +4200,7 @@
                         <common>true</common>
                       </userVisible>
                       <extendedTooltip>
-                        <name>ЗначенияУстановитьПометкуУдаленияExtendedTooltip</name>
+                        <name>ЗначенияУстановитьПометкуУдаленияРасширеннаяПодсказка</name>
                         <id>144</id>
                         <visible>true</visible>
                         <enabled>true</enabled>
@@ -4155,7 +4231,7 @@
                       <value>Значения командная панель редактирования</value>
                     </title>
                     <extendedTooltip>
-                      <name>ЗначенияКоманднаяПанельРедактированияExtendedTooltip</name>
+                      <name>ЗначенияКоманднаяПанельРедактированияРасширеннаяПодсказка</name>
                       <id>140</id>
                       <visible>true</visible>
                       <enabled>true</enabled>
@@ -4180,7 +4256,7 @@
                       <common>true</common>
                     </userVisible>
                     <extendedTooltip>
-                      <name>ЗначенияНайтиExtendedTooltip</name>
+                      <name>ЗначенияНайтиРасширеннаяПодсказка</name>
                       <id>145</id>
                       <visible>true</visible>
                       <enabled>true</enabled>
@@ -4210,7 +4286,7 @@
                       <common>true</common>
                     </userVisible>
                     <extendedTooltip>
-                      <name>ЗначенияОтменитьПоискExtendedTooltip</name>
+                      <name>ЗначенияОтменитьПоискРасширеннаяПодсказка</name>
                       <id>146</id>
                       <visible>true</visible>
                       <enabled>true</enabled>
@@ -4359,6 +4435,10 @@
                   <items xsi:type="form:Button">
                     <name>ФормаПоискИУдалениеДублей</name>
                     <id>322</id>
+                    <title>
+                      <key>ru</key>
+                      <value>Поиск и удаление дублей...</value>
+                    </title>
                     <visible>true</visible>
                     <enabled>true</enabled>
                     <userVisible>
@@ -4553,7 +4633,7 @@
                   </extInfo>
                 </searchControlAddition>
                 <extendedTooltip>
-                  <name>ЗначенияExtendedTooltip</name>
+                  <name>ЗначенияРасширеннаяПодсказка</name>
                   <id>147</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -4706,7 +4786,7 @@
                         <value>Значения контекстное меню стандартные команды</value>
                       </title>
                       <extendedTooltip>
-                        <name>ЗначенияКонтекстноеМенюСтандартныеКомандыExtendedTooltip</name>
+                        <name>ЗначенияКонтекстноеМенюСтандартныеКомандыРасширеннаяПодсказка</name>
                         <id>139</id>
                         <visible>true</visible>
                         <enabled>true</enabled>
@@ -4734,7 +4814,7 @@
                       <value>Значения контекстное меню редактирования</value>
                     </title>
                     <extendedTooltip>
-                      <name>ЗначенияКонтекстноеМенюРедактированияExtendedTooltip</name>
+                      <name>ЗначенияКонтекстноеМенюРедактированияРасширеннаяПодсказка</name>
                       <id>134</id>
                       <visible>true</visible>
                       <enabled>true</enabled>
@@ -4804,7 +4884,7 @@
                 <value>Дополнительные значения:</value>
               </title>
               <extendedTooltip>
-                <name>ДополнительныеЗначенияExtendedTooltip</name>
+                <name>ДополнительныеЗначенияРасширеннаяПодсказка</name>
                 <id>133</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -4863,6 +4943,10 @@
                 <items xsi:type="form:FormField">
                   <name>ЗначенияДополнительногоРеквизитаНаименование</name>
                   <id>304</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Наименование</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -5375,7 +5459,7 @@
               <name>ДополнительныеЗначенияСВесомПриИзменении</name>
             </handlers>
             <extendedTooltip>
-              <name>ДополнительныеЗначенияСВесомExtendedTooltip</name>
+              <name>ДополнительныеЗначенияСВесомРасширеннаяПодсказка</name>
               <id>150</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -5426,7 +5510,7 @@
                 <value>Переход к редактированию списка значений.</value>
               </toolTip>
               <extendedTooltip>
-                <name>УточнениеСпискаЗначенийКомментарийExtendedTooltip</name>
+                <name>УточнениеСпискаЗначенийКомментарийРасширеннаяПодсказка</name>
                 <id>152</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -5464,13 +5548,17 @@
             <items xsi:type="form:Button">
               <name>УточнениеСпискаЗначенийИзменить</name>
               <id>105</id>
+              <title>
+                <key>ru</key>
+                <value>Изменить...</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
                 <common>true</common>
               </userVisible>
               <extendedTooltip>
-                <name>УточнениеСпискаЗначенийИзменитьExtendedTooltip</name>
+                <name>УточнениеСпискаЗначенийИзменитьРасширеннаяПодсказка</name>
                 <id>153</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -5502,7 +5590,7 @@
               <value>Уточнение списка значений</value>
             </title>
             <extendedTooltip>
-              <name>УточнениеСпискаЗначенийExtendedTooltip</name>
+              <name>УточнениеСпискаЗначенийРасширеннаяПодсказка</name>
               <id>151</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -5750,6 +5838,10 @@
       <items xsi:type="form:Button">
         <name>КомандаНазад</name>
         <id>233</id>
+        <title>
+          <key>ru</key>
+          <value>&lt; Назад</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -5812,6 +5904,10 @@
       <items xsi:type="form:Button">
         <name>КомандаДалее</name>
         <id>235</id>
+        <title>
+          <key>ru</key>
+          <value>Далее ></value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -5842,6 +5938,10 @@
       <items xsi:type="form:Button">
         <name>Закрыть</name>
         <id>242</id>
+        <title>
+          <key>ru</key>
+          <value>Закрыть</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -5939,6 +6039,10 @@
     <items xsi:type="form:Button">
       <name>ФормаУстановитьСнятьПометкуУдаления</name>
       <id>453</id>
+      <title>
+        <key>ru</key>
+        <value>Пометить на удаление/ Снять пометку</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>

@@ -8,7 +8,7 @@
   <name>ЗаголовокСистемы</name>
   <synonym>
     <key>ru</key>
-    <value>Заголовок программы</value>
+    <value>Заголовок приложения</value>
   </synonym>
   <type>
     <types>String</types>
@@ -16,7 +16,7 @@
   </type>
   <toolTip>
     <key>ru</key>
-    <value>Фрагмент заголовка главного окна программы</value>
+    <value>Фрагмент заголовка главного окна приложения</value>
   </toolTip>
   <minValue xsi:type="core:UndefinedValue"/>
   <maxValue xsi:type="core:UndefinedValue"/>

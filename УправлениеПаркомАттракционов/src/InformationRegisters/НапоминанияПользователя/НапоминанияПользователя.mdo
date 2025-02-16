@@ -15,6 +15,8 @@
     <value>Напоминания пользователя</value>
   </synonym>
   <editType>BothWays</editType>
+  <defaultRecordForm>InformationRegister.НапоминанияПользователя.Form.Напоминание</defaultRecordForm>
+  <defaultListForm>InformationRegister.НапоминанияПользователя.Form.МоиНапоминания</defaultListForm>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Active</name>
@@ -348,6 +350,33 @@
         <lang>ru</lang>
       </pages>
     </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="14361dbe-00dd-496b-adf4-7f35553bb48c">
+    <name>Настройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9de12434-34a3-4f73-848e-d0798f6d6c83">
+    <name>ВсеНапоминания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Все напоминания</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="64c4af68-7657-458e-a129-14a3dd8a0262">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>

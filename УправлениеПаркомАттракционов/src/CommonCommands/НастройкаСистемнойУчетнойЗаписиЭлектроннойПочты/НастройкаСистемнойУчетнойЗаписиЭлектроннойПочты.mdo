@@ -10,6 +10,6 @@
   <representation>Auto</representation>
   <toolTip>
     <key>ru</key>
-    <value>Открыть настройку электронной почты для рассылок уведомлений из программы</value>
+    <value>Открыть настройку электронной почты для рассылок уведомлений из приложения</value>
   </toolTip>
 </mdclass:CommonCommand>

@@ -44,7 +44,7 @@
       <autoMaxHeight>true</autoMaxHeight>
       <extInfo xsi:type="form:PictureDecorationExtInfo">
         <picture xsi:type="core:PictureRef">
-          <picture>CommonPicture.Предупреждение32</picture>
+          <picture>StdPicture.DialogExclamation</picture>
         </picture>
       </extInfo>
     </items>
@@ -56,7 +56,7 @@
         <value>При открытии внешнего отчета или обработки рекомендуется 
 обращать внимание на источник, из которого был получен файл.
 Если вы не уверены в содержимом этого файла или в источнике, 
-то файл не рекомендуется открывать в программе.
+то файл не рекомендуется открывать в приложении.
 
 См. также: &lt;link http://1c.ru/news/info.jsp?id=21537>Пример проблемы с вирусом во внешней обработке&lt;/>.
 </value>
@@ -141,6 +141,10 @@
     <items xsi:type="form:Button">
       <name>ФормаПродолжить</name>
       <id>10</id>
+      <title>
+        <key>ru</key>
+        <value>Продолжить</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -171,6 +175,10 @@
     <items xsi:type="form:Button">
       <name>ФормаОтмена</name>
       <id>12</id>
+      <title>
+        <key>ru</key>
+        <value>Отмена</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>

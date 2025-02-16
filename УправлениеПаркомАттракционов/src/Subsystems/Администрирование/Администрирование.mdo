@@ -61,7 +61,7 @@
   <content>CommonForm.НастройкаКомандПечати</content>
   <content>CommonForm.Расширения</content>
   <content>InformationRegister.НастройкиОчисткиФайлов</content>
-  <content>CommonCommand.ВремяТекущегоСеанса</content>
+  <content>CommonCommand.ВремяВПриложении</content>
   <content>CommonForm.НастройкиВходаПользователей</content>
   <content>Catalog.ПрофилиКлючевыхОпераций</content>
   <content>Report.ОценкаПроизводительности</content>

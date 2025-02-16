@@ -15,7 +15,7 @@
         <segments>Объект.Description</segments>
       </dataPath>
       <extendedTooltip>
-        <name>НаименованиеExtendedTooltip</name>
+        <name>НаименованиеРасширеннаяПодсказка</name>
         <id>31</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -65,7 +65,7 @@
         <segments>Объект.Code</segments>
       </dataPath>
       <extendedTooltip>
-        <name>КодExtendedTooltip</name>
+        <name>КодРасширеннаяПодсказка</name>
         <id>32</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -106,6 +106,10 @@
     <items xsi:type="form:FormField">
       <name>НомерТекущегоГода</name>
       <id>8</id>
+      <title>
+        <key>ru</key>
+        <value>Год</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -119,7 +123,7 @@
         <name>НомерТекущегоГодаПриИзменении</name>
       </handlers>
       <extendedTooltip>
-        <name>НомерТекущегоГодаExtendedTooltip</name>
+        <name>НомерТекущегоГодаРасширеннаяПодсказка</name>
         <id>33</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -175,7 +179,7 @@
       <value>Основные реквизиты</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаОсновныеРеквизитыExtendedTooltip</name>
+      <name>ГруппаОсновныеРеквизитыРасширеннаяПодсказка</name>
       <id>30</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -387,7 +391,7 @@
         <autoMaxHeight>true</autoMaxHeight>
         <extInfo xsi:type="form:PictureDecorationExtInfo">
           <picture xsi:type="core:PictureRef">
-            <picture>CommonPicture.Предупреждение32</picture>
+            <picture>StdPicture.DialogExclamation</picture>
           </picture>
           <fileDragMode>AsFileRef</fileDragMode>
         </extInfo>
@@ -476,6 +480,10 @@
     <items xsi:type="form:FormField">
       <name>Календарь</name>
       <id>5</id>
+      <title>
+        <key>ru</key>
+        <value>Календарь</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -486,7 +494,7 @@
       </dataPath>
       <titleLocation>None</titleLocation>
       <extendedTooltip>
-        <name>КалендарьExtendedTooltip</name>
+        <name>КалендарьРасширеннаяПодсказка</name>
         <id>37</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -506,13 +514,17 @@
         <items xsi:type="form:Button">
           <name>КалендарьКонтекстноеМенюИзменитьДень</name>
           <id>10</id>
+          <title>
+            <key>ru</key>
+            <value>Изменить день</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>КалендарьКонтекстноеМенюИзменитьДеньExtendedTooltip</name>
+            <name>КалендарьКонтекстноеМенюИзменитьДеньРасширеннаяПодсказка</name>
             <id>35</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -536,13 +548,17 @@
         <items xsi:type="form:Button">
           <name>КалендарьКонтекстноеМенюПеренестиДень</name>
           <id>13</id>
+          <title>
+            <key>ru</key>
+            <value>Перенести день</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>КалендарьКонтекстноеМенюПеренестиДеньExtendedTooltip</name>
+            <name>КалендарьКонтекстноеМенюПеренестиДеньРасширеннаяПодсказка</name>
             <id>36</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -587,12 +603,20 @@
         <horizontalStretch>true</horizontalStretch>
         <verticalStretch>true</verticalStretch>
         <calendarNavigation>true</calendarNavigation>
+        <border xsi:type="core:BorderDef">
+          <style>Single</style>
+          <width>1</width>
+        </border>
         <widthInMonths>4</widthInMonths>
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
       <name>ПредставлениеПереносов</name>
       <id>18</id>
+      <title>
+        <key>ru</key>
+        <value>Переносы дней</value>
+      </title>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
@@ -602,7 +626,7 @@
       </dataPath>
       <titleLocation>Top</titleLocation>
       <extendedTooltip>
-        <name>ПредставлениеПереносовExtendedTooltip</name>
+        <name>ПредставлениеПереносовРасширеннаяПодсказка</name>
         <id>38</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -673,7 +697,7 @@
         </dataPath>
         <titleLocation>None</titleLocation>
         <extendedTooltip>
-          <name>СписокПереносовПредставлениеExtendedTooltip</name>
+          <name>СписокПереносовПредставлениеРасширеннаяПодсказка</name>
           <id>40</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -837,7 +861,7 @@
         </extInfo>
       </searchControlAddition>
       <extendedTooltip>
-        <name>СписокПереносовExtendedTooltip</name>
+        <name>СписокПереносовРасширеннаяПодсказка</name>
         <id>39</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -888,7 +912,7 @@
       <value>Календарь</value>
     </title>
     <extendedTooltip>
-      <name>КалендарьГруппаExtendedTooltip</name>
+      <name>КалендарьГруппаРасширеннаяПодсказка</name>
       <id>34</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -917,13 +941,17 @@
     <items xsi:type="form:Button">
       <name>ФормаИзменитьДень</name>
       <id>11</id>
+      <title>
+        <key>ru</key>
+        <value>Изменить день</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаИзменитьДеньExtendedTooltip</name>
+        <name>ФормаИзменитьДеньРасширеннаяПодсказка</name>
         <id>26</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -947,13 +975,17 @@
     <items xsi:type="form:Button">
       <name>ФормаПеренестиВыходнойДень</name>
       <id>12</id>
+      <title>
+        <key>ru</key>
+        <value>Перенести день</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаПеренестиВыходнойДеньExtendedTooltip</name>
+        <name>ФормаПеренестиВыходнойДеньРасширеннаяПодсказка</name>
         <id>27</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -977,13 +1009,17 @@
     <items xsi:type="form:Button">
       <name>ФормаЗаполнитьПоУмолчанию</name>
       <id>16</id>
+      <title>
+        <key>ru</key>
+        <value>Заполнить по умолчанию</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаЗаполнитьПоУмолчаниюExtendedTooltip</name>
+        <name>ФормаЗаполнитьПоУмолчаниюРасширеннаяПодсказка</name>
         <id>28</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1007,13 +1043,17 @@
     <items xsi:type="form:Button">
       <name>ФормаПечать</name>
       <id>25</id>
+      <title>
+        <key>ru</key>
+        <value>Печать</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаПечатьExtendedTooltip</name>
+        <name>ФормаПечатьРасширеннаяПодсказка</name>
         <id>29</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1353,12 +1393,7 @@
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <commandInterface>
-    <navigationPanel>
-      <cmiFragmentRecord>
-        <command>0</command>
-        <userVisible/>
-      </cmiFragmentRecord>
-    </navigationPanel>
+    <navigationPanel/>
     <commandBar/>
   </commandInterface>
   <extInfo xsi:type="form:CatalogFormExtInfo">

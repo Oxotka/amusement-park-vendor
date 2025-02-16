@@ -12,13 +12,17 @@
         <items xsi:type="form:Button">
           <name>ФормаРазрешитьРедактирование</name>
           <id>1</id>
+          <title>
+            <key>ru</key>
+            <value>Разрешить редактирование</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>ФормаРазрешитьРедактированиеExtendedTooltip</name>
+            <name>ФормаРазрешитьРедактированиеРасширеннаяПодсказка</name>
             <id>18</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -44,6 +48,10 @@
         <items xsi:type="form:Button">
           <name>ФормаПроверитьИспользование</name>
           <id>25</id>
+          <title>
+            <key>ru</key>
+            <value>Проверить использование</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -81,6 +89,10 @@
             <items xsi:type="form:Button">
               <name>ФормаУстановитьФлажки</name>
               <id>27</id>
+              <title>
+                <key>ru</key>
+                <value>Установить флажки</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -111,6 +123,10 @@
             <items xsi:type="form:Button">
               <name>ФормаСнятьФлажки</name>
               <id>29</id>
+              <title>
+                <key>ru</key>
+                <value>Снять флажки</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>

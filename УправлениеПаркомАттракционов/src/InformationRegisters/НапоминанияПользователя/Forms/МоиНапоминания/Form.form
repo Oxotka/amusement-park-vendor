@@ -46,13 +46,17 @@
     <items xsi:type="form:Button">
       <name>КнопкаСоздать</name>
       <id>12</id>
+      <title>
+        <key>ru</key>
+        <value>Создать</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>КнопкаСоздатьExtendedTooltip</name>
+        <name>КнопкаСоздатьРасширеннаяПодсказка</name>
         <id>17</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -76,13 +80,17 @@
     <items xsi:type="form:Button">
       <name>КнопкаИзменить</name>
       <id>13</id>
+      <title>
+        <key>ru</key>
+        <value>Изменить</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>КнопкаИзменитьExtendedTooltip</name>
+        <name>КнопкаИзменитьРасширеннаяПодсказка</name>
         <id>18</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -106,6 +114,10 @@
     <items xsi:type="form:Button">
       <name>КнопкаУдалить</name>
       <id>16</id>
+      <title>
+        <key>ru</key>
+        <value>Удалить</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -146,7 +158,7 @@
         <value>Стандартные команды</value>
       </title>
       <extendedTooltip>
-        <name>СтандартныеКомандыExtendedTooltip</name>
+        <name>СтандартныеКомандыРасширеннаяПодсказка</name>
         <id>20</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -164,6 +176,60 @@
         <commandSource>Form</commandSource>
       </extInfo>
     </items>
+    <items xsi:type="form:FormGroup">
+      <name>ДополнительныеКоманды</name>
+      <id>48</id>
+      <items xsi:type="form:Button">
+        <name>ВсеНапоминания</name>
+        <id>46</id>
+        <title>
+          <key>ru</key>
+          <value>Все напоминания</value>
+        </title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>ВсеНапоминанияРасширеннаяПодсказка</name>
+          <id>47</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <commandName>Form.Command.ВсеНапоминания</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <representationInContextMenu>Auto</representationInContextMenu>
+        <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
+      </items>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Дополнительные команды</value>
+      </title>
+      <extendedTooltip>
+        <name>ДополнительныеКомандыРасширеннаяПодсказка</name>
+        <id>49</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <extInfo xsi:type="form:ButtonGroupExtInfo"/>
+    </items>
     <items xsi:type="form:Button">
       <name>ФормаСправка</name>
       <id>15</id>
@@ -173,7 +239,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаСправкаExtendedTooltip</name>
+        <name>ФормаСправкаРасширеннаяПодсказка</name>
         <id>21</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -317,7 +383,6 @@
     </dataPath>
     <defaultItem>true</defaultItem>
     <titleLocation>None</titleLocation>
-    <excludedCommands>Copy</excludedCommands>
     <items xsi:type="form:FormField">
       <name>СрокНапоминания</name>
       <id>8</id>
@@ -331,7 +396,7 @@
       </dataPath>
       <defaultItem>true</defaultItem>
       <extendedTooltip>
-        <name>СрокНапоминанияExtendedTooltip</name>
+        <name>СрокНапоминанияРасширеннаяПодсказка</name>
         <id>23</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -379,7 +444,7 @@
       </dataPath>
       <defaultItem>true</defaultItem>
       <extendedTooltip>
-        <name>ОписаниеExtendedTooltip</name>
+        <name>ОписаниеРасширеннаяПодсказка</name>
         <id>24</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -428,7 +493,7 @@
       </dataPath>
       <defaultItem>true</defaultItem>
       <extendedTooltip>
-        <name>ВремяСобытияExtendedTooltip</name>
+        <name>ВремяСобытияРасширеннаяПодсказка</name>
         <id>25</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -479,7 +544,7 @@
       </dataPath>
       <defaultItem>true</defaultItem>
       <extendedTooltip>
-        <name>ИсточникExtendedTooltip</name>
+        <name>ИсточникРасширеннаяПодсказка</name>
         <id>26</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -660,7 +725,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>СписокExtendedTooltip</name>
+      <name>СписокРасширеннаяПодсказка</name>
       <id>22</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -869,6 +934,23 @@
     </action>
     <representation>Text</representation>
     <currentRowUse>DontUse</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ВсеНапоминания</name>
+    <title>
+      <key>ru</key>
+      <value>Все напоминания</value>
+    </title>
+    <id>4</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ВсеНапоминания</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <commandInterface>
     <navigationPanel/>

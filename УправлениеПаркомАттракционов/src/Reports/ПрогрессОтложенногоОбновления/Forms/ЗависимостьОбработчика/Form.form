@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form">
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <items xsi:type="form:Table">
     <name>ДеревоЗависимостей</name>
     <id>1</id>
@@ -35,6 +35,10 @@
       <items xsi:type="form:FormField">
         <name>ДеревоЗависимостейКартинка</name>
         <id>23</id>
+        <title>
+          <key>ru</key>
+          <value>Картинка</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -77,6 +81,10 @@
           <autoMaxHeight>true</autoMaxHeight>
           <horizontalStretch>true</horizontalStretch>
           <verticalStretch>true</verticalStretch>
+          <border xsi:type="core:BorderDef">
+            <style>Single</style>
+            <width>1</width>
+          </border>
           <fileDragMode>AsFileRef</fileDragMode>
         </extInfo>
       </items>
@@ -167,6 +175,10 @@
     <items xsi:type="form:FormField">
       <name>ДеревоЗависимостейВсегоОбъектов</name>
       <id>20</id>
+      <title>
+        <key>ru</key>
+        <value>Всего</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -222,6 +234,10 @@
     <items xsi:type="form:FormField">
       <name>ДеревоЗависимостейОсталосьОбработать</name>
       <id>29</id>
+      <title>
+        <key>ru</key>
+        <value>Осталось</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -277,6 +293,10 @@
     <items xsi:type="form:FormField">
       <name>ДеревоЗависимостейОбщийПрогресс</name>
       <id>32</id>
+      <title>
+        <key>ru</key>
+        <value>Прогресс, %</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -332,6 +352,10 @@
     <items xsi:type="form:FormField">
       <name>ДеревоЗависимостейОбработаноЗаИнтервал</name>
       <id>26</id>
+      <title>
+        <key>ru</key>
+        <value>Обработано за период</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -596,6 +620,10 @@
     <items xsi:type="form:Button">
       <name>ФормаЗарегистрированныеДанные</name>
       <id>39</id>
+      <title>
+        <key>ru</key>
+        <value>Зарегистрированные данные</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>

@@ -8,6 +8,10 @@
       <name>ВариантСохранения</name>
       <id>67</id>
       <displayImportance>VeryHigh</displayImportance>
+      <title>
+        <key>ru</key>
+        <value>Вариант сохранения</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -22,7 +26,7 @@
         <name>ВариантСохраненияПриИзменении</name>
       </handlers>
       <extendedTooltip>
-        <name>ВариантСохраненияExtendedTooltip</name>
+        <name>ВариантСохраненияРасширеннаяПодсказка</name>
         <id>83</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -76,6 +80,10 @@
     <items xsi:type="form:FormField">
       <name>ПапкаДляСохраненияФайлов</name>
       <id>42</id>
+      <title>
+        <key>ru</key>
+        <value>Сохранить в папку на компьютер</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -86,7 +94,7 @@
       </dataPath>
       <titleLocation>None</titleLocation>
       <extendedTooltip>
-        <name>ПапкаДляСохраненияФайловExtendedTooltip</name>
+        <name>ПапкаДляСохраненияФайловРасширеннаяПодсказка</name>
         <id>86</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -140,7 +148,7 @@
       <value>Выбор места сохранения файла</value>
     </title>
     <extendedTooltip>
-      <name>ВыборМестаСохраненияФайлаExtendedTooltip</name>
+      <name>ВыборМестаСохраненияФайлаРасширеннаяПодсказка</name>
       <id>82</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -211,7 +219,7 @@
           <segments>ВыбранныеФорматыСохранения.Check</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ВыбранныеФорматыСохраненияПометкаExtendedTooltip</name>
+          <name>ВыбранныеФорматыСохраненияПометкаРасширеннаяПодсказка</name>
           <id>91</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -258,7 +266,7 @@
           <segments>ВыбранныеФорматыСохранения.Value</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ВыбранныеФорматыСохраненияЗначениеExtendedTooltip</name>
+          <name>ВыбранныеФорматыСохраненияЗначениеРасширеннаяПодсказка</name>
           <id>92</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -424,7 +432,7 @@
         </extInfo>
       </searchControlAddition>
       <extendedTooltip>
-        <name>ВыбранныеФорматыСохраненияExtendedTooltip</name>
+        <name>ВыбранныеФорматыСохраненияРасширеннаяПодсказка</name>
         <id>90</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -475,7 +483,7 @@
       <value>В форматах</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаВыборФорматовExtendedTooltip</name>
+      <name>ГруппаВыборФорматовРасширеннаяПодсказка</name>
       <id>89</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -521,7 +529,7 @@
       </dataPath>
       <titleLocation>Right</titleLocation>
       <extendedTooltip>
-        <name>УпаковатьВАрхивExtendedTooltip</name>
+        <name>УпаковатьВАрхивРасширеннаяПодсказка</name>
         <id>94</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -555,6 +563,10 @@
     <items xsi:type="form:FormField">
       <name>ПереводитьИменаФайловВТранслит</name>
       <id>104</id>
+      <title>
+        <key>ru</key>
+        <value>Транслитерировать имена файлов</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -604,6 +616,10 @@
     <items xsi:type="form:FormField">
       <name>Подписать</name>
       <id>107</id>
+      <title>
+        <key>ru</key>
+        <value>Подписать</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -655,7 +671,7 @@
       <value>Дополнительные параметры</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаДополнительныеПараметрыExtendedTooltip</name>
+      <name>ГруппаДополнительныеПараметрыРасширеннаяПодсказка</name>
       <id>93</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -697,7 +713,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>КнопкаСохранитьExtendedTooltip</name>
+        <name>КнопкаСохранитьРасширеннаяПодсказка</name>
         <id>80</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -730,7 +746,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>КнопкаОтменаExtendedTooltip</name>
+        <name>КнопкаОтменаРасширеннаяПодсказка</name>
         <id>81</id>
         <visible>true</visible>
         <enabled>true</enabled>

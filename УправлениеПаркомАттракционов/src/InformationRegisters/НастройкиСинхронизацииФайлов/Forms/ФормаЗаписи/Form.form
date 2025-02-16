@@ -220,6 +220,10 @@
       <items xsi:type="form:FormField">
         <name>ЭлементСправочника</name>
         <id>115</id>
+        <title>
+          <key>ru</key>
+          <value>Элемент справочника</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -311,6 +315,10 @@
     <items xsi:type="form:FormField">
       <name>ОбъектСинхронизацииВсеФайлы</name>
       <id>69</id>
+      <title>
+        <key>ru</key>
+        <value>Объект синхронизации</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -477,6 +485,10 @@
           <items xsi:type="form:Button">
             <name>ДобавитьУсловиеПоДате</name>
             <id>46</id>
+            <title>
+              <key>ru</key>
+              <value>Добавить условие по дате</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -601,6 +613,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Меню сгруппировать</value>
+          </title>
           <extendedTooltip>
             <name>МенюСгруппироватьРасширеннаяПодсказка</name>
             <id>146</id>
@@ -872,6 +888,10 @@
           <items xsi:type="form:Button">
             <name>ПравилоНастройкиОтборКонтекстноеМенюДобавитьУсловиеПоДате</name>
             <id>147</id>
+            <title>
+              <key>ru</key>
+              <value>Добавить условие по дате</value>
+            </title>
             <visible>true</visible>
             <userVisible>
               <common>true</common>
@@ -903,6 +923,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Контекстное меню добавить</value>
+          </title>
           <extendedTooltip>
             <name>КонтекстноеМенюДобавитьРасширеннаяПодсказка</name>
             <id>152</id>
@@ -988,6 +1012,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Контекстное меню сгруппировать</value>
+          </title>
           <extendedTooltip>
             <name>КонтекстноеМенюСгруппироватьРасширеннаяПодсказка</name>
             <id>154</id>
@@ -1234,6 +1262,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Командная панель</value>
+      </title>
       <extendedTooltip>
         <name>ГруппаКоманднаяПанельРасширеннаяПодсказка</name>
         <id>35</id>
@@ -1485,6 +1517,18 @@
     <name>ТипВладельцаФайла</name>
     <valueType>
       <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>ЭтоФайл</name>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>НоваяНастройка</name>
+    <valueType>
+      <types>Boolean</types>
     </valueType>
   </parameters>
   <commandInterface>

@@ -12,7 +12,7 @@
       <id>1581</id>
       <title>
         <key>ru</key>
-        <value>Использование профилей безопасности для контроля за использованием программой внешних ресурсов (относительно кластера серверов 1С:Предприятия).</value>
+        <value>Использование профилей безопасности для контроля за использованием внешних ресурсов (относительно кластера серверов 1С:Предприятия).</value>
       </title>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -63,7 +63,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>СправкаExtendedTooltip</name>
+          <name>СправкаРасширеннаяПодсказка</name>
           <id>1604</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -94,7 +94,7 @@
         <value>Справка</value>
       </title>
       <extendedTooltip>
-        <name>ГруппаСправкаExtendedTooltip</name>
+        <name>ГруппаСправкаРасширеннаяПодсказка</name>
         <id>1603</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -123,7 +123,7 @@
       <value>Заголовок</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаЗаголовокExtendedTooltip</name>
+      <name>ГруппаЗаголовокРасширеннаяПодсказка</name>
       <id>1600</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -161,6 +161,10 @@
           <items xsi:type="form:FormField">
             <name>РежимИспользованияПрофилейБезопасности</name>
             <id>1613</id>
+            <title>
+              <key>ru</key>
+              <value>Режим использования профилей безопасности</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -228,7 +232,7 @@
               <choiceList>
                 <presentation>
                   <key>ru</key>
-                  <value>Предлагать автоматически настраивать разрешения в профилях безопасности при необходимости (непосредственно из программы)</value>
+                  <value>Предлагать автоматически настраивать разрешения в профилях безопасности при необходимости (непосредственно из приложения)</value>
                 </presentation>
                 <value xsi:type="core:NumberValue">
                   <value>2</value>
@@ -311,6 +315,10 @@
           <items xsi:type="form:Button">
             <name>ТребуемыеРазрешения</name>
             <id>1623</id>
+            <title>
+              <key>ru</key>
+              <value>Требуемые разрешения</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -344,7 +352,7 @@
             <id>1625</id>
             <title>
               <key>ru</key>
-              <value>Разрешения на использование внешних ресурсов, которые должны быть разрешены в профилях безопасности для корректной работы программы.</value>
+              <value>Разрешения на использование внешних ресурсов, которые должны быть разрешены в профилях безопасности для корректной работы приложения.</value>
             </title>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -764,6 +772,10 @@
           <items xsi:type="form:Button">
             <name>ОткрытьВнешнююОбработку</name>
             <id>1692</id>
+            <title>
+              <key>ru</key>
+              <value>Открыть внешнюю обработку или отчет</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -915,6 +927,10 @@
           <items xsi:type="form:Button">
             <name>ВосстановитьПрофилиБезопасности</name>
             <id>1685</id>
+            <title>
+              <key>ru</key>
+              <value>Восстановить настройки профилей безопасности</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>

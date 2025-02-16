@@ -9,13 +9,17 @@
       <items xsi:type="form:Button">
         <name>Выбрать</name>
         <id>78</id>
+        <title>
+          <key>ru</key>
+          <value>Выбрать</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ВыбратьExtendedTooltip</name>
+          <name>ВыбратьРасширеннаяПодсказка</name>
           <id>108</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -40,13 +44,17 @@
       <items xsi:type="form:Button">
         <name>ПометитьВсе</name>
         <id>79</id>
+        <title>
+          <key>ru</key>
+          <value>Пометить все</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ПометитьВсеExtendedTooltip</name>
+          <name>ПометитьВсеРасширеннаяПодсказка</name>
           <id>109</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -70,13 +78,17 @@
       <items xsi:type="form:Button">
         <name>СнятьПометкуСоВсех</name>
         <id>80</id>
+        <title>
+          <key>ru</key>
+          <value>Снять пометку со всех</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>СнятьПометкуСоВсехExtendedTooltip</name>
+          <name>СнятьПометкуСоВсехРасширеннаяПодсказка</name>
           <id>110</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -100,13 +112,17 @@
       <items xsi:type="form:Button">
         <name>Открыть</name>
         <id>61</id>
+        <title>
+          <key>ru</key>
+          <value>Открыть</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ОткрытьExtendedTooltip</name>
+          <name>ОткрытьРасширеннаяПодсказка</name>
           <id>111</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -131,6 +147,10 @@
       <items xsi:type="form:Button">
         <name>ФормаОбновить</name>
         <id>182</id>
+        <title>
+          <key>ru</key>
+          <value>Обновить</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -169,7 +189,7 @@
         <value>Командная панель</value>
       </title>
       <extendedTooltip>
-        <name>КоманднаяПанельExtendedTooltip</name>
+        <name>КоманднаяПанельРасширеннаяПодсказка</name>
         <id>107</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -353,6 +373,10 @@
                 <items xsi:type="form:FormField">
                   <name>ВнешнийВидПометка</name>
                   <id>83</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Пометка</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -366,7 +390,7 @@
                     <name>ПометкаПриИзменении</name>
                   </handlers>
                   <extendedTooltip>
-                    <name>ВнешнийВидПометкаExtendedTooltip</name>
+                    <name>ВнешнийВидПометкаРасширеннаяПодсказка</name>
                     <id>120</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -403,6 +427,10 @@
                 <items xsi:type="form:FormField">
                   <name>ВнешнийВидКартинка</name>
                   <id>36</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Картинка</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -413,7 +441,7 @@
                   </dataPath>
                   <titleLocation>None</titleLocation>
                   <extendedTooltip>
-                    <name>ВнешнийВидКартинкаExtendedTooltip</name>
+                    <name>ВнешнийВидКартинкаРасширеннаяПодсказка</name>
                     <id>121</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -449,11 +477,19 @@
                     <autoMaxHeight>true</autoMaxHeight>
                     <horizontalStretch>true</horizontalStretch>
                     <verticalStretch>true</verticalStretch>
+                    <border xsi:type="core:BorderDef">
+                      <style>Single</style>
+                      <width>1</width>
+                    </border>
                   </extInfo>
                 </items>
                 <items xsi:type="form:FormField">
                   <name>ВнешнийВидНастройки</name>
                   <id>32</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Настройка</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -464,7 +500,7 @@
                   </dataPath>
                   <titleLocation>None</titleLocation>
                   <extendedTooltip>
-                    <name>ВнешнийВидНастройкиExtendedTooltip</name>
+                    <name>ВнешнийВидНастройкиРасширеннаяПодсказка</name>
                     <id>122</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -509,7 +545,7 @@
                   <value>Внешний вид картинка настройка пометка</value>
                 </title>
                 <extendedTooltip>
-                  <name>ВнешнийВидКартинкаНастройкаПометкаExtendedTooltip</name>
+                  <name>ВнешнийВидКартинкаНастройкаПометкаРасширеннаяПодсказка</name>
                   <id>119</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -660,7 +696,7 @@
                 </extInfo>
               </searchControlAddition>
               <extendedTooltip>
-                <name>ВнешнийВидExtendedTooltip</name>
+                <name>ВнешнийВидРасширеннаяПодсказка</name>
                 <id>118</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -680,13 +716,17 @@
                 <items xsi:type="form:Button">
                   <name>ВнешнийВидКонтекстноеМенюОткрыть</name>
                   <id>76</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Открыть</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
                     <common>true</common>
                   </userVisible>
                   <extendedTooltip>
-                    <name>ВнешнийВидКонтекстноеМенюОткрытьExtendedTooltip</name>
+                    <name>ВнешнийВидКонтекстноеМенюОткрытьРасширеннаяПодсказка</name>
                     <id>114</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -716,7 +756,7 @@
                     <common>true</common>
                   </userVisible>
                   <extendedTooltip>
-                    <name>ВнешнийВидКонтекстноеМенюКопироватьВБуферОбменаExtendedTooltip</name>
+                    <name>ВнешнийВидКонтекстноеМенюКопироватьВБуферОбменаРасширеннаяПодсказка</name>
                     <id>115</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -746,7 +786,7 @@
                     <common>true</common>
                   </userVisible>
                   <extendedTooltip>
-                    <name>ВнешнийВидКонтекстноеМенюВыделитьВсеExtendedTooltip</name>
+                    <name>ВнешнийВидКонтекстноеМенюВыделитьВсеРасширеннаяПодсказка</name>
                     <id>116</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -776,7 +816,7 @@
                     <common>true</common>
                   </userVisible>
                   <extendedTooltip>
-                    <name>ВнешнийВидКонтекстноеМенюВывестиСписокExtendedTooltip</name>
+                    <name>ВнешнийВидКонтекстноеМенюВывестиСписокРасширеннаяПодсказка</name>
                     <id>117</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -832,7 +872,7 @@
               <value>Внешний вид</value>
             </title>
             <extendedTooltip>
-              <name>ВнешнийВидСтраницаExtendedTooltip</name>
+              <name>ВнешнийВидСтраницаРасширеннаяПодсказка</name>
               <id>113</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -889,6 +929,10 @@
                 <items xsi:type="form:FormField">
                   <name>Пометка</name>
                   <id>81</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Пометка</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -902,7 +946,7 @@
                     <name>ПометкаПриИзменении</name>
                   </handlers>
                   <extendedTooltip>
-                    <name>ПометкаExtendedTooltip</name>
+                    <name>ПометкаРасширеннаяПодсказка</name>
                     <id>130</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -939,6 +983,10 @@
                 <items xsi:type="form:FormField">
                   <name>Картинка</name>
                   <id>26</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Картинка</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -949,7 +997,7 @@
                   </dataPath>
                   <titleLocation>None</titleLocation>
                   <extendedTooltip>
-                    <name>КартинкаExtendedTooltip</name>
+                    <name>КартинкаРасширеннаяПодсказка</name>
                     <id>131</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -984,11 +1032,19 @@
                     <autoMaxHeight>true</autoMaxHeight>
                     <horizontalStretch>true</horizontalStretch>
                     <verticalStretch>true</verticalStretch>
+                    <border xsi:type="core:BorderDef">
+                      <style>Single</style>
+                      <width>1</width>
+                    </border>
                   </extInfo>
                 </items>
                 <items xsi:type="form:FormField">
                   <name>Настройки</name>
                   <id>22</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Настройка</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -999,7 +1055,7 @@
                   </dataPath>
                   <titleLocation>None</titleLocation>
                   <extendedTooltip>
-                    <name>НастройкиExtendedTooltip</name>
+                    <name>НастройкиРасширеннаяПодсказка</name>
                     <id>132</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -1044,7 +1100,7 @@
                   <value>Настройки отчетов картинка настройка пометка</value>
                 </title>
                 <extendedTooltip>
-                  <name>НастройкиОтчетовКартинкаНастройкаПометкаExtendedTooltip</name>
+                  <name>НастройкиОтчетовКартинкаНастройкаПометкаРасширеннаяПодсказка</name>
                   <id>129</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -1195,7 +1251,7 @@
                 </extInfo>
               </searchControlAddition>
               <extendedTooltip>
-                <name>НастройкиОтчетовДеревоExtendedTooltip</name>
+                <name>НастройкиОтчетовДеревоРасширеннаяПодсказка</name>
                 <id>128</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -1215,13 +1271,17 @@
                 <items xsi:type="form:Button">
                   <name>НастройкиОтчетовДеревоКонтекстноеМенюОткрыть</name>
                   <id>65</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Открыть</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
                     <common>true</common>
                   </userVisible>
                   <extendedTooltip>
-                    <name>НастройкиОтчетовДеревоКонтекстноеМенюОткрытьExtendedTooltip</name>
+                    <name>НастройкиОтчетовДеревоКонтекстноеМенюОткрытьРасширеннаяПодсказка</name>
                     <id>124</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -1251,7 +1311,7 @@
                     <common>true</common>
                   </userVisible>
                   <extendedTooltip>
-                    <name>НастройкиОтчетовДеревоКонтекстноеМенюВыделитьВсеExtendedTooltip</name>
+                    <name>НастройкиОтчетовДеревоКонтекстноеМенюВыделитьВсеРасширеннаяПодсказка</name>
                     <id>125</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -1281,7 +1341,7 @@
                     <common>true</common>
                   </userVisible>
                   <extendedTooltip>
-                    <name>НастройкиОтчетовДеревоКонтекстноеМенюКопироватьВБуферОбменаExtendedTooltip</name>
+                    <name>НастройкиОтчетовДеревоКонтекстноеМенюКопироватьВБуферОбменаРасширеннаяПодсказка</name>
                     <id>126</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -1311,7 +1371,7 @@
                     <common>true</common>
                   </userVisible>
                   <extendedTooltip>
-                    <name>НастройкиОтчетовДеревоКонтекстноеМенюВывестиСписокExtendedTooltip</name>
+                    <name>НастройкиОтчетовДеревоКонтекстноеМенюВывестиСписокРасширеннаяПодсказка</name>
                     <id>127</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -1368,7 +1428,7 @@
               <value>Настройки отчетов</value>
             </title>
             <extendedTooltip>
-              <name>НастройкиОтчетовСтраницаExtendedTooltip</name>
+              <name>НастройкиОтчетовСтраницаРасширеннаяПодсказка</name>
               <id>123</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1425,6 +1485,10 @@
                 <items xsi:type="form:FormField">
                   <name>ПрочиеНастройкиПометка</name>
                   <id>95</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Пометка</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -1439,7 +1503,7 @@
                     <name>ПометкаПриИзменении</name>
                   </handlers>
                   <extendedTooltip>
-                    <name>ПрочиеНастройкиПометкаExtendedTooltip</name>
+                    <name>ПрочиеНастройкиПометкаРасширеннаяПодсказка</name>
                     <id>140</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -1476,6 +1540,10 @@
                 <items xsi:type="form:FormField">
                   <name>ПрочиеНастройкиКартинка</name>
                   <id>91</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Картинка</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -1486,7 +1554,7 @@
                   </dataPath>
                   <titleLocation>None</titleLocation>
                   <extendedTooltip>
-                    <name>ПрочиеНастройкиКартинкаExtendedTooltip</name>
+                    <name>ПрочиеНастройкиКартинкаРасширеннаяПодсказка</name>
                     <id>141</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -1522,11 +1590,19 @@
                     <autoMaxHeight>true</autoMaxHeight>
                     <horizontalStretch>true</horizontalStretch>
                     <verticalStretch>true</verticalStretch>
+                    <border xsi:type="core:BorderDef">
+                      <style>Single</style>
+                      <width>1</width>
+                    </border>
                   </extInfo>
                 </items>
                 <items xsi:type="form:FormField">
                   <name>ПрочиеНастройкиНастройка</name>
                   <id>89</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Настройка</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -1537,7 +1613,7 @@
                   </dataPath>
                   <titleLocation>None</titleLocation>
                   <extendedTooltip>
-                    <name>ПрочиеНастройкиНастройкаExtendedTooltip</name>
+                    <name>ПрочиеНастройкиНастройкаРасширеннаяПодсказка</name>
                     <id>142</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -1582,7 +1658,7 @@
                   <value>Прочие настройки картинка настройка пометка</value>
                 </title>
                 <extendedTooltip>
-                  <name>ПрочиеНастройкиКартинкаНастройкаПометкаExtendedTooltip</name>
+                  <name>ПрочиеНастройкиКартинкаНастройкаПометкаРасширеннаяПодсказка</name>
                   <id>139</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -1732,7 +1808,7 @@
                 </extInfo>
               </searchControlAddition>
               <extendedTooltip>
-                <name>ПрочиеНастройкиExtendedTooltip</name>
+                <name>ПрочиеНастройкиРасширеннаяПодсказка</name>
                 <id>138</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -1752,13 +1828,17 @@
                 <items xsi:type="form:Button">
                   <name>ПрочиеНастройкиКонтекстноеМенюОткрыть</name>
                   <id>100</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Открыть</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
                     <common>true</common>
                   </userVisible>
                   <extendedTooltip>
-                    <name>ПрочиеНастройкиКонтекстноеМенюОткрытьExtendedTooltip</name>
+                    <name>ПрочиеНастройкиКонтекстноеМенюОткрытьРасширеннаяПодсказка</name>
                     <id>134</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -1788,7 +1868,7 @@
                     <common>true</common>
                   </userVisible>
                   <extendedTooltip>
-                    <name>ПрочиеНастройкиКонтекстноеМенюКопироватьВБуферОбменаExtendedTooltip</name>
+                    <name>ПрочиеНастройкиКонтекстноеМенюКопироватьВБуферОбменаРасширеннаяПодсказка</name>
                     <id>135</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -1818,7 +1898,7 @@
                     <common>true</common>
                   </userVisible>
                   <extendedTooltip>
-                    <name>ПрочиеНастройкиКонтекстноеМенюВыделитьВсеExtendedTooltip</name>
+                    <name>ПрочиеНастройкиКонтекстноеМенюВыделитьВсеРасширеннаяПодсказка</name>
                     <id>136</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -1848,7 +1928,7 @@
                     <common>true</common>
                   </userVisible>
                   <extendedTooltip>
-                    <name>ПрочиеНастройкиКонтекстноеМенюВывестиСписокExtendedTooltip</name>
+                    <name>ПрочиеНастройкиКонтекстноеМенюВывестиСписокРасширеннаяПодсказка</name>
                     <id>137</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -1902,7 +1982,7 @@
               <value>Прочие настройки</value>
             </title>
             <extendedTooltip>
-              <name>ПрочиеНастройкиСтраницаExtendedTooltip</name>
+              <name>ПрочиеНастройкиСтраницаРасширеннаяПодсказка</name>
               <id>133</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1932,7 +2012,7 @@
             <value>Виды настроек</value>
           </title>
           <extendedTooltip>
-            <name>ВидыНастроекExtendedTooltip</name>
+            <name>ВидыНастроекРасширеннаяПодсказка</name>
             <id>112</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -2024,7 +2104,7 @@
       <value>Отображать отчет</value>
     </title>
     <extendedTooltip>
-      <name>ОтображатьОтчетExtendedTooltip</name>
+      <name>ОтображатьОтчетРасширеннаяПодсказка</name>
       <id>104</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -2661,7 +2741,7 @@
     </edit>
   </attributes>
   <attributes>
-    <name>РезультатВыполнения</name>
+    <name>ИдентификаторЗадания</name>
     <id>17</id>
     <valueType/>
     <view>

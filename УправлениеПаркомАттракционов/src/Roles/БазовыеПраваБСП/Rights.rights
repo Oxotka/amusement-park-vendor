@@ -158,6 +158,17 @@
 		</right>
 	</object>
 	<object>
+		<name>CommonAttribute.ОтредактированныеПредопределенныеРеквизиты</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Constant.АдресПубликацииИнформационнойБазыВИнтернете</name>
 		<right>
 			<name>Read</name>
@@ -293,6 +304,17 @@
 	</object>
 	<object>
 		<name>Catalog.ВариантыОтчетов.Command.Открыть</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ИерархияГруппПользователей</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -965,6 +987,17 @@
 		</right>
 		<right>
 			<name>Set</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Constant.ИспользоватьКомандуНапоминаний</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -1671,14 +1704,18 @@
 		</right>
 	</object>
 	<object>
-		<name>CommonForm.Расширения</name>
+		<name>CommonForm.РедактированиеМеток</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>
 	<object>
-		<name>CommonForm.РедактированиеМеток</name>
+		<name>Constant.РегистрироватьИзмененияПравДоступа</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -1867,6 +1904,17 @@
 	</object>
 	<object>
 		<name>Constant.ИсточникДанныхАдресногоКлассификатора</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Constant.СвойстваИсправленийПередОбновлениемИБ</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>

@@ -51,6 +51,10 @@
   <items xsi:type="form:FormField">
     <name>НапоминатьОЗагрузке</name>
     <id>4</id>
+    <title>
+      <key>ru</key>
+      <value>Больше не напоминать до следующего входа в приложение</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -99,6 +103,10 @@
     <items xsi:type="form:Button">
       <name>Загрузить</name>
       <id>7</id>
+      <title>
+        <key>ru</key>
+        <value>Загрузить</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -131,6 +139,10 @@
     <items xsi:type="form:Button">
       <name>Отмена</name>
       <id>9</id>
+      <title>
+        <key>ru</key>
+        <value>Закрыть</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -196,7 +208,7 @@
     <name>НеНапоминатьОЗагрузке</name>
     <title>
       <key>ru</key>
-      <value>Больше не напоминать до следующего входа в программу</value>
+      <value>Больше не напоминать до следующего входа в приложение</value>
     </title>
     <id>2</id>
     <valueType>

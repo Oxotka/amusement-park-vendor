@@ -12,7 +12,7 @@
       <segments>Запись.ГруппаПользователей</segments>
     </dataPath>
     <extendedTooltip>
-      <name>ГруппаПользователейExtendedTooltip</name>
+      <name>ГруппаПользователейРасширеннаяПодсказка</name>
       <id>9</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -62,7 +62,7 @@
       <segments>Запись.Пользователь</segments>
     </dataPath>
     <extendedTooltip>
-      <name>ПользовательExtendedTooltip</name>
+      <name>ПользовательРасширеннаяПодсказка</name>
       <id>10</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -113,7 +113,7 @@
     </dataPath>
     <titleLocation>Right</titleLocation>
     <extendedTooltip>
-      <name>ИспользуетсяExtendedTooltip</name>
+      <name>ИспользуетсяРасширеннаяПодсказка</name>
       <id>11</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -150,13 +150,17 @@
     <items xsi:type="form:Button">
       <name>ФормаВключитьВозможностьРедактирования</name>
       <id>5</id>
+      <title>
+        <key>ru</key>
+        <value>Включить возможность редактирования</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаВключитьВозможностьРедактированияExtendedTooltip</name>
+        <name>ФормаВключитьВозможностьРедактированияРасширеннаяПодсказка</name>
         <id>8</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -241,14 +245,5 @@
     <navigationPanel/>
     <commandBar/>
   </commandInterface>
-  <extInfo xsi:type="form:InformationRegisterManagerFormExtInfo">
-    <handlers>
-      <event>AfterWriteAtServer</event>
-      <name>ПослеЗаписиНаСервере</name>
-    </handlers>
-    <handlers>
-      <event>OnReadAtServer</event>
-      <name>ПриЧтенииНаСервере</name>
-    </handlers>
-  </extInfo>
+  <extInfo xsi:type="form:InformationRegisterManagerFormExtInfo"/>
 </form:Form>

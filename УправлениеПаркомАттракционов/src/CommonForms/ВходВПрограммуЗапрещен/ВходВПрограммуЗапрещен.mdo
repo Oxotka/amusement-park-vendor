@@ -3,7 +3,7 @@
   <name>ВходВПрограммуЗапрещен</name>
   <synonym>
     <key>ru</key>
-    <value>Вход в программу запрещен</value>
+    <value>Вход в приложение запрещен</value>
   </synonym>
   <usePurposes>PersonalComputer</usePurposes>
   <usePurposes>MobileDevice</usePurposes>

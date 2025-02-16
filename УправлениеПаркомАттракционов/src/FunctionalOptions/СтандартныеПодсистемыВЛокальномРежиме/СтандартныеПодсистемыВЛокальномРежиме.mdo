@@ -9,7 +9,6 @@
   <privilegedGetMode>true</privilegedGetMode>
   <content>Catalog.Пользователи.Command.ПользователиИнформационнойБазы</content>
   <content>DataProcessor.УстановкаОбновлений</content>
-  <content>Report.АнализЖурналаРегистрации</content>
   <content>DataProcessor.АвтоматическоеИзвлечениеТекстов</content>
   <content>DataProcessor.АвтоматическоеИзвлечениеТекстов.Command.АвтоматическоеИзвлечениеТекстов</content>
 </mdclass:FunctionalOption>

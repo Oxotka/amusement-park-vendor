@@ -10,6 +10,10 @@
     <items xsi:type="form:Table">
       <name>СнимкиОтчетов</name>
       <id>1</id>
+      <title>
+        <key>ru</key>
+        <value>Снимки отчетов</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -39,6 +43,10 @@
       <items xsi:type="form:FormField">
         <name>СнимкиОтчетовПометка</name>
         <id>25</id>
+        <title>
+          <key>ru</key>
+          <value>Пометка</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -82,6 +90,10 @@
       <items xsi:type="form:FormField">
         <name>СнимкиОтчетовВариант</name>
         <id>17</id>
+        <title>
+          <key>ru</key>
+          <value>Наименование варианта</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -134,6 +146,10 @@
       <items xsi:type="form:FormField">
         <name>СнимкиОтчетовДатаАктуальности</name>
         <id>70</id>
+        <title>
+          <key>ru</key>
+          <value>Дата актуальности</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -186,6 +202,10 @@
       <items xsi:type="form:FormField">
         <name>СнимкиОтчетовПользователь</name>
         <id>76</id>
+        <title>
+          <key>ru</key>
+          <value>Пользователь</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -427,6 +447,10 @@
         <items xsi:type="form:Button">
           <name>СнимкиОтчетовСохранитьСнимокОтчета</name>
           <id>30</id>
+          <title>
+            <key>ru</key>
+            <value>Обновить</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -562,6 +586,10 @@
         <items xsi:type="form:Button">
           <name>КнопкаОтметитьВсеКартинка</name>
           <id>56</id>
+          <title>
+            <key>ru</key>
+            <value>Отметить все</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -594,6 +622,10 @@
         <items xsi:type="form:Button">
           <name>КнопкаОтметитьВсе</name>
           <id>54</id>
+          <title>
+            <key>ru</key>
+            <value>Отметить все</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -661,6 +693,10 @@
         <items xsi:type="form:Button">
           <name>КнопкаСнятьВсеКартинка</name>
           <id>58</id>
+          <title>
+            <key>ru</key>
+            <value>Снять все</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -693,6 +729,10 @@
         <items xsi:type="form:Button">
           <name>КнопкаСнятьВсе</name>
           <id>60</id>
+          <title>
+            <key>ru</key>
+            <value>Снять все</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -760,6 +800,10 @@
         <items xsi:type="form:Button">
           <name>КнопкаСохранитьСнимкиОтчетовКартинка</name>
           <id>62</id>
+          <title>
+            <key>ru</key>
+            <value>Обновить</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -792,6 +836,10 @@
         <items xsi:type="form:Button">
           <name>КнопкаСохранитьСнимкиОтчетов</name>
           <id>64</id>
+          <title>
+            <key>ru</key>
+            <value>Обновить</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -859,6 +907,10 @@
         <items xsi:type="form:Button">
           <name>КнопкаУдалитьСнимкиОтчетовКартинка</name>
           <id>66</id>
+          <title>
+            <key>ru</key>
+            <value>Удалить</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -891,6 +943,10 @@
         <items xsi:type="form:Button">
           <name>КнопкаУдалитьСнимкиОтчетов</name>
           <id>68</id>
+          <title>
+            <key>ru</key>
+            <value>Удалить</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1024,6 +1080,10 @@
   <items xsi:type="form:FormField">
     <name>ПоказатьВсеСнимкиОтчетов</name>
     <id>73</id>
+    <title>
+      <key>ru</key>
+      <value>Показать все снимки отчетов</value>
+    </title>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
@@ -1074,6 +1134,10 @@
     <items xsi:type="form:Button">
       <name>ФормаОтметитьВсе</name>
       <id>34</id>
+      <title>
+        <key>ru</key>
+        <value>Отметить все</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1104,6 +1168,10 @@
     <items xsi:type="form:Button">
       <name>ФормаСнятьВсе</name>
       <id>36</id>
+      <title>
+        <key>ru</key>
+        <value>Снять все</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1134,6 +1202,10 @@
     <items xsi:type="form:Button">
       <name>ФормаОбновитьСнимкиОтчетов</name>
       <id>38</id>
+      <title>
+        <key>ru</key>
+        <value>Обновить</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1164,6 +1236,10 @@
     <items xsi:type="form:Button">
       <name>ФормаУдалитьСнимкиОтчетов</name>
       <id>40</id>
+      <title>
+        <key>ru</key>
+        <value>Удалить</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>

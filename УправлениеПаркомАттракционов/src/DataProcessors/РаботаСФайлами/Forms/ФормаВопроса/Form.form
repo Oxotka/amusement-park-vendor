@@ -3,6 +3,10 @@
   <items xsi:type="form:FormField">
     <name>СообщениеЗаголовок</name>
     <id>2</id>
+    <title>
+      <key>ru</key>
+      <value>Сообщение заголовок</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -13,7 +17,7 @@
     </dataPath>
     <titleLocation>None</titleLocation>
     <extendedTooltip>
-      <name>СообщениеЗаголовокExtendedTooltip</name>
+      <name>СообщениеЗаголовокРасширеннаяПодсказка</name>
       <id>17</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -80,7 +84,7 @@
         <segments>Файлы.Presentation</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ПредставлениеExtendedTooltip</name>
+        <name>ПредставлениеРасширеннаяПодсказка</name>
         <id>19</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -250,7 +254,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>ФайлыExtendedTooltip</name>
+      <name>ФайлыРасширеннаяПодсказка</name>
       <id>18</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -301,6 +305,10 @@
   <items xsi:type="form:FormField">
     <name>СообщениеВопрос</name>
     <id>11</id>
+    <title>
+      <key>ru</key>
+      <value>Сообщение вопрос</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -311,7 +319,7 @@
     </dataPath>
     <titleLocation>None</titleLocation>
     <extendedTooltip>
-      <name>СообщениеВопросExtendedTooltip</name>
+      <name>СообщениеВопросРасширеннаяПодсказка</name>
       <id>20</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -362,7 +370,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>ДаExtendedTooltip</name>
+        <name>ДаРасширеннаяПодсказка</name>
         <id>22</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -398,7 +406,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>НетExtendedTooltip</name>
+        <name>НетРасширеннаяПодсказка</name>
         <id>23</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -433,7 +441,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>СправкаExtendedTooltip</name>
+        <name>СправкаРасширеннаяПодсказка</name>
         <id>24</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -464,7 +472,7 @@
       <value>Основная командная панель</value>
     </title>
     <extendedTooltip>
-      <name>ОсновнаяКоманднаяПанельExtendedTooltip</name>
+      <name>ОсновнаяКоманднаяПанельРасширеннаяПодсказка</name>
       <id>21</id>
       <visible>true</visible>
       <enabled>true</enabled>

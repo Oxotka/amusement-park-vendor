@@ -3,6 +3,10 @@
   <items xsi:type="form:FormField">
     <name>ПоказатьТолькоОбработанныеВКонфигураторе</name>
     <id>91</id>
+    <title>
+      <key>ru</key>
+      <value>Показать только добавленные, измененные или удаленные с помощью конфигуратора</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -54,6 +58,10 @@
     <items xsi:type="form:Button">
       <name>Сопоставить</name>
       <id>94</id>
+      <title>
+        <key>ru</key>
+        <value>Сопоставить</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -84,6 +92,10 @@
     <items xsi:type="form:Button">
       <name>СопоставитьСНовым</name>
       <id>98</id>
+      <title>
+        <key>ru</key>
+        <value>Сопоставить с новым</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -114,6 +126,10 @@
     <items xsi:type="form:Button">
       <name>ОтменитьСопоставление</name>
       <id>102</id>
+      <title>
+        <key>ru</key>
+        <value>Отменить сопоставление</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -206,6 +222,10 @@
     <items xsi:type="form:Button">
       <name>Обновить</name>
       <id>31</id>
+      <title>
+        <key>ru</key>
+        <value>Обновить</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -267,6 +287,10 @@
     <items xsi:type="form:Button">
       <name>ПерейтиКПользователю</name>
       <id>96</id>
+      <title>
+        <key>ru</key>
+        <value>Перейти к пользователю</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -376,7 +400,7 @@
       <value>Командная панель</value>
     </title>
     <extendedTooltip>
-      <name>КоманднаяПанельExtendedTooltip</name>
+      <name>КоманднаяПанельРасширеннаяПодсказка</name>
       <id>55</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -425,6 +449,10 @@
     <items xsi:type="form:FormField">
       <name>ПолноеИмя</name>
       <id>6</id>
+      <title>
+        <key>ru</key>
+        <value>Полное имя</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -438,7 +466,7 @@
         <value>Полное имя пользователя информационной базы</value>
       </toolTip>
       <extendedTooltip>
-        <name>ПолноеИмяExtendedTooltip</name>
+        <name>ПолноеИмяРасширеннаяПодсказка</name>
         <id>67</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -479,6 +507,10 @@
     <items xsi:type="form:FormField">
       <name>Имя</name>
       <id>8</id>
+      <title>
+        <key>ru</key>
+        <value>Имя (для входа)</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -492,7 +524,7 @@
         <value>Имя пользователя информационной базы</value>
       </toolTip>
       <extendedTooltip>
-        <name>ИмяExtendedTooltip</name>
+        <name>ИмяРасширеннаяПодсказка</name>
         <id>68</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -533,6 +565,11 @@
     <items xsi:type="form:FormField">
       <name>АутентификацияСтандартная</name>
       <id>10</id>
+      <title>
+        <key>ru</key>
+        <value>Аутентификация
+1С</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -543,11 +580,11 @@
       </dataPath>
       <toolTip>
         <key>ru</key>
-        <value>Способ входа в программу с помощью имени и пароля,
+        <value>Способ входа в приложение с помощью имени и пароля,
 указанного для пользователя 1С:Предприятия</value>
       </toolTip>
       <extendedTooltip>
-        <name>АутентификацияСтандартнаяExtendedTooltip</name>
+        <name>АутентификацияСтандартнаяРасширеннаяПодсказка</name>
         <id>69</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -590,6 +627,11 @@
     <items xsi:type="form:FormField">
       <name>АутентификацияOpenID</name>
       <id>88</id>
+      <title>
+        <key>ru</key>
+        <value>Аутентификация
+OpenID</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -600,7 +642,7 @@
       </dataPath>
       <toolTip>
         <key>ru</key>
-        <value>Способ входа в программу с помощью имени, указанного для пользователя 1С:Предприятия,
+        <value>Способ входа в приложение с помощью имени, указанного для пользователя 1С:Предприятия,
 которое передается службе аутентификации по протоколу OpenID.
 Используется только при подключении через веб-сервер (адрес службы должен быть настроен)</value>
       </toolTip>
@@ -648,6 +690,11 @@
     <items xsi:type="form:FormField">
       <name>АутентификацияOpenIDConnect</name>
       <id>131</id>
+      <title>
+        <key>ru</key>
+        <value>Аутентификация
+OpenID-Connect</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -658,7 +705,7 @@
       </dataPath>
       <toolTip>
         <key>ru</key>
-        <value>Способ входа в программу с проверкой личности по протоколу OpenID-Connect,
+        <value>Способ входа в приложение с проверкой личности по протоколу OpenID-Connect,
 сопоставление имени, как при использовании аутентификации по протоколу OpenID.
 Используется только при подключении через веб-сервер (адрес службы должен быть настроен)</value>
       </toolTip>
@@ -706,6 +753,11 @@
     <items xsi:type="form:FormField">
       <name>АутентификацияТокеномДоступа</name>
       <id>134</id>
+      <title>
+        <key>ru</key>
+        <value>Аутентификация
+токеном доступа</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -766,6 +818,11 @@
       <items xsi:type="form:FormField">
         <name>АутентификацияОС</name>
         <id>12</id>
+        <title>
+          <key>ru</key>
+          <value>Аутентификация
+ОС</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -776,12 +833,12 @@
         </dataPath>
         <toolTip>
           <key>ru</key>
-          <value>Способ входа в программу с помощью имени и пароля,
+          <value>Способ входа в приложение с помощью имени и пароля,
 указанного для пользователя операционной системы,
 связанного с пользователем 1С:Предприятия</value>
         </toolTip>
         <extendedTooltip>
-          <name>АутентификацияОСExtendedTooltip</name>
+          <name>АутентификацияОСРасширеннаяПодсказка</name>
           <id>71</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -819,6 +876,10 @@
       <items xsi:type="form:FormField">
         <name>ПользовательОС</name>
         <id>14</id>
+        <title>
+          <key>ru</key>
+          <value>Пользователь ОС</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -832,7 +893,7 @@
           <value>Пользователь операционной системы</value>
         </toolTip>
         <extendedTooltip>
-          <name>ПользовательОСExtendedTooltip</name>
+          <name>ПользовательОСРасширеннаяПодсказка</name>
           <id>72</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -899,6 +960,11 @@
     <items xsi:type="form:FormField">
       <name>СопоставленСВнешнимПользователем</name>
       <id>115</id>
+      <title>
+        <key>ru</key>
+        <value>Сопоставлен с
+внешним пользователем</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible/>
@@ -949,6 +1015,11 @@
     <items xsi:type="form:FormField">
       <name>ДобавленВКонфигураторе</name>
       <id>106</id>
+      <title>
+        <key>ru</key>
+        <value>Добавлен в
+конфигураторе</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible/>
@@ -999,6 +1070,11 @@
     <items xsi:type="form:FormField">
       <name>ИзмененВКонфигураторе</name>
       <id>109</id>
+      <title>
+        <key>ru</key>
+        <value>Изменен в
+конфигураторе</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible/>
@@ -1049,6 +1125,11 @@
     <items xsi:type="form:FormField">
       <name>УдаленВКонфигураторе</name>
       <id>112</id>
+      <title>
+        <key>ru</key>
+        <value>Удален в
+конфигураторе</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible/>
@@ -1253,6 +1334,10 @@
       <items xsi:type="form:Button">
         <name>КонтекстноеМенюПерейтиКПользователю</name>
         <id>104</id>
+        <title>
+          <key>ru</key>
+          <value>Перейти к пользователю</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1283,6 +1368,10 @@
       <items xsi:type="form:Button">
         <name>КонтекстноеМенюОбновить</name>
         <id>39</id>
+        <title>
+          <key>ru</key>
+          <value>Обновить</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>

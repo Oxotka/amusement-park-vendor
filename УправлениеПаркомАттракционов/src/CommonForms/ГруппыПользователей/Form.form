@@ -16,13 +16,17 @@
         <items xsi:type="form:Button">
           <name>ФормаЗаписатьИЗакрыть</name>
           <id>9</id>
+          <title>
+            <key>ru</key>
+            <value>Записать и закрыть</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>ФормаЗаписатьИЗакрытьExtendedTooltip</name>
+            <name>ФормаЗаписатьИЗакрытьРасширеннаяПодсказка</name>
             <id>30</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -47,13 +51,17 @@
         <items xsi:type="form:Button">
           <name>ФормаИсключитьИзВсехГрупп</name>
           <id>11</id>
+          <title>
+            <key>ru</key>
+            <value>Исключить из всех групп</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>ФормаИсключитьИзВсехГруппExtendedTooltip</name>
+            <name>ФормаИсключитьИзВсехГруппРасширеннаяПодсказка</name>
             <id>31</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -83,7 +91,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>ВывестиСписокExtendedTooltip</name>
+            <name>ВывестиСписокРасширеннаяПодсказка</name>
             <id>32</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -156,7 +164,7 @@
           <value>Командная панель</value>
         </title>
         <extendedTooltip>
-          <name>КоманднаяПанельExtendedTooltip</name>
+          <name>КоманднаяПанельРасширеннаяПодсказка</name>
           <id>29</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -210,6 +218,10 @@
           <items xsi:type="form:FormField">
             <name>ДеревоГруппПометка</name>
             <id>6</id>
+            <title>
+              <key>ru</key>
+              <value>Пометка</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -223,7 +235,7 @@
               <name>ДеревоГруппПометкаПриИзменении</name>
             </handlers>
             <extendedTooltip>
-              <name>ДеревоГруппПометкаExtendedTooltip</name>
+              <name>ДеревоГруппПометкаРасширеннаяПодсказка</name>
               <id>37</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -258,6 +270,10 @@
           <items xsi:type="form:FormField">
             <name>ДеревоГруппКартинка</name>
             <id>12</id>
+            <title>
+              <key>ru</key>
+              <value>Картинка</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -267,7 +283,7 @@
               <segments>ДеревоГрупп.Картинка</segments>
             </dataPath>
             <extendedTooltip>
-              <name>ДеревоГруппКартинкаExtendedTooltip</name>
+              <name>ДеревоГруппКартинкаРасширеннаяПодсказка</name>
               <id>38</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -305,11 +321,19 @@
               <valuesPicture xsi:type="core:PictureRef">
                 <picture>CommonPicture.СостоянияПользователей</picture>
               </valuesPicture>
+              <border xsi:type="core:BorderDef">
+                <style>Single</style>
+                <width>1</width>
+              </border>
             </extInfo>
           </items>
           <items xsi:type="form:FormField">
             <name>ДеревоГруппГруппа</name>
             <id>4</id>
+            <title>
+              <key>ru</key>
+              <value>Группа</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -319,7 +343,7 @@
               <segments>ДеревоГрупп.Группа</segments>
             </dataPath>
             <extendedTooltip>
-              <name>ДеревоГруппГруппаExtendedTooltip</name>
+              <name>ДеревоГруппГруппаРасширеннаяПодсказка</name>
               <id>39</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -369,7 +393,7 @@
             <value>Пометка картинка</value>
           </title>
           <extendedTooltip>
-            <name>ГруппаПометкаКартинкаExtendedTooltip</name>
+            <name>ГруппаПометкаКартинкаРасширеннаяПодсказка</name>
             <id>36</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -520,7 +544,7 @@
           </extInfo>
         </searchControlAddition>
         <extendedTooltip>
-          <name>ДеревоГруппExtendedTooltip</name>
+          <name>ДеревоГруппРасширеннаяПодсказка</name>
           <id>35</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -572,7 +596,7 @@
         <value>Группа</value>
       </title>
       <extendedTooltip>
-        <name>ГруппаExtendedTooltip</name>
+        <name>ГруппаРасширеннаяПодсказка</name>
         <id>28</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -608,7 +632,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>КартинкаПредупрежденияExtendedTooltip</name>
+          <name>КартинкаПредупрежденияРасширеннаяПодсказка</name>
           <id>41</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -636,7 +660,7 @@
         <autoMaxHeight>true</autoMaxHeight>
         <extInfo xsi:type="form:PictureDecorationExtInfo">
           <picture xsi:type="core:PictureRef">
-            <picture>CommonPicture.Информация32</picture>
+            <picture>StdPicture.DialogInformation</picture>
           </picture>
         </extInfo>
       </items>
@@ -653,7 +677,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ТекстПредупрежденияExtendedTooltip</name>
+          <name>ТекстПредупрежденияРасширеннаяПодсказка</name>
           <id>42</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -695,7 +719,7 @@
         <value>Предупреждение</value>
       </title>
       <extendedTooltip>
-        <name>ПредупреждениеExtendedTooltip</name>
+        <name>ПредупреждениеРасширеннаяПодсказка</name>
         <id>40</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -725,7 +749,7 @@
       <value>Группы или предупреждение</value>
     </title>
     <extendedTooltip>
-      <name>ГруппыИлиПредупреждениеExtendedTooltip</name>
+      <name>ГруппыИлиПредупреждениеРасширеннаяПодсказка</name>
       <id>27</id>
       <visible>true</visible>
       <enabled>true</enabled>

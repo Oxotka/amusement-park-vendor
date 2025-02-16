@@ -44,7 +44,7 @@
       <autoMaxHeight>true</autoMaxHeight>
       <extInfo xsi:type="form:PictureDecorationExtInfo">
         <picture xsi:type="core:PictureRef">
-          <picture>CommonPicture.Предупреждение32</picture>
+          <picture>StdPicture.DialogExclamation</picture>
         </picture>
       </extInfo>
     </items>
@@ -141,7 +141,7 @@
     </dataPath>
     <defaultItem>true</defaultItem>
     <extendedTooltip>
-      <name>НаименованиеExtendedTooltip</name>
+      <name>НаименованиеРасширеннаяПодсказка</name>
       <id>252</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -190,7 +190,7 @@
       <segments>Объект.Parent</segments>
     </dataPath>
     <extendedTooltip>
-      <name>РодительExtendedTooltip</name>
+      <name>РодительРасширеннаяПодсказка</name>
       <id>253</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -277,6 +277,10 @@
     <items xsi:type="form:Button">
       <name>ВыбратьНазначение</name>
       <id>383</id>
+      <title>
+        <key>ru</key>
+        <value>Выбрать назначение</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -379,6 +383,10 @@
           <items xsi:type="form:FormField">
             <name>РолиПометка</name>
             <id>228</id>
+            <title>
+              <key>ru</key>
+              <value>Пометка</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -392,7 +400,7 @@
               <name>РолиПометкаПриИзменении</name>
             </handlers>
             <extendedTooltip>
-              <name>РолиПометкаExtendedTooltip</name>
+              <name>РолиПометкаРасширеннаяПодсказка</name>
               <id>263</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -424,6 +432,10 @@
           <items xsi:type="form:FormField">
             <name>РолиСиноним</name>
             <id>230</id>
+            <title>
+              <key>ru</key>
+              <value>Разрешенное действие (роль)</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -433,7 +445,7 @@
               <segments>Роли.Синоним</segments>
             </dataPath>
             <extendedTooltip>
-              <name>РолиСинонимExtendedTooltip</name>
+              <name>РолиСинонимРасширеннаяПодсказка</name>
               <id>264</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -482,7 +494,7 @@
             <value>Роли колонок</value>
           </title>
           <extendedTooltip>
-            <name>РолиКолонокExtendedTooltip</name>
+            <name>РолиКолонокРасширеннаяПодсказка</name>
             <id>262</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -505,6 +517,10 @@
         <items xsi:type="form:FormField">
           <name>РолиИмя</name>
           <id>400</id>
+          <title>
+            <key>ru</key>
+            <value>Имя роли в конфигурации</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible/>
@@ -554,6 +570,10 @@
         <items xsi:type="form:FormField">
           <name>РолиЭтоНедоступнаяРоль</name>
           <id>406</id>
+          <title>
+            <key>ru</key>
+            <value>Это недоступная роль</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible/>
@@ -596,6 +616,10 @@
         <items xsi:type="form:FormField">
           <name>РолиЭтоНесуществующаяРоль</name>
           <id>409</id>
+          <title>
+            <key>ru</key>
+            <value>Это несуществующая роль</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible/>
@@ -644,6 +668,10 @@
             <items xsi:type="form:Button">
               <name>РолиУстановитьФлажки</name>
               <id>212</id>
+              <title>
+                <key>ru</key>
+                <value>Включить выделенные роли</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -651,7 +679,7 @@
               </userVisible>
               <skipOnInput>false</skipOnInput>
               <extendedTooltip>
-                <name>РолиУстановитьФлажкиExtendedTooltip</name>
+                <name>РолиУстановитьФлажкиРасширеннаяПодсказка</name>
                 <id>257</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -675,6 +703,10 @@
             <items xsi:type="form:Button">
               <name>РолиСнятьФлажки</name>
               <id>213</id>
+              <title>
+                <key>ru</key>
+                <value>Исключить выделенные роли</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -682,7 +714,7 @@
               </userVisible>
               <skipOnInput>false</skipOnInput>
               <extendedTooltip>
-                <name>РолиСнятьФлажкиExtendedTooltip</name>
+                <name>РолиСнятьФлажкиРасширеннаяПодсказка</name>
                 <id>258</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -734,6 +766,10 @@
           <items xsi:type="form:Button">
             <name>РолиПоказатьТолькоВыбранныеРоли</name>
             <id>218</id>
+            <title>
+              <key>ru</key>
+              <value>Только выбранные</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -741,7 +777,7 @@
             </userVisible>
             <skipOnInput>false</skipOnInput>
             <extendedTooltip>
-              <name>РолиПоказатьТолькоВыбранныеРолиExtendedTooltip</name>
+              <name>РолиПоказатьТолькоВыбранныеРолиРасширеннаяПодсказка</name>
               <id>259</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -765,13 +801,17 @@
           <items xsi:type="form:Button">
             <name>РолиПоказатьПодсистемыРолей</name>
             <id>243</id>
+            <title>
+              <key>ru</key>
+              <value>По подсистемам</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>РолиПоказатьПодсистемыРолейExtendedTooltip</name>
+              <name>РолиПоказатьПодсистемыРолейРасширеннаяПодсказка</name>
               <id>260</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -990,7 +1030,7 @@
           </extInfo>
         </searchControlAddition>
         <extendedTooltip>
-          <name>РолиExtendedTooltip</name>
+          <name>РолиРасширеннаяПодсказка</name>
           <id>261</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1017,6 +1057,7 @@
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <autoMaxRowsCount>true</autoMaxRowsCount>
+        <selectionMode>MultiRow</selectionMode>
         <headerHeight>1</headerHeight>
         <footerHeight>1</footerHeight>
         <horizontalScrollBar>AutoUse</horizontalScrollBar>
@@ -1044,7 +1085,7 @@
         <value>Разрешенные действия (роли)</value>
       </title>
       <extendedTooltip>
-        <name>ОтображениеРолейExtendedTooltip</name>
+        <name>ОтображениеРолейРасширеннаяПодсказка</name>
         <id>256</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1371,7 +1412,7 @@
           </extInfo>
         </searchControlAddition>
         <extendedTooltip>
-          <name>ВидыДоступаExtendedTooltip</name>
+          <name>ВидыДоступаРасширеннаяПодсказка</name>
           <id>277</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1425,14 +1466,14 @@
           <id>246</id>
           <title>
             <key>ru</key>
-            <value>В данный момент не используется, т.к. эта возможность отключена в программе.</value>
+            <value>В данный момент не используется, т.к. эта возможность отключена в приложении.</value>
           </title>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>ТекстВидДоступаНеИспользуетсяExtendedTooltip</name>
+            <name>ТекстВидДоступаНеИспользуетсяРасширеннаяПодсказка</name>
             <id>283</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1594,10 +1635,6 @@
                     <event>TextEditEnd</event>
                     <name>ЗначениеДоступаОкончаниеВводаТекста</name>
                   </handlers>
-                  <handlers>
-                    <event>ChoiceProcessing</event>
-                    <name>ЗначениеДоступаОбработкаВыбора</name>
-                  </handlers>
                   <autoMaxWidth>true</autoMaxWidth>
                   <autoMaxHeight>true</autoMaxHeight>
                   <wrap>true</wrap>
@@ -1655,17 +1692,158 @@
               <autoCommandBar>
                 <name>ЗначенияДоступаКоманднаяПанель</name>
                 <id>235</id>
+                <items xsi:type="form:Button">
+                  <name>ЗначенияДоступаПодобратьЗначенияДоступа</name>
+                  <id>417</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Подобрать</value>
+                  </title>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <extendedTooltip>
+                    <name>ЗначенияДоступаПодобратьЗначенияДоступаРасширеннаяПодсказка</name>
+                    <id>418</id>
+                    <type>Label</type>
+                    <autoMaxWidth>true</autoMaxWidth>
+                    <autoMaxHeight>true</autoMaxHeight>
+                    <extInfo xsi:type="form:LabelDecorationExtInfo">
+                      <horizontalAlign>Left</horizontalAlign>
+                    </extInfo>
+                  </extendedTooltip>
+                  <commandName>Form.Command.ПодобратьЗначенияДоступа</commandName>
+                  <representation>Auto</representation>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <placementArea>UserCmds</placementArea>
+                  <representationInContextMenu>Auto</representationInContextMenu>
+                </items>
+                <items xsi:type="form:Button">
+                  <name>ЗначенияДоступаДобавить</name>
+                  <id>419</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <extendedTooltip>
+                    <name>ЗначенияДоступаДобавитьРасширеннаяПодсказка</name>
+                    <id>420</id>
+                    <type>Label</type>
+                    <autoMaxWidth>true</autoMaxWidth>
+                    <autoMaxHeight>true</autoMaxHeight>
+                    <extInfo xsi:type="form:LabelDecorationExtInfo">
+                      <horizontalAlign>Left</horizontalAlign>
+                    </extInfo>
+                  </extendedTooltip>
+                  <commandName>Form.Item.ЗначенияДоступа.StandardCommand.Add</commandName>
+                  <representation>Auto</representation>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <placementArea>UserCmds</placementArea>
+                  <representationInContextMenu>Auto</representationInContextMenu>
+                </items>
+                <items xsi:type="form:Button">
+                  <name>ЗначенияДоступаУдалить</name>
+                  <id>421</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <extendedTooltip>
+                    <name>ЗначенияДоступаУдалитьРасширеннаяПодсказка</name>
+                    <id>422</id>
+                    <type>Label</type>
+                    <autoMaxWidth>true</autoMaxWidth>
+                    <autoMaxHeight>true</autoMaxHeight>
+                    <extInfo xsi:type="form:LabelDecorationExtInfo">
+                      <horizontalAlign>Left</horizontalAlign>
+                    </extInfo>
+                  </extendedTooltip>
+                  <commandName>Form.Item.ЗначенияДоступа.StandardCommand.Delete</commandName>
+                  <representation>Auto</representation>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <placementArea>UserCmds</placementArea>
+                  <representationInContextMenu>Auto</representationInContextMenu>
+                  <locationInCommandBar>InCommandBarAndInAdditionalSubmenu</locationInCommandBar>
+                </items>
+                <items xsi:type="form:FormGroup">
+                  <name>ЗначенияДоступаСтандартныеКоманды</name>
+                  <id>423</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <title>
+                    <key>ru</key>
+                    <value>Значения доступа стандартные команды</value>
+                  </title>
+                  <extendedTooltip>
+                    <name>ЗначенияДоступаСтандартныеКомандыРасширеннаяПодсказка</name>
+                    <id>424</id>
+                    <type>Label</type>
+                    <autoMaxWidth>true</autoMaxWidth>
+                    <autoMaxHeight>true</autoMaxHeight>
+                    <extInfo xsi:type="form:LabelDecorationExtInfo">
+                      <horizontalAlign>Left</horizontalAlign>
+                    </extInfo>
+                  </extendedTooltip>
+                  <extInfo xsi:type="form:ButtonGroupExtInfo">
+                    <commandSource>Item.ЗначенияДоступа</commandSource>
+                  </extInfo>
+                </items>
+                <items xsi:type="form:Addition">
+                  <title>
+                    <key>ru</key>
+                    <value>Поиск</value>
+                  </title>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <name>ЗначенияДоступаПоиск</name>
+                  <id>425</id>
+                  <extendedTooltip>
+                    <name>ЗначенияДоступаПоискРасширеннаяПодсказка</name>
+                    <id>427</id>
+                    <type>Label</type>
+                    <autoMaxWidth>true</autoMaxWidth>
+                    <autoMaxHeight>true</autoMaxHeight>
+                    <extInfo xsi:type="form:LabelDecorationExtInfo">
+                      <horizontalAlign>Left</horizontalAlign>
+                    </extInfo>
+                  </extendedTooltip>
+                  <contextMenu>
+                    <name>ЗначенияДоступаПоискКонтекстноеМеню</name>
+                    <id>426</id>
+                    <autoFill>true</autoFill>
+                  </contextMenu>
+                  <source>ЗначенияДоступа</source>
+                  <extInfo xsi:type="form:SearchStringAdditionExtInfo">
+                    <autoMaxWidth>true</autoMaxWidth>
+                  </extInfo>
+                </items>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
                   <common>true</common>
                 </userVisible>
                 <horizontalAlign>Left</horizontalAlign>
-                <autoFill>true</autoFill>
               </autoCommandBar>
               <handlers>
                 <event>OnEditEnd</event>
                 <name>ЗначенияДоступаПриОкончанииРедактирования</name>
+              </handlers>
+              <handlers>
+                <event>ChoiceProcessing</event>
+                <name>ЗначенияДоступаОбработкаВыбора</name>
               </handlers>
               <handlers>
                 <event>OnStartEdit</event>
@@ -1792,7 +1970,7 @@
                 </extInfo>
               </searchControlAddition>
               <extendedTooltip>
-                <name>ЗначенияДоступаExtendedTooltip</name>
+                <name>ЗначенияДоступаРасширеннаяПодсказка</name>
                 <id>294</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -1850,7 +2028,7 @@
               <value>Предустановленный вид доступа</value>
             </title>
             <extendedTooltip>
-              <name>ПредустановленныйВидДоступаExtendedTooltip</name>
+              <name>ПредустановленныйВидДоступаРасширеннаяПодсказка</name>
               <id>285</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1886,7 +2064,7 @@
                 <common>true</common>
               </userVisible>
               <extendedTooltip>
-                <name>ТекстИнформацииОбычногоВидаДоступаExtendedTooltip</name>
+                <name>ТекстИнформацииОбычногоВидаДоступаРасширеннаяПодсказка</name>
                 <id>300</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -1928,7 +2106,7 @@
               <value>Обычный вид доступа</value>
             </title>
             <extendedTooltip>
-              <name>ОбычныйВидДоступаExtendedTooltip</name>
+              <name>ОбычныйВидДоступаРасширеннаяПодсказка</name>
               <id>299</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1957,7 +2135,7 @@
             <value>Типы видов доступа</value>
           </title>
           <extendedTooltip>
-            <name>ТипыВидовДоступаExtendedTooltip</name>
+            <name>ТипыВидовДоступаРасширеннаяПодсказка</name>
             <id>284</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1986,7 +2164,7 @@
           <value>Значения доступа по виду доступа</value>
         </title>
         <extendedTooltip>
-          <name>ЗначенияДоступаПоВидуДоступаExtendedTooltip</name>
+          <name>ЗначенияДоступаПоВидуДоступаРасширеннаяПодсказка</name>
           <id>280</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -2022,7 +2200,7 @@
         <value>Ограничения доступа</value>
       </title>
       <extendedTooltip>
-        <name>ВидыИЗначенияДоступаExtendedTooltip</name>
+        <name>ВидыИЗначенияДоступаРасширеннаяПодсказка</name>
         <id>265</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -2048,6 +2226,10 @@
       <items xsi:type="form:FormField">
         <name>ОписаниеПоставляемогоПрофиля</name>
         <id>334</id>
+        <title>
+          <key>ru</key>
+          <value>Описание поставляемого профиля</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -2275,7 +2457,7 @@
       <value>Доступ</value>
     </title>
     <extendedTooltip>
-      <name>ДоступExtendedTooltip</name>
+      <name>ДоступРасширеннаяПодсказка</name>
       <id>255</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -2301,6 +2483,10 @@
     <items xsi:type="form:Button">
       <name>ФормаЗаписатьИЗакрыть</name>
       <id>391</id>
+      <title>
+        <key>ru</key>
+        <value>Записать и закрыть</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -2363,6 +2549,10 @@
     <items xsi:type="form:Button">
       <name>ВосстановитьПоНачальномуЗаполнению</name>
       <id>46</id>
+      <title>
+        <key>ru</key>
+        <value>Восстановить по начальному заполнению</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -2370,7 +2560,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>ВосстановитьПоНачальномуЗаполнениюExtendedTooltip</name>
+        <name>ВосстановитьПоНачальномуЗаполнениюРасширеннаяПодсказка</name>
         <id>249</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -2395,13 +2585,17 @@
     <items xsi:type="form:Button">
       <name>ПоказыватьНеиспользуемыеВидыДоступа</name>
       <id>248</id>
+      <title>
+        <key>ru</key>
+        <value>Показывать неиспользуемые виды доступа</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ПоказыватьНеиспользуемыеВидыДоступаExtendedTooltip</name>
+        <name>ПоказыватьНеиспользуемыеВидыДоступаРасширеннаяПодсказка</name>
         <id>251</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -2902,12 +3096,12 @@
     <name>ВключитьРоли</name>
     <title>
       <key>ru</key>
-      <value>Включить роли</value>
+      <value>Включить выделенные роли</value>
     </title>
     <id>5</id>
     <toolTip>
       <key>ru</key>
-      <value>Включить роли</value>
+      <value>Включить выделенные роли</value>
     </toolTip>
     <use>
       <common>true</common>
@@ -2927,12 +3121,12 @@
     <name>ИсключитьРоли</name>
     <title>
       <key>ru</key>
-      <value>Исключить роли</value>
+      <value>Исключить выделенные роли</value>
     </title>
     <id>6</id>
     <toolTip>
       <key>ru</key>
-      <value>Исключить роли</value>
+      <value>Исключить выделенные роли</value>
     </toolTip>
     <use>
       <common>true</common>
@@ -3036,6 +3230,27 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ПодобратьЗначенияДоступа</name>
+    <title>
+      <key>ru</key>
+      <value>Подобрать</value>
+    </title>
+    <id>9</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Подобрать</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ПодобратьЗначенияДоступа</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <commandInterface>
     <navigationPanel/>

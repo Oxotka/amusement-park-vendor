@@ -50,11 +50,21 @@
       <key>ru</key>
       <value>Настройки работы с файлами</value>
     </synonym>
+    <comment>АПК:1442 допустимы прямые обращения к метаданным подсистемы &quot;Работа с файлами&quot;</comment>
     <help>
       <pages>
         <lang>ru</lang>
       </pages>
     </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e33c736b-f1a3-4cb4-b78b-65fd2d44b10f">
+    <name>НастройкиРаботыСФайламиВМоделиСервиса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки работы с файлами в модели сервиса</value>
+    </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -148,7 +158,7 @@
     <representation>Auto</representation>
     <toolTip>
       <key>ru</key>
-      <value>Контроль за состоянием программы, резервное копирование и восстановление, оптимизация быстродействия.</value>
+      <value>Контроль за состоянием приложения, резервное копирование и восстановление, оптимизация быстродействия.</value>
     </toolTip>
   </commands>
   <commands uuid="b62eecf6-6ee3-4a70-a4d6-3f064ae35c43">
@@ -162,7 +172,7 @@
     <representation>Auto</representation>
     <toolTip>
       <key>ru</key>
-      <value>Изменение заголовка программы, настройка версионирования объектов, дополнительных реквизитов и других общих настроек.</value>
+      <value>Изменение заголовка приложения, настройка версионирования объектов, дополнительных реквизитов и других общих настроек.</value>
     </toolTip>
   </commands>
   <commands uuid="9bf2525c-e8fc-44e6-ac14-7df3208dbb0f">
@@ -204,7 +214,7 @@
     <representation>Auto</representation>
     <toolTip>
       <key>ru</key>
-      <value>Синхронизация данных с другими программами
+      <value>Синхронизация данных с другими приложениями
 и организация совместной работы в распределенной информационной базе.</value>
     </toolTip>
   </commands>

@@ -118,6 +118,10 @@
             <valuesPicture xsi:type="core:PictureRef">
               <picture>CommonPicture.Папки</picture>
             </valuesPicture>
+            <border xsi:type="core:BorderDef">
+              <style>Single</style>
+              <width>1</width>
+            </border>
           </extInfo>
         </items>
         <items xsi:type="form:FormField">
@@ -187,7 +191,7 @@
           <value>Картинка и наименование папок</value>
         </title>
         <extendedTooltip>
-          <name>КартинкаИНаименованиеПапокExtendedTooltip</name>
+          <name>КартинкаИНаименованиеПапокРасширеннаяПодсказка</name>
           <id>47</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -384,7 +388,7 @@
         </extInfo>
       </searchControlAddition>
       <extendedTooltip>
-        <name>ПапкиExtendedTooltip</name>
+        <name>ПапкиРасширеннаяПодсказка</name>
         <id>46</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -644,7 +648,7 @@
           <value>Картинка и наименование</value>
         </title>
         <extendedTooltip>
-          <name>КартинкаИНаименованиеExtendedTooltip</name>
+          <name>КартинкаИНаименованиеРасширеннаяПодсказка</name>
           <id>51</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -955,7 +959,7 @@
         </extInfo>
       </searchControlAddition>
       <extendedTooltip>
-        <name>СписокExtendedTooltip</name>
+        <name>СписокРасширеннаяПодсказка</name>
         <id>50</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1028,7 +1032,7 @@
     </title>
     <height>10</height>
     <extendedTooltip>
-      <name>ГруппаСпискиExtendedTooltip</name>
+      <name>ГруппаСпискиРасширеннаяПодсказка</name>
       <id>45</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -1064,7 +1068,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>ВыбратьExtendedTooltip</name>
+        <name>ВыбратьРасширеннаяПодсказка</name>
         <id>43</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1096,7 +1100,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>СправкаExtendedTooltip</name>
+        <name>СправкаРасширеннаяПодсказка</name>
         <id>44</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1238,6 +1242,33 @@
       <autoSaveUserSettings>true</autoSaveUserSettings>
       <getInvisibleFieldPresentations>true</getInvisibleFieldPresentations>
     </extInfo>
+  </attributes>
+  <attributes>
+    <name>ВладелецФайла</name>
+    <id>3</id>
+    <valueType>
+      <types>DefinedType.ВладелецПрисоединенныхФайлов</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ИмяСправочникаХранилищаФайлов</name>
+    <id>4</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
   </attributes>
   <parameters>
     <name>ВладелецФайла</name>

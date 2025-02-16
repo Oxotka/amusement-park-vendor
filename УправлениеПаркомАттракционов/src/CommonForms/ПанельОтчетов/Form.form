@@ -6,6 +6,10 @@
     <items xsi:type="form:FormField">
       <name>СтрокаПоиска</name>
       <id>397</id>
+      <title>
+        <key>ru</key>
+        <value>Поиск</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -76,6 +80,10 @@
     <items xsi:type="form:Button">
       <name>ВыполнитьПоиск</name>
       <id>400</id>
+      <title>
+        <key>ru</key>
+        <value>Найти</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -162,6 +170,10 @@
       <items xsi:type="form:FormField">
         <name>ПоказыватьПодсказки</name>
         <id>407</id>
+        <title>
+          <key>ru</key>
+          <value>Описания отчетов</value>
+        </title>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
@@ -213,13 +225,17 @@
         <items xsi:type="form:Button">
           <name>Настроить</name>
           <id>412</id>
+          <title>
+            <key>ru</key>
+            <value>Настройка</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>НастроитьExtendedTooltip</name>
+            <name>НастроитьРасширеннаяПодсказка</name>
             <id>413</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -245,13 +261,17 @@
         <items xsi:type="form:Button">
           <name>ФормаОбновить</name>
           <id>414</id>
+          <title>
+            <key>ru</key>
+            <value>Обновить</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>ФормаОбновитьExtendedTooltip</name>
+            <name>ФормаОбновитьРасширеннаяПодсказка</name>
             <id>415</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -276,6 +296,10 @@
         <items xsi:type="form:Button">
           <name>ФормаВсеОтчеты</name>
           <id>416</id>
+          <title>
+            <key>ru</key>
+            <value>Все отчеты...</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -310,6 +334,10 @@
           <items xsi:type="form:Button">
             <name>СнимкиОтчетов</name>
             <id>454</id>
+            <title>
+              <key>ru</key>
+              <value>Снимки отчетов</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -369,13 +397,17 @@
           <items xsi:type="form:Button">
             <name>СброситьМоиНастройки</name>
             <id>420</id>
+            <title>
+              <key>ru</key>
+              <value>Сбросить мои настройки</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>СброситьМоиНастройкиExtendedTooltip</name>
+              <name>СброситьМоиНастройкиРасширеннаяПодсказка</name>
               <id>421</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -432,7 +464,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>ФормаИзменитьФормуExtendedTooltip</name>
+            <name>ФормаИзменитьФормуРасширеннаяПодсказка</name>
             <id>423</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -643,7 +675,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>ДекорацияДлительнаяОперацияExtendedTooltip</name>
+            <name>ДекорацияДлительнаяОперацияРасширеннаяПодсказка</name>
             <id>441</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -689,7 +721,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>ДекорацияПоясняющийТекстДлительнойОперацииExtendedTooltip</name>
+            <name>ДекорацияПоясняющийТекстДлительнойОперацииРасширеннаяПодсказка</name>
             <id>444</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1026,7 +1058,7 @@
               <value>Быстрый доступ колонка 1</value>
             </title>
             <extendedTooltip>
-              <name>БыстрыйДоступКолонка1ExtendedTooltip</name>
+              <name>БыстрыйДоступКолонка1РасширеннаяПодсказка</name>
               <id>285</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1062,7 +1094,7 @@
               <value>Быстрый доступ колонка 2</value>
             </title>
             <extendedTooltip>
-              <name>БыстрыйДоступКолонка2ExtendedTooltip</name>
+              <name>БыстрыйДоступКолонка2РасширеннаяПодсказка</name>
               <id>286</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1095,7 +1127,7 @@
             <value>Быстрый доступ</value>
           </title>
           <extendedTooltip>
-            <name>БыстрыйДоступExtendedTooltip</name>
+            <name>БыстрыйДоступРасширеннаяПодсказка</name>
             <id>284</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1213,7 +1245,7 @@
               <value>Без группы колонка 1</value>
             </title>
             <extendedTooltip>
-              <name>БезГруппыКолонка1ExtendedTooltip</name>
+              <name>БезГруппыКолонка1РасширеннаяПодсказка</name>
               <id>290</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1249,7 +1281,7 @@
               <value>Без группы колонка 2</value>
             </title>
             <extendedTooltip>
-              <name>БезГруппыКолонка2ExtendedTooltip</name>
+              <name>БезГруппыКолонка2РасширеннаяПодсказка</name>
               <id>291</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1282,7 +1314,7 @@
             <value>Без группы</value>
           </title>
           <extendedTooltip>
-            <name>БезГруппыExtendedTooltip</name>
+            <name>БезГруппыРасширеннаяПодсказка</name>
             <id>289</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1361,7 +1393,7 @@
               <value>С группой колонка 1</value>
             </title>
             <extendedTooltip>
-              <name>СГруппойКолонка1ExtendedTooltip</name>
+              <name>СГруппойКолонка1РасширеннаяПодсказка</name>
               <id>295</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1397,7 +1429,7 @@
               <value>С группой колонка 2</value>
             </title>
             <extendedTooltip>
-              <name>СГруппойКолонка2ExtendedTooltip</name>
+              <name>СГруппойКолонка2РасширеннаяПодсказка</name>
               <id>296</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1430,7 +1462,7 @@
             <value>С группой</value>
           </title>
           <extendedTooltip>
-            <name>СГруппойExtendedTooltip</name>
+            <name>СГруппойРасширеннаяПодсказка</name>
             <id>294</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1560,7 +1592,7 @@
               <value>См также колонка 1</value>
             </title>
             <extendedTooltip>
-              <name>СмТакжеКолонка1ExtendedTooltip</name>
+              <name>СмТакжеКолонка1РасширеннаяПодсказка</name>
               <id>300</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1596,7 +1628,7 @@
               <value>См также колонка 2</value>
             </title>
             <extendedTooltip>
-              <name>СмТакжеКолонка2ExtendedTooltip</name>
+              <name>СмТакжеКолонка2РасширеннаяПодсказка</name>
               <id>301</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1629,7 +1661,7 @@
             <value>См также</value>
           </title>
           <extendedTooltip>
-            <name>СмТакжеExtendedTooltip</name>
+            <name>СмТакжеРасширеннаяПодсказка</name>
             <id>299</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1703,7 +1735,7 @@
           <value>Колонки</value>
         </title>
         <extendedTooltip>
-          <name>КолонкиExtendedTooltip</name>
+          <name>КолонкиРасширеннаяПодсказка</name>
           <id>283</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1921,13 +1953,17 @@
     <items xsi:type="form:Button">
       <name>СсылкаВсеОтчеты</name>
       <id>261</id>
+      <title>
+        <key>ru</key>
+        <value>Все отчеты...</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>СсылкаВсеОтчетыExtendedTooltip</name>
+        <name>СсылкаВсеОтчетыРасширеннаяПодсказка</name>
         <id>304</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -3118,6 +3154,19 @@
     <valueType>
       <types>String</types>
       <stringQualifiers/>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>СтрокаПоиска</name>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>ИскатьВоВсехРазделах</name>
+    <valueType>
+      <types>Boolean</types>
     </valueType>
   </parameters>
   <commandInterface>

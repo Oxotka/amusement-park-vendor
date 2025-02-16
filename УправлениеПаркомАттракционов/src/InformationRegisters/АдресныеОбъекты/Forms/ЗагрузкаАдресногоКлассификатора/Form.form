@@ -74,6 +74,10 @@
           <items xsi:type="form:FormField">
             <name>СубъектыРФЗагружать</name>
             <id>20</id>
+            <title>
+              <key>ru</key>
+              <value>Загружать</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -123,6 +127,10 @@
           <items xsi:type="form:FormField">
             <name>СубъектыРФКодСубъектаРФ</name>
             <id>227</id>
+            <title>
+              <key>ru</key>
+              <value>Код субъекта РФ</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -185,6 +193,10 @@
           <items xsi:type="form:FormField">
             <name>СубъектыРФПредставление</name>
             <id>224</id>
+            <title>
+              <key>ru</key>
+              <value>Субъект РФ</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -276,6 +288,10 @@
               <items xsi:type="form:Button">
                 <name>СубъектыРФУстановитьФлажки</name>
                 <id>47</id>
+                <title>
+                  <key>ru</key>
+                  <value>Установить флажки</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -306,6 +322,10 @@
               <items xsi:type="form:Button">
                 <name>СубъектыРФСнятьФлажки</name>
                 <id>49</id>
+                <title>
+                  <key>ru</key>
+                  <value>Снять флажки</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -618,6 +638,10 @@
           <items xsi:type="form:FormField">
             <name>ВыбраноРегионовДляЗагрузки</name>
             <id>51</id>
+            <title>
+              <key>ru</key>
+              <value>Выбрано регионов</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -802,6 +826,10 @@
           <items xsi:type="form:Button">
             <name>АвторизацияНаСайтеПоддержкиПользователей</name>
             <id>144</id>
+            <title>
+              <key>ru</key>
+              <value>Подключить интернет-поддержку</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -838,6 +866,10 @@
           <items xsi:type="form:FormField">
             <name>ИнформацияОбОбновление</name>
             <id>159</id>
+            <title>
+              <key>ru</key>
+              <value>Информация об обновление</value>
+            </title>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
@@ -1119,6 +1151,10 @@
           <items xsi:type="form:Button">
             <name>Загрузить</name>
             <id>10</id>
+            <title>
+              <key>ru</key>
+              <value>Загрузить адресные сведения</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1151,6 +1187,10 @@
           <items xsi:type="form:Button">
             <name>Отмена</name>
             <id>133</id>
+            <title>
+              <key>ru</key>
+              <value>Отмена</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1320,6 +1360,10 @@
         <items xsi:type="form:FormField">
           <name>ТекстОписанияЗагрузки</name>
           <id>73</id>
+          <title>
+            <key>ru</key>
+            <value>Текст описания загрузки</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1403,6 +1447,10 @@
       <items xsi:type="form:FormField">
         <name>ПрогрессЗагрузки</name>
         <id>245</id>
+        <title>
+          <key>ru</key>
+          <value>Прогресс загрузки</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1458,6 +1506,10 @@
         <items xsi:type="form:FormField">
           <name>ТекстСостоянияЗагрузки</name>
           <id>88</id>
+          <title>
+            <key>ru</key>
+            <value>Текст состояния загрузки</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1508,6 +1560,10 @@
           <items xsi:type="form:Button">
             <name>ПрерватьЗагрузку</name>
             <id>78</id>
+            <title>
+              <key>ru</key>
+              <value>Прервать</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1686,6 +1742,10 @@
           <items xsi:type="form:FormField">
             <name>ТекстОписанияЗагрузкиЗавершения</name>
             <id>98</id>
+            <title>
+              <key>ru</key>
+              <value>Текст описания загрузки</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1736,6 +1796,10 @@
           <items xsi:type="form:Button">
             <name>ПроверитьВсеАдреса</name>
             <id>237</id>
+            <title>
+              <key>ru</key>
+              <value>Проверить все адреса...</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1972,8 +2036,8 @@
           <key>ru</key>
           <value>
 Индекс %1%2  не найден в адресном классификаторе. Возможные причины:
-  - индекс относится к региону, по которому в программе отсутствуют адресные сведения;
-  - адресные сведения, загруженные в программу, устарели
+  - индекс относится к региону, по которому в приложении отсутствуют адресные сведения;
+  - адресные сведения, загруженные в приложение, устарели
   - индекс введен некорректно.
 </value>
         </title>
@@ -2022,6 +2086,10 @@
           <items xsi:type="form:Button">
             <name>ОбновитьКлассификатор</name>
             <id>172</id>
+            <title>
+              <key>ru</key>
+              <value>Обновить классификатор</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -2053,6 +2121,10 @@
           <items xsi:type="form:Button">
             <name>ОтменаОбновитьКлассификатор</name>
             <id>177</id>
+            <title>
+              <key>ru</key>
+              <value>Отмена</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -2802,6 +2874,22 @@
     </action>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
+  <parameters>
+    <name>НазваниеРегиона</name>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>ПочтовыйИндекс</name>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers>
+        <length>6</length>
+      </stringQualifiers>
+    </valueType>
+  </parameters>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>

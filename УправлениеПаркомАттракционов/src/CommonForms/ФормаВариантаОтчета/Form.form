@@ -152,7 +152,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>КомпоновщикНастроекНастройкиExtendedTooltip</name>
+      <name>КомпоновщикНастроекНастройкиРасширеннаяПодсказка</name>
       <id>130</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -349,7 +349,7 @@
           </extInfo>
         </searchControlAddition>
         <extendedTooltip>
-          <name>КомпоновщикНастроекНастройкиПараметрыДанныхExtendedTooltip</name>
+          <name>КомпоновщикНастроекНастройкиПараметрыДанныхРасширеннаяПодсказка</name>
           <id>133</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -404,7 +404,7 @@
         <value>Параметры</value>
       </title>
       <extendedTooltip>
-        <name>СтраницаПараметровДанныхExtendedTooltip</name>
+        <name>СтраницаПараметровДанныхРасширеннаяПодсказка</name>
         <id>132</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -574,7 +574,7 @@
           </extInfo>
         </searchControlAddition>
         <extendedTooltip>
-          <name>КомпоновщикНастроекНастройкиПользовательскиеПоляExtendedTooltip</name>
+          <name>КомпоновщикНастроекНастройкиПользовательскиеПоляРасширеннаяПодсказка</name>
           <id>135</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -629,7 +629,7 @@
         <value>Пользовательские поля</value>
       </title>
       <extendedTooltip>
-        <name>СтраницаПользовательскихПолейExtendedTooltip</name>
+        <name>СтраницаПользовательскихПолейРасширеннаяПодсказка</name>
         <id>134</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -805,7 +805,7 @@
               </extInfo>
             </searchControlAddition>
             <extendedTooltip>
-              <name>КомпоновщикНастроекНастройкиПоляГруппировкиДоступныеПоляПолейГруппировокExtendedTooltip</name>
+              <name>КомпоновщикНастроекНастройкиПоляГруппировкиДоступныеПоляПолейГруппировокРасширеннаяПодсказка</name>
               <id>139</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -995,7 +995,7 @@
               </extInfo>
             </searchControlAddition>
             <extendedTooltip>
-              <name>КомпоновщикНастроекНастройкиПоляГруппировкиExtendedTooltip</name>
+              <name>КомпоновщикНастроекНастройкиПоляГруппировкиРасширеннаяПодсказка</name>
               <id>140</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1050,7 +1050,7 @@
             <value>Страница группируемых полей</value>
           </title>
           <extendedTooltip>
-            <name>НастройкиПолейГруппировкиExtendedTooltip</name>
+            <name>НастройкиПолейГруппировкиРасширеннаяПодсказка</name>
             <id>138</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1088,7 +1088,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>НадписьНедоступныхПолейГруппировкиExtendedTooltip</name>
+              <name>НадписьНедоступныхПолейГруппировкиРасширеннаяПодсказка</name>
               <id>142</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1129,7 +1129,7 @@
             <value>Страница недоступных группируемых полей</value>
           </title>
           <extendedTooltip>
-            <name>НедоступныеНастройкиПолейГруппировкиExtendedTooltip</name>
+            <name>НедоступныеНастройкиПолейГруппировкиРасширеннаяПодсказка</name>
             <id>141</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1159,7 +1159,7 @@
           <value>Страницы группируемых полей</value>
         </title>
         <extendedTooltip>
-          <name>СтраницыПолейГруппировкиExtendedTooltip</name>
+          <name>СтраницыПолейГруппировкиРасширеннаяПодсказка</name>
           <id>137</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1188,7 +1188,7 @@
         <value>Группируемые поля</value>
       </title>
       <extendedTooltip>
-        <name>СтраницаПолейГруппировкиExtendedTooltip</name>
+        <name>СтраницаПолейГруппировкиРасширеннаяПодсказка</name>
         <id>136</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1235,7 +1235,7 @@
           <name>ЛокальныеВыбранныеПоляПриИзменении</name>
         </handlers>
         <extendedTooltip>
-          <name>ЛокальныеВыбранныеПоляExtendedTooltip</name>
+          <name>ЛокальныеВыбранныеПоляРасширеннаяПодсказка</name>
           <id>144</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1416,7 +1416,7 @@
               </extInfo>
             </searchControlAddition>
             <extendedTooltip>
-              <name>КомпоновщикНастроекНастройкиВыборДоступныеПоляВыбораExtendedTooltip</name>
+              <name>КомпоновщикНастроекНастройкиВыборДоступныеПоляВыбораРасширеннаяПодсказка</name>
               <id>147</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1605,7 +1605,7 @@
               </extInfo>
             </searchControlAddition>
             <extendedTooltip>
-              <name>КомпоновщикНастроекНастройкиВыборExtendedTooltip</name>
+              <name>КомпоновщикНастроекНастройкиВыборРасширеннаяПодсказка</name>
               <id>148</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1662,7 +1662,7 @@
             <value>Страница полей</value>
           </title>
           <extendedTooltip>
-            <name>НастройкиВыбранныхПолейExtendedTooltip</name>
+            <name>НастройкиВыбранныхПолейРасширеннаяПодсказка</name>
             <id>146</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1701,7 +1701,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>НадписьЛокальныхВыбранныхПолейExtendedTooltip</name>
+              <name>НадписьЛокальныхВыбранныхПолейРасширеннаяПодсказка</name>
               <id>150</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1744,7 +1744,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ПереходКВыбраннымПолямОтчетаExtendedTooltip</name>
+              <name>ПереходКВыбраннымПолямОтчетаРасширеннаяПодсказка</name>
               <id>151</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1789,7 +1789,7 @@
             <value>Страница отключенных полей</value>
           </title>
           <extendedTooltip>
-            <name>ОтключенныеНастройкиВыбранныхПолейExtendedTooltip</name>
+            <name>ОтключенныеНастройкиВыбранныхПолейРасширеннаяПодсказка</name>
             <id>149</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1826,7 +1826,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>НадписьНедоступныхВыбранныхПолейExtendedTooltip</name>
+              <name>НадписьНедоступныхВыбранныхПолейРасширеннаяПодсказка</name>
               <id>153</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1869,7 +1869,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ПереходКВыбраннымПолямОтчета1ExtendedTooltip</name>
+              <name>ПереходКВыбраннымПолямОтчета1РасширеннаяПодсказка</name>
               <id>154</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1914,7 +1914,7 @@
             <value>Страница недоступных полей</value>
           </title>
           <extendedTooltip>
-            <name>НедоступныеНастройкиВыбранныхПолейExtendedTooltip</name>
+            <name>НедоступныеНастройкиВыбранныхПолейРасширеннаяПодсказка</name>
             <id>152</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1944,7 +1944,7 @@
           <value>Страницы полей</value>
         </title>
         <extendedTooltip>
-          <name>СтраницыПолейВыбораExtendedTooltip</name>
+          <name>СтраницыПолейВыбораРасширеннаяПодсказка</name>
           <id>145</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1973,7 +1973,7 @@
         <value>Поля</value>
       </title>
       <extendedTooltip>
-        <name>СтраницаПолейВыбораExtendedTooltip</name>
+        <name>СтраницаПолейВыбораРасширеннаяПодсказка</name>
         <id>143</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -2020,7 +2020,7 @@
           <name>ЛокальныйОтборПриИзменении</name>
         </handlers>
         <extendedTooltip>
-          <name>ЛокальныйОтборExtendedTooltip</name>
+          <name>ЛокальныйОтборРасширеннаяПодсказка</name>
           <id>156</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -2201,7 +2201,7 @@
               </extInfo>
             </searchControlAddition>
             <extendedTooltip>
-              <name>КомпоновщикНастроекНастройкиОтборДоступныеПоляОтбораExtendedTooltip</name>
+              <name>КомпоновщикНастроекНастройкиОтборДоступныеПоляОтбораРасширеннаяПодсказка</name>
               <id>159</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -2390,7 +2390,7 @@
               </extInfo>
             </searchControlAddition>
             <extendedTooltip>
-              <name>КомпоновщикНастроекНастройкиОтборExtendedTooltip</name>
+              <name>КомпоновщикНастроекНастройкиОтборРасширеннаяПодсказка</name>
               <id>160</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -2449,7 +2449,7 @@
             <value>Страница полей</value>
           </title>
           <extendedTooltip>
-            <name>НастройкиОтбораExtendedTooltip</name>
+            <name>НастройкиОтбораРасширеннаяПодсказка</name>
             <id>158</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -2488,7 +2488,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>НадписьЛокальногоОтбораExtendedTooltip</name>
+              <name>НадписьЛокальногоОтбораРасширеннаяПодсказка</name>
               <id>162</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -2531,7 +2531,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ПереходКОтборуОтчетаExtendedTooltip</name>
+              <name>ПереходКОтборуОтчетаРасширеннаяПодсказка</name>
               <id>163</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -2576,7 +2576,7 @@
             <value>Страница отключенного фильтра</value>
           </title>
           <extendedTooltip>
-            <name>ОтключенныеНастройкиОтбораExtendedTooltip</name>
+            <name>ОтключенныеНастройкиОтбораРасширеннаяПодсказка</name>
             <id>161</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -2613,7 +2613,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>НадписьНедоступногоОтбораExtendedTooltip</name>
+              <name>НадписьНедоступногоОтбораРасширеннаяПодсказка</name>
               <id>165</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -2656,7 +2656,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ПереходКОтборуОтчета1ExtendedTooltip</name>
+              <name>ПереходКОтборуОтчета1РасширеннаяПодсказка</name>
               <id>166</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -2701,7 +2701,7 @@
             <value>Страница недоступного фильтра</value>
           </title>
           <extendedTooltip>
-            <name>НедоступныеНастройкиОтбораExtendedTooltip</name>
+            <name>НедоступныеНастройкиОтбораРасширеннаяПодсказка</name>
             <id>164</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -2731,7 +2731,7 @@
           <value>Страницы фильтры</value>
         </title>
         <extendedTooltip>
-          <name>СтраницыОтбораExtendedTooltip</name>
+          <name>СтраницыОтбораРасширеннаяПодсказка</name>
           <id>157</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -2760,7 +2760,7 @@
         <value>Фильтры</value>
       </title>
       <extendedTooltip>
-        <name>СтраницаОтбораExtendedTooltip</name>
+        <name>СтраницаОтбораРасширеннаяПодсказка</name>
         <id>155</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -2807,7 +2807,7 @@
           <name>ЛокальныйПорядокПриИзменении</name>
         </handlers>
         <extendedTooltip>
-          <name>ЛокальныйПорядокExtendedTooltip</name>
+          <name>ЛокальныйПорядокРасширеннаяПодсказка</name>
           <id>168</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -2988,7 +2988,7 @@
               </extInfo>
             </searchControlAddition>
             <extendedTooltip>
-              <name>КомпоновщикНастроекНастройкиПорядокДоступныеПоляПорядкаExtendedTooltip</name>
+              <name>КомпоновщикНастроекНастройкиПорядокДоступныеПоляПорядкаРасширеннаяПодсказка</name>
               <id>171</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -3177,7 +3177,7 @@
               </extInfo>
             </searchControlAddition>
             <extendedTooltip>
-              <name>КомпоновщикНастроекНастройкиПорядокExtendedTooltip</name>
+              <name>КомпоновщикНастроекНастройкиПорядокРасширеннаяПодсказка</name>
               <id>172</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -3232,7 +3232,7 @@
             <value>Страница сортировки</value>
           </title>
           <extendedTooltip>
-            <name>НастройкиПорядкаExtendedTooltip</name>
+            <name>НастройкиПорядкаРасширеннаяПодсказка</name>
             <id>170</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -3271,7 +3271,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>НадписьЛокальногоПорядкаExtendedTooltip</name>
+              <name>НадписьЛокальногоПорядкаРасширеннаяПодсказка</name>
               <id>174</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -3314,7 +3314,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ПереходКПорядкуОтчетаExtendedTooltip</name>
+              <name>ПереходКПорядкуОтчетаРасширеннаяПодсказка</name>
               <id>175</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -3359,7 +3359,7 @@
             <value>Страница отключенной сортировки</value>
           </title>
           <extendedTooltip>
-            <name>ОтключенныеНастройкиПорядкаExtendedTooltip</name>
+            <name>ОтключенныеНастройкиПорядкаРасширеннаяПодсказка</name>
             <id>173</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -3396,7 +3396,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>НадписьНедоступногоПорядкаExtendedTooltip</name>
+              <name>НадписьНедоступногоПорядкаРасширеннаяПодсказка</name>
               <id>177</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -3439,7 +3439,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ПереходКПорядкуОтчета1ExtendedTooltip</name>
+              <name>ПереходКПорядкуОтчета1РасширеннаяПодсказка</name>
               <id>178</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -3484,7 +3484,7 @@
             <value>Страница недоступной сортировки</value>
           </title>
           <extendedTooltip>
-            <name>НедоступныеНастройкиПорядкаExtendedTooltip</name>
+            <name>НедоступныеНастройкиПорядкаРасширеннаяПодсказка</name>
             <id>176</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -3514,7 +3514,7 @@
           <value>Страницы сортировки</value>
         </title>
         <extendedTooltip>
-          <name>СтраницыПорядкаExtendedTooltip</name>
+          <name>СтраницыПорядкаРасширеннаяПодсказка</name>
           <id>169</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -3543,7 +3543,7 @@
         <value>Сортировка</value>
       </title>
       <extendedTooltip>
-        <name>СтраницаПорядкаExtendedTooltip</name>
+        <name>СтраницаПорядкаРасширеннаяПодсказка</name>
         <id>167</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -3590,7 +3590,7 @@
           <name>ЛокальноеУсловноеОформлениеПриИзменении</name>
         </handlers>
         <extendedTooltip>
-          <name>ЛокальноеУсловноеОформлениеExtendedTooltip</name>
+          <name>ЛокальноеУсловноеОформлениеРасширеннаяПодсказка</name>
           <id>180</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -3771,7 +3771,7 @@
               </extInfo>
             </searchControlAddition>
             <extendedTooltip>
-              <name>КомпоновщикНастроекНастройкиУсловноеОформлениеExtendedTooltip</name>
+              <name>КомпоновщикНастроекНастройкиУсловноеОформлениеРасширеннаяПодсказка</name>
               <id>183</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -3827,7 +3827,7 @@
             <value>Страница условного оформления</value>
           </title>
           <extendedTooltip>
-            <name>НастройкиУсловногоОформленияExtendedTooltip</name>
+            <name>НастройкиУсловногоОформленияРасширеннаяПодсказка</name>
             <id>182</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -3865,7 +3865,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>НадписьЛокальногоУсловногоОформленияExtendedTooltip</name>
+              <name>НадписьЛокальногоУсловногоОформленияРасширеннаяПодсказка</name>
               <id>185</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -3908,7 +3908,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ПереходКУсловномуОформлениюОтчетаExtendedTooltip</name>
+              <name>ПереходКУсловномуОформлениюОтчетаРасширеннаяПодсказка</name>
               <id>186</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -3953,7 +3953,7 @@
             <value>Страница отключенного условного оформления</value>
           </title>
           <extendedTooltip>
-            <name>ОтключенныеНастройкиУсловногоОформленияExtendedTooltip</name>
+            <name>ОтключенныеНастройкиУсловногоОформленияРасширеннаяПодсказка</name>
             <id>184</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -3990,7 +3990,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>НадписьНедоступногоУсловногоОформленияExtendedTooltip</name>
+              <name>НадписьНедоступногоУсловногоОформленияРасширеннаяПодсказка</name>
               <id>188</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -4033,7 +4033,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ПереходКУсловномуОформлениюОтчета1ExtendedTooltip</name>
+              <name>ПереходКУсловномуОформлениюОтчета1РасширеннаяПодсказка</name>
               <id>189</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -4078,7 +4078,7 @@
             <value>Страница недоступного условного оформления</value>
           </title>
           <extendedTooltip>
-            <name>НедоступныеНастройкиУсловногоОформленияExtendedTooltip</name>
+            <name>НедоступныеНастройкиУсловногоОформленияРасширеннаяПодсказка</name>
             <id>187</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -4108,7 +4108,7 @@
           <value>Страницы условного оформления</value>
         </title>
         <extendedTooltip>
-          <name>СтраницыУсловногоОформленияExtendedTooltip</name>
+          <name>СтраницыУсловногоОформленияРасширеннаяПодсказка</name>
           <id>181</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -4137,7 +4137,7 @@
         <value>Условное оформление</value>
       </title>
       <extendedTooltip>
-        <name>СтраницаУсловногоОформленияExtendedTooltip</name>
+        <name>СтраницаУсловногоОформленияРасширеннаяПодсказка</name>
         <id>179</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -4184,7 +4184,7 @@
           <name>ЛокальныеПараметрыВыводаПриИзменении</name>
         </handlers>
         <extendedTooltip>
-          <name>ЛокальныеПараметрыВыводаExtendedTooltip</name>
+          <name>ЛокальныеПараметрыВыводаРасширеннаяПодсказка</name>
           <id>191</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -4369,7 +4369,7 @@
               </extInfo>
             </searchControlAddition>
             <extendedTooltip>
-              <name>КомпоновщикНастроекНастройкиПараметрыВыводаExtendedTooltip</name>
+              <name>КомпоновщикНастроекНастройкиПараметрыВыводаРасширеннаяПодсказка</name>
               <id>194</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -4424,7 +4424,7 @@
             <value>Страница дополнительных настроек</value>
           </title>
           <extendedTooltip>
-            <name>НастройкиПараметровВыводаExtendedTooltip</name>
+            <name>НастройкиПараметровВыводаРасширеннаяПодсказка</name>
             <id>193</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -4462,7 +4462,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>НадписьЛокальныхПараметровВыводаExtendedTooltip</name>
+              <name>НадписьЛокальныхПараметровВыводаРасширеннаяПодсказка</name>
               <id>196</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -4505,7 +4505,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ПереходКПараметрамВыводаОтчетаExtendedTooltip</name>
+              <name>ПереходКПараметрамВыводаОтчетаРасширеннаяПодсказка</name>
               <id>197</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -4550,7 +4550,7 @@
             <value>Страница отключенных дополнительных настроек</value>
           </title>
           <extendedTooltip>
-            <name>ОтключенныеНастройкиПараметровВыводаExtendedTooltip</name>
+            <name>ОтключенныеНастройкиПараметровВыводаРасширеннаяПодсказка</name>
             <id>195</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -4587,7 +4587,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>НадписьНедоступныхПараметровВыводаExtendedTooltip</name>
+              <name>НадписьНедоступныхПараметровВыводаРасширеннаяПодсказка</name>
               <id>199</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -4630,7 +4630,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ПереходКПараметрамВыводаОтчета1ExtendedTooltip</name>
+              <name>ПереходКПараметрамВыводаОтчета1РасширеннаяПодсказка</name>
               <id>200</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -4675,7 +4675,7 @@
             <value>Страница недоступных дополнительных настроек</value>
           </title>
           <extendedTooltip>
-            <name>НедоступныеНастройкиПараметровВыводаExtendedTooltip</name>
+            <name>НедоступныеНастройкиПараметровВыводаРасширеннаяПодсказка</name>
             <id>198</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -4705,7 +4705,7 @@
           <value>Страницы дополнительных настроек</value>
         </title>
         <extendedTooltip>
-          <name>СтраницыПараметровВыводаExtendedTooltip</name>
+          <name>СтраницыПараметровВыводаРасширеннаяПодсказка</name>
           <id>192</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -4734,7 +4734,7 @@
         <value>Дополнительные настройки</value>
       </title>
       <extendedTooltip>
-        <name>СтраницаПараметровВыводаExtendedTooltip</name>
+        <name>СтраницаПараметровВыводаРасширеннаяПодсказка</name>
         <id>190</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -4767,7 +4767,7 @@
       <value>Группа настроек</value>
     </title>
     <extendedTooltip>
-      <name>СтраницыНастроекExtendedTooltip</name>
+      <name>СтраницыНастроекРасширеннаяПодсказка</name>
       <id>131</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -4794,13 +4794,17 @@
     <items xsi:type="form:Button">
       <name>ЗавершитьРедактирование</name>
       <id>124</id>
+      <title>
+        <key>ru</key>
+        <value>Закрыть и сформировать</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ЗавершитьРедактированиеExtendedTooltip</name>
+        <name>ЗавершитьРедактированиеРасширеннаяПодсказка</name>
         <id>127</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -4814,38 +4818,9 @@
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
-      <commandName>Form.Command.ЗавершитьРедактирование</commandName>
+      <commandName>Form.Command.ЗакрытьИСформировать</commandName>
       <representation>Auto</representation>
       <defaultButton>true</defaultButton>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <placementArea>UserCmds</placementArea>
-      <representationInContextMenu>Auto</representationInContextMenu>
-    </items>
-    <items xsi:type="form:Button">
-      <name>ФормаЗакончитьРедактирование</name>
-      <id>125</id>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <extendedTooltip>
-        <name>ФормаЗакончитьРедактированиеExtendedTooltip</name>
-        <id>128</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <commandName>Form.StandardCommand.EndEdit</commandName>
-      <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
@@ -4860,7 +4835,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаОтменаExtendedTooltip</name>
+        <name>ФормаОтменаРасширеннаяПодсказка</name>
         <id>129</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -4897,6 +4872,7 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
+  <excludedCommands>EndEdit</excludedCommands>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
@@ -5040,22 +5016,22 @@
     </edit>
   </attributes>
   <formCommands>
-    <name>ЗавершитьРедактирование</name>
+    <name>ЗакрытьИСформировать</name>
     <title>
       <key>ru</key>
-      <value>Завершить редактирование</value>
+      <value>Закрыть и сформировать</value>
     </title>
     <id>1</id>
     <toolTip>
       <key>ru</key>
-      <value>Завершить редактирование</value>
+      <value>Закрыть и сформировать отчет</value>
     </toolTip>
     <use>
       <common>true</common>
     </use>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
-        <name>ЗавершитьРедактирование</name>
+        <name>ЗакрытьИСформировать</name>
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
@@ -5066,6 +5042,36 @@
       <types>String</types>
       <stringQualifiers/>
     </valueType>
+  </parameters>
+  <parameters>
+    <name>ПредставлениеВарианта</name>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>ВариантМодифицирован</name>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>ПользовательскиеНастройкиМодифицированы</name>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>ВариантНаименование</name>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>НастройкиОтчета</name>
+    <valueType/>
   </parameters>
   <commandInterface>
     <navigationPanel/>

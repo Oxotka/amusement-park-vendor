@@ -44,7 +44,7 @@
       <autoMaxHeight>true</autoMaxHeight>
       <extInfo xsi:type="form:PictureDecorationExtInfo">
         <picture xsi:type="core:PictureRef">
-          <picture>CommonPicture.Ошибка32</picture>
+          <picture>StdPicture.DialogStop</picture>
         </picture>
       </extInfo>
     </items>
@@ -136,6 +136,10 @@
     <items xsi:type="form:Button">
       <name>ФормаЗавершитьРаботу</name>
       <id>4</id>
+      <title>
+        <key>ru</key>
+        <value>Завершить работу</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>

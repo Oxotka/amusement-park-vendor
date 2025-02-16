@@ -9,6 +9,10 @@
       <items xsi:type="form:Button">
         <name>ФормаПодборИзКлассификатора</name>
         <id>26</id>
+        <title>
+          <key>ru</key>
+          <value>По классификатору...</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>

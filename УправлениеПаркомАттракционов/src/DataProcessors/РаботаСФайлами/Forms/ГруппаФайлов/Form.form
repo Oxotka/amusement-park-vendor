@@ -200,6 +200,10 @@
     <items xsi:type="form:FormField">
       <name>СтатусСоздана</name>
       <id>37</id>
+      <title>
+        <key>ru</key>
+        <value>Статус создана</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -338,6 +342,10 @@
     <items xsi:type="form:FormField">
       <name>СтатусИзменена</name>
       <id>40</id>
+      <title>
+        <key>ru</key>
+        <value>Статус изменена</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -476,6 +484,10 @@
     <items xsi:type="form:Button">
       <name>ФормаСтандартнаяЗаписатьИЗакрыть</name>
       <id>3</id>
+      <title>
+        <key>ru</key>
+        <value>Записать и закрыть</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -506,6 +518,10 @@
     <items xsi:type="form:Button">
       <name>ФормаСтандартнаяЗаписать</name>
       <id>1</id>
+      <title>
+        <key>ru</key>
+        <value>Записать</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -535,6 +551,10 @@
     <items xsi:type="form:Button">
       <name>ФормаСтандартнаяПеречитать</name>
       <id>19</id>
+      <title>
+        <key>ru</key>
+        <value>Перечитать</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -566,6 +586,10 @@
     <items xsi:type="form:Button">
       <name>ФормаСтандартнаяПоказатьВСписке</name>
       <id>21</id>
+      <title>
+        <key>ru</key>
+        <value>Показать в списке</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -597,6 +621,10 @@
     <items xsi:type="form:Button">
       <name>ФормаСтандартнаяСкопировать</name>
       <id>23</id>
+      <title>
+        <key>ru</key>
+        <value>Скопировать</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -628,6 +656,10 @@
     <items xsi:type="form:Button">
       <name>ФормаСтандартнаяУстановитьПометкуУдаления</name>
       <id>25</id>
+      <title>
+        <key>ru</key>
+        <value>Пометить на удаление / Снять пометку</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -881,7 +913,7 @@
     <use>
       <common>true</common>
     </use>
-    <shortcut>Ctrl+S</shortcut>
+    <shortcut>Cmd+S</shortcut>
     <picture xsi:type="core:PictureRef">
       <picture>StdPicture.Write</picture>
     </picture>

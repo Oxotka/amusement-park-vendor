@@ -103,6 +103,10 @@
       <items xsi:type="form:Button">
         <name>ФормаArial</name>
         <id>4</id>
+        <title>
+          <key>ru</key>
+          <value>Arial</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -137,6 +141,10 @@
       <items xsi:type="form:Button">
         <name>TimesNewRoman</name>
         <id>10</id>
+        <title>
+          <key>ru</key>
+          <value>Times New Roman</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -173,6 +181,10 @@
       <items xsi:type="form:Button">
         <name>ФормаVerdana</name>
         <id>6</id>
+        <title>
+          <key>ru</key>
+          <value>Verdana</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -250,6 +262,10 @@
       <items xsi:type="form:Button">
         <name>ШрифтПоУмолчанию</name>
         <id>12</id>
+        <title>
+          <key>ru</key>
+          <value>Авто</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>

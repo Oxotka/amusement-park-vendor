@@ -23,7 +23,7 @@
         <segments>РабочийКаталогПользователя</segments>
       </dataPath>
       <extendedTooltip>
-        <name>РабочийКаталогПользователяExtendedTooltip</name>
+        <name>РабочийКаталогПользователяРасширеннаяПодсказка</name>
         <id>31</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -72,6 +72,10 @@
     <items xsi:type="form:Button">
       <name>ПутьКРабочемуКаталогуПоУмолчанию</name>
       <id>27</id>
+      <title>
+        <key>ru</key>
+        <value>Путь к рабочему каталогу по умолчанию</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -79,7 +83,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>ПутьКРабочемуКаталогуПоУмолчаниюExtendedTooltip</name>
+        <name>ПутьКРабочемуКаталогуПоУмолчаниюРасширеннаяПодсказка</name>
         <id>32</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -111,7 +115,7 @@
       <value>Расположение</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаРасположениеExtendedTooltip</name>
+      <name>ГруппаРасположениеРасширеннаяПодсказка</name>
       <id>30</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -154,7 +158,7 @@
       <name>МаксимальныйРазмерЛокальногоКэшаФайловПриИзменении</name>
     </handlers>
     <extendedTooltip>
-      <name>МаксимальныйРазмерЛокальногоКэшаФайловExtendedTooltip</name>
+      <name>МаксимальныйРазмерЛокальногоКэшаФайловРасширеннаяПодсказка</name>
       <id>33</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -198,6 +202,10 @@
   <items xsi:type="form:FormField">
     <name>УдалятьФайлИзЛокальногоКэшаФайловПриЗавершенииРедактирования</name>
     <id>16</id>
+    <title>
+      <key>ru</key>
+      <value>Удалять файлы при завершении редактирования</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -212,7 +220,7 @@
       <name>УдалятьФайлИзЛокальногоКэшаФайловПриЗавершенииРедактированияПриИзменении</name>
     </handlers>
     <extendedTooltip>
-      <name>УдалятьФайлИзЛокальногоКэшаФайловПриЗавершенииРедактированияExtendedTooltip</name>
+      <name>УдалятьФайлИзЛокальногоКэшаФайловПриЗавершенииРедактированияРасширеннаяПодсказка</name>
       <id>35</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -262,7 +270,7 @@
         <segments>КоличествоСуммарное</segments>
       </dataPath>
       <extendedTooltip>
-        <name>КоличествоСуммарноеExtendedTooltip</name>
+        <name>КоличествоСуммарноеРасширеннаяПодсказка</name>
         <id>37</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -320,7 +328,7 @@
         <segments>РазмерФайловВРабочемКаталоге</segments>
       </dataPath>
       <extendedTooltip>
-        <name>РазмерФайловВРабочемКаталогеExtendedTooltip</name>
+        <name>РазмерФайловВРабочемКаталогеРасширеннаяПодсказка</name>
         <id>38</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -376,7 +384,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>ОчиститьРабочийКаталогExtendedTooltip</name>
+        <name>ОчиститьРабочийКаталогРасширеннаяПодсказка</name>
         <id>40</id>
         <visible>true</visible>
         <enabled>true</enabled>

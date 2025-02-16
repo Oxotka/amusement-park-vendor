@@ -16,13 +16,17 @@
         <items xsi:type="form:Button">
           <name>ЗаписатьИЗакрыть</name>
           <id>51</id>
+          <title>
+            <key>ru</key>
+            <value>Записать и закрыть</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>ЗаписатьИЗакрытьExtendedTooltip</name>
+            <name>ЗаписатьИЗакрытьРасширеннаяПодсказка</name>
             <id>96</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -48,13 +52,17 @@
         <items xsi:type="form:Button">
           <name>Записать</name>
           <id>52</id>
+          <title>
+            <key>ru</key>
+            <value>Записать</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>ЗаписатьExtendedTooltip</name>
+            <name>ЗаписатьРасширеннаяПодсказка</name>
             <id>97</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -79,13 +87,17 @@
         <items xsi:type="form:Button">
           <name>Редактирование</name>
           <id>84</id>
+          <title>
+            <key>ru</key>
+            <value>Редактирование</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>РедактированиеExtendedTooltip</name>
+            <name>РедактированиеРасширеннаяПодсказка</name>
             <id>98</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -117,7 +129,7 @@
           <value>Действия с документом</value>
         </title>
         <extendedTooltip>
-          <name>ДействияСДокументомExtendedTooltip</name>
+          <name>ДействияСДокументомРасширеннаяПодсказка</name>
           <id>95</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -201,6 +213,10 @@
       <items xsi:type="form:Button">
         <name>ПосмотретьПечатнуюФорму</name>
         <id>596</id>
+        <title>
+          <key>ru</key>
+          <value>Посмотреть печатную форму</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -235,6 +251,10 @@
         <items xsi:type="form:Button">
           <name>ПовторятьВНачалеСтраницы</name>
           <id>551</id>
+          <title>
+            <key>ru</key>
+            <value>Повторять в начале страницы</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -265,6 +285,10 @@
         <items xsi:type="form:Button">
           <name>ПовторятьВКонцеСтраницы</name>
           <id>613</id>
+          <title>
+            <key>ru</key>
+            <value>Повторять в конце страницы</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -387,6 +411,10 @@
         <items xsi:type="form:Button">
           <name>Перевести</name>
           <id>267</id>
+          <title>
+            <key>ru</key>
+            <value>Перевести</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -417,6 +445,10 @@
         <items xsi:type="form:Button">
           <name>КнопкаПоказатьСкрытьОригинал</name>
           <id>274</id>
+          <title>
+            <key>ru</key>
+            <value>Показывать поставляемый макет</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -484,7 +516,7 @@
         <value>Командная панель</value>
       </title>
       <extendedTooltip>
-        <name>КоманднаяПанельExtendedTooltip</name>
+        <name>КоманднаяПанельРасширеннаяПодсказка</name>
         <id>94</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -509,6 +541,10 @@
       <items xsi:type="form:Button">
         <name>КнопкаДоступныеПоля</name>
         <id>480</id>
+        <title>
+          <key>ru</key>
+          <value>Доступные поля</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -614,6 +650,10 @@
       <items xsi:type="form:Button">
         <name>Переименовать</name>
         <id>633</id>
+        <title>
+          <key>ru</key>
+          <value>Переименовать макет...</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -645,6 +685,10 @@
       <items xsi:type="form:Button">
         <name>УдалитьШтампЭП</name>
         <id>607</id>
+        <title>
+          <key>ru</key>
+          <value>Удалить штамп ЭП</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -676,6 +720,10 @@
       <items xsi:type="form:Button">
         <name>УдалитьЯзыкМакета</name>
         <id>609</id>
+        <title>
+          <key>ru</key>
+          <value>Удалить все изменения макета</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -707,6 +755,10 @@
       <items xsi:type="form:Button">
         <name>РедактироватьВоВнешнейПрограмме</name>
         <id>145</id>
+        <title>
+          <key>ru</key>
+          <value>Редактировать во внешнем приложении...</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -837,6 +889,10 @@
           <items xsi:type="form:Button">
             <name>ТабличныйДокументШрифт</name>
             <id>219</id>
+            <title>
+              <key>ru</key>
+              <value>Изменить шрифт</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -868,13 +924,17 @@
           <items xsi:type="form:Button">
             <name>УменьшитьРазмерШрифта</name>
             <id>56</id>
+            <title>
+              <key>ru</key>
+              <value>Уменьшить размер шрифта</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>УменьшитьРазмерШрифтаExtendedTooltip</name>
+              <name>УменьшитьРазмерШрифтаРасширеннаяПодсказка</name>
               <id>104</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -899,13 +959,17 @@
           <items xsi:type="form:Button">
             <name>УвеличитьРазмерШрифта</name>
             <id>55</id>
+            <title>
+              <key>ru</key>
+              <value>Увеличить размер шрифта</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>УвеличитьРазмерШрифтаExtendedTooltip</name>
+              <name>УвеличитьРазмерШрифтаРасширеннаяПодсказка</name>
               <id>103</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -937,7 +1001,7 @@
             <value>Шрифт</value>
           </title>
           <extendedTooltip>
-            <name>ШрифтExtendedTooltip</name>
+            <name>ШрифтРасширеннаяПодсказка</name>
             <id>101</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1061,7 +1125,7 @@
             <value>Начертание</value>
           </title>
           <extendedTooltip>
-            <name>НачертаниеExtendedTooltip</name>
+            <name>НачертаниеРасширеннаяПодсказка</name>
             <id>105</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1216,7 +1280,7 @@
             <value>Выравнивание</value>
           </title>
           <extendedTooltip>
-            <name>ВыравниваниеExtendedTooltip</name>
+            <name>ВыравниваниеРасширеннаяПодсказка</name>
             <id>113</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1240,6 +1304,10 @@
           <items xsi:type="form:Button">
             <name>ВыровнятьПоВерхнемуКраю</name>
             <id>617</id>
+            <title>
+              <key>ru</key>
+              <value>Выровнять по верхнему краю</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1271,6 +1339,10 @@
           <items xsi:type="form:Button">
             <name>ВыровнятьПоСередине</name>
             <id>619</id>
+            <title>
+              <key>ru</key>
+              <value>Выровнять по середине</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1302,6 +1374,10 @@
           <items xsi:type="form:Button">
             <name>ВыровнятьПоНижнемуКраю</name>
             <id>621</id>
+            <title>
+              <key>ru</key>
+              <value>Выровнять по нижнему краю</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1364,6 +1440,10 @@
           <items xsi:type="form:Button">
             <name>ТабличныйДокументЦветФона</name>
             <id>227</id>
+            <title>
+              <key>ru</key>
+              <value>Изменить цвет фона</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1395,6 +1475,10 @@
           <items xsi:type="form:Button">
             <name>ТабличныйДокументЦветТекста</name>
             <id>229</id>
+            <title>
+              <key>ru</key>
+              <value>Изменить цвет текста</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1426,6 +1510,10 @@
           <items xsi:type="form:Button">
             <name>ТабличныйДокументЦветГраницы</name>
             <id>231</id>
+            <title>
+              <key>ru</key>
+              <value>Изменить цвет границы</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1457,6 +1545,10 @@
           <items xsi:type="form:Button">
             <name>ТабличныйДокументОчиститьФормат</name>
             <id>482</id>
+            <title>
+              <key>ru</key>
+              <value>Очистить формат</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1498,7 +1590,7 @@
             <value>Цвет</value>
           </title>
           <extendedTooltip>
-            <name>ЦветExtendedTooltip</name>
+            <name>ЦветРасширеннаяПодсказка</name>
             <id>110</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1526,7 +1618,7 @@
           <value>Форматирование текста</value>
         </title>
         <extendedTooltip>
-          <name>ФорматированиеТекстаExtendedTooltip</name>
+          <name>ФорматированиеТекстаРасширеннаяПодсказка</name>
           <id>100</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1553,6 +1645,10 @@
           <items xsi:type="form:Button">
             <name>ТабличныйДокументШрифтВсеДействия</name>
             <id>639</id>
+            <title>
+              <key>ru</key>
+              <value>Изменить шрифт</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1584,6 +1680,10 @@
           <items xsi:type="form:Button">
             <name>УменьшитьРазмерШрифтаВсеДействия</name>
             <id>641</id>
+            <title>
+              <key>ru</key>
+              <value>Уменьшить размер шрифта</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1615,6 +1715,10 @@
           <items xsi:type="form:Button">
             <name>УвеличитьРазмерШрифтаВсеДействия</name>
             <id>643</id>
+            <title>
+              <key>ru</key>
+              <value>Увеличить размер шрифта</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1770,6 +1874,10 @@
           <items xsi:type="form:Button">
             <name>ЗачеркиваниеВсеДействия</name>
             <id>653</id>
+            <title>
+              <key>ru</key>
+              <value>Зачеркивание</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1987,6 +2095,10 @@
           <items xsi:type="form:Button">
             <name>ВыровнятьПоВерхнемуКраюВсеДействия</name>
             <id>667</id>
+            <title>
+              <key>ru</key>
+              <value>Выровнять по верхнему краю</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -2018,6 +2130,10 @@
           <items xsi:type="form:Button">
             <name>ВыровнятьПоСерединеВсеДействия</name>
             <id>669</id>
+            <title>
+              <key>ru</key>
+              <value>Выровнять по середине</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -2049,6 +2165,10 @@
           <items xsi:type="form:Button">
             <name>ВыровнятьПоНижнемуКраюВсеДействия</name>
             <id>671</id>
+            <title>
+              <key>ru</key>
+              <value>Выровнять по нижнему краю</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -2111,6 +2231,10 @@
           <items xsi:type="form:Button">
             <name>ТабличныйДокументЦветФонаВсеДействия</name>
             <id>675</id>
+            <title>
+              <key>ru</key>
+              <value>Изменить цвет фона</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -2142,6 +2266,10 @@
           <items xsi:type="form:Button">
             <name>ТабличныйДокументЦветТекстаВсеДействия</name>
             <id>677</id>
+            <title>
+              <key>ru</key>
+              <value>Изменить цвет текста</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -2173,6 +2301,10 @@
           <items xsi:type="form:Button">
             <name>ТабличныйДокументЦветГраницыВсеДействия</name>
             <id>679</id>
+            <title>
+              <key>ru</key>
+              <value>Изменить цвет границы</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -2207,6 +2339,10 @@
           <items xsi:type="form:Button">
             <name>ТабличныйДокументОчиститьФорматВсеДействия</name>
             <id>681</id>
+            <title>
+              <key>ru</key>
+              <value>Очистить формат</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -2649,7 +2785,7 @@
           <value>Границы</value>
         </title>
         <extendedTooltip>
-          <name>ГраницыExtendedTooltip</name>
+          <name>ГраницыРасширеннаяПодсказка</name>
           <id>118</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -3404,7 +3540,7 @@
           <value>Действия с ячейками</value>
         </title>
         <extendedTooltip>
-          <name>ДействияСЯчейкамиExtendedTooltip</name>
+          <name>ДействияСЯчейкамиРасширеннаяПодсказка</name>
           <id>130</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -3656,7 +3792,7 @@
           </userVisible>
           <title>
             <key>ru</key>
-            <value>Группа команды группировки</value>
+            <value>Команды группировки</value>
           </title>
           <extendedTooltip>
             <name>ГруппаКомандыГруппировкиРасширеннаяПодсказка</name>
@@ -3717,7 +3853,7 @@
         <value>Команды редактирования</value>
       </title>
       <extendedTooltip>
-        <name>КомандыРедактированияExtendedTooltip</name>
+        <name>КомандыРедактированияРасширеннаяПодсказка</name>
         <id>99</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -3956,7 +4092,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>ОтображатьГруппировкиExtendedTooltip</name>
+            <name>ОтображатьГруппировкиРасширеннаяПодсказка</name>
             <id>136</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -3986,7 +4122,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>СвернутьВсеГруппыExtendedTooltip</name>
+            <name>СвернутьВсеГруппыРасширеннаяПодсказка</name>
             <id>137</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -4016,7 +4152,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>РазвернутьВсеГруппыExtendedTooltip</name>
+            <name>РазвернутьВсеГруппыРасширеннаяПодсказка</name>
             <id>138</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -4047,7 +4183,7 @@
           <value>Действия с группами</value>
         </title>
         <extendedTooltip>
-          <name>ДействияСГруппамиExtendedTooltip</name>
+          <name>ДействияСГруппамиРасширеннаяПодсказка</name>
           <id>135</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -4075,7 +4211,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ИзменитьФормуExtendedTooltip</name>
+          <name>ИзменитьФормуРасширеннаяПодсказка</name>
           <id>139</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -4196,7 +4332,7 @@
         </userVisible>
         <title>
           <key>ru</key>
-          <value>Группа печать</value>
+          <value>Печать</value>
         </title>
         <toolTip>
           <key>ru</key>
@@ -4220,11 +4356,152 @@
         <extInfo xsi:type="form:ButtonGroupExtInfo"/>
       </items>
       <items xsi:type="form:FormGroup">
+        <name>ПереводВсеДействия</name>
+        <id>743</id>
+        <items xsi:type="form:FormGroup">
+          <name>ЯзыкВсеДействия</name>
+          <id>745</id>
+          <items xsi:type="form:FormGroup">
+            <name>ДобавляемыеЯзыкиВсеДействия</name>
+            <id>747</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <title>
+              <key>ru</key>
+              <value>Добавляемые языки</value>
+            </title>
+            <extendedTooltip>
+              <name>ДобавляемыеЯзыкиВсеДействияРасширеннаяПодсказка</name>
+              <id>748</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <extInfo xsi:type="form:ButtonGroupExtInfo"/>
+          </items>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Язык</value>
+          </title>
+          <extendedTooltip>
+            <name>ЯзыкВсеДействияРасширеннаяПодсказка</name>
+            <id>746</id>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>Popup</type>
+          <extInfo xsi:type="form:PopupGroupExtInfo">
+            <representation>Auto</representation>
+          </extInfo>
+        </items>
+        <items xsi:type="form:Button">
+          <name>ПеревестиВсеДействия</name>
+          <id>749</id>
+          <title>
+            <key>ru</key>
+            <value>Перевести</value>
+          </title>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>ПеревестиВсеДействияРасширеннаяПодсказка</name>
+            <id>750</id>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <commandName>Form.Command.Перевести</commandName>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <placementArea>UserCmds</placementArea>
+          <representationInContextMenu>Auto</representationInContextMenu>
+          <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
+        </items>
+        <items xsi:type="form:Button">
+          <name>КнопкаПоказатьСкрытьОригиналВсеДействия</name>
+          <id>751</id>
+          <title>
+            <key>ru</key>
+            <value>Показывать поставляемый макет</value>
+          </title>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>КнопкаПоказатьСкрытьОригиналВсеДействияРасширеннаяПодсказка</name>
+            <id>752</id>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <commandName>Form.Command.ПоказатьСкрытьОригинал</commandName>
+          <representation>Auto</representation>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <placementArea>UserCmds</placementArea>
+          <picture xsi:type="core:PictureRef">
+            <picture>StdPicture.Document</picture>
+          </picture>
+          <representationInContextMenu>Auto</representationInContextMenu>
+          <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
+        </items>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Перевод</value>
+        </title>
+        <extendedTooltip>
+          <name>ПереводВсеДействияРасширеннаяПодсказка</name>
+          <id>744</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <extInfo xsi:type="form:ButtonGroupExtInfo"/>
+      </items>
+      <items xsi:type="form:FormGroup">
         <name>ИмпортЭкспорт</name>
         <id>627</id>
         <items xsi:type="form:Button">
           <name>СохранитьВФайл</name>
           <id>623</id>
+          <title>
+            <key>ru</key>
+            <value>Выгрузить в файл...</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -4256,6 +4533,10 @@
         <items xsi:type="form:Button">
           <name>ЗагрузитьИзФайла</name>
           <id>625</id>
+          <title>
+            <key>ru</key>
+            <value>Загрузить из файла...</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -4353,7 +4634,7 @@
         <value>Все действия</value>
       </title>
       <extendedTooltip>
-        <name>ВсеДействияExtendedTooltip</name>
+        <name>ВсеДействияРасширеннаяПодсказка</name>
         <id>134</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -4380,7 +4661,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>СправкаExtendedTooltip</name>
+        <name>СправкаРасширеннаяПодсказка</name>
         <id>140</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -4575,7 +4856,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>КартинкаПредупрежденияExtendedTooltip</name>
+        <name>КартинкаПредупрежденияРасширеннаяПодсказка</name>
         <id>142</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -4620,7 +4901,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ТекстПредупрежденияExtendedTooltip</name>
+        <name>ТекстПредупрежденияРасширеннаяПодсказка</name>
         <id>143</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -4662,7 +4943,7 @@
       <value>Предупреждение</value>
     </title>
     <extendedTooltip>
-      <name>ПредупреждениеExtendedTooltip</name>
+      <name>ПредупреждениеРасширеннаяПодсказка</name>
       <id>141</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -4698,6 +4979,10 @@
         <items xsi:type="form:FormField">
           <name>ТекстСлеваСверху</name>
           <id>357</id>
+          <title>
+            <key>ru</key>
+            <value>Текст слева сверху</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -4712,7 +4997,7 @@
             <name>ТекстСлеваСверхуПриИзменении</name>
           </handlers>
           <extendedTooltip>
-            <name>ТекстСлеваСверхуExtendedTooltip</name>
+            <name>ТекстСлеваСверхуРасширеннаяПодсказка</name>
             <id>359</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -4753,6 +5038,10 @@
         <items xsi:type="form:FormField">
           <name>ТекстВЦентреСверху</name>
           <id>360</id>
+          <title>
+            <key>ru</key>
+            <value>Текст в центре сверху</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -4767,7 +5056,7 @@
             <name>ТекстВЦентреСверхуПриИзменении</name>
           </handlers>
           <extendedTooltip>
-            <name>ТекстВЦентреСверхуExtendedTooltip</name>
+            <name>ТекстВЦентреСверхуРасширеннаяПодсказка</name>
             <id>362</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -4808,6 +5097,10 @@
         <items xsi:type="form:FormField">
           <name>ТекстСправаСверху</name>
           <id>363</id>
+          <title>
+            <key>ru</key>
+            <value>Текст справа сверху</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -4822,7 +5115,7 @@
             <name>ТекстСправаСверхуПриИзменении</name>
           </handlers>
           <extendedTooltip>
-            <name>ТекстСправаСверхуExtendedTooltip</name>
+            <name>ТекстСправаСверхуРасширеннаяПодсказка</name>
             <id>365</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -4906,6 +5199,10 @@
             <items xsi:type="form:FormField">
               <name>ПоставляемыйМакет</name>
               <id>269</id>
+              <title>
+                <key>ru</key>
+                <value>Поставляемый макет</value>
+              </title>
               <enabled>true</enabled>
               <userVisible>
                 <common>true</common>
@@ -4987,7 +5284,7 @@
               <excludedCommands>Save</excludedCommands>
               <excludedCommands>SaveAs</excludedCommands>
               <extendedTooltip>
-                <name>ТабличныйДокументExtendedTooltip</name>
+                <name>ТабличныйДокументРасширеннаяПодсказка</name>
                 <id>144</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -5084,6 +5381,10 @@
             <items xsi:type="form:FormField">
               <name>ПечатнаяФорма</name>
               <id>598</id>
+              <title>
+                <key>ru</key>
+                <value>Печатная форма</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -5238,6 +5539,10 @@
         <items xsi:type="form:FormField">
           <name>ТекстСлеваСнизу</name>
           <id>368</id>
+          <title>
+            <key>ru</key>
+            <value>Текст слева снизу</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -5252,7 +5557,7 @@
             <name>ТекстСлеваСнизуПриИзменении</name>
           </handlers>
           <extendedTooltip>
-            <name>ТекстСлеваСнизуExtendedTooltip</name>
+            <name>ТекстСлеваСнизуРасширеннаяПодсказка</name>
             <id>370</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -5293,6 +5598,10 @@
         <items xsi:type="form:FormField">
           <name>ТекстВЦентреСнизу</name>
           <id>371</id>
+          <title>
+            <key>ru</key>
+            <value>Текст в центре снизу</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -5307,7 +5616,7 @@
             <name>ТекстВЦентреСнизуПриИзменении</name>
           </handlers>
           <extendedTooltip>
-            <name>ТекстВЦентреСнизуExtendedTooltip</name>
+            <name>ТекстВЦентреСнизуРасширеннаяПодсказка</name>
             <id>373</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -5348,6 +5657,10 @@
         <items xsi:type="form:FormField">
           <name>ТекстСправаСнизу</name>
           <id>374</id>
+          <title>
+            <key>ru</key>
+            <value>Текст справа снизу</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -5362,7 +5675,7 @@
             <name>ТекстСправаСнизуПриИзменении</name>
           </handlers>
           <extendedTooltip>
-            <name>ТекстСправаСнизуExtendedTooltip</name>
+            <name>ТекстСправаСнизуРасширеннаяПодсказка</name>
             <id>376</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -5730,6 +6043,10 @@
           <items xsi:type="form:FormField">
             <name>ТекущееЗначение1</name>
             <id>566</id>
+            <title>
+              <key>ru</key>
+              <value>Текущее значение</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -5818,6 +6135,10 @@
           <items xsi:type="form:FormField">
             <name>ПовторятьНаКаждойСтранице2</name>
             <id>572</id>
+            <title>
+              <key>ru</key>
+              <value>Повторять строку на каждой странице</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -5862,6 +6183,10 @@
           <items xsi:type="form:FormField">
             <name>УсловиеВывода1</name>
             <id>569</id>
+            <title>
+              <key>ru</key>
+              <value>Условие вывода</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -6083,6 +6408,10 @@
         <items xsi:type="form:FormField">
           <name>ТекстДляКопирования</name>
           <id>555</id>
+          <title>
+            <key>ru</key>
+            <value>Текст для копирования</value>
+          </title>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
@@ -6923,7 +7252,7 @@
     <use>
       <common>true</common>
     </use>
-    <shortcut>Ctrl+S</shortcut>
+    <shortcut>Cmd+S</shortcut>
     <picture xsi:type="core:PictureRef">
       <picture>StdPicture.SaveFile</picture>
     </picture>
@@ -6960,12 +7289,12 @@
     <name>РедактироватьВоВнешнейПрограмме</name>
     <title>
       <key>ru</key>
-      <value>Редактировать во внешней программе...</value>
+      <value>Редактировать во внешнем приложении...</value>
     </title>
     <id>6</id>
     <toolTip>
       <key>ru</key>
-      <value>Редактировать во внешней программе</value>
+      <value>Редактировать во внешнем приложении</value>
     </toolTip>
     <use>
       <common>true</common>

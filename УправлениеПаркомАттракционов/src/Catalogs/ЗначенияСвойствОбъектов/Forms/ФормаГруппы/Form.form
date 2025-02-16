@@ -20,7 +20,7 @@
       <value>Группа значений свойства объектов.</value>
     </toolTip>
     <extendedTooltip>
-      <name>НаименованиеExtendedTooltip</name>
+      <name>НаименованиеРасширеннаяПодсказка</name>
       <id>7</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -74,7 +74,7 @@
       <value>Вышестоящая группа значений свойства объектов.</value>
     </toolTip>
     <extendedTooltip>
-      <name>РодительExtendedTooltip</name>
+      <name>РодительРасширеннаяПодсказка</name>
       <id>8</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -129,7 +129,7 @@
       <segments>Объект.Owner</segments>
     </dataPath>
     <extendedTooltip>
-      <name>ВладелецExtendedTooltip</name>
+      <name>ВладелецРасширеннаяПодсказка</name>
       <id>9</id>
       <visible>true</visible>
       <enabled>true</enabled>

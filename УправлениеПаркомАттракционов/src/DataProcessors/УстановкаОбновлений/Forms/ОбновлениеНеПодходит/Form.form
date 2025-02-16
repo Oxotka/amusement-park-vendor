@@ -44,7 +44,7 @@
       <autoMaxHeight>true</autoMaxHeight>
       <extInfo xsi:type="form:PictureDecorationExtInfo">
         <picture xsi:type="core:PictureRef">
-          <picture>CommonPicture.Предупреждение32</picture>
+          <picture>StdPicture.DialogExclamation</picture>
         </picture>
         <fileDragMode>AsFileRef</fileDragMode>
       </extInfo>
@@ -54,7 +54,7 @@
       <id>24</id>
       <title>
         <key>ru</key>
-        <value>Выбранный файл поставки обновления не подходит для установленной программы
+        <value>Выбранный файл поставки обновления не подходит для установленного приложения
 %1 (%2)
 %3 (%4)</value>
       </title>
@@ -161,6 +161,10 @@
     <items xsi:type="form:FormField">
       <name>ОбновлениеДляВерсийВерсияКонфигурации</name>
       <id>14</id>
+      <title>
+        <key>ru</key>
+        <value>Версия</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>

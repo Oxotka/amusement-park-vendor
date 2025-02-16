@@ -12,7 +12,7 @@
       <segments>Запись.Таблица</segments>
     </dataPath>
     <extendedTooltip>
-      <name>ТаблицаExtendedTooltip</name>
+      <name>ТаблицаРасширеннаяПодсказка</name>
       <id>23</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -63,7 +63,7 @@
       <segments>Запись.ГруппаДоступа</segments>
     </dataPath>
     <extendedTooltip>
-      <name>ГруппаДоступаExtendedTooltip</name>
+      <name>ГруппаДоступаРасширеннаяПодсказка</name>
       <id>24</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -111,6 +111,10 @@
       <items xsi:type="form:FormField">
         <name>ПравоЧтение</name>
         <id>20</id>
+        <title>
+          <key>ru</key>
+          <value>Право чтение</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -491,7 +495,7 @@
       <segments>Запись.ТипТаблицы</segments>
     </dataPath>
     <extendedTooltip>
-      <name>ТипТаблицыExtendedTooltip</name>
+      <name>ТипТаблицыРасширеннаяПодсказка</name>
       <id>29</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -535,13 +539,17 @@
     <items xsi:type="form:Button">
       <name>ФормаВключитьВозможностьРедактирования</name>
       <id>19</id>
+      <title>
+        <key>ru</key>
+        <value>Включить возможность редактирования</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаВключитьВозможностьРедактированияExtendedTooltip</name>
+        <name>ФормаВключитьВозможностьРедактированияРасширеннаяПодсказка</name>
         <id>22</id>
         <visible>true</visible>
         <enabled>true</enabled>

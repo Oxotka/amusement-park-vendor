@@ -3,6 +3,10 @@
   <items xsi:type="form:FormField">
     <name>ОтчетТабличныйДокумент</name>
     <id>1</id>
+    <title>
+      <key>ru</key>
+      <value>Табличный документ - результат формирования отчета</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -175,6 +179,10 @@
         <items xsi:type="form:Button">
           <name>КнопкаСнимкиОтчетов</name>
           <id>10</id>
+          <title>
+            <key>ru</key>
+            <value>Снимки отчетов</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -292,6 +300,10 @@
         <items xsi:type="form:Button">
           <name>КнопкаПерейтиКНачалу</name>
           <id>16</id>
+          <title>
+            <key>ru</key>
+            <value>Перейти к началу</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -409,6 +421,10 @@
         <items xsi:type="form:Button">
           <name>КнопкаПерейтиНазад</name>
           <id>20</id>
+          <title>
+            <key>ru</key>
+            <value>Перейти назад</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -526,6 +542,10 @@
         <items xsi:type="form:Button">
           <name>КнопкаПерейтиВперед</name>
           <id>24</id>
+          <title>
+            <key>ru</key>
+            <value>Перейти вперед</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -643,6 +663,10 @@
         <items xsi:type="form:Button">
           <name>КнопкаПерейтиККонцу</name>
           <id>28</id>
+          <title>
+            <key>ru</key>
+            <value>Перейти к концу</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -760,6 +784,10 @@
         <items xsi:type="form:Button">
           <name>КнопкаУдалитьСнимокОтчета</name>
           <id>32</id>
+          <title>
+            <key>ru</key>
+            <value>Удалить снимок отчета</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>

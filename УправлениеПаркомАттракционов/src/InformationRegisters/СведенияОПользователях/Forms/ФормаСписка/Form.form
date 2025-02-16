@@ -43,13 +43,17 @@
     <items xsi:type="form:Button">
       <name>ФормаВключитьВозможностьРедактирования</name>
       <id>27</id>
+      <title>
+        <key>ru</key>
+        <value>Включить возможность редактирования</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаВключитьВозможностьРедактированияExtendedTooltip</name>
+        <name>ФормаВключитьВозможностьРедактированияРасширеннаяПодсказка</name>
         <id>28</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -74,6 +78,10 @@
     <items xsi:type="form:Button">
       <name>ФормаОбновитьДанныеРегистра</name>
       <id>53</id>
+      <title>
+        <key>ru</key>
+        <value>Обновить данные регистра</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -400,7 +408,7 @@
       <title>
         <key>ru</key>
         <value>Просрочка работы в
-программе до
+приложении до
 запрещения входа</value>
       </title>
       <visible>true</visible>
@@ -454,7 +462,7 @@
         <key>ru</key>
         <value>Дата
 разрешения входа
-в программу</value>
+в приложение</value>
       </title>
       <visible>true</visible>
       <enabled>true</enabled>

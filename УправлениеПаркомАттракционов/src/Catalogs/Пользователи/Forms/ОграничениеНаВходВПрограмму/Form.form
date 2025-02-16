@@ -6,6 +6,10 @@
     <items xsi:type="form:FormField">
       <name>ВидСрокаНеУказан</name>
       <id>1</id>
+      <title>
+        <key>ru</key>
+        <value>Вид срока</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -65,6 +69,10 @@
     <items xsi:type="form:FormField">
       <name>ВидСрокаНеОграничен</name>
       <id>29</id>
+      <title>
+        <key>ru</key>
+        <value>Вид срока</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -127,6 +135,10 @@
       <items xsi:type="form:FormField">
         <name>ВидСрокаДоДаты</name>
         <id>26</id>
+        <title>
+          <key>ru</key>
+          <value>Вид срока</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -186,6 +198,10 @@
       <items xsi:type="form:FormField">
         <name>Срок</name>
         <id>36</id>
+        <title>
+          <key>ru</key>
+          <value>Срок</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -273,6 +289,10 @@
       <items xsi:type="form:FormField">
         <name>ВидСрокаПросрочка</name>
         <id>23</id>
+        <title>
+          <key>ru</key>
+          <value>Вид срока</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -332,6 +352,10 @@
       <items xsi:type="form:FormField">
         <name>Просрочка</name>
         <id>39</id>
+        <title>
+          <key>ru</key>
+          <value>Просрочка</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -500,6 +524,10 @@
     <items xsi:type="form:Button">
       <name>ФормаОК</name>
       <id>49</id>
+      <title>
+        <key>ru</key>
+        <value>ОК</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>

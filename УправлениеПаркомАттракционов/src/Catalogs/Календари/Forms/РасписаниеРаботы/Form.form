@@ -32,7 +32,7 @@
         <segments>РасписаниеРаботы.ВремяНачала</segments>
       </dataPath>
       <extendedTooltip>
-        <name>РасписаниеРаботыВремяНачалаExtendedTooltip</name>
+        <name>РасписаниеРаботыВремяНачалаРасширеннаяПодсказка</name>
         <id>15</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -87,7 +87,7 @@
         <segments>РасписаниеРаботы.ВремяОкончания</segments>
       </dataPath>
       <extendedTooltip>
-        <name>РасписаниеРаботыВремяОкончанияExtendedTooltip</name>
+        <name>РасписаниеРаботыВремяОкончанияРасширеннаяПодсказка</name>
         <id>16</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -257,7 +257,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>РасписаниеРаботыExtendedTooltip</name>
+      <name>РасписаниеРаботыРасширеннаяПодсказка</name>
       <id>14</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -309,13 +309,17 @@
     <items xsi:type="form:Button">
       <name>ФормаОК</name>
       <id>10</id>
+      <title>
+        <key>ru</key>
+        <value>ОК</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаОКExtendedTooltip</name>
+        <name>ФормаОКРасширеннаяПодсказка</name>
         <id>12</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -340,13 +344,17 @@
     <items xsi:type="form:Button">
       <name>ФормаОтмена</name>
       <id>11</id>
+      <title>
+        <key>ru</key>
+        <value>Отмена</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаОтменаExtendedTooltip</name>
+        <name>ФормаОтменаРасширеннаяПодсказка</name>
         <id>13</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -505,6 +513,10 @@
     </action>
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
+  <parameters>
+    <name>РасписаниеРаботы</name>
+    <valueType/>
+  </parameters>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>

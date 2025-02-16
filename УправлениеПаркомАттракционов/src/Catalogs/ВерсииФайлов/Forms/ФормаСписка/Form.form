@@ -53,7 +53,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаИзменитьExtendedTooltip</name>
+        <name>ФормаИзменитьРасширеннаяПодсказка</name>
         <id>32</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -110,6 +110,10 @@
       <items xsi:type="form:Button">
         <name>ФормаУдалить</name>
         <id>72</id>
+        <title>
+          <key>ru</key>
+          <value>Удалить</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -177,7 +181,7 @@
         <value>Форма стандартные команды</value>
       </title>
       <extendedTooltip>
-        <name>ФормаСтандартныеКомандыExtendedTooltip</name>
+        <name>ФормаСтандартныеКомандыРасширеннаяПодсказка</name>
         <id>33</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -198,6 +202,10 @@
     <items xsi:type="form:Button">
       <name>ПоказыватьПомеченныеФайлы</name>
       <id>74</id>
+      <title>
+        <key>ru</key>
+        <value>Показывать помеченные файлы</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -235,7 +243,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаСправкаExtendedTooltip</name>
+        <name>ФормаСправкаРасширеннаяПодсказка</name>
         <id>34</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -978,7 +986,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>СписокExtendedTooltip</name>
+      <name>СписокРасширеннаяПодсказка</name>
       <id>38</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -1008,7 +1016,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>СписокКонтекстноеМенюИзменитьExtendedTooltip</name>
+          <name>СписокКонтекстноеМенюИзменитьРасширеннаяПодсказка</name>
           <id>35</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1038,7 +1046,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>СписокКонтекстноеМенюКопироватьВБуферОбменаExtendedTooltip</name>
+          <name>СписокКонтекстноеМенюКопироватьВБуферОбменаРасширеннаяПодсказка</name>
           <id>37</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1068,7 +1076,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>СписокКонтекстноеМенюУстановитьПометкуУдаленияExtendedTooltip</name>
+          <name>СписокКонтекстноеМенюУстановитьПометкуУдаленияРасширеннаяПодсказка</name>
           <id>36</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1092,6 +1100,10 @@
       <items xsi:type="form:Button">
         <name>СписокКонтекстноеМенюУдалить</name>
         <id>76</id>
+        <title>
+          <key>ru</key>
+          <value>Удалить</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>

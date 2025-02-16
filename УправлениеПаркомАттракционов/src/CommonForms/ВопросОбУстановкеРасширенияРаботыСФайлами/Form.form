@@ -18,7 +18,7 @@
       <common>true</common>
     </userVisible>
     <extendedTooltip>
-      <name>ДекорацияПояснениеExtendedTooltip</name>
+      <name>ДекорацияПояснениеРасширеннаяПодсказка</name>
       <id>14</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -57,6 +57,10 @@
     <items xsi:type="form:Button">
       <name>УстановитьИПродолжить</name>
       <id>8</id>
+      <title>
+        <key>ru</key>
+        <value>Установить и продолжить</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -89,6 +93,10 @@
     <items xsi:type="form:Button">
       <name>ПродолжитьБезУстановки</name>
       <id>9</id>
+      <title>
+        <key>ru</key>
+        <value>Продолжить без установки</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>

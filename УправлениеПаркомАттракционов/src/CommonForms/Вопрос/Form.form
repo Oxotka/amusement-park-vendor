@@ -17,7 +17,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ПредупреждениеExtendedTooltip</name>
+        <name>ПредупреждениеРасширеннаяПодсказка</name>
         <id>18</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -45,7 +45,7 @@
       <autoMaxHeight>true</autoMaxHeight>
       <extInfo xsi:type="form:PictureDecorationExtInfo">
         <picture xsi:type="core:PictureRef">
-          <picture>CommonPicture.Вопрос32</picture>
+          <picture>StdPicture.DialogQuestion</picture>
         </picture>
       </extInfo>
     </items>
@@ -143,7 +143,7 @@
         <skipOnInput>true</skipOnInput>
         <titleLocation>None</titleLocation>
         <extendedTooltip>
-          <name>МногострочныйТекстСообщенияExtendedTooltip</name>
+          <name>МногострочныйТекстСообщенияРасширеннаяПодсказка</name>
           <id>21</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -189,6 +189,10 @@
       <items xsi:type="form:FormField">
         <name>БольшеНеЗадаватьЭтотВопрос</name>
         <id>3</id>
+        <title>
+          <key>ru</key>
+          <value>Больше не задавать этот вопрос</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -199,7 +203,7 @@
         </dataPath>
         <titleLocation>Right</titleLocation>
         <extendedTooltip>
-          <name>БольшеНеЗадаватьЭтотВопросExtendedTooltip</name>
+          <name>БольшеНеЗадаватьЭтотВопросРасширеннаяПодсказка</name>
           <id>22</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -241,7 +245,7 @@
       </title>
       <width>35</width>
       <extendedTooltip>
-        <name>СтрокиExtendedTooltip</name>
+        <name>СтрокиРасширеннаяПодсказка</name>
         <id>19</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -274,7 +278,7 @@
       <value>Колонки</value>
     </title>
     <extendedTooltip>
-      <name>КолонкиExtendedTooltip</name>
+      <name>КолонкиРасширеннаяПодсказка</name>
       <id>17</id>
       <visible>true</visible>
       <enabled>true</enabled>

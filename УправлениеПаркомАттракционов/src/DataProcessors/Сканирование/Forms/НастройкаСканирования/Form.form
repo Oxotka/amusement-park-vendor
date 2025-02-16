@@ -9,6 +9,10 @@
       <items xsi:type="form:FormField">
         <name>ИмяУстройства</name>
         <id>4</id>
+        <title>
+          <key>ru</key>
+          <value>Сканер</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -22,7 +26,7 @@
           <name>ИмяУстройстваПриИзменении</name>
         </handlers>
         <extendedTooltip>
-          <name>ИмяУстройстваExtendedTooltip</name>
+          <name>ИмяУстройстваРасширеннаяПодсказка</name>
           <id>56</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -78,7 +82,7 @@
       </userVisible>
       <title>
         <key>ru</key>
-        <value>Группа шапка</value>
+        <value>Шапка</value>
       </title>
       <extendedTooltip>
         <name>ГруппаШапкаРасширеннаяПодсказка</name>
@@ -111,6 +115,10 @@
       <items xsi:type="form:FormField">
         <name>ПоказыватьДиалогСканера</name>
         <id>142</id>
+        <title>
+          <key>ru</key>
+          <value>Задать настройки</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -129,8 +137,8 @@
           <id>144</id>
           <title>
             <key>ru</key>
-            <value>&lt;b>Основные в приложении&lt;/> - диалог сканера не открывается, а применяются настройки, заданные в приложении.
-&lt;b>Расширенные в диалоге сканера&lt;/> - отображается диалог сканера, в котором можно задать другие дополнительные настройки, специфичные для конкретного устройства.
+            <value>&lt;b>Основные&lt;/>&lt;b> &lt;/>&lt;b>в&lt;/>&lt;b> &lt;/>&lt;b>приложении&lt;/>&lt;b> &lt;/>&lt;b>-&lt;/> диалог сканера не открывается, а применяются настройки, заданные в приложении.
+&lt;b>Расширенные&lt;/>&lt;b> &lt;/>&lt;b>в&lt;/>&lt;b> &lt;/>&lt;b>диалоге&lt;/>&lt;b> &lt;/>&lt;b>сканера&lt;/> - отображается диалог сканера, в котором можно задать другие дополнительные настройки, специфичные для конкретного устройства.
 </value>
           </title>
           <visible>true</visible>
@@ -193,7 +201,7 @@
       </userVisible>
       <title>
         <key>ru</key>
-        <value>Группа диалога</value>
+        <value>Диалога</value>
       </title>
       <extendedTooltip>
         <name>ГруппаДиалогаРасширеннаяПодсказка</name>
@@ -232,6 +240,10 @@
           <items xsi:type="form:FormField">
             <name>Разрешение</name>
             <id>14</id>
+            <title>
+              <key>ru</key>
+              <value>Разрешение</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -246,14 +258,14 @@
             </toolTip>
             <toolTipRepresentation>Button</toolTipRepresentation>
             <extendedTooltip>
-              <name>РазрешениеExtendedTooltip</name>
+              <name>РазрешениеРасширеннаяПодсказка</name>
               <id>72</id>
               <title>
                 <key>ru</key>
-                <value>&lt;b>200 dpi&lt;/> достаточно для отправки изображений по электронной почте, факсу, размещения на сайте или просмотра на экране.
-&lt;b>300 dpi&lt;/> подходит для большинства документов и изображений, а также для распознавания текста.
-&lt;b>600 dpi&lt;/> подходит для сканирования цветных изображений типографского качества, которые потом можно вывести на высококачественном или широкоформатном принтере. Изображения занимают большой объем.
-&lt;b>1200 dpi&lt;/> для сканирования профессиональных фотографий типографского качества. Изображения занимают большой объем.</value>
+                <value>&lt;b>200&lt;/>&lt;b> &lt;/>&lt;b>dpi&lt;/> достаточно для отправки изображений по электронной почте, факсу, размещения на сайте или просмотра на экране.
+&lt;b>300&lt;/>&lt;b> &lt;/>&lt;b>dpi&lt;/> подходит для большинства документов и изображений, а также для распознавания текста.
+&lt;b>600&lt;/>&lt;b> &lt;/>&lt;b>dpi&lt;/> подходит для сканирования цветных изображений типографского качества, которые потом можно вывести на высококачественном или широкоформатном принтере. Изображения занимают большой объем.
+&lt;b>1200&lt;/>&lt;b> &lt;/>&lt;b>dpi&lt;/> для сканирования профессиональных фотографий типографского качества. Изображения занимают большой объем.</value>
               </title>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -297,6 +309,10 @@
           <items xsi:type="form:FormField">
             <name>Цветность</name>
             <id>16</id>
+            <title>
+              <key>ru</key>
+              <value>Цветность</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -306,7 +322,7 @@
               <segments>Цветность</segments>
             </dataPath>
             <extendedTooltip>
-              <name>ЦветностьExtendedTooltip</name>
+              <name>ЦветностьРасширеннаяПодсказка</name>
               <id>73</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -362,7 +378,7 @@
               <segments>Поворот</segments>
             </dataPath>
             <extendedTooltip>
-              <name>ПоворотExtendedTooltip</name>
+              <name>ПоворотРасширеннаяПодсказка</name>
               <id>74</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -405,6 +421,10 @@
           <items xsi:type="form:FormField">
             <name>РазмерБумаги</name>
             <id>22</id>
+            <title>
+              <key>ru</key>
+              <value>Размер бумаги</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -414,7 +434,7 @@
               <segments>РазмерБумаги</segments>
             </dataPath>
             <extendedTooltip>
-              <name>РазмерБумагиExtendedTooltip</name>
+              <name>РазмерБумагиРасширеннаяПодсказка</name>
               <id>75</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -454,31 +474,112 @@
               <textEdit>true</textEdit>
             </extInfo>
           </items>
-          <items xsi:type="form:FormField">
-            <name>ДвустороннееСканирование</name>
-            <id>28</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>ДвустороннееСканирование</segments>
-            </dataPath>
-            <titleLocation>Right</titleLocation>
-            <toolTipRepresentation>Button</toolTipRepresentation>
-            <extendedTooltip>
-              <name>ДвустороннееСканированиеExtendedTooltip</name>
-              <id>76</id>
+          <items xsi:type="form:FormGroup">
+            <name>ГруппаАвтоПодача</name>
+            <id>175</id>
+            <items xsi:type="form:FormField">
+              <name>ДвустороннееСканирование</name>
+              <id>28</id>
               <title>
                 <key>ru</key>
-                <value>Это функция сканеров и многофункциональных устройств (МФУ), позволяющая производить автоматическое сканирование документа с двух сторон. Доступна не во всех моделях устройств.</value>
+                <value>Двустороннее сканирование</value>
               </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
                 <common>true</common>
               </userVisible>
+              <dataPath xsi:type="form:DataPath">
+                <segments>ДвустороннееСканирование</segments>
+              </dataPath>
+              <titleLocation>Right</titleLocation>
+              <toolTipRepresentation>Button</toolTipRepresentation>
+              <extendedTooltip>
+                <name>ДвустороннееСканированиеРасширеннаяПодсказка</name>
+                <id>76</id>
+                <title>
+                  <key>ru</key>
+                  <value>Это функция сканеров и многофункциональных устройств (МФУ), позволяющая производить автоматическое сканирование документа с двух сторон. Доступна не во всех моделях устройств.</value>
+                </title>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <contextMenu>
+                <name>ДвустороннееСканированиеКонтекстноеМеню</name>
+                <id>29</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <autoFill>true</autoFill>
+              </contextMenu>
+              <type>CheckBoxField</type>
+              <editMode>Enter</editMode>
+              <showInHeader>true</showInHeader>
+              <headerHorizontalAlign>Left</headerHorizontalAlign>
+              <showInFooter>true</showInFooter>
+              <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+            </items>
+            <items xsi:type="form:FormField">
+              <name>АвтоматическаяПодачаДокументов</name>
+              <id>172</id>
+              <title>
+                <key>ru</key>
+                <value>Автоматическая подача документов</value>
+              </title>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <dataPath xsi:type="form:DataPath">
+                <segments>АвтоматическаяПодачаДокументов</segments>
+              </dataPath>
+              <titleLocation>Right</titleLocation>
+              <extendedTooltip>
+                <name>АвтоматическаяПодачаДокументовРасширеннаяПодсказка</name>
+                <id>174</id>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <contextMenu>
+                <name>АвтоматическаяПодачаДокументовКонтекстноеМеню</name>
+                <id>173</id>
+                <autoFill>true</autoFill>
+              </contextMenu>
+              <type>CheckBoxField</type>
+              <editMode>Enter</editMode>
+              <showInHeader>true</showInHeader>
+              <headerHorizontalAlign>Left</headerHorizontalAlign>
+              <showInFooter>true</showInFooter>
+              <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+            </items>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <title>
+              <key>ru</key>
+              <value>Авто подача</value>
+            </title>
+            <extendedTooltip>
+              <name>ГруппаАвтоПодачаРасширеннаяПодсказка</name>
+              <id>176</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -486,22 +587,16 @@
                 <horizontalAlign>Left</horizontalAlign>
               </extInfo>
             </extendedTooltip>
-            <contextMenu>
-              <name>ДвустороннееСканированиеКонтекстноеМеню</name>
-              <id>29</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <autoFill>true</autoFill>
-            </contextMenu>
-            <type>CheckBoxField</type>
-            <editMode>Enter</editMode>
-            <showInHeader>true</showInHeader>
-            <headerHorizontalAlign>Left</headerHorizontalAlign>
-            <showInFooter>true</showInFooter>
-            <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+            <type>UsualGroup</type>
+            <extInfo xsi:type="form:UsualGroupExtInfo">
+              <group>Vertical</group>
+              <behavior>Auto</behavior>
+              <representation>NormalSeparation</representation>
+              <showLeftMargin>true</showLeftMargin>
+              <united>true</united>
+              <throughAlign>Auto</throughAlign>
+              <currentRowUse>Auto</currentRowUse>
+            </extInfo>
           </items>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -513,7 +608,7 @@
             <value>Основное</value>
           </title>
           <extendedTooltip>
-            <name>ГруппаПараметрыСканированияExtendedTooltip</name>
+            <name>ГруппаПараметрыСканированияРасширеннаяПодсказка</name>
             <id>71</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -619,6 +714,10 @@
             <items xsi:type="form:FormField">
               <name>ФорматСканированногоИзображения</name>
               <id>42</id>
+              <title>
+                <key>ru</key>
+                <value>Сохранить как</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -674,7 +773,7 @@
               </extInfo>
             </items>
             <items xsi:type="form:FormField">
-              <name>СохранятьВPDF</name>
+              <name>ПреобразоватьВPDF</name>
               <id>112</id>
               <title>
                 <key>ru</key>
@@ -691,22 +790,17 @@
               <titleLocation>Right</titleLocation>
               <toolTipRepresentation>Button</toolTipRepresentation>
               <extendedTooltip>
-                <name>СохранятьВPDFРасширеннаяПодсказка</name>
+                <name>ПреобразоватьВPDFРасширеннаяПодсказка</name>
                 <id>114</id>
                 <title>
                   <key>ru</key>
-                  <value>&lt;b>PNG&lt;/> подходит для большинства документов и изображений. Изображения без потери качества, файлы небольших размеров.
-&lt;b>JPG&lt;/> подходит для большинства документов и изображений. Позволяет сжимать изображение с потерей качества. Можно настроить величину сжатия. 
+                  <value>&lt;b>JPG&lt;/> подходит для большинства документов и изображений. Позволяет сжимать изображение с потерей качества. Можно настроить величину сжатия. 
+&lt;b>PNG&lt;/> подходит для большинства документов и изображений. Изображения без потери качества, файлы небольших размеров. 
 &lt;b>TIF&lt;/> позволяет сохранять изображение без потери качества, используется для хранения изображений для дальнейшей печати. Возможно хранение многостраничных изображений.
 &lt;b>GIF&lt;/> устаревший формат для хранения изображений в низком качестве. Файлы небольшого размера.
 
 &lt;b>Преобразовать в PDF&lt;/> позволяет поместить отсканированное изображение в PDF-файл. Возможно хранение многостраничных изображений.</value>
                 </title>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
                 <formatted>true</formatted>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -716,13 +810,8 @@
                 </extInfo>
               </extendedTooltip>
               <contextMenu>
-                <name>СохранятьВPDFКонтекстноеМеню</name>
+                <name>ПреобразоватьВPDFКонтекстноеМеню</name>
                 <id>113</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>CheckBoxField</type>
@@ -868,6 +957,10 @@
             <items xsi:type="form:FormField">
               <name>КачествоJPG</name>
               <id>30</id>
+              <title>
+                <key>ru</key>
+                <value>Качество</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -882,7 +975,7 @@
                 <name>КачествоJPGПриИзменении</name>
               </handlers>
               <extendedTooltip>
-                <name>КачествоJPGExtendedTooltip</name>
+                <name>КачествоJPGРасширеннаяПодсказка</name>
                 <id>67</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -1008,6 +1101,10 @@
           <items xsi:type="form:FormField">
             <name>СжатиеTIFF</name>
             <id>32</id>
+            <title>
+              <key>ru</key>
+              <value>Сжатие</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1017,7 +1114,7 @@
               <segments>СжатиеTIFF</segments>
             </dataPath>
             <extendedTooltip>
-              <name>СжатиеTIFFExtendedTooltip</name>
+              <name>СжатиеTIFFРасширеннаяПодсказка</name>
               <id>68</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1099,6 +1196,10 @@
           <items xsi:type="form:FormField">
             <name>ФорматХраненияМногостраничный</name>
             <id>40</id>
+            <title>
+              <key>ru</key>
+              <value>Сохранить как</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1114,7 +1215,7 @@ TIF - Не все браузеры отображают этот формат.</
             </toolTip>
             <toolTipRepresentation>None</toolTipRepresentation>
             <extendedTooltip>
-              <name>ФорматХраненияМногостраничныйExtendedTooltip</name>
+              <name>ФорматХраненияМногостраничныйРасширеннаяПодсказка</name>
               <id>70</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1165,7 +1266,7 @@ TIF - Не все браузеры отображают этот формат.</
             <value>Для многостраничных изображений</value>
           </title>
           <extendedTooltip>
-            <name>ГруппаФорматХраненияМногостраничныйExtendedTooltip</name>
+            <name>ГруппаФорматХраненияМногостраничныйРасширеннаяПодсказка</name>
             <id>69</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1284,6 +1385,10 @@ TIF - Не все браузеры отображают этот формат.</
               <userVisible>
                 <common>true</common>
               </userVisible>
+              <title>
+                <key>ru</key>
+                <value>Переключатель ImageMagik</value>
+              </title>
               <horizontalStretch>false</horizontalStretch>
               <extendedTooltip>
                 <name>ГруппаПереключательImageMagikРасширеннаяПодсказка</name>
@@ -1323,7 +1428,7 @@ TIF - Не все браузеры отображают этот формат.</
               </userVisible>
               <toolTip>
                 <key>ru</key>
-                <value>Программа ImageMagick может использоваться для конвертации сканированных изображений в PDF. Если флажок не установлен будет использоваться внутренний механизм.</value>
+                <value>С помощью приложения ImageMagick можно конвертировать отсканированные изображения в PDF. Если флажок не установлен, конвертация проводится встроенными средствами.</value>
               </toolTip>
               <extendedTooltip>
                 <name>ИспользоватьImageMagickДляПреобразованияВPDFЗаголовокРасширеннаяПодсказка</name>
@@ -1365,7 +1470,7 @@ TIF - Не все браузеры отображают этот формат.</
             </userVisible>
             <title>
               <key>ru</key>
-              <value>Группа1</value>
+              <value>Использовать ImageMagik</value>
             </title>
             <extendedTooltip>
               <name>ГруппаИспользоватьImageMagickРасширеннаяПодсказка</name>
@@ -1409,7 +1514,7 @@ TIF - Не все браузеры отображают этот формат.</
             </dataPath>
             <titleLocation>None</titleLocation>
             <extendedTooltip>
-              <name>ПутьКПрограммеКонвертацииExtendedTooltip</name>
+              <name>ПутьКПрограммеКонвертацииРасширеннаяПодсказка</name>
               <id>59</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1467,7 +1572,7 @@ TIF - Не все браузеры отображают этот формат.</
             <value>PDF</value>
           </title>
           <extendedTooltip>
-            <name>ГруппаPDFExtendedTooltip</name>
+            <name>ГруппаPDFРасширеннаяПодсказка</name>
             <id>57</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1531,7 +1636,7 @@ TIF - Не все браузеры отображают этот формат.</
       </userVisible>
       <title>
         <key>ru</key>
-        <value>Группа параметры</value>
+        <value>Параметры</value>
       </title>
       <extendedTooltip>
         <name>ГруппаПараметрыРасширеннаяПодсказка</name>
@@ -1559,11 +1664,11 @@ TIF - Не все браузеры отображают этот формат.</
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
-      <name>ГруппаЖурнал</name>
+      <name>ГруппаДиагностикаПроблем</name>
       <id>160</id>
       <items xsi:type="form:FormGroup">
-        <name>ГруппаНастройкиЖурнала</name>
-        <id>165</id>
+        <name>ГруппаКаталогЖурналаДиагностики</name>
+        <id>168</id>
         <items xsi:type="form:FormField">
           <name>ИспользоватьКаталогЖурналаСканирования</name>
           <id>162</id>
@@ -1694,16 +1799,11 @@ TIF - Не все браузеры отображают этот формат.</
         </userVisible>
         <title>
           <key>ru</key>
-          <value>Настройки журнала</value>
+          <value>Каталог журнала диагностики</value>
         </title>
         <extendedTooltip>
-          <name>ГруппаНастройкиЖурналаРасширеннаяПодсказка</name>
-          <id>166</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
+          <name>ГруппаКаталогЖурналаДиагностикиРасширеннаяПодсказка</name>
+          <id>169</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -1723,7 +1823,7 @@ TIF - Не все браузеры отображают этот формат.</
       </items>
       <items xsi:type="form:Decoration">
         <name>ИнформацияДляТехническойПоддержки</name>
-        <id>167</id>
+        <id>165</id>
         <title>
           <key>ru</key>
           <value>Информация для технической поддержки</value>
@@ -1735,7 +1835,7 @@ TIF - Не все браузеры отображают этот формат.</
         </userVisible>
         <extendedTooltip>
           <name>ИнформацияДляТехническойПоддержкиРасширеннаяПодсказка</name>
-          <id>169</id>
+          <id>167</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1750,7 +1850,7 @@ TIF - Не все браузеры отображают этот формат.</
         </extendedTooltip>
         <contextMenu>
           <name>ИнформацияДляТехническойПоддержкиКонтекстноеМеню</name>
-          <id>168</id>
+          <id>166</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1767,7 +1867,6 @@ TIF - Не все браузеры отображают этот формат.</
             <name>ИнформацияДляТехническойПоддержкиНажатие</name>
           </handlers>
           <hyperlink>true</hyperlink>
-          <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </items>
       <visible>true</visible>
@@ -1779,15 +1878,9 @@ TIF - Не все браузеры отображают этот формат.</
         <key>ru</key>
         <value>Диагностика проблем</value>
       </title>
-      <horizontalStretch>true</horizontalStretch>
       <extendedTooltip>
-        <name>ГруппаЖурналРасширеннаяПодсказка</name>
+        <name>ГруппаДиагностикаПроблемРасширеннаяПодсказка</name>
         <id>161</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -1823,7 +1916,7 @@ TIF - Не все браузеры отображают этот формат.</
       <value>Настройки</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаНастройкиExtendedTooltip</name>
+      <name>ГруппаНастройкиРасширеннаяПодсказка</name>
       <id>55</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -1998,7 +2091,7 @@ TIF - Не все браузеры отображают этот формат.</
         </userVisible>
         <skipOnInput>false</skipOnInput>
         <extendedTooltip>
-          <name>ОКExtendedTooltip</name>
+          <name>ОКРасширеннаяПодсказка</name>
           <id>50</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -2030,7 +2123,7 @@ TIF - Не все браузеры отображают этот формат.</
         </userVisible>
         <skipOnInput>false</skipOnInput>
         <extendedTooltip>
-          <name>ОтменаExtendedTooltip</name>
+          <name>ОтменаРасширеннаяПодсказка</name>
           <id>51</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -2061,7 +2154,7 @@ TIF - Не все браузеры отображают этот формат.</
         </userVisible>
         <skipOnInput>false</skipOnInput>
         <extendedTooltip>
-          <name>СправкаExtendedTooltip</name>
+          <name>СправкаРасширеннаяПодсказка</name>
           <id>52</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -2088,6 +2181,10 @@ TIF - Не все браузеры отображают этот формат.</
         <items xsi:type="form:Button">
           <name>УстановитьСтандартныеНастройки</name>
           <id>25</id>
+          <title>
+            <key>ru</key>
+            <value>Установить стандартные параметры</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -2095,7 +2192,7 @@ TIF - Не все браузеры отображают этот формат.</
           </userVisible>
           <skipOnInput>false</skipOnInput>
           <extendedTooltip>
-            <name>УстановитьСтандартныеНастройкиExtendedTooltip</name>
+            <name>УстановитьСтандартныеНастройкиРасширеннаяПодсказка</name>
             <id>78</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -2115,6 +2212,33 @@ TIF - Не все браузеры отображают этот формат.</
           <autoMaxHeight>true</autoMaxHeight>
           <placementArea>UserCmds</placementArea>
           <representationInContextMenu>Auto</representationInContextMenu>
+          <locationInCommandBar>InCommandBar</locationInCommandBar>
+        </items>
+        <items xsi:type="form:Button">
+          <name>ИзменитьФорму</name>
+          <id>170</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>ИзменитьФормуРасширеннаяПодсказка</name>
+            <id>171</id>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <commandName>Form.StandardCommand.CustomizeForm</commandName>
+          <representation>Auto</representation>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <placementArea>UserCmds</placementArea>
+          <representationInContextMenu>Auto</representationInContextMenu>
+          <locationInCommandBar>InCommandBar</locationInCommandBar>
         </items>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -2181,7 +2305,7 @@ TIF - Не все браузеры отображают этот формат.</
     </userVisible>
     <title>
       <key>ru</key>
-      <value>Группа подвал</value>
+      <value>Подвал</value>
     </title>
     <extendedTooltip>
       <name>ГруппаПодвалРасширеннаяПодсказка</name>
@@ -2242,6 +2366,7 @@ TIF - Не все браузеры отображают этот формат.</
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
+  <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
   <showTitle>true</showTitle>
   <showCloseButton>true</showCloseButton>
@@ -2490,7 +2615,7 @@ TIF - Не все браузеры отображают этот формат.</
     <name>ПутьКПрограммеКонвертации</name>
     <title>
       <key>ru</key>
-      <value>Путь к программе преобразования в PDF</value>
+      <value>Путь к приложению для преобразования в PDF</value>
     </title>
     <id>15</id>
     <valueType>
@@ -2654,6 +2779,23 @@ TIF - Не все браузеры отображают этот формат.</
       <value>Использовать каталог журнала сканирования</value>
     </title>
     <id>22</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>АвтоматическаяПодачаДокументов</name>
+    <title>
+      <key>ru</key>
+      <value>Автоматическая подача документов</value>
+    </title>
+    <id>17</id>
     <valueType>
       <types>Boolean</types>
     </valueType>

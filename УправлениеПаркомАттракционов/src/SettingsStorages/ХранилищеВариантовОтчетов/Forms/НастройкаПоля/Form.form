@@ -6,6 +6,10 @@
     <items xsi:type="form:Button">
       <name>СортироватьПоВозрастанию</name>
       <id>1</id>
+      <title>
+        <key>ru</key>
+        <value>Сортировать по возрастанию</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -38,6 +42,10 @@
     <items xsi:type="form:Button">
       <name>СортироватьПоУбыванию</name>
       <id>3</id>
+      <title>
+        <key>ru</key>
+        <value>Сортировать по убыванию</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1387,7 +1395,7 @@
               <autoMaxHeight>true</autoMaxHeight>
               <extInfo xsi:type="form:PictureDecorationExtInfo">
                 <picture xsi:type="core:PictureRef">
-                  <picture>CommonPicture.Предупреждение32</picture>
+                  <picture>StdPicture.DialogExclamation</picture>
                 </picture>
                 <fileDragMode>AsFileRef</fileDragMode>
               </extInfo>
@@ -1599,6 +1607,10 @@
       <items xsi:type="form:FormField">
         <name>Использование</name>
         <id>373</id>
+        <title>
+          <key>ru</key>
+          <value>Использование</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1683,6 +1695,10 @@
       <items xsi:type="form:FormField">
         <name>ВидСравнения</name>
         <id>10</id>
+        <title>
+          <key>ru</key>
+          <value>Вид сравнения</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1745,6 +1761,10 @@
       <items xsi:type="form:FormField">
         <name>ПравоеЗначение</name>
         <id>13</id>
+        <title>
+          <key>ru</key>
+          <value>Правое значение</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1933,6 +1953,10 @@
         <items xsi:type="form:Button">
           <name>СгруппироватьПоВыбранномуПолю</name>
           <id>440</id>
+          <title>
+            <key>ru</key>
+            <value>Сгруппировать по полю</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -2027,6 +2051,10 @@
                 <items xsi:type="form:Button">
                   <name>ВставитьПолеСлева</name>
                   <id>156</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Вставить поле слева</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -2059,6 +2087,10 @@
                 <items xsi:type="form:Button">
                   <name>ВставитьГруппировкуВыше</name>
                   <id>160</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Вставить группировку выше</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -2128,6 +2160,10 @@
                 <items xsi:type="form:Button">
                   <name>ВставитьПолеСправа</name>
                   <id>158</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Вставить поле справа</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -2160,6 +2196,10 @@
                 <items xsi:type="form:Button">
                   <name>ВставитьГруппировкуНиже</name>
                   <id>162</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Вставить группировку ниже</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -2352,6 +2392,10 @@
                 <items xsi:type="form:Button">
                   <name>ПереместитьПолеВлево</name>
                   <id>186</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Переместить влево</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -2384,6 +2428,10 @@
                 <items xsi:type="form:Button">
                   <name>ПереместитьПолеВыше</name>
                   <id>190</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Переместить выше</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -2453,6 +2501,10 @@
                 <items xsi:type="form:Button">
                   <name>ПереместитьПолеВправо</name>
                   <id>188</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Переместить вправо</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -2485,6 +2537,10 @@
                 <items xsi:type="form:Button">
                   <name>ПереместитьПолеНиже</name>
                   <id>192</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Переместить ниже</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -2670,6 +2726,10 @@
             <items xsi:type="form:Button">
               <name>СкрытьПоле</name>
               <id>164</id>
+              <title>
+                <key>ru</key>
+                <value>Скрыть</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -2705,6 +2765,10 @@
               <items xsi:type="form:Button">
                 <name>ПереименоватьПоле</name>
                 <id>166</id>
+                <title>
+                  <key>ru</key>
+                  <value>Переименовать</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -2740,6 +2804,10 @@
               <items xsi:type="form:FormField">
                 <name>ПредставлениеПоля</name>
                 <id>305</id>
+                <title>
+                  <key>ru</key>
+                  <value>Представление поля</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -2796,6 +2864,10 @@
               <items xsi:type="form:Button">
                 <name>ПереименоватьПолеЕще</name>
                 <id>393</id>
+                <title>
+                  <key>ru</key>
+                  <value>Переименовать</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -2991,6 +3063,10 @@
                 <items xsi:type="form:Button">
                   <name>ОформитьОтрицательные</name>
                   <id>172</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Отрицательные красным</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -3060,6 +3136,10 @@
                 <items xsi:type="form:Button">
                   <name>ОформитьПоложительные</name>
                   <id>174</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Положительные зеленым</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -3251,6 +3331,10 @@
                 <items xsi:type="form:Button">
                   <name>УстановитьВысотуСтроки</name>
                   <id>380</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Высота строки</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -3286,6 +3370,10 @@
                 <items xsi:type="form:FormField">
                   <name>ВысотаСтроки</name>
                   <id>310</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Высота строки</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -3338,6 +3426,10 @@
                 <items xsi:type="form:Button">
                   <name>УстановитьВысотуСтрокиЕще</name>
                   <id>389</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Высота строки</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -3408,6 +3500,10 @@
                 <items xsi:type="form:Button">
                   <name>УстановитьШиринуКолонки</name>
                   <id>382</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Ширина колонки</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -3443,6 +3539,10 @@
                 <items xsi:type="form:FormField">
                   <name>ШиринаКолонки</name>
                   <id>315</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Ширина колонки</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -3495,6 +3595,10 @@
                 <items xsi:type="form:Button">
                   <name>УстановитьШиринуКолонкиЕще</name>
                   <id>391</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Ширина колонки</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -3720,6 +3824,10 @@
           <items xsi:type="form:Button">
             <name>ОформитьЕще</name>
             <id>182</id>
+            <title>
+              <key>ru</key>
+              <value>Оформление...</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -3860,6 +3968,10 @@
         <name>ПрименитьИСформировать</name>
         <id>318</id>
         <displayImportance>VeryHigh</displayImportance>
+        <title>
+          <key>ru</key>
+          <value>Применить и сформировать</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -3890,6 +4002,10 @@
       <items xsi:type="form:Button">
         <name>Применить</name>
         <id>320</id>
+        <title>
+          <key>ru</key>
+          <value>Применить</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>

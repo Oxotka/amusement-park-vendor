@@ -33,6 +33,10 @@
     <items xsi:type="form:FormField">
       <name>ВариантыАдресаПредставление</name>
       <id>15</id>
+      <title>
+        <key>ru</key>
+        <value>Представление</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -87,6 +91,10 @@
       <items xsi:type="form:Button">
         <name>Выбрать</name>
         <id>175</id>
+        <title>
+          <key>ru</key>
+          <value>Выбрать</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>

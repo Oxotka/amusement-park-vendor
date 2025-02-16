@@ -144,6 +144,10 @@
     <items xsi:type="form:FormField">
       <name>Наименование</name>
       <id>30</id>
+      <title>
+        <key>ru</key>
+        <value>Наименование</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -198,6 +202,10 @@
     <items xsi:type="form:FormField">
       <name>Токен</name>
       <id>33</id>
+      <title>
+        <key>ru</key>
+        <value>Ключ</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -359,6 +367,10 @@
     <items xsi:type="form:FormField">
       <name>УчастникиПользователь</name>
       <id>63</id>
+      <title>
+        <key>ru</key>
+        <value>Участники обсуждения</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -412,6 +424,10 @@
       <items xsi:type="form:Button">
         <name>ПользователиПодобрать</name>
         <id>66</id>
+        <title>
+          <key>ru</key>
+          <value>Подобрать</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -618,6 +634,10 @@
     <items xsi:type="form:Button">
       <name>Отключить</name>
       <id>99</id>
+      <title>
+        <key>ru</key>
+        <value>Отключить</value>
+      </title>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
@@ -647,6 +667,10 @@
     <items xsi:type="form:Button">
       <name>Закрыть</name>
       <id>28</id>
+      <title>
+        <key>ru</key>
+        <value>Активизировать</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>

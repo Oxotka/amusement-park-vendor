@@ -23,6 +23,10 @@
     <items xsi:type="form:FormField">
       <name>УсловияВидимостиПоле</name>
       <id>29</id>
+      <title>
+        <key>ru</key>
+        <value>Поле</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -81,6 +85,10 @@
     <items xsi:type="form:FormField">
       <name>УсловияВидимостиВидСравнения</name>
       <id>32</id>
+      <title>
+        <key>ru</key>
+        <value>Вид сравнения</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -144,6 +152,10 @@
     <items xsi:type="form:FormField">
       <name>УсловияВидимостиЗначение</name>
       <id>35</id>
+      <title>
+        <key>ru</key>
+        <value>Значение</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>

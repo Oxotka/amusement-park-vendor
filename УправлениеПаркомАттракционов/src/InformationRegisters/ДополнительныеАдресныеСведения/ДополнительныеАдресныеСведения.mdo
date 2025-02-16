@@ -50,6 +50,43 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="bcd6e5f0-a800-4f21-ad75-24c428157cee">
+    <name>ПочтовыйИндекс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Почтовый индекс</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="9f351f0a-2d43-4215-8d74-040911230683">
+    <name>ОКТМО</name>
+    <synonym>
+      <key>ru</key>
+      <value>ОКТМО</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>11</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
   <attributes uuid="6a9c1bd4-b550-4911-a8d1-321a7713a5a5">
     <name>OKATO</name>
     <synonym>
@@ -67,13 +104,12 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
-  <attributes uuid="3fcdfe26-1668-4aa7-bb10-ef8d8bd0ae39">
-    <name>КодИФНСФЛ</name>
+  <attributes uuid="019fa716-e91a-4116-abcf-c87349c153a4">
+    <name>КодУчасткаИФНСЮЛ</name>
     <synonym>
       <key>ru</key>
-      <value>Код ИФНСФЛ</value>
+      <value>Код участка ИФНСЮЛ</value>
     </synonym>
-    <comment>Код ИФНС для физического лица</comment>
     <type>
       <types>Number</types>
       <numberQualifiers>
@@ -82,7 +118,28 @@
     </type>
     <toolTip>
       <key>ru</key>
-      <value>Код ИФНС для физического лица</value>
+      <value>Код участка ИФНС для юридического лица</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f9fed640-0121-4c36-a822-0db7a9155adc">
+    <name>КодУчасткаИФНСФЛ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код участка ИФНСФЛ</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Код участка ИФНС для физического лица</value>
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -111,66 +168,6 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
-  <attributes uuid="f9fed640-0121-4c36-a822-0db7a9155adc">
-    <name>КодУчасткаИФНСФЛ</name>
-    <synonym>
-      <key>ru</key>
-      <value>Код участка ИФНСФЛ</value>
-    </synonym>
-    <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>4</precision>
-      </numberQualifiers>
-    </type>
-    <toolTip>
-      <key>ru</key>
-      <value>Код участка ИФНС для физического лица</value>
-    </toolTip>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
-  </attributes>
-  <attributes uuid="019fa716-e91a-4116-abcf-c87349c153a4">
-    <name>КодУчасткаИФНСЮЛ</name>
-    <synonym>
-      <key>ru</key>
-      <value>Код участка ИФНСЮЛ</value>
-    </synonym>
-    <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>4</precision>
-      </numberQualifiers>
-    </type>
-    <toolTip>
-      <key>ru</key>
-      <value>Код участка ИФНС для юридического лица</value>
-    </toolTip>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
-  </attributes>
-  <attributes uuid="9f351f0a-2d43-4215-8d74-040911230683">
-    <name>ОКТМО</name>
-    <synonym>
-      <key>ru</key>
-      <value>ОКТМО</value>
-    </synonym>
-    <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>11</precision>
-      </numberQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <indexing>Index</indexing>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
-  </attributes>
   <attributes uuid="b8a6ea0c-cb94-44af-8e40-55defed295d1">
     <name>ОКТМОБюджетополучателя</name>
     <synonym>
@@ -189,22 +186,25 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
-  <attributes uuid="bcd6e5f0-a800-4f21-ad75-24c428157cee">
-    <name>ПочтовыйИндекс</name>
+  <attributes uuid="3fcdfe26-1668-4aa7-bb10-ef8d8bd0ae39">
+    <name>КодИФНСФЛ</name>
     <synonym>
       <key>ru</key>
-      <value>Почтовый индекс</value>
+      <value>Код ИФНСФЛ</value>
     </synonym>
+    <comment>Код ИФНС для физического лица</comment>
     <type>
       <types>Number</types>
       <numberQualifiers>
-        <precision>10</precision>
+        <precision>4</precision>
       </numberQualifiers>
     </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Код ИФНС для физического лица</value>
+    </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <indexing>Index</indexing>
-    <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>

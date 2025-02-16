@@ -45,6 +45,10 @@
   <items xsi:type="form:FormField">
     <name>Календарь</name>
     <id>1</id>
+    <title>
+      <key>ru</key>
+      <value>Календарь</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -55,7 +59,7 @@
     </dataPath>
     <titleLocation>None</titleLocation>
     <extendedTooltip>
-      <name>КалендарьExtendedTooltip</name>
+      <name>КалендарьРасширеннаяПодсказка</name>
       <id>12</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -96,6 +100,10 @@
       <horizontalStretch>true</horizontalStretch>
       <verticalStretch>true</verticalStretch>
       <calendarNavigation>true</calendarNavigation>
+      <border xsi:type="core:BorderDef">
+        <style>Single</style>
+        <width>1</width>
+      </border>
       <widthInMonths>2</widthInMonths>
       <heightInMonths>1</heightInMonths>
     </extInfo>
@@ -107,13 +115,17 @@
     <items xsi:type="form:Button">
       <name>ФормаОК</name>
       <id>3</id>
+      <title>
+        <key>ru</key>
+        <value>ОК</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаОКExtendedTooltip</name>
+        <name>ФормаОКРасширеннаяПодсказка</name>
         <id>8</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -138,13 +150,17 @@
     <items xsi:type="form:Button">
       <name>ФормаОтмена</name>
       <id>4</id>
+      <title>
+        <key>ru</key>
+        <value>Отмена</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаОтменаExtendedTooltip</name>
+        <name>ФормаОтменаРасширеннаяПодсказка</name>
         <id>9</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -174,7 +190,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаСправкаExtendedTooltip</name>
+        <name>ФормаСправкаРасширеннаяПодсказка</name>
         <id>10</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -313,6 +329,13 @@
       <dateQualifiers>
         <dateFractions>Date</dateFractions>
       </dateQualifiers>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>Заголовок</name>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
     </valueType>
   </parameters>
   <commandInterface>

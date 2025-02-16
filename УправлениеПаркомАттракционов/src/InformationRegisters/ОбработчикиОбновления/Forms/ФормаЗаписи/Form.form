@@ -599,6 +599,10 @@
     <items xsi:type="form:FormField">
       <name>ОбрабатываемыеДанные</name>
       <id>97</id>
+      <title>
+        <key>ru</key>
+        <value>Обрабатываемые данные</value>
+      </title>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>

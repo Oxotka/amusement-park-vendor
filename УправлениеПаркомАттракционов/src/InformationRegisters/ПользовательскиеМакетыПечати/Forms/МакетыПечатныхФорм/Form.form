@@ -6,6 +6,10 @@
     <items xsi:type="form:FormField">
       <name>ОтборПоИспользованиюМакета</name>
       <id>52</id>
+      <title>
+        <key>ru</key>
+        <value>Показывать</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -19,7 +23,7 @@
         <name>ОтборПоВидуИспользуемогоМакетаПриИзменении</name>
       </handlers>
       <extendedTooltip>
-        <name>ОтборПоИспользованиюМакетаExtendedTooltip</name>
+        <name>ОтборПоИспользованиюМакетаРасширеннаяПодсказка</name>
         <id>83</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -170,6 +174,10 @@
     <items xsi:type="form:FormField">
       <name>СтрокаПоиска</name>
       <id>47</id>
+      <title>
+        <key>ru</key>
+        <value>Строка поиска</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -185,7 +193,7 @@
         <name>СтрокаПоискаПриИзменении</name>
       </handlers>
       <extendedTooltip>
-        <name>СтрокаПоискаExtendedTooltip</name>
+        <name>СтрокаПоискаРасширеннаяПодсказка</name>
         <id>82</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -294,7 +302,7 @@
       <value>Отборы</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаОтборыExtendedTooltip</name>
+      <name>ГруппаОтборыРасширеннаяПодсказка</name>
       <id>81</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -355,6 +363,10 @@
       <items xsi:type="form:FormField">
         <name>МакетыКартинкаГруппы</name>
         <id>240</id>
+        <title>
+          <key>ru</key>
+          <value>Картинка группы</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -397,6 +409,10 @@
           <autoMaxHeight>true</autoMaxHeight>
           <horizontalStretch>true</horizontalStretch>
           <verticalStretch>true</verticalStretch>
+          <border xsi:type="core:BorderDef">
+            <style>Single</style>
+            <width>1</width>
+          </border>
           <fileDragMode>AsFileRef</fileDragMode>
         </extInfo>
       </items>
@@ -490,6 +506,10 @@
     <items xsi:type="form:FormField">
       <name>МакетыИспользуется</name>
       <id>188</id>
+      <title>
+        <key>ru</key>
+        <value>Используется</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -540,6 +560,10 @@
     <items xsi:type="form:FormField">
       <name>МакетыКартинкаИспользования</name>
       <id>146</id>
+      <title>
+        <key>ru</key>
+        <value>Картинка использования</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -593,12 +617,20 @@
         <valuesPicture xsi:type="core:PictureRef">
           <picture>CommonPicture.ИспользованиеМакета</picture>
         </valuesPicture>
+        <border xsi:type="core:BorderDef">
+          <style>Single</style>
+          <width>1</width>
+        </border>
         <fileDragMode>AsFileRef</fileDragMode>
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
       <name>МакетыКнопкаНастройкиДоступности</name>
       <id>182</id>
+      <title>
+        <key>ru</key>
+        <value>Доступна настройка видимости</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -652,12 +684,20 @@
         <valuesPicture xsi:type="core:PictureRef">
           <picture>StdPicture.DataCompositionOutputParameters</picture>
         </valuesPicture>
+        <border xsi:type="core:BorderDef">
+          <style>Single</style>
+          <width>1</width>
+        </border>
         <fileDragMode>AsFileRef</fileDragMode>
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
       <name>МакетыДоступнаНастройкаВидимости</name>
       <id>185</id>
+      <title>
+        <key>ru</key>
+        <value>Доступна настройка видимости</value>
+      </title>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
@@ -700,6 +740,10 @@
     <items xsi:type="form:FormField">
       <name>МакетыДоступенПеревод</name>
       <id>176</id>
+      <title>
+        <key>ru</key>
+        <value>Доступен перевод</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -747,12 +791,20 @@
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <verticalStretch>true</verticalStretch>
+        <border xsi:type="core:BorderDef">
+          <style>Single</style>
+          <width>1</width>
+        </border>
         <fileDragMode>AsFileRef</fileDragMode>
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
       <name>МакетыДоступныеЯзыки</name>
       <id>141</id>
+      <title>
+        <key>ru</key>
+        <value>Доп. языки</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -806,6 +858,10 @@
     <items xsi:type="form:FormField">
       <name>МакетыОтступ</name>
       <id>193</id>
+      <title>
+        <key>ru</key>
+        <value>Отступ</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -897,6 +953,10 @@
         <items xsi:type="form:Button">
           <name>МакетыДобавитьМакетOfficeOpenXML</name>
           <id>202</id>
+          <title>
+            <key>ru</key>
+            <value>Создать макет Office Open XML</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -956,6 +1016,10 @@
       <items xsi:type="form:Button">
         <name>МакетыСкопировать</name>
         <id>170</id>
+        <title>
+          <key>ru</key>
+          <value>Скопировать</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -986,6 +1050,10 @@
       <items xsi:type="form:Button">
         <name>МакетыИзменитьМакет</name>
         <id>152</id>
+        <title>
+          <key>ru</key>
+          <value>Изменить</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1019,6 +1087,10 @@
         <items xsi:type="form:Button">
           <name>МакетыПечатныхФормИспользоватьИзмененныйМакет</name>
           <id>156</id>
+          <title>
+            <key>ru</key>
+            <value>Использовать измененный</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1049,6 +1121,10 @@
         <items xsi:type="form:Button">
           <name>МакетыПечатныхФормИспользоватьСтандартныйМакет</name>
           <id>158</id>
+          <title>
+            <key>ru</key>
+            <value>Использовать стандартный</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1111,6 +1187,10 @@
       <items xsi:type="form:Button">
         <name>ФормаПоказатьВСписке</name>
         <id>204</id>
+        <title>
+          <key>ru</key>
+          <value>Показать в списке</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1141,6 +1221,10 @@
       <items xsi:type="form:Button">
         <name>МакетыПечатныхФормУдалитьИзмененныйМакет</name>
         <id>160</id>
+        <title>
+          <key>ru</key>
+          <value>Удалить измененный макет</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1235,6 +1319,10 @@
       <items xsi:type="form:Button">
         <name>МакетыУсловияДоступности</name>
         <id>191</id>
+        <title>
+          <key>ru</key>
+          <value>Видимость в подменю &quot;Печать&quot;...</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1423,6 +1511,10 @@
       <items xsi:type="form:Button">
         <name>МакетыКонтекстноеМенюУдалитьИзмененныйМакет</name>
         <id>196</id>
+        <title>
+          <key>ru</key>
+          <value>Удалить измененный макет</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1453,6 +1545,10 @@
       <items xsi:type="form:Button">
         <name>МакетыКонтекстноеМенюУдалитьМакет</name>
         <id>198</id>
+        <title>
+          <key>ru</key>
+          <value>Удалить макет</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -2495,6 +2591,13 @@
     </action>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
+  <parameters>
+    <name>ПутьКМакету</name>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+  </parameters>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>

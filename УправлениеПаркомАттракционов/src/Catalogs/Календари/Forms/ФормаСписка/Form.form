@@ -42,6 +42,10 @@
     <items xsi:type="form:Button">
       <name>СписокИзменитьВыделенные</name>
       <id>30</id>
+      <title>
+        <key>ru</key>
+        <value>Изменить выделенные...</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -173,7 +177,7 @@
       </dataPath>
       <defaultItem>true</defaultItem>
       <extendedTooltip>
-        <name>НаименованиеExtendedTooltip</name>
+        <name>НаименованиеРасширеннаяПодсказка</name>
         <id>22</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -219,7 +223,7 @@
         <segments>Список.ПроизводственныйКалендарь</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ПроизводственныйКалендарьExtendedTooltip</name>
+        <name>ПроизводственныйКалендарьРасширеннаяПодсказка</name>
         <id>23</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -265,7 +269,7 @@
         <segments>Список.СпособЗаполнения</segments>
       </dataPath>
       <extendedTooltip>
-        <name>СпособЗаполненияExtendedTooltip</name>
+        <name>СпособЗаполненияРасширеннаяПодсказка</name>
         <id>24</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -315,7 +319,7 @@
         <segments>Список.ВозможнаяПричина</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ВозможнаяПричинаExtendedTooltip</name>
+        <name>ВозможнаяПричинаРасширеннаяПодсказка</name>
         <id>25</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -361,7 +365,7 @@
         <segments>Список.Описание</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ОписаниеExtendedTooltip</name>
+        <name>ОписаниеРасширеннаяПодсказка</name>
         <id>26</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -524,7 +528,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>СписокExtendedTooltip</name>
+      <name>СписокРасширеннаяПодсказка</name>
       <id>21</id>
       <visible>true</visible>
       <enabled>true</enabled>

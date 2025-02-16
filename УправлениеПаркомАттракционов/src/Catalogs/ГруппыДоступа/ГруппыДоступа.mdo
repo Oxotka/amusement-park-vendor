@@ -240,7 +240,7 @@
     </type>
     <toolTip>
       <key>ru</key>
-      <value>Определяет основную группу доступа поставляемого профиля без видов доступа для программного управления составом пользователей.</value>
+      <value>Определяет основную группу доступа поставляемого профиля без видов доступа для автоматического управления составом пользователей.</value>
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -287,6 +287,27 @@
       <fillChecking>ShowError</fillChecking>
       <dataHistory>Use</dataHistory>
       <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="76c802c1-1442-412f-ba91-5864c7a2f8f9">
+      <name>СрокДействия</name>
+      <synonym>
+        <key>ru</key>
+        <value>Срок действия</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Срок после которого пользователь будет удален из группы доступа</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>

@@ -408,7 +408,7 @@
     </type>
     <toolTip>
       <key>ru</key>
-      <value>Флажок доставки на FTP ресурс</value>
+      <value>Отчеты будут сохранены на FTP-сервере</value>
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -427,7 +427,7 @@
     </type>
     <toolTip>
       <key>ru</key>
-      <value>Флажок доставки в папку программы</value>
+      <value>Публиковать отчеты в папку в приложении</value>
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -446,7 +446,7 @@
     </type>
     <toolTip>
       <key>ru</key>
-      <value>Флажок доставки в сетевой каталог</value>
+      <value>Отчеты будут сохранены в выбранный сетевой каталог</value>
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -465,7 +465,7 @@
     </type>
     <toolTip>
       <key>ru</key>
-      <value>Флажок доставки по электронной почте</value>
+      <value>Отправлять отчеты по электронной почте (или уведомления о рассылке)</value>
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -505,7 +505,7 @@
     </type>
     <toolTip>
       <key>ru</key>
-      <value>Если флажок установлен, то рассылка отчетов доступна только автору и администратору программы.</value>
+      <value>Рассылка отчетов доступна только автору и администратору приложения</value>
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -525,7 +525,7 @@
     </type>
     <toolTip>
       <key>ru</key>
-      <value>Папка программы для доставки отчетов</value>
+      <value>Папка приложения для доставки отчетов</value>
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

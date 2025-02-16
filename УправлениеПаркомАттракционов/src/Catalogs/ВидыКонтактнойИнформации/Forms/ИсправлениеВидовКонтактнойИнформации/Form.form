@@ -104,7 +104,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ДекорацияПрогрессExtendedTooltip</name>
+          <name>ДекорацияПрогрессРасширеннаяПодсказка</name>
           <id>11</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -387,6 +387,10 @@
     <items xsi:type="form:Button">
       <name>ИсправитьПроблему</name>
       <id>3</id>
+      <title>
+        <key>ru</key>
+        <value>Исправить проблему</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>

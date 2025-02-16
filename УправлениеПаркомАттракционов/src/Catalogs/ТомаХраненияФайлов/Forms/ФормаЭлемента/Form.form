@@ -15,7 +15,7 @@
         <segments>Объект.Description</segments>
       </dataPath>
       <extendedTooltip>
-        <name>НаименованиеExtendedTooltip</name>
+        <name>НаименованиеРасширеннаяПодсказка</name>
         <id>26</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -66,7 +66,7 @@
       </dataPath>
       <skipOnInput>true</skipOnInput>
       <extendedTooltip>
-        <name>КодExtendedTooltip</name>
+        <name>КодРасширеннаяПодсказка</name>
         <id>27</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -114,7 +114,7 @@
       <value>Код и наименование</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаКодИНаименованиеExtendedTooltip</name>
+      <name>ГруппаКодИНаименованиеРасширеннаяПодсказка</name>
       <id>25</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -167,7 +167,7 @@
             <name>ПолныйПутьWindowsПриИзменении</name>
           </handlers>
           <extendedTooltip>
-            <name>ПолныйПутьWindowsExtendedTooltip</name>
+            <name>ПолныйПутьWindowsРасширеннаяПодсказка</name>
             <id>29</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -235,7 +235,7 @@
             <name>ПолныйПутьLinuxПриИзменении</name>
           </handlers>
           <extendedTooltip>
-            <name>ПолныйПутьLinuxExtendedTooltip</name>
+            <name>ПолныйПутьLinuxРасширеннаяПодсказка</name>
             <id>30</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -284,7 +284,7 @@
           <value>Пути</value>
         </title>
         <extendedTooltip>
-          <name>ГруппаПутиExtendedTooltip</name>
+          <name>ГруппаПутиРасширеннаяПодсказка</name>
           <id>28</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -319,7 +319,7 @@
           <segments>Объект.ПорядокЗаполнения</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ПорядокExtendedTooltip</name>
+          <name>ПорядокРасширеннаяПодсказка</name>
           <id>31</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -373,7 +373,7 @@
             <segments>Объект.МаксимальныйРазмер</segments>
           </dataPath>
           <extendedTooltip>
-            <name>МаксимальныйРазмерExtendedTooltip</name>
+            <name>МаксимальныйРазмерРасширеннаяПодсказка</name>
             <id>33</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -415,6 +415,10 @@
         <items xsi:type="form:FormField">
           <name>ТекущийРазмер</name>
           <id>20</id>
+          <title>
+            <key>ru</key>
+            <value>Текущий размер, МБ</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -428,7 +432,7 @@
             <value>Текущий размер всех файлов в томе в мегабайтах.</value>
           </toolTip>
           <extendedTooltip>
-            <name>ТекущийРазмерExtendedTooltip</name>
+            <name>ТекущийРазмерРасширеннаяПодсказка</name>
             <id>34</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -477,7 +481,7 @@
           <value>Максимальный размер</value>
         </title>
         <extendedTooltip>
-          <name>ГруппаМаксимальныйРазмерExtendedTooltip</name>
+          <name>ГруппаМаксимальныйРазмерРасширеннаяПодсказка</name>
           <id>32</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -546,7 +550,7 @@
         </dataPath>
         <titleLocation>None</titleLocation>
         <extendedTooltip>
-          <name>КомментарийExtendedTooltip</name>
+          <name>КомментарийРасширеннаяПодсказка</name>
           <id>35</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -651,6 +655,10 @@
     <items xsi:type="form:Button">
       <name>ФормаЗаписатьИЗакрыть</name>
       <id>36</id>
+      <title>
+        <key>ru</key>
+        <value>Записать и закрыть</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -713,38 +721,12 @@
       </extInfo>
     </items>
     <items xsi:type="form:Button">
-      <name>ФормаСправка</name>
-      <id>40</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <extendedTooltip>
-        <name>ФормаСправкаРасширеннаяПодсказка</name>
-        <id>41</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <commandName>Form.StandardCommand.Help</commandName>
-      <representation>Auto</representation>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <placementArea>UserCmds</placementArea>
-      <representationInContextMenu>Auto</representationInContextMenu>
-    </items>
-    <items xsi:type="form:Button">
       <name>ФормаПроверитьЦелостностьТома</name>
       <id>48</id>
+      <title>
+        <key>ru</key>
+        <value>Проверить целостность</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -775,6 +757,10 @@
     <items xsi:type="form:Button">
       <name>ФормаУдалитьЛишниеФайлы</name>
       <id>50</id>
+      <title>
+        <key>ru</key>
+        <value>Удалить лишние файлы</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -802,6 +788,36 @@
       <placementArea>UserCmds</placementArea>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
+    <items xsi:type="form:Button">
+      <name>ФормаСправка</name>
+      <id>40</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ФормаСправкаРасширеннаяПодсказка</name>
+        <id>41</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <commandName>Form.StandardCommand.Help</commandName>
+      <representation>Auto</representation>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+      <representationInContextMenu>Auto</representationInContextMenu>
+    </items>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -809,6 +825,10 @@
     </userVisible>
     <horizontalAlign>Left</horizontalAlign>
   </autoCommandBar>
+  <handlers>
+    <event>OnOpen</event>
+    <name>ПриОткрытии</name>
+  </handlers>
   <handlers>
     <event>BeforeClose</event>
     <name>ПередЗакрытием</name>
@@ -957,20 +977,17 @@
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <commandInterface>
-    <navigationPanel>
-      <cmiFragmentRecord>
-        <command>0</command>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-      </cmiFragmentRecord>
-    </navigationPanel>
+    <navigationPanel/>
     <commandBar/>
   </commandInterface>
   <extInfo xsi:type="form:CatalogFormExtInfo">
     <handlers>
       <event>AfterWrite</event>
       <name>ПослеЗаписи</name>
+    </handlers>
+    <handlers>
+      <event>OnReadAtServer</event>
+      <name>ПриЧтенииНаСервере</name>
     </handlers>
     <handlers>
       <event>BeforeWrite</event>

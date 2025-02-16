@@ -29,6 +29,10 @@
         <items xsi:type="form:FormField">
           <name>ПересеченияЗаписьЧитаемых</name>
           <id>23</id>
+          <title>
+            <key>ru</key>
+            <value>Запись читаемых</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -72,6 +76,9 @@
           <readOnly>true</readOnly>
           <editMode>EnterOnInput</editMode>
           <showInHeader>true</showInHeader>
+          <headerPicture xsi:type="core:PictureRef">
+            <picture>StdPicture.AppearanceExclamationMark</picture>
+          </headerPicture>
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
           <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
@@ -79,6 +86,10 @@
         <items xsi:type="form:FormField">
           <name>ПересеченияПовторнаяЗапись</name>
           <id>26</id>
+          <title>
+            <key>ru</key>
+            <value>Повторная запись</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -131,6 +142,10 @@
         <items xsi:type="form:FormField">
           <name>ПересеченияОбъектМетаданных</name>
           <id>20</id>
+          <title>
+            <key>ru</key>
+            <value>Объект метаданных</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -184,7 +199,7 @@
           <id>14</id>
           <title>
             <key>ru</key>
-            <value>Обработчик писатель</value>
+            <value>Обработчик-писатель</value>
           </title>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -239,7 +254,7 @@
           <id>17</id>
           <title>
             <key>ru</key>
-            <value>Обработчик читатель (или писатель 2)</value>
+            <value>Обработчик-читатель (или писатель 2)</value>
           </title>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -514,6 +529,10 @@
         <items xsi:type="form:FormField">
           <name>ОбработчикиСНизкимПриоритетомОбъектМетаданных</name>
           <id>51</id>
+          <title>
+            <key>ru</key>
+            <value>Объект метаданных</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible/>
@@ -563,6 +582,10 @@
         <items xsi:type="form:FormField">
           <name>ОбработчикиСНизкимПриоритетомПроцедураПисатель</name>
           <id>48</id>
+          <title>
+            <key>ru</key>
+            <value>Обработчик</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -614,6 +637,10 @@
         <items xsi:type="form:FormField">
           <name>ОбработчикиСНизкимПриоритетомПорядокПисатель</name>
           <id>54</id>
+          <title>
+            <key>ru</key>
+            <value>Приоритет выполнения</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>

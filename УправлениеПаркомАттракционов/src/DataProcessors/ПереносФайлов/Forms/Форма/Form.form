@@ -139,6 +139,10 @@
       <items xsi:type="form:FormField">
         <name>ТомХраненияПриемник</name>
         <id>11</id>
+        <title>
+          <key>ru</key>
+          <value>Том хранения приемник</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -277,6 +281,10 @@
       <items xsi:type="form:FormField">
         <name>ТомХраненияИсточник</name>
         <id>19</id>
+        <title>
+          <key>ru</key>
+          <value>Том хранения источник</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -415,6 +423,10 @@
       <items xsi:type="form:FormField">
         <name>ВладелецФайлов</name>
         <id>27</id>
+        <title>
+          <key>ru</key>
+          <value>Владелец файлов</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -557,6 +569,10 @@
         <items xsi:type="form:FormField">
           <name>УточнениеДатыСоздания</name>
           <id>37</id>
+          <title>
+            <key>ru</key>
+            <value>Уточнение даты создания</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -619,6 +635,10 @@
         <items xsi:type="form:FormField">
           <name>ДатаСоздания</name>
           <id>40</id>
+          <title>
+            <key>ru</key>
+            <value>Дата создания</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -786,6 +806,10 @@
       <items xsi:type="form:FormField">
         <name>РасширенияФайлов</name>
         <id>48</id>
+        <title>
+          <key>ru</key>
+          <value>Расширения файлов</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1050,6 +1074,10 @@
     <items xsi:type="form:Button">
       <name>ФормаВыполнитьПеренос</name>
       <id>59</id>
+      <title>
+        <key>ru</key>
+        <value>Перенести</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1118,6 +1146,7 @@
       <common>true</common>
     </userVisible>
     <horizontalAlign>Right</horizontalAlign>
+    <autoFill>true</autoFill>
   </autoCommandBar>
   <handlers>
     <event>OnOpen</event>

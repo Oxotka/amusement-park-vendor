@@ -255,6 +255,10 @@
     <items xsi:type="form:Button">
       <name>ФормаВыбрать</name>
       <id>11</id>
+      <title>
+        <key>ru</key>
+        <value>Выбрать</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>

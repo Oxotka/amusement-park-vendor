@@ -9,9 +9,7 @@
     <value>Владелец значений ключей доступа документ</value>
   </synonym>
   <type>
-    <types>String</types>
-    <stringQualifiers>
-      <length>10</length>
-    </stringQualifiers>
+    <types>DocumentObject.ПродажаБилета</types>
+    <types>DocumentObject.Отсутствие</types>
   </type>
 </mdclass:DefinedType>

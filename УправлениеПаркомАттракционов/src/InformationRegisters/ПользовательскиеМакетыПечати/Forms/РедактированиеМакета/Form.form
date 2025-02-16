@@ -15,9 +15,9 @@
         <id>42</id>
         <title>
           <key>ru</key>
-          <value>Файл макета &quot;%1&quot; подготовлен для загрузки на компьютер и %3 с помощью другой программы.
+          <value>Файл макета &quot;%1&quot; подготовлен для загрузки на компьютер и %3 с помощью другого приложения.
 
-Если программа для редактирования еще не установлена, рекомендуется установить &quot;%2&quot;.</value>
+Если приложение для редактирования еще не установлено, рекомендуется установить &quot;%2&quot;.</value>
         </title>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -25,7 +25,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>НадписьПередЗагрузкойМакетаПрограммаВебКлиентExtendedTooltip</name>
+          <name>НадписьПередЗагрузкойМакетаПрограммаВебКлиентРасширеннаяПодсказка</name>
           <id>65</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -60,7 +60,7 @@
         <id>53</id>
         <title>
           <key>ru</key>
-          <value>Перейти на страницу программы &quot;%2&quot; для установки</value>
+          <value>Перейти на страницу приложения &quot;%2&quot; для установки</value>
         </title>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -68,7 +68,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>СсылкаНаСтраницуПрограммыПередЗагрузкойВебКлиентExtendedTooltip</name>
+          <name>СсылкаНаСтраницуПрограммыПередЗагрузкойВебКлиентРасширеннаяПодсказка</name>
           <id>66</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -116,7 +116,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>НадписьПередЗагрузкойМакетаИнструкцияВебКлиентExtendedTooltip</name>
+          <name>НадписьПередЗагрузкойМакетаИнструкцияВебКлиентРасширеннаяПодсказка</name>
           <id>67</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -156,7 +156,7 @@
         <value>Страница загрузка на компьютер веб клиент</value>
       </title>
       <extendedTooltip>
-        <name>СтраницаЗагрузкаНаКомпьютерВебКлиентExtendedTooltip</name>
+        <name>СтраницаЗагрузкаНаКомпьютерВебКлиентРасширеннаяПодсказка</name>
         <id>64</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -183,7 +183,7 @@
         <id>40</id>
         <title>
           <key>ru</key>
-          <value>Файл макета &quot;%1&quot; подготовлен для внесения изменений с помощью другой программы. Если программа для редактирования еще не установлена, рекомендуется установить &quot;%2&quot;.</value>
+          <value>Файл макета &quot;%1&quot; подготовлен для внесения изменений с помощью другого приложения. Если приложение для редактирования еще не установлено, рекомендуется установить &quot;%2&quot;.</value>
         </title>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -191,7 +191,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>НадписьПередЗагрузкойМакетаПрограммаНеВебКлиентExtendedTooltip</name>
+          <name>НадписьПередЗагрузкойМакетаПрограммаНеВебКлиентРасширеннаяПодсказка</name>
           <id>69</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -226,7 +226,7 @@
         <id>57</id>
         <title>
           <key>ru</key>
-          <value>Перейти на страницу программы &quot;%2&quot; для установки</value>
+          <value>Перейти на страницу приложения &quot;%2&quot; для установки</value>
         </title>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -234,7 +234,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>СсылкаНаСтраницуПрограммыПередЗагрузкойНеВебКлиентExtendedTooltip</name>
+          <name>СсылкаНаСтраницуПрограммыПередЗагрузкойНеВебКлиентРасширеннаяПодсказка</name>
           <id>70</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -282,7 +282,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>НадписьПередЗагрузкойМакетаИнструкцияНеВебКлиентExtendedTooltip</name>
+          <name>НадписьПередЗагрузкойМакетаИнструкцияНеВебКлиентРасширеннаяПодсказка</name>
           <id>71</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -322,7 +322,7 @@
         <value>Страница загрузка на компьютер не веб клиент</value>
       </title>
       <extendedTooltip>
-        <name>СтраницаЗагрузкаНаКомпьютерНеВебКлиентExtendedTooltip</name>
+        <name>СтраницаЗагрузкаНаКомпьютерНеВебКлиентРасширеннаяПодсказка</name>
         <id>68</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -353,7 +353,7 @@
 
 После завершения редактирования, закройте файл макета, подтвердив изменения. Затем нажмите на кнопку &quot;Завершить изменение&quot; и выберите этот файл в следующем диалоге. 
 
-Если программа для редактирования еще не установлена, рекомендуется установить &quot;%2&quot;.</value>
+Если приложение для редактирования еще не установлено, рекомендуется установить &quot;%2&quot;.</value>
         </title>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -361,7 +361,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>НадписьЗавершениеИзмененияВебКлиентExtendedTooltip</name>
+          <name>НадписьЗавершениеИзмененияВебКлиентРасширеннаяПодсказка</name>
           <id>73</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -396,7 +396,7 @@
         <id>59</id>
         <title>
           <key>ru</key>
-          <value>Перейти на страницу программы &quot;%2&quot; для установки</value>
+          <value>Перейти на страницу приложения &quot;%2&quot; для установки</value>
         </title>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -404,7 +404,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>СсылкаНаСтраницуПрограммыЗавершениеИзмененияВебКлиентExtendedTooltip</name>
+          <name>СсылкаНаСтраницуПрограммыЗавершениеИзмененияВебКлиентРасширеннаяПодсказка</name>
           <id>74</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -449,7 +449,7 @@
         <value>Страница загрузка в информационную базу веб клиент</value>
       </title>
       <extendedTooltip>
-        <name>СтраницаЗагрузкаВИнформационнуюБазуВебКлиентExtendedTooltip</name>
+        <name>СтраницаЗагрузкаВИнформационнуюБазуВебКлиентРасширеннаяПодсказка</name>
         <id>72</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -476,11 +476,11 @@
         <id>45</id>
         <title>
           <key>ru</key>
-          <value>Дождитесь открытия макета в программе для редактирования.
+          <value>Дождитесь открытия макета в приложении для редактирования.
 
 После завершения редактирования, закройте макет, подтвердив изменения. Затем нажмите на кнопку &quot;Завершить изменение&quot;.
 
-Если программа для редактирования еще не установлена, рекомендуется установить &quot;%2&quot;.</value>
+Если приложение для редактирования еще не установлено, рекомендуется установить &quot;%2&quot;.</value>
         </title>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -488,7 +488,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>НадписьЗавершениеИзмененияНеВебКлиентExtendedTooltip</name>
+          <name>НадписьЗавершениеИзмененияНеВебКлиентРасширеннаяПодсказка</name>
           <id>76</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -523,7 +523,7 @@
         <id>61</id>
         <title>
           <key>ru</key>
-          <value>Перейти на страницу программы &quot;%2&quot; для установки</value>
+          <value>Перейти на страницу приложения &quot;%2&quot; для установки</value>
         </title>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -531,7 +531,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>СсылкаНаСтраницуПрограммыЗавершениеИзмененияНеВебКлиентExtendedTooltip</name>
+          <name>СсылкаНаСтраницуПрограммыЗавершениеИзмененияНеВебКлиентРасширеннаяПодсказка</name>
           <id>77</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -576,7 +576,7 @@
         <value>Страница загрузка в информационную базу не веб клиент</value>
       </title>
       <extendedTooltip>
-        <name>СтраницаЗагрузкаВИнформационнуюБазуНеВебКлиентExtendedTooltip</name>
+        <name>СтраницаЗагрузкаВИнформационнуюБазуНеВебКлиентРасширеннаяПодсказка</name>
         <id>75</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -605,7 +605,7 @@
       <value>Диалог</value>
     </title>
     <extendedTooltip>
-      <name>ДиалогExtendedTooltip</name>
+      <name>ДиалогРасширеннаяПодсказка</name>
       <id>63</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -639,13 +639,17 @@
           <items xsi:type="form:Button">
             <name>КнопкаИзменить</name>
             <id>25</id>
+            <title>
+              <key>ru</key>
+              <value>Продолжить</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>КнопкаИзменитьExtendedTooltip</name>
+              <name>КнопкаИзменитьРасширеннаяПодсказка</name>
               <id>81</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -669,13 +673,17 @@
           <items xsi:type="form:Button">
             <name>КнопкаОтменаЗагрузки</name>
             <id>27</id>
+            <title>
+              <key>ru</key>
+              <value>Отмена</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>КнопкаОтменаЗагрузкиExtendedTooltip</name>
+              <name>КнопкаОтменаЗагрузкиРасширеннаяПодсказка</name>
               <id>82</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -705,7 +713,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>КнопкаСправкаЗагрузкаExtendedTooltip</name>
+              <name>КнопкаСправкаЗагрузкаРасширеннаяПодсказка</name>
               <id>83</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -736,7 +744,7 @@
             <value>Кнопок загрузка</value>
           </title>
           <extendedTooltip>
-            <name>ГруппаКнопокЗагрузкаExtendedTooltip</name>
+            <name>ГруппаКнопокЗагрузкаРасширеннаяПодсказка</name>
             <id>80</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -765,7 +773,7 @@
           <value>Панель загрузка</value>
         </title>
         <extendedTooltip>
-          <name>ПанельЗагрузкаExtendedTooltip</name>
+          <name>ПанельЗагрузкаРасширеннаяПодсказка</name>
           <id>79</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -793,13 +801,17 @@
           <items xsi:type="form:Button">
             <name>КнопкаЗавершитьИзменение</name>
             <id>9</id>
+            <title>
+              <key>ru</key>
+              <value>Завершить изменение</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>КнопкаЗавершитьИзменениеExtendedTooltip</name>
+              <name>КнопкаЗавершитьИзменениеРасширеннаяПодсказка</name>
               <id>86</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -830,7 +842,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>КнопкаСправкаЗавершениеИзмененияExtendedTooltip</name>
+              <name>КнопкаСправкаЗавершениеИзмененияРасширеннаяПодсказка</name>
               <id>87</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -854,13 +866,17 @@
           <items xsi:type="form:Button">
             <name>КнопкаОтменаИзменений</name>
             <id>32</id>
+            <title>
+              <key>ru</key>
+              <value>Отмена</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>КнопкаОтменаИзмененийExtendedTooltip</name>
+              <name>КнопкаОтменаИзмененийРасширеннаяПодсказка</name>
               <id>88</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -891,7 +907,7 @@
             <value>Кнопок завершение изменения</value>
           </title>
           <extendedTooltip>
-            <name>ГруппаКнопокЗавершениеИзмененияExtendedTooltip</name>
+            <name>ГруппаКнопокЗавершениеИзмененияРасширеннаяПодсказка</name>
             <id>85</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -920,7 +936,7 @@
           <value>Панель завершение изменения</value>
         </title>
         <extendedTooltip>
-          <name>ПанельЗавершениеИзмененияExtendedTooltip</name>
+          <name>ПанельЗавершениеИзмененияРасширеннаяПодсказка</name>
           <id>84</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -949,7 +965,7 @@
         <value>Командная панель</value>
       </title>
       <extendedTooltip>
-        <name>КоманднаяПанельExtendedTooltip</name>
+        <name>КоманднаяПанельРасширеннаяПодсказка</name>
         <id>78</id>
         <visible>true</visible>
         <enabled>true</enabled>

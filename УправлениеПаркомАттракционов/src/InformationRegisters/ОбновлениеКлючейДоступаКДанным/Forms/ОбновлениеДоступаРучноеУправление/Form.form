@@ -153,6 +153,10 @@
       <items xsi:type="form:Button">
         <name>ПоказатьДоступКОбъекту</name>
         <id>46</id>
+        <title>
+          <key>ru</key>
+          <value>Показать доступ ...</value>
+        </title>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
@@ -708,6 +712,10 @@
     <items xsi:type="form:FormField">
       <name>ОбновитьКлючиДоступаКЭлементамДанных</name>
       <id>58</id>
+      <title>
+        <key>ru</key>
+        <value>Обновить ключи доступа к элементам данных</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -759,6 +767,10 @@
     <items xsi:type="form:FormField">
       <name>ОбновитьПраваНаКлючиДоступа</name>
       <id>61</id>
+      <title>
+        <key>ru</key>
+        <value>Обновить права на ключи доступа</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -811,6 +823,10 @@
     <items xsi:type="form:FormField">
       <name>УдалитьУстаревшиеСлужебныеДанные</name>
       <id>64</id>
+      <title>
+        <key>ru</key>
+        <value>Удалить устаревшие служебные данные</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>

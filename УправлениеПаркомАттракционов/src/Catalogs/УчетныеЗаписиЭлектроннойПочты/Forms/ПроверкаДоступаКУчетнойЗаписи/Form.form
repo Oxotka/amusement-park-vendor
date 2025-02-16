@@ -7,6 +7,10 @@
   <items xsi:type="form:FormField">
     <name>Пароль</name>
     <id>1</id>
+    <title>
+      <key>ru</key>
+      <value>Пароль</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -62,6 +66,10 @@
     <items xsi:type="form:Button">
       <name>ФормаОК</name>
       <id>4</id>
+      <title>
+        <key>ru</key>
+        <value>ОК</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>

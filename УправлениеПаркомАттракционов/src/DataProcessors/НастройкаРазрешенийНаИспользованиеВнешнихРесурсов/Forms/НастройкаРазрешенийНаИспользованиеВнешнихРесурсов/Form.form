@@ -62,7 +62,7 @@
                   <autoMaxHeight>true</autoMaxHeight>
                   <extInfo xsi:type="form:PictureDecorationExtInfo">
                     <picture xsi:type="core:PictureRef">
-                      <picture>CommonPicture.Информация32</picture>
+                      <picture>StdPicture.DialogInformation</picture>
                     </picture>
                   </extInfo>
                 </items>
@@ -183,7 +183,7 @@
                   <autoMaxHeight>true</autoMaxHeight>
                   <extInfo xsi:type="form:PictureDecorationExtInfo">
                     <picture xsi:type="core:PictureRef">
-                      <picture>CommonPicture.Предупреждение32</picture>
+                      <picture>StdPicture.DialogExclamation</picture>
                     </picture>
                   </extInfo>
                 </items>
@@ -307,7 +307,7 @@
                   <autoMaxHeight>true</autoMaxHeight>
                   <extInfo xsi:type="form:PictureDecorationExtInfo">
                     <picture xsi:type="core:PictureRef">
-                      <picture>CommonPicture.Информация32</picture>
+                      <picture>StdPicture.DialogInformation</picture>
                     </picture>
                   </extInfo>
                 </items>
@@ -428,7 +428,7 @@
                   <autoMaxHeight>true</autoMaxHeight>
                   <extInfo xsi:type="form:PictureDecorationExtInfo">
                     <picture xsi:type="core:PictureRef">
-                      <picture>CommonPicture.Предупреждение32</picture>
+                      <picture>StdPicture.DialogExclamation</picture>
                     </picture>
                   </extInfo>
                 </items>
@@ -438,7 +438,7 @@
                   <title>
                     <key>ru</key>
                     <value>В кластере серверов 1С:Предприятия для данной информационной базы настроены профили безопасности, ограничивающие доступ к внешним ресурсам.
-Требуется актуализировать настройки разрешений в профилях безопасности в кластере серверов, т.к. при использовании программы были изменены некоторые ее настройки (влияющие на использование программой внешних ресурсов):</value>
+Требуется актуализировать настройки разрешений в профилях безопасности в кластере серверов, т.к. при использовании приложения были изменены некоторые его настройки (влияющие на использование внешних ресурсов):</value>
                   </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -572,6 +572,10 @@
           <items xsi:type="form:FormField">
             <name>ПредставлениеРазрешений</name>
             <id>119</id>
+            <title>
+              <key>ru</key>
+              <value>Представление разрешений</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -705,7 +709,7 @@
               <autoMaxHeight>true</autoMaxHeight>
               <extInfo xsi:type="form:PictureDecorationExtInfo">
                 <picture xsi:type="core:PictureRef">
-                  <picture>CommonPicture.Ошибка32</picture>
+                  <picture>StdPicture.DialogStop</picture>
                 </picture>
               </extInfo>
             </items>
@@ -758,6 +762,10 @@
               <items xsi:type="form:FormField">
                 <name>ТекстОшибки</name>
                 <id>88</id>
+                <title>
+                  <key>ru</key>
+                  <value>Текст ошибки</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -1043,6 +1051,10 @@
               <items xsi:type="form:FormField">
                 <name>ТипПодключения</name>
                 <id>128</id>
+                <title>
+                  <key>ru</key>
+                  <value>Тип подключения</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -1119,6 +1131,10 @@
               <items xsi:type="form:FormField">
                 <name>ПортКластераСерверов</name>
                 <id>17</id>
+                <title>
+                  <key>ru</key>
+                  <value>Порт кластера серверов</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -1128,7 +1144,7 @@
                   <segments>ПортКластераСерверов</segments>
                 </dataPath>
                 <extendedTooltip>
-                  <name>ПортКластераСерверовExtendedTooltip</name>
+                  <name>ПортКластераСерверовРасширеннаяПодсказка</name>
                   <id>59</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -1513,7 +1529,7 @@
                     <key>ru</key>
                     <value>Параметры подключения к кластеру RAS</value>
                   </title>
-                  <shortcut>Ctrl+S</shortcut>
+                  <shortcut>Cmd+S</shortcut>
                   <extendedTooltip>
                     <name>ГруппаПараметрыПодключенияККластеруRASРасширеннаяПодсказка</name>
                     <id>158</id>
@@ -1653,7 +1669,7 @@
                   <segments>ИмяАдминистратораКластера</segments>
                 </dataPath>
                 <extendedTooltip>
-                  <name>ИмяАдминистратораКластераExtendedTooltip</name>
+                  <name>ИмяАдминистратораКластераРасширеннаяПодсказка</name>
                   <id>54</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -1708,7 +1724,7 @@
                   <segments>ПарольАдминистратораКластера</segments>
                 </dataPath>
                 <extendedTooltip>
-                  <name>ПарольАдминистратораКластераExtendedTooltip</name>
+                  <name>ПарольАдминистратораКластераРасширеннаяПодсказка</name>
                   <id>55</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -1758,7 +1774,7 @@
                 <value>Администратор кластера серверов 1С:Предприятие</value>
               </title>
               <extendedTooltip>
-                <name>ГруппаКластерТребуетАвторизацииExtendedTooltip</name>
+                <name>ГруппаКластерТребуетАвторизацииРасширеннаяПодсказка</name>
                 <id>51</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -1808,7 +1824,7 @@
                   <value>Администратор информационной базы, от имени которого выполняется настройка</value>
                 </toolTip>
                 <extendedTooltip>
-                  <name>АдминистраторИБExtendedTooltip</name>
+                  <name>АдминистраторИБРасширеннаяПодсказка</name>
                   <id>49</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -1869,7 +1885,7 @@
                   <value>Пароль администратора информационной базы, от имени которого выполняется принудительное отключение сеансов</value>
                 </toolTip>
                 <extendedTooltip>
-                  <name>ПарольАдминистратораИБExtendedTooltip</name>
+                  <name>ПарольАдминистратораИБРасширеннаяПодсказка</name>
                   <id>50</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -1919,7 +1935,7 @@
                 <value>Администратор информационной базы:</value>
               </title>
               <extendedTooltip>
-                <name>ГруппаАдминистрированиеExtendedTooltip</name>
+                <name>ГруппаАдминистрированиеРасширеннаяПодсказка</name>
                 <id>43</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -2032,7 +2048,7 @@
               <id>202</id>
               <title>
                 <key>ru</key>
-                <value>После внесения изменений в настройки профилей безопасности в кластере серверов программа будет автоматически перезапущена.</value>
+                <value>После внесения изменений в настройки профилей безопасности в кластере серверов приложение будет автоматически перезапущено.</value>
               </title>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -2112,7 +2128,7 @@
             <key>ru</key>
             <value>Страница подключение</value>
           </title>
-          <shortcut>Ctrl+S</shortcut>
+          <shortcut>Cmd+S</shortcut>
           <extendedTooltip>
             <name>СтраницаПодключениеРасширеннаяПодсказка</name>
             <id>66</id>
@@ -2172,6 +2188,10 @@
           <items xsi:type="form:Button">
             <name>ФормаНазад</name>
             <id>112</id>
+            <title>
+              <key>ru</key>
+              <value>&lt; Назад</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -2235,6 +2255,10 @@
           <items xsi:type="form:Button">
             <name>ФормаРазрешить</name>
             <id>30</id>
+            <title>
+              <key>ru</key>
+              <value>Применить изменения</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -2272,7 +2296,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ФормаОтменаExtendedTooltip</name>
+              <name>ФормаОтменаРасширеннаяПодсказка</name>
               <id>41</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -2304,7 +2328,7 @@
             </userVisible>
             <skipOnInput>false</skipOnInput>
             <extendedTooltip>
-              <name>СправкаExtendedTooltip</name>
+              <name>СправкаРасширеннаяПодсказка</name>
               <id>42</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -2465,7 +2489,7 @@
           <autoMaxHeight>true</autoMaxHeight>
           <extInfo xsi:type="form:PictureDecorationExtInfo">
             <picture xsi:type="core:PictureRef">
-              <picture>CommonPicture.Ошибка32</picture>
+              <picture>StdPicture.DialogStop</picture>
             </picture>
           </extInfo>
         </items>
@@ -2520,6 +2544,10 @@
           <items xsi:type="form:FormField">
             <name>ПредставлениеРазрешенийОперацияНеПоддерживаетсяВВебКлиенте</name>
             <id>276</id>
+            <title>
+              <key>ru</key>
+              <value>Представление разрешений</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -2581,9 +2609,9 @@
             <id>279</id>
             <title>
               <key>ru</key>
-              <value>Внесение изменений в настройки профилей безопасности в кластере серверов не может быть выполнено при подключении к программе с использованием веб-клиента.
+              <value>Внесение изменений в настройки профилей безопасности в кластере серверов не может быть выполнено при подключении через веб-клиент.
 
-Для выполнения запрошенной операции требуется подключиться к программе с использованием тонкого клиента и повторить выполняемую операцию.</value>
+Для выполнения запрошенной операции требуется запустить тонкий клиент и повторить операцию.</value>
             </title>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -3255,7 +3283,7 @@
     <id>3</id>
     <toolTip>
       <key>ru</key>
-      <value>Зарегистрировать компоненту и перезапустить программу</value>
+      <value>Зарегистрировать компоненту и перезапустить приложение</value>
     </toolTip>
     <use>
       <common>true</common>

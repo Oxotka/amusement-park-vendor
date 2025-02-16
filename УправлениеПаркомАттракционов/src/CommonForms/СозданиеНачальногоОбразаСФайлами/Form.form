@@ -13,6 +13,10 @@
       <items xsi:type="form:FormField">
         <name>ВидБазы</name>
         <id>1</id>
+        <title>
+          <key>ru</key>
+          <value>Вариант информационной базы</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -27,7 +31,7 @@
           <name>ВидБазыПриИзменении</name>
         </handlers>
         <extendedTooltip>
-          <name>ВидБазыExtendedTooltip</name>
+          <name>ВидБазыРасширеннаяПодсказка</name>
           <id>51</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -90,6 +94,10 @@
             <items xsi:type="form:FormField">
               <name>ЯзыкФайловойБазы</name>
               <id>7</id>
+              <title>
+                <key>ru</key>
+                <value>Язык (Страна)</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -99,7 +107,7 @@
                 <segments>Язык</segments>
               </dataPath>
               <extendedTooltip>
-                <name>ЯзыкФайловойБазыExtendedTooltip</name>
+                <name>ЯзыкФайловойБазыРасширеннаяПодсказка</name>
                 <id>55</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -161,7 +169,7 @@
                   <name>ПолноеИмяФайловойБазыПриИзменении</name>
                 </handlers>
                 <extendedTooltip>
-                  <name>ПолноеИмяФайловойБазыExtendedTooltip</name>
+                  <name>ПолноеИмяФайловойБазыРасширеннаяПодсказка</name>
                   <id>57</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -221,7 +229,7 @@
                 </dataPath>
                 <titleLocation>Top</titleLocation>
                 <extendedTooltip>
-                  <name>ПолноеИмяФайловойБазыLinuxExtendedTooltip</name>
+                  <name>ПолноеИмяФайловойБазыLinuxРасширеннаяПодсказка</name>
                   <id>58</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -269,7 +277,7 @@
                 <value>Полное имя файловой базы</value>
               </title>
               <extendedTooltip>
-                <name>ГруппаПутьФайловойБазыExtendedTooltip</name>
+                <name>ГруппаПутьФайловойБазыРасширеннаяПодсказка</name>
                 <id>56</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -304,7 +312,7 @@
               <value>Заполнить параметры файловой базы</value>
             </title>
             <extendedTooltip>
-              <name>ЗаполнитьПараметрыФайловойБазыExtendedTooltip</name>
+              <name>ЗаполнитьПараметрыФайловойБазыРасширеннаяПодсказка</name>
               <id>54</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -333,6 +341,10 @@
               <items xsi:type="form:FormField">
                 <name>Сервер</name>
                 <id>9</id>
+                <title>
+                  <key>ru</key>
+                  <value>Кластер серверов 1С:Предприятия</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -342,7 +354,7 @@
                   <segments>Сервер</segments>
                 </dataPath>
                 <extendedTooltip>
-                  <name>СерверExtendedTooltip</name>
+                  <name>СерверРасширеннаяПодсказка</name>
                   <id>60</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -383,6 +395,10 @@
               <items xsi:type="form:FormField">
                 <name>ИмяАдминистратораКластера</name>
                 <id>99</id>
+                <title>
+                  <key>ru</key>
+                  <value>Имя администратора кластера</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -392,7 +408,7 @@
                   <segments>ИмяАдминистратораКластера</segments>
                 </dataPath>
                 <extendedTooltip>
-                  <name>ИмяАдминистратораКластераExtendedTooltip</name>
+                  <name>ИмяАдминистратораКластераРасширеннаяПодсказка</name>
                   <id>101</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -432,6 +448,10 @@
               <items xsi:type="form:FormField">
                 <name>ПарольАдминистратораКластера</name>
                 <id>102</id>
+                <title>
+                  <key>ru</key>
+                  <value>Пароль администратора кластера</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -441,7 +461,7 @@
                   <segments>ПарольАдминистратораКластера</segments>
                 </dataPath>
                 <extendedTooltip>
-                  <name>ПарольАдминистратораКластераExtendedTooltip</name>
+                  <name>ПарольАдминистратораКластераРасширеннаяПодсказка</name>
                   <id>104</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -483,6 +503,10 @@
               <items xsi:type="form:FormField">
                 <name>ИмяБазы</name>
                 <id>11</id>
+                <title>
+                  <key>ru</key>
+                  <value>Имя информационной базы в кластере</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -492,7 +516,7 @@
                   <segments>ИмяБазы</segments>
                 </dataPath>
                 <extendedTooltip>
-                  <name>ИмяБазыExtendedTooltip</name>
+                  <name>ИмяБазыРасширеннаяПодсказка</name>
                   <id>61</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -533,6 +557,10 @@
               <items xsi:type="form:FormField">
                 <name>ЗащищенноеСоединение</name>
                 <id>13</id>
+                <title>
+                  <key>ru</key>
+                  <value>Защищенное соединение</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -542,7 +570,7 @@
                   <segments>ЗащищенноеСоединение</segments>
                 </dataPath>
                 <extendedTooltip>
-                  <name>ЗащищенноеСоединениеExtendedTooltip</name>
+                  <name>ЗащищенноеСоединениеРасширеннаяПодсказка</name>
                   <id>62</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -612,6 +640,10 @@
               <items xsi:type="form:FormField">
                 <name>ЯзыкБазыСервера</name>
                 <id>27</id>
+                <title>
+                  <key>ru</key>
+                  <value>Язык (Страна)</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -621,7 +653,7 @@
                   <segments>Язык</segments>
                 </dataPath>
                 <extendedTooltip>
-                  <name>ЯзыкБазыСервераExtendedTooltip</name>
+                  <name>ЯзыкБазыСервераРасширеннаяПодсказка</name>
                   <id>69</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -661,6 +693,10 @@
               <items xsi:type="form:FormField">
                 <name>УстановитьБлокировкуРегламентныхЗаданий</name>
                 <id>46</id>
+                <title>
+                  <key>ru</key>
+                  <value>Установить блокировку регламентных заданий</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -671,7 +707,7 @@
                 </dataPath>
                 <titleLocation>Right</titleLocation>
                 <extendedTooltip>
-                  <name>УстановитьБлокировкуРегламентныхЗаданийExtendedTooltip</name>
+                  <name>УстановитьБлокировкуРегламентныхЗаданийРасширеннаяПодсказка</name>
                   <id>70</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -741,6 +777,10 @@
               <items xsi:type="form:FormField">
                 <name>ТипСУБД</name>
                 <id>15</id>
+                <title>
+                  <key>ru</key>
+                  <value>Тип СУБД</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -754,7 +794,7 @@
                   <name>ТипСУБДПриИзменении</name>
                 </handlers>
                 <extendedTooltip>
-                  <name>ТипСУБДExtendedTooltip</name>
+                  <name>ТипСУБДРасширеннаяПодсказка</name>
                   <id>63</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -831,6 +871,10 @@
               <items xsi:type="form:FormField">
                 <name>СерверБазыДанных</name>
                 <id>17</id>
+                <title>
+                  <key>ru</key>
+                  <value>Сервер базы данных</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -840,7 +884,7 @@
                   <segments>СерверБазыДанных</segments>
                 </dataPath>
                 <extendedTooltip>
-                  <name>СерверБазыДанныхExtendedTooltip</name>
+                  <name>СерверБазыДанныхРасширеннаяПодсказка</name>
                   <id>64</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -881,6 +925,10 @@
               <items xsi:type="form:FormField">
                 <name>ИмяБазыДанных</name>
                 <id>19</id>
+                <title>
+                  <key>ru</key>
+                  <value>Имя базы данных</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -890,7 +938,7 @@
                   <segments>ИмяБазыДанных</segments>
                 </dataPath>
                 <extendedTooltip>
-                  <name>ИмяБазыДанныхExtendedTooltip</name>
+                  <name>ИмяБазыДанныхРасширеннаяПодсказка</name>
                   <id>65</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -930,6 +978,10 @@
               <items xsi:type="form:FormField">
                 <name>ПользовательБазыДанных</name>
                 <id>21</id>
+                <title>
+                  <key>ru</key>
+                  <value>Пользователь базы данных</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -939,7 +991,7 @@
                   <segments>ПользовательБазыДанных</segments>
                 </dataPath>
                 <extendedTooltip>
-                  <name>ПользовательБазыДанныхExtendedTooltip</name>
+                  <name>ПользовательБазыДанныхРасширеннаяПодсказка</name>
                   <id>66</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -979,6 +1031,10 @@
               <items xsi:type="form:FormField">
                 <name>ПарольПользователя</name>
                 <id>23</id>
+                <title>
+                  <key>ru</key>
+                  <value>Пароль пользователя</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -988,7 +1044,7 @@
                   <segments>ПарольПользователя</segments>
                 </dataPath>
                 <extendedTooltip>
-                  <name>ПарольПользователяExtendedTooltip</name>
+                  <name>ПарольПользователяРасширеннаяПодсказка</name>
                   <id>67</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -1029,6 +1085,10 @@
               <items xsi:type="form:FormField">
                 <name>СмещениеДат</name>
                 <id>25</id>
+                <title>
+                  <key>ru</key>
+                  <value>Смещение дат</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -1038,7 +1098,7 @@
                   <segments>СмещениеДат</segments>
                 </dataPath>
                 <extendedTooltip>
-                  <name>СмещениеДатExtendedTooltip</name>
+                  <name>СмещениеДатРасширеннаяПодсказка</name>
                   <id>68</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -1137,7 +1197,7 @@
               <value>Заполнить параметры серверной базы</value>
             </title>
             <extendedTooltip>
-              <name>ЗаполнитьПараметрыСервернойБазыExtendedTooltip</name>
+              <name>ЗаполнитьПараметрыСервернойБазыРасширеннаяПодсказка</name>
               <id>59</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1167,7 +1227,7 @@
             <value>Страницы</value>
           </title>
           <extendedTooltip>
-            <name>СтраницыExtendedTooltip</name>
+            <name>СтраницыРасширеннаяПодсказка</name>
             <id>53</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1196,7 +1256,7 @@
           <value>Параметры информационной базы</value>
         </title>
         <extendedTooltip>
-          <name>ПараметрыExtendedTooltip</name>
+          <name>ПараметрыРасширеннаяПодсказка</name>
           <id>52</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1241,7 +1301,7 @@
           </dataPath>
           <titleLocation>Top</titleLocation>
           <extendedTooltip>
-            <name>ПутьКАрхивуСФайламиТомовExtendedTooltip</name>
+            <name>ПутьКАрхивуСФайламиТомовРасширеннаяПодсказка</name>
             <id>72</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1301,7 +1361,7 @@
           </dataPath>
           <titleLocation>Top</titleLocation>
           <extendedTooltip>
-            <name>ПутьКАрхивуСФайламиТомовLinuxExtendedTooltip</name>
+            <name>ПутьКАрхивуСФайламиТомовLinuxРасширеннаяПодсказка</name>
             <id>73</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1349,7 +1409,7 @@
           <value>Полное имя архива с файлами томов</value>
         </title>
         <extendedTooltip>
-          <name>ГруппаПутьКАрхивуСФайламиТомовExtendedTooltip</name>
+          <name>ГруппаПутьКАрхивуСФайламиТомовРасширеннаяПодсказка</name>
           <id>71</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1387,7 +1447,7 @@
           <value>Панель действий</value>
         </title>
         <extendedTooltip>
-          <name>ПанельДействийExtendedTooltip</name>
+          <name>ПанельДействийРасширеннаяПодсказка</name>
           <id>74</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1486,6 +1546,10 @@
       <items xsi:type="form:FormField">
         <name>ПроцентВыполнения</name>
         <id>88</id>
+        <title>
+          <key>ru</key>
+          <value>Процент выполнения</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1538,6 +1602,10 @@
       <items xsi:type="form:FormField">
         <name>ДопИнформацияВыполнениеЗагрузка</name>
         <id>91</id>
+        <title>
+          <key>ru</key>
+          <value>Доп информация выполнение</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1764,6 +1832,10 @@
     <items xsi:type="form:Button">
       <name>СоздатьНачальныйОбраз</name>
       <id>43</id>
+      <title>
+        <key>ru</key>
+        <value>Создать начальный образ</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1771,7 +1843,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>СоздатьНачальныйОбразExtendedTooltip</name>
+        <name>СоздатьНачальныйОбразРасширеннаяПодсказка</name>
         <id>48</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1796,6 +1868,10 @@
     <items xsi:type="form:Button">
       <name>Назад</name>
       <id>105</id>
+      <title>
+        <key>ru</key>
+        <value>&lt; Назад</value>
+      </title>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
@@ -1836,7 +1912,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>ЗакрытьExtendedTooltip</name>
+        <name>ЗакрытьРасширеннаяПодсказка</name>
         <id>49</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1866,7 +1942,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>СправкаExtendedTooltip</name>
+        <name>СправкаРасширеннаяПодсказка</name>
         <id>50</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -2363,6 +2439,12 @@
     </action>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
+  <parameters>
+    <name>Узел</name>
+    <valueType>
+      <types>ExchangePlanRef</types>
+    </valueType>
+  </parameters>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>

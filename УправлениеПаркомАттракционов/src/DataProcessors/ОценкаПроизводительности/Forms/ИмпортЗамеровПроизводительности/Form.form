@@ -7,6 +7,10 @@
   <items xsi:type="form:FormField">
     <name>ФайлИмпорта</name>
     <id>1</id>
+    <title>
+      <key>ru</key>
+      <value>Файл импорта</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -65,6 +69,10 @@
     <items xsi:type="form:Button">
       <name>ФормаИмпорт</name>
       <id>4</id>
+      <title>
+        <key>ru</key>
+        <value>Импорт</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>

@@ -180,7 +180,7 @@
     </userVisible>
     <title>
       <key>ru</key>
-      <value>Группа других отчетов нет</value>
+      <value>Других отчетов нет</value>
     </title>
     <extendedTooltip>
       <name>ГруппаДругихОтчетовНетРасширеннаяПодсказка</name>
@@ -213,6 +213,10 @@
     <items xsi:type="form:FormField">
       <name>ЗакрыватьПослеВыбора</name>
       <id>7</id>
+      <title>
+        <key>ru</key>
+        <value>Закрывать это окно после перехода к отчету</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>

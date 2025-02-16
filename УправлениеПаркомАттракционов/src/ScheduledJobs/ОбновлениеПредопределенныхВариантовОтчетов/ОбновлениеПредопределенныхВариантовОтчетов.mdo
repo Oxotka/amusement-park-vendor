@@ -6,7 +6,6 @@
     <value>Обновление предопределенных вариантов отчетов</value>
   </synonym>
   <methodName>CommonModule.ВариантыОтчетов.ЗаполнитьПредставленияПредопределенныхВариантовОтчетов</methodName>
-  <description>Заполнение представлений предопределенных вариантов отчетов</description>
   <restartCountOnFailure>3</restartCountOnFailure>
   <restartIntervalOnFailure>15</restartIntervalOnFailure>
 </mdclass:ScheduledJob>

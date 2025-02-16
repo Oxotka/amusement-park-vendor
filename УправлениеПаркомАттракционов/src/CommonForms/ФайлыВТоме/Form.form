@@ -7,6 +7,10 @@
   <items xsi:type="form:FormField">
     <name>ПредставлениеХранилищаФайлов</name>
     <id>9</id>
+    <title>
+      <key>ru</key>
+      <value>Владелец файлов</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -16,7 +20,7 @@
       <segments>ПредставлениеХранилищаФайлов</segments>
     </dataPath>
     <extendedTooltip>
-      <name>ПредставлениеХранилищаФайловExtendedTooltip</name>
+      <name>ПредставлениеХранилищаФайловРасширеннаяПодсказка</name>
       <id>22</id>
       <visible>true</visible>
       <enabled>true</enabled>

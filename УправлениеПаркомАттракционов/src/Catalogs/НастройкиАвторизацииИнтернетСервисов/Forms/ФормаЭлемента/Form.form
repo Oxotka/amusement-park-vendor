@@ -464,6 +464,10 @@
   <items xsi:type="form:FormField">
     <name>ПарольПриложения</name>
     <id>19</id>
+    <title>
+      <key>ru</key>
+      <value>Пароль приложения</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
