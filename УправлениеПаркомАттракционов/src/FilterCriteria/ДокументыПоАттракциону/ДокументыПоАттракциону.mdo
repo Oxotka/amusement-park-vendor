@@ -14,6 +14,7 @@
   </type>
   <useStandardCommands>true</useStandardCommands>
   <content>Document.ПосещениеАттракциона.Attribute.Аттракцион</content>
+  <content>Document.ПокупкаАттракциона.Attribute.Аттракцион</content>
   <defaultForm>FilterCriterion.ДокументыПоАттракциону.Form.ФормаСписка</defaultForm>
   <forms uuid="8b9c4679-bfec-4f4a-a548-430c2269d516">
     <name>ФормаСписка</name>

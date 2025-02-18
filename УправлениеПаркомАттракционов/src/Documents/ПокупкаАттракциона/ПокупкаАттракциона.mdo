@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="94935553-8020-4981-8733-a9c0ce36dc2b">
+  <producedTypes>
+    <objectType typeId="21b6e646-82cc-4a67-b4fc-0836f7be9a1b" valueTypeId="e8c96fe8-4f71-4c90-b35a-5960498ded02"/>
+    <refType typeId="482ac96e-2bdf-4440-9923-db29065376bc" valueTypeId="7300ad5d-d629-49ee-bc5f-aef62b9ddcc2"/>
+    <selectionType typeId="accff8ea-a680-46ff-a827-fb1922026564" valueTypeId="e09872b3-3032-4c1e-95ae-44f4e6dba461"/>
+    <listType typeId="835a4dcf-8942-4fd3-a470-1507303df04e" valueTypeId="20aff534-cfc5-4f96-aeca-bc945f098e49"/>
+    <managerType typeId="accd5522-f83b-4bf9-ac0d-3c17f3b343e4" valueTypeId="71a45a88-0953-4ced-b286-847e6cf3d208"/>
+  </producedTypes>
+  <name>ПокупкаАттракциона</name>
+  <synonym>
+    <key>ru</key>
+    <value>Покупка аттракциона</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ПокупкаАттракциона.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="e329cdf9-2f0e-478a-ba21-295b47a79335">
+    <name>Аттракцион</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аттракцион</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Аттракционы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c9c68233-666d-4b04-ba8b-398d86b42643">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>

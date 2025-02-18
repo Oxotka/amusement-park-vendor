@@ -1320,6 +1320,7 @@
   <catalogs>Catalog.ХранилищеДвоичныхДанных</catalogs>
   <documents>Document.Отсутствие</documents>
   <documents>Document.ПланированиеОтсутствия</documents>
+  <documents>Document.ПокупкаАттракциона</documents>
   <documents>Document.ПосещениеАттракциона</documents>
   <documents>Document.ПродажаБилета</documents>
   <documents>Document.УстановкаЦенНоменклатуры</documents>
